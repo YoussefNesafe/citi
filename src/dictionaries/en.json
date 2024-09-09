@@ -1,0 +1,3223 @@
+{
+  "layout": {
+    "internetConnection": {
+      "title": "No internet connection",
+      "description": "Please check your internet connection and try again."
+    },
+    "navbar": {
+      "languages": [
+        {
+          "label": "English",
+          "value": "en",
+          "href": "/en"
+        },
+        {
+          "label": "عربي",
+          "value": "ar",
+          "href": "/ar"
+        },
+        {
+          "label": "اُردُو",
+          "value": "ur",
+          "href": "/ur"
+        }
+      ],
+      "contactUsButton": {
+        "href": "/contact-us",
+        "title": "Contact us"
+      }
+    },
+    "pagesLinks": [
+      {
+        "title": "Home",
+        "href": "/",
+        "pageKey": "home"
+      },
+      {
+        "title": "About",
+        "pageKey": "about",
+        "subLinks": [
+          {
+            "title": "Citi Developer",
+            "href": "/about/citi-developer",
+            "pageKey": "citi-developer"
+          },
+          {
+            "title": "Portfolio",
+            "href": "/about/portfolio",
+            "pageKey": "portfolio"
+          },
+          {
+            "title": "News",
+            "href": "/about/news",
+            "pageKey": "news"
+          },
+          {
+            "title": "Blogs",
+            "href": "/about/blogs",
+            "pageKey": "blogs"
+          },
+          {
+            "title": "Our Team",
+            "href": "/about/our-team",
+            "pageKey": "our-team"
+          },
+          {
+            "title": "Experience Center",
+            "href": "/about/experience-center",
+            "pageKey": "experience-center"
+          },
+          {
+            "title": "Careers",
+            "href": "/about/careers",
+            "pageKey": "careers"
+          }
+        ]
+      },
+      {
+        "title": "Projects",
+        "pageKey": "projects",
+        "subLinks": [
+          {
+            "title": "Allura",
+            "href": "/projects/allura",
+            "pageKey": "allura"
+          },
+          {
+            "title": "Aveline",
+            "href": "/projects/aveline",
+            "pageKey": "aveline"
+          }
+        ]
+      },
+      {
+        "title": "tour 360",
+        "href": "/tour-360",
+        "pageKey": "tour-360"
+      }
+    ],
+    "footer": {
+      "locationCard": {
+        "title": "Reserve your experience {{with us!}}",
+        "description": " Secure your spot today and unlock exclusive access to our premier real estate experience. Join us for an unforgettable journey through innovation and excellence!",
+        "locationUrl": "https://maps.app.goo.gl/WENwtfSEt8c18Dtr5",
+        "button": {
+          "title": "enquire now",
+          "href": "https://docs.google.com/forms/d/e/1FAIpQLSeVdYnG6U9P3r-QCESarKyLptxd1r68R4Ymc261Uds2_Sh-tw/viewform"
+        }
+      },
+      "socialMediaLinks": [
+        {
+          "href": "#",
+          "icon": "facebook"
+        },
+        {
+          "href": "#",
+          "icon": "linkedin"
+        },
+        {
+          "href": "#",
+          "icon": "x"
+        },
+        {
+          "href": "#",
+          "icon": "youtube"
+        },
+        {
+          "href": "#",
+          "icon": "instagram"
+        }
+      ],
+      "whereToGoNextCards": [
+        {
+          "button": {
+            "href": "/projects/aveline",
+            "title": "Aveline"
+          },
+          "image": {
+            "src": "/images/footer/Aveline.png",
+            "alt": "aveline",
+            "width": 317,
+            "height": 265
+          }
+        },
+        {
+          "button": {
+            "href": "/about/citi-developer",
+            "title": "Citi Developer"
+          },
+          "image": {
+            "src": "/images/footer/citi-developer.png",
+            "alt": "citi developer",
+            "width": 317,
+            "height": 265
+          }
+        },
+        {
+          "button": {
+            "href": "/contact-us",
+            "title": "Contact us"
+          },
+          "image": {
+            "src": "/images/footer/contact-us.png",
+            "alt": "contact us",
+            "width": 317,
+            "height": 265
+          }
+        }
+      ],
+      "contactUsButton": {
+        "href": "/contact-us",
+        "title": "Contact us"
+      },
+      "copyRights": "© 2010 CITI DEVELOPERS. All Rights Reserved"
+    },
+    "alluraPopUp": {
+      "slogan": "crafting elegance in living",
+      "soon": "Launching {{Soon}}",
+      "button": {
+        "title": "register now",
+        "href": "/"
+      },
+      "detailsCards": [
+        {
+          "title": "Starting From:",
+          "description": "AED 619,000"
+        },
+        {
+          "title": "{{50/50}}",
+          "description": "{{Payment Plan}}"
+        },
+        {
+          "title": "Register Your EOI With:",
+          "description": "AED 25,000"
+        }
+      ]
+    }
+  },
+  "notFoundPage": {
+    "title": "Opps! Page Not Found",
+    "button": {
+      "title": "Back to Home",
+      "href": "/"
+    }
+  },
+  "thankYouPage": {
+    "title": "Thank you for your interest in {{Citi Developer}}",
+    "description": "Your message has been received and our team will get in touch with you shortly.",
+    "button": {
+      "title": "Go Back to Home Page",
+      "href": "/"
+    }
+  },
+  "homePage": {
+    "banner": {
+      "subtractImage": {
+        "src": "/images/homepage/subtract.png",
+        "alt": "subtract",
+        "width": 1920,
+        "height": 1080
+      },
+      "sloganBox": {
+        "title": "Citi Developers",
+        "description": "Transforming Cities, Enriching Lives"
+      },
+      "firstLayerData": {
+        "image": {
+          "src": "/images/homepage/first.webp",
+          "alt": "firstLayer",
+          "width": 1920,
+          "height": 1080
+        },
+        "startText": "Start the experience"
+      },
+      "secondLayerData": {
+        "image": {
+          "src": "/images/homepage/second.jpg",
+          "alt": "secondLayer",
+          "width": 5000,
+          "height": 2813
+        },
+        "luxuary": "luxury <br />livingroom"
+      },
+      "thirdLayerData": {
+        "image": {
+          "src": "/images/homepage/third.jpg",
+          "alt": "thirdLayer",
+          "width": 5000,
+          "height": 2500
+        },
+        "button": {
+          "href": "/contact-us",
+          "title": "Talk Now"
+        },
+        "title": "Talk to our <br/> advisors now",
+        "sloganText": "For over a decade, Citi Developers has reshaped global skylines and empowers communities"
+      }
+    },
+    "counterCards": [
+      {
+        "number": 10,
+        "text": "Projects"
+      },
+      {
+        "number": 3,
+        "text": "Countries"
+      },
+      {
+        "number": 350,
+        "text": "Homes",
+        "suffix": "K+"
+      },
+      {
+        "number": 500,
+        "text": "Happy Customers",
+        "suffix": "K+"
+      },
+      {
+        "number": 450,
+        "text": "Sq Ft Developed Area",
+        "suffix": "M+"
+      }
+    ],
+    "whatMakesUsDifferent": {
+      "header": {
+        "subtitle": "Citi Developers",
+        "title": "What makes {{us Different}}?",
+        "description": "With a legacy of over a decade, we proudly stand as a world leading master developer, renowned for reshaping cityscapes and enriching communities across continents."
+      },
+      "cards": [
+        {
+          "image": {
+            "src": "/images/shared/integrity.svg",
+            "alt": "Integrity",
+            "width": 72,
+            "height": 72
+          },
+          "title": "Integrity",
+          "description": "Trust and integrity is the bedrock of our foundation. We value credibility, and accountability, seing new benchmarks in building exceptional communities"
+        },
+        {
+          "image": {
+            "src": "/images/shared/quality.svg",
+            "alt": "Quality",
+            "width": 72,
+            "height": 72
+          },
+          "title": "Quality",
+          "description": "Our commitment to quality goes beyond meeting industry standards, pushing the boundaries and creating properties that place high priority on attention to detail, liveability, and quality of life."
+        },
+        {
+          "image": {
+            "src": "/images/shared/empathy.svg",
+            "alt": "Empathy",
+            "width": 72,
+            "height": 72
+          },
+          "title": "Empathy",
+          "description": "Empathy is the core of our brand ethos. By understanding and embracing the perspective of our community, we create developments that cater to their fostering a sense of belonging and enhancing their living experiences."
+        }
+      ],
+      "images": [
+        {
+          "src": "/images/homepage/pool.webp",
+          "alt": "pool",
+          "width": 885,
+          "height": 1456
+        },
+        {
+          "src": "/images/homepage/bedroom.png",
+          "alt": "bedroom",
+          "width": 439,
+          "height": 443
+        },
+        {
+          "src": "/images/homepage/livingroom.png",
+          "alt": "livingroom",
+          "width": 878,
+          "height": 627
+        }
+      ],
+      "animatedText": "We Published since 2023 - We Published since 2023 - "
+    },
+    "avelineSection": {
+      "header": {
+        "title": "Aveline",
+        "description": "Beginning with Jumeirah Village Circle in Dubai followed very closely with Majan, and Dubai Maritime City, every project will be a level up from the previous one. Just like Aveline the recent project by CD."
+      },
+      "images": [
+        {
+          "src": "/images/homepage/aveline_Landscape.webp",
+          "alt": "aveline_Landscape",
+          "width": 5500,
+          "height": 3099
+        },
+        {
+          "src": "/images/aveline/Lobby/image_1.webp",
+          "alt": "lobby",
+          "width": 4000,
+          "height": 2250
+        },
+        {
+          "src": "/images/aveline/13th Floor/image_2.webp",
+          "alt": "pool",
+          "width": 4000,
+          "height": 2250
+        }
+      ]
+    },
+    "visitExperienceCenter": {
+      "header": {
+        "title": "Visit our {{Experience center}}",
+        "description": "Explore The Future Of Real Estate With Us At Our Cutting-Edge Center"
+      },
+      "button": {
+        "title": "Explore More",
+        "href": "about/experience-center"
+      },
+      "videoSrc": "https://www.youtube.com/embed/Lg8Tevx9u8o?si=_qAP8JMbLQJ-J6we&showinfo=0"
+    },
+    "ourJourney": {
+      "header": {
+        "title": "Our {{Journey}}"
+      },
+      "cards": [
+        {
+          "image": {
+            "src": "/images/shared/pakistan.jpeg",
+            "alt": "pakistan",
+            "width": 812,
+            "height": 341
+          },
+          "title": "Pakistan",
+          "date": "2011",
+          "description": "Our roots lie in Pakistan, where we have been instrumental in building entire townships and changing the face of cities... ",
+          "readMore": "Read more",
+          "button": {
+            "title": "Read More",
+            "href": "/about/portfolio"
+          }
+        },
+        {
+          "image": {
+            "src": "/images/shared/uk.jpeg",
+            "alt": "uk",
+            "width": 812,
+            "height": 608
+          },
+          "title": "UK",
+          "date": "2014",
+          "description": "Citi Developers has an active presence in the UK, featuring exquisite properties in some of its most beautiful towns... ",
+          "readMore": "Read more",
+          "button": {
+            "title": "Read More",
+            "href": "/about/portfolio"
+          }
+        },
+        {
+          "image": {
+            "src": "/images/shared/uae.jpeg",
+            "alt": "UAE",
+            "width": 812,
+            "height": 541
+          },
+          "title": "UAE",
+          "date": "2029",
+          "description": "Beginning with Jumeirah Village Circle in Dubai followed very closely with Majan, and then in Al Marjan island... ",
+          "readMore": "Read more",
+          "button": {
+            "title": "Read More",
+            "href": "/about/portfolio"
+          }
+        }
+      ]
+    },
+    "ourTeam": {
+      "header": {
+        "title": "citi developers {{team}}",
+        "description": "At Citi Housing, we’re more than just builders; we’re architects of dreams. As CEO, I lead our dedicated team in crafting top-tier housing solutions across Pakistan, ensuring each residence embodies safety, security, and comfort."
+      },
+      "image": {
+        "src": "/images/homepage/meet_our_team.jpg",
+        "alt": "Meet_our_team",
+        "width": 1080,
+        "height": 1080
+      },
+      "buttons": [
+        {
+          "title": "Our Team",
+          "href": "/about/our-team"
+        },
+        {
+          "title": "Find Out More",
+          "href": "/about/citi-developer"
+        }
+      ]
+    }
+  },
+  "contactUs": {
+    "form": {
+      "title": "Contact Us",
+      "description": "Your journey towards the perfect home begins here  let's start the conversation!",
+      "contactOptions": [
+        {
+          "icon": "phone",
+          "list": [
+            "Toll-Free: 80044440",
+            "Landline: 044031000"
+          ]
+        },
+        {
+          "icon": "mail",
+          "list": [
+            "sarah.marketing@citideveloper.com"
+          ]
+        },
+        {
+          "icon": "address",
+          "list": [
+            "{{Experience Centre:}} 625 Jumeirah Road, Umm Suqeim First, Dubai, UAE.",
+            "{{Head Office:}}Office 1101, Marina Plaza, Dubai Marina, Dubai, UAE."
+          ]
+        }
+      ],
+      "disclaimer": "By submitting this form, you confirm that you have read and accepted the Privacy Policy and Terms and Conditions.",
+      "submit": "Submit",
+      "fields": [
+        {
+          "key": "fullName",
+          "label": "Full Name*",
+          "placeholder": "Full Name*",
+          "fieldSetWidthClassProp": "half",
+          "type": "text",
+          "validation": {
+            "required": "Full Name is required"
+          }
+        },
+        {
+          "key": "country",
+          "placeholder": "Select Country",
+          "type": "select",
+          "searchable": true,
+          "label": "Country",
+          "fieldSetWidthClassProp": "half",
+          "validation": {
+            "required": "Country is required"
+          }
+        },
+        {
+          "key": "email",
+          "label": "Email*",
+          "placeholder": "Email*",
+          "type": "email",
+          "fieldSetWidthClassProp": "half",
+          "validation": {
+            "required": "Email is required",
+            "validate": {
+              "email": "Email is invalid"
+            }
+          },
+          "required": true
+        },
+        {
+          "key": "phone",
+          "label": "Phone Number",
+          "placeholder": "123 4567",
+          "fieldSetWidthClassProp": "half",
+          "validation": {
+            "required": "Phone number is required"
+          }
+        },
+        {
+          "key": "userOrAgent",
+          "type": "select",
+          "label": "Classify your business*",
+          "placeholder": "Select your classification...",
+          "fieldSetWidthClassProp": "half",
+          "searchable": true,
+          "options": [
+            {
+              "label": "Client",
+              "value": "client"
+            },
+            {
+              "label": "Agent",
+              "value": "agent"
+            }
+          ],
+          "validation": {
+            "required": "This field is required"
+          }
+        },
+        {
+          "key": "salesOrMarketing",
+          "type": "select",
+          "placeholder": "Department to Contact...",
+          "label": "Preferred Department",
+          "fieldSetWidthClassProp": "half",
+          "searchable": true,
+          "options": [
+            {
+              "label": "Sales",
+              "value": "sales"
+            },
+            {
+              "label": "Marketing",
+              "value": "marketing"
+            }
+          ],
+          "validation": {
+            "required": "This field is required"
+          }
+        },
+        {
+          "key": "contactMode",
+          "type": "radio",
+          "label": "Which mode of contact do you prefer?",
+          "fieldSetWidthClassProp": "full",
+          "options": [
+            {
+              "label": "Phone",
+              "value": "phone",
+              "icon": "phone"
+            },
+            {
+              "label": "Email",
+              "value": "email",
+              "icon": "mail"
+            }
+          ]
+        },
+        {
+          "key": "message",
+          "label": "Please provide a brief description of your requirement*",
+          "placeholder": "Type your message here",
+          "type": "textarea",
+          "validation": {
+            "required": "Message is required"
+          }
+        }
+      ]
+    }
+  },
+  "about": {
+    "citiDeveloper": {
+      "banner": {
+        "backgroundImage": {
+          "src": "/images/about/citideveloper/citideveloper-banner.png",
+          "alt": "banner",
+          "width": 3840,
+          "height": 1983
+        },
+        "image": {
+          "src": "/images/shared/logo-with-slogan.png",
+          "alt": "logo",
+          "width": 1862,
+          "height": 554
+        },
+        "buttons": [
+          {
+            "title": "take a tour",
+            "href": "/projects/aveline"
+          },
+          {
+            "title": "enquire now",
+            "href": "/contact-us"
+          }
+        ]
+      },
+      "legacy": {
+        "card": {
+          "title": "The Legacy",
+          "subtitle": "SETTING NEW STANDARDS",
+          "description": "We set new standards of excellence in the real estate industry, not only in terms of architectural innovation but also in placemaking, artistry, quality, and customer satisfaction.",
+          "button": {
+            "title": "explore more",
+            "href": "/projects/allura"
+          }
+        },
+        "image": {
+          "src": "/images/about/citideveloper/legacy.png",
+          "alt": "legacy",
+          "width": 1284,
+          "height": 792
+        },
+        "description": "We are committed to delivering excellence and surpassing expectations, earning the respect and trust of stakeholders and customers alike."
+      },
+      "overDecadeOfTrust": {
+        "header": {
+          "subtitle": "WE ARE CITI DEVELOPERS",
+          "title": "Over a decade of trust",
+          "description": "With a legacy of over a decade, we proudly stand as a world-leading master developer, renowned for reshaping cityscapes and enriching communities across continents. At Citi, trust is our foundation, and experience, our currency. We understand how our residents and investors think, and we apply this knowledge in everything we do. We know that trust takes time, resources, and years to build, and we are proud to have earned and perfected it over the past decade. Join us on this journey of trust, innovation, and exceptional living experiences as we reinvent real estate landscapes across cities."
+        },
+        "images": [
+          {
+            "src": "/images/about/citideveloper/overTrust.jpeg",
+            "alt": "over trust",
+            "width": 704,
+            "height": 1056
+          },
+          {
+            "src": "/images/shared/citi-building-front.png",
+            "alt": "citi developer",
+            "width": 600,
+            "height": 337,
+            "className": "object-left"
+          },
+          {
+            "src": "/images/homepage/livingroom.png",
+            "alt": "livingroom",
+            "width": 878,
+            "height": 627
+          }
+        ],
+        "animatedText": "We Published since 2023 - We Published since 2023 - "
+      },
+      "ourPhilosophy": {
+        "title": "Our {{Philosophy}}",
+        "image": {
+          "src": "/images/about/citideveloper/philosophy.png",
+          "alt": "philosophy",
+          "width": 1536,
+          "height": 1002
+        },
+        "cards": [
+          {
+            "image": {
+              "src": "/images/about/citideveloper/vision.svg",
+              "alt": "Vision",
+              "width": 72,
+              "height": 72
+            },
+            "title": "Vision",
+            "description": "To be one of the world’s most trusted real estate developers, renowned for reimagining and elevating residential communities, setting global benchmarks."
+          },
+          {
+            "image": {
+              "src": "/images/about/citideveloper/mission.svg",
+              "alt": "Mission",
+              "width": 72,
+              "height": 72
+            },
+            "title": "Mission",
+            "description": "With an unwavering commitment to quality, liveability, reliability, and innovation, our mission is to reshape property landscapes and enrich communities, delivering projects that stand the test of time."
+          }
+        ]
+      },
+      "ourValues": {
+        "title": "Our {{Values}}",
+        "image": {
+          "src": "/images/about/citideveloper/burjkhalifa.png",
+          "alt": "Burj khalifa",
+          "width": 1621,
+          "height": 1002
+        },
+        "cards": [
+          {
+            "image": {
+              "src": "/images/shared/integrity.svg",
+              "alt": "Integrity",
+              "width": 72,
+              "height": 72
+            },
+            "title": "Integrity",
+            "description": "Trust and integrity is the bedrock of our foundation. We value credibility, and accountability, seing new benchmarks in building exceptional communities"
+          },
+          {
+            "image": {
+              "src": "/images/shared/quality.svg",
+              "alt": "Quality",
+              "width": 72,
+              "height": 72
+            },
+            "title": "Quality",
+            "description": "Our commitment to quality goes beyond meeting industry standards, pushing the boundaries and creating properties that place high priority on attention to detail, liveability, and quality of life."
+          },
+          {
+            "image": {
+              "src": "/images/shared/empathy.svg",
+              "alt": "Empathy",
+              "width": 72,
+              "height": 72
+            },
+            "title": "Empathy",
+            "description": "Empathy is the core of our brand ethos. By understanding and embracing the perspective of our community, we create developments that cater to their fostering a sense of belonging and enhancing their living experiences."
+          }
+        ]
+      }
+    },
+    "portfolio": {
+      "banner": {
+        "title": "Portfolio",
+        "subtitle": "Citi Developers",
+        "description": "Welcome to Citi Developers, where innovation meets excellence. Our diverse portfolio spans across three vibrant regions: the United Arab Emirates (UAE), the United Kingdom (UK), and Pakistan. Explore our remarkable projects and discover the art of transformative real estate.",
+        "buttons": [
+          {
+            "title": "take a tour",
+            "href": "/projects/aveline"
+          },
+          {
+            "title": "enquire now",
+            "href": "/contact-us"
+          },
+          {
+            "title": "allura project",
+            "href": "/projects/allura"
+          }
+        ],
+        "backgroundImages": {
+          "firstRow": [
+            {
+              "src": "/images/aveline/11th Floor/image_3.webp",
+              "alt": "image",
+              "width": 4000,
+              "height": 2250
+            },
+            {
+              "src": "/images/aveline/13th Floor/image_1.webp",
+              "alt": "image",
+              "width": 4000,
+              "height": 2250
+            },
+            {
+              "src": "/images/aveline/11th Floor/image_1.webp",
+              "alt": "image",
+              "width": 4000,
+              "height": 2250
+            },
+            {
+              "src": "/images/aveline/Game Room/image_1.webp",
+              "alt": "image",
+              "width": 4000,
+              "height": 2250
+            },
+            {
+              "src": "/images/aveline/11th Floor/image_3.webp",
+              "alt": "image",
+              "width": 4000,
+              "height": 2250
+            },
+            {
+              "src": "/images/aveline/13th Floor/image_1.webp",
+              "alt": "image",
+              "width": 4000,
+              "height": 2250
+            },
+            {
+              "src": "/images/aveline/11th Floor/image_1.webp",
+              "alt": "image",
+              "width": 4000,
+              "height": 2250
+            },
+            {
+              "src": "/images/aveline/Game Room/image_1.webp",
+              "alt": "image",
+              "width": 4000,
+              "height": 2250
+            }
+          ],
+          "secondRow": [
+            {
+              "src": "/images/aveline/11th Floor/image_2.webp",
+              "alt": "image",
+              "width": 4000,
+              "height": 2250
+            },
+            {
+              "src": "/images/aveline/Game Room/image_2.webp",
+              "alt": "image",
+              "width": 4000,
+              "height": 2250
+            },
+            {
+              "src": "/images/aveline/11th Floor/image_4.webp",
+              "alt": "image",
+              "width": 4000,
+              "height": 2250
+            },
+            {
+              "src": "/images/aveline/13th Floor/image_2.webp",
+              "alt": "image",
+              "width": 4000,
+              "height": 2250
+            },
+            {
+              "src": "/images/aveline/11th Floor/image_2.webp",
+              "alt": "image",
+              "width": 4000,
+              "height": 2250
+            },
+            {
+              "src": "/images/aveline/Game Room/image_2.webp",
+              "alt": "image",
+              "width": 4000,
+              "height": 2250
+            },
+            {
+              "src": "/images/aveline/11th Floor/image_4.webp",
+              "alt": "image",
+              "width": 4000,
+              "height": 2250
+            },
+            {
+              "src": "/images/aveline/13th Floor/image_2.webp",
+              "alt": "image",
+              "width": 4000,
+              "height": 2250
+            }
+          ],
+          "thirdRow": [
+            {
+              "src": "/images/aveline/13th Floor/image_3.webp",
+              "alt": "image",
+              "width": 4000,
+              "height": 2250
+            },
+            {
+              "src": "/images/aveline/11th Floor/image_5.webp",
+              "alt": "image",
+              "width": 4000,
+              "height": 2250
+            },
+            {
+              "src": "/images/aveline/Lobby/image_1.webp",
+              "alt": "image",
+              "width": 4000,
+              "height": 2260
+            },
+            {
+              "src": "/images/aveline/11th Floor/image_1.webp",
+              "alt": "image",
+              "width": 4000,
+              "height": 2250
+            },
+            {
+              "src": "/images/aveline/13th Floor/image_3.webp",
+              "alt": "image",
+              "width": 4000,
+              "height": 2250
+            },
+            {
+              "src": "/images/aveline/11th Floor/image_5.webp",
+              "alt": "image",
+              "width": 4000,
+              "height": 2250
+            },
+            {
+              "src": "/images/aveline/Lobby/image_1.webp",
+              "alt": "image",
+              "width": 4000,
+              "height": 2260
+            },
+            {
+              "src": "/images/aveline/11th Floor/image_1.webp",
+              "alt": "image",
+              "width": 4000,
+              "height": 2250
+            }
+          ]
+        }
+      }
+    },
+    "news": {
+      "header": {
+        "title": "News",
+        "description": "See the developments that have occurred to LearnEasers in the world"
+      },
+      "button": {
+        "title": "Switch To Blogs",
+        "href": "/about/blogs"
+      },
+      "cards": [
+        {
+          "image": {
+            "src": "/images/shared/CEO.png",
+            "alt": "CEO",
+            "width": 1280,
+            "height": 680
+          },
+          "title": "Al Watan - Real Estate",
+          "description": "زوريز مالك المدير التنفيذي لشركة سيتي ديفيلوبرز يكشف عن توسعات جديدة للشركة في الإمارات بمفاهيم عقارية مبتكرة",
+          "date": "04 Mar 2024",
+          "button": {
+            "title": "Read More",
+            "href": "https://alwatan.ae/posts/1317005"
+          }
+        },
+        {
+          "image": {
+            "src": "/images/shared/citi-building.png",
+            "alt": "citi-building",
+            "width": 557,
+            "height": 399
+          },
+          "title": "The Gulf Time - Real Estate",
+          "description": "We Want To Deliver High-Quality Projects Tailored To The UAE Market: Citi Developers CEO",
+          "date": "01 Mar 2024",
+          "button": {
+            "title": "Read More",
+            "href": "https://gulftime.ae/we-want-to-deliver-high-quality-projects-tailored-to-the-uae-market-citi-developers-ceo"
+          }
+        },
+        {
+          "image": {
+            "src": "/images/shared/VR.jpeg",
+            "alt": "vr",
+            "width": 650,
+            "height": 650
+          },
+          "title": "Construction Business News",
+          "description": "Citi Developers Unveils Innovative Experience Centre Showcasing Aveline Residences",
+          "date": "13 Feb 2024",
+          "button": {
+            "title": "Read More",
+            "href": "https://www.cbnme.com/news/ampg-announces-60-per-cent-sales-closure-for-plazzo-residence"
+          }
+        },
+        {
+          "image": {
+            "src": "/images/shared/roof.png",
+            "alt": "roof",
+            "width": 557,
+            "height": 399
+          },
+          "title": "Dubai Newsweek - Real Estate",
+          "description": "Citi Developers Unveils Innovative Experience Centre Showcasing Aveline Residences",
+          "date": "6 Feb 2024",
+          "button": {
+            "title": "Read More",
+            "href": "https://dubainewsweek.com/citi-developers-experience-centre-aveline-residences"
+          }
+        },
+        {
+          "image": {
+            "src": "/images/aveline/11th Floor/image_2.webp",
+            "alt": "image",
+            "width": 4000,
+            "height": 2250
+          },
+          "title": "Al Watan - Real Estate",
+          "description": "سيتي للتطوير العقاري تكشف النقاب عن مركز التجاربالمبتكر لاستعراض مشروع “أفيلاين ريزيدنسز”",
+          "date": "6 Feb 2024",
+          "button": {
+            "title": "Read More",
+            "href": "https://alwatan.ae/posts/1297525"
+          }
+        },
+        {
+          "image": {
+            "src": "/images/aveline/13th Floor/image_3.webp",
+            "alt": "image",
+            "width": 4000,
+            "height": 2250
+          },
+          "title": "Lady Lead Mag - Home & Decor",
+          "description": "Citi Developer Unveils Innovative Experience Centre Showcasing Aveline Residences",
+          "date": "7 Feb 2024",
+          "button": {
+            "title": "Read More",
+            "href": "https://www.ladyleadmag.com/citi-developer-unveils-innovative-experience-centre-showcasing-aveline-residences/"
+          }
+        },
+        {
+          "image": {
+            "src": "/images/aveline/Apartment/image_4.webp",
+            "alt": "image",
+            "width": 4000,
+            "height": 4000
+          },
+          "title": "UAE News 4U - Real Estate",
+          "description": "Citi Developer Unveils Innovative Experience Centre Showcasing Aveline Residences",
+          "date": "6 Feb 2024",
+          "button": {
+            "title": "Read More",
+            "href": "https://uaenews4u.com/2024/02/06/citi-developer-unveils-innovative-experience-centre-showcasing-aveline-residences/"
+          }
+        },
+        {
+          "image": {
+            "src": "/images/aveline/Apartment/image_5.webp",
+            "alt": "image",
+            "width": 3400,
+            "height": 4000
+          },
+          "title": "Observer Dubai - Real Estate",
+          "description": "Citi Developer Unveils Innovative Experience Centre Showcasing Aveline Residences",
+          "date": "6 Feb 2024",
+          "button": {
+            "title": "Read More",
+            "href": "https://www.observerdubai.com/2024/02/06/citi-developer-unveils-innovative-experience-centre-showcasing-aveline-residences/"
+          }
+        },
+        {
+          "image": {
+            "src": "/images/aveline/11th Floor/image_1.webp",
+            "alt": "image",
+            "width": 4000,
+            "height": 2250
+          },
+          "title": "Pantime Arabia - Real Estate",
+          "description": "Citi Developer Unveils Innovative Experience Centre Showcasing Aveline Residences",
+          "date": "6 Feb 2024",
+          "button": {
+            "title": "Read More",
+            "href": "https://pantimearabia.com/citi-developer-unveils-innovative-experience-centre-showcasing-aveline-residences"
+          }
+        },
+        {
+          "image": {
+            "src": "/images/aveline/Lobby/image_2.webp",
+            "alt": "image",
+            "width": 4000,
+            "height": 3479
+          },
+          "title": "Pantime Arabia - Real Estate",
+          "description": "Citi Developers Unveils Aveline Residences in Jumeirah Village Circle",
+          "date": "16 Nov 2023",
+          "button": {
+            "title": "Read More",
+            "href": "https://pantimearabia.com/citi-developer-unveils-innovative-experience-centre-showcasing-aveline-residences/"
+          }
+        },
+        {
+          "image": {
+            "src": "/images/aveline/13th Floor/image_2.webp",
+            "alt": "image",
+            "width": 4000,
+            "height": 2250
+          },
+          "title": "Pantime Arabia - Real Estate",
+          "description": "Citi Developers Unveils Aveline Residences in Jumeirah Village Circle",
+          "date": "17 Nov 2023",
+          "button": {
+            "title": "Read More",
+            "href": "https://pantimearabia.com/citi-developers-unveils-aveline-residences-in-jumeirah-village-circle/"
+          }
+        },
+        {
+          "image": {
+            "src": "/images/aveline/Game Room/image_1.webp",
+            "alt": "image",
+            "width": 4000,
+            "height": 2250
+          },
+          "title": "Biz Today - Business & Finance",
+          "description": "Citi Developers Unveils Aveline Residences in Jumeirah Village Circle",
+          "date": "17 Nov 2023",
+          "button": {
+            "title": "Read More",
+            "href": "https://www.biztoday.news/2023/11/17/citi-developers-launches-aveline-residences-in-jumeirah-village-circle/"
+          }
+        },
+        {
+          "image": {
+            "src": "/images/aveline/13th Floor/image_2.webp",
+            "alt": "image",
+            "width": 4000,
+            "height": 2250
+          },
+          "title": "The Brew News - Real Estate",
+          "description": "Citi Developers Unveils Aveline Residences in Jumeirah Village Circle",
+          "date": "16 Nov 2023",
+          "button": {
+            "title": "Read More",
+            "href": "https://thebrewnews.com/brew-circle/citi-developers-unveils-aveline-residences-in-jumeirah-village-circle/"
+          }
+        },
+        {
+          "image": {
+            "src": "/images/aveline/13th Floor/image_3.webp",
+            "alt": "image",
+            "width": 4000,
+            "height": 2250
+          },
+          "title": "menafn - Real Estate",
+          "description": "Citi Developers Unveils Aveline Residences In Jumeirah Village Circle",
+          "date": "16 Nov 2023",
+          "button": {
+            "title": "Read More",
+            "href": "https://menafn.com/1107442594/Citi-Developers-Unveils-Aveline-Residences-In-Jumeirah-Village-Circle"
+          }
+        },
+        {
+          "image": {
+            "src": "/images/aveline/Exterior Renders/6.jpg",
+            "alt": "image",
+            "width": 4800,
+            "height": 6000
+          },
+          "title": "my dubai news - Real Estate",
+          "description": "Citi Developers Unveils Aveline Residences In Jumeirah Village Circle",
+          "date": "16 Nov 2023",
+          "button": {
+            "title": "Read More",
+            "href": "https://www.mydubainews.com/citi-properties-unveils-aveline-residences-in-jumeirah-village-circle/"
+          }
+        },
+        {
+          "image": {
+            "src": "/images/aveline/Amenities/YOGA.jpg",
+            "alt": "image",
+            "width": 3200,
+            "height": 2909
+          },
+          "title": "the fashion with style - Business & Finance",
+          "description": "Citi Developers Unveils Aveline Residences In Jumeirah Village Circle",
+          "date": "17 Nov 2023",
+          "button": {
+            "title": "Read More",
+            "href": "https://thefashionwithstyle.com/real-estate-retail/citi-developers-unveils-aveline-residences-in-jumeirah-village-circle/"
+          }
+        }
+      ]
+    },
+    "blogs": {
+      "header": {
+        "title": "Blogs",
+        "description": "Explore insights and stories shaping the world of LearnEasers."
+      },
+      "button": {
+        "title": "Switch To News",
+        "href": "/about/news"
+      },
+      "cards": [
+        {
+          "image": {
+            "src": "/images/shared/CEO.png",
+            "alt": "CEO",
+            "width": 1280,
+            "height": 680
+          },
+          "title": "Al Watan - Real Estate",
+          "description": "زوريز مالك المدير التنفيذي لشركة سيتي ديفيلوبرز يكشف عن توسعات جديدة للشركة في الإمارات بمفاهيم عقارية مبتكرة",
+          "date": "04 Mar 2024",
+          "button": {
+            "title": "Read More",
+            "href": "https://alwatan.ae/posts/1317005"
+          }
+        },
+        {
+          "image": {
+            "src": "/images/shared/citi-building.png",
+            "alt": "citi-building",
+            "width": 557,
+            "height": 399
+          },
+          "title": "The Gulf Time - Real Estate",
+          "description": "We Want To Deliver High-Quality Projects Tailored To The UAE Market: Citi Developers CEO",
+          "date": "01 Mar 2024",
+          "button": {
+            "title": "Read More",
+            "href": "https://gulftime.ae/we-want-to-deliver-high-quality-projects-tailored-to-the-uae-market-citi-developers-ceo"
+          }
+        },
+        {
+          "image": {
+            "src": "/images/shared/VR.jpeg",
+            "alt": "vr",
+            "width": 650,
+            "height": 650
+          },
+          "title": "Construction Business News",
+          "description": "Citi Developers Unveils Innovative Experience Centre Showcasing Aveline Residences",
+          "date": "13 Feb 2024",
+          "button": {
+            "title": "Read More",
+            "href": "https://www.cbnme.com/news/ampg-announces-60-per-cent-sales-closure-for-plazzo-residence"
+          }
+        },
+        {
+          "image": {
+            "src": "/images/shared/roof.png",
+            "alt": "roof",
+            "width": 557,
+            "height": 399
+          },
+          "title": "Dubai Newsweek - Real Estate",
+          "description": "Citi Developers Unveils Innovative Experience Centre Showcasing Aveline Residences",
+          "date": "6 Feb 2024",
+          "button": {
+            "title": "Read More",
+            "href": "https://dubainewsweek.com/citi-developers-experience-centre-aveline-residences"
+          }
+        },
+        {
+          "image": {
+            "src": "/images/aveline/11th Floor/image_2.webp",
+            "alt": "image",
+            "width": 4000,
+            "height": 2250
+          },
+          "title": "Al Watan - Real Estate",
+          "description": "سيتي للتطوير العقاري تكشف النقاب عن مركز التجاربالمبتكر لاستعراض مشروع “أفيلاين ريزيدنسز”",
+          "date": "6 Feb 2024",
+          "button": {
+            "title": "Read More",
+            "href": "https://alwatan.ae/posts/1297525"
+          }
+        },
+        {
+          "image": {
+            "src": "/images/aveline/13th Floor/image_3.webp",
+            "alt": "image",
+            "width": 4000,
+            "height": 2250
+          },
+          "title": "Lady Lead Mag - Home & Decor",
+          "description": "Citi Developer Unveils Innovative Experience Centre Showcasing Aveline Residences",
+          "date": "7 Feb 2024",
+          "button": {
+            "title": "Read More",
+            "href": "https://www.ladyleadmag.com/citi-developer-unveils-innovative-experience-centre-showcasing-aveline-residences/"
+          }
+        },
+        {
+          "image": {
+            "src": "/images/aveline/Apartment/image_4.webp",
+            "alt": "image",
+            "width": 4000,
+            "height": 4000
+          },
+          "title": "UAE News 4U - Real Estate",
+          "description": "Citi Developer Unveils Innovative Experience Centre Showcasing Aveline Residences",
+          "date": "6 Feb 2024",
+          "button": {
+            "title": "Read More",
+            "href": "https://uaenews4u.com/2024/02/06/citi-developer-unveils-innovative-experience-centre-showcasing-aveline-residences/"
+          }
+        },
+        {
+          "image": {
+            "src": "/images/aveline/Apartment/image_5.webp",
+            "alt": "image",
+            "width": 3400,
+            "height": 4000
+          },
+          "title": "Observer Dubai - Real Estate",
+          "description": "Citi Developer Unveils Innovative Experience Centre Showcasing Aveline Residences",
+          "date": "6 Feb 2024",
+          "button": {
+            "title": "Read More",
+            "href": "https://www.observerdubai.com/2024/02/06/citi-developer-unveils-innovative-experience-centre-showcasing-aveline-residences/"
+          }
+        },
+        {
+          "image": {
+            "src": "/images/aveline/11th Floor/image_1.webp",
+            "alt": "image",
+            "width": 4000,
+            "height": 2250
+          },
+          "title": "Pantime Arabia - Real Estate",
+          "description": "Citi Developer Unveils Innovative Experience Centre Showcasing Aveline Residences",
+          "date": "6 Feb 2024",
+          "button": {
+            "title": "Read More",
+            "href": "https://pantimearabia.com/citi-developer-unveils-innovative-experience-centre-showcasing-aveline-residences"
+          }
+        },
+        {
+          "image": {
+            "src": "/images/aveline/Lobby/image_2.webp",
+            "alt": "image",
+            "width": 4000,
+            "height": 3479
+          },
+          "title": "Pantime Arabia - Real Estate",
+          "description": "Citi Developers Unveils Aveline Residences in Jumeirah Village Circle",
+          "date": "16 Nov 2023",
+          "button": {
+            "title": "Read More",
+            "href": "https://pantimearabia.com/citi-developer-unveils-innovative-experience-centre-showcasing-aveline-residences/"
+          }
+        },
+        {
+          "image": {
+            "src": "/images/aveline/13th Floor/image_2.webp",
+            "alt": "image",
+            "width": 4000,
+            "height": 2250
+          },
+          "title": "Pantime Arabia - Real Estate",
+          "description": "Citi Developers Unveils Aveline Residences in Jumeirah Village Circle",
+          "date": "17 Nov 2023",
+          "button": {
+            "title": "Read More",
+            "href": "https://pantimearabia.com/citi-developers-unveils-aveline-residences-in-jumeirah-village-circle/"
+          }
+        },
+        {
+          "image": {
+            "src": "/images/aveline/Game Room/image_1.webp",
+            "alt": "image",
+            "width": 4000,
+            "height": 2250
+          },
+          "title": "Biz Today - Business & Finance",
+          "description": "Citi Developers Unveils Aveline Residences in Jumeirah Village Circle",
+          "date": "17 Nov 2023",
+          "button": {
+            "title": "Read More",
+            "href": "https://www.biztoday.news/2023/11/17/citi-developers-launches-aveline-residences-in-jumeirah-village-circle/"
+          }
+        },
+        {
+          "image": {
+            "src": "/images/aveline/13th Floor/image_2.webp",
+            "alt": "image",
+            "width": 4000,
+            "height": 2250
+          },
+          "title": "The Brew News - Real Estate",
+          "description": "Citi Developers Unveils Aveline Residences in Jumeirah Village Circle",
+          "date": "16 Nov 2023",
+          "button": {
+            "title": "Read More",
+            "href": "https://thebrewnews.com/brew-circle/citi-developers-unveils-aveline-residences-in-jumeirah-village-circle/"
+          }
+        },
+        {
+          "image": {
+            "src": "/images/aveline/13th Floor/image_3.webp",
+            "alt": "image",
+            "width": 4000,
+            "height": 2250
+          },
+          "title": "menafn - Real Estate",
+          "description": "Citi Developers Unveils Aveline Residences In Jumeirah Village Circle",
+          "date": "16 Nov 2023",
+          "button": {
+            "title": "Read More",
+            "href": "https://menafn.com/1107442594/Citi-Developers-Unveils-Aveline-Residences-In-Jumeirah-Village-Circle"
+          }
+        },
+        {
+          "image": {
+            "src": "/images/aveline/Exterior Renders/6.jpg",
+            "alt": "image",
+            "width": 4800,
+            "height": 6000
+          },
+          "title": "my dubai news - Real Estate",
+          "description": "Citi Developers Unveils Aveline Residences In Jumeirah Village Circle",
+          "date": "16 Nov 2023",
+          "button": {
+            "title": "Read More",
+            "href": "https://www.mydubainews.com/citi-properties-unveils-aveline-residences-in-jumeirah-village-circle/"
+          }
+        },
+        {
+          "image": {
+            "src": "/images/aveline/Amenities/YOGA.jpg",
+            "alt": "image",
+            "width": 3200,
+            "height": 2909
+          },
+          "title": "the fashion with style - Business & Finance",
+          "description": "Citi Developers Unveils Aveline Residences In Jumeirah Village Circle",
+          "date": "17 Nov 2023",
+          "button": {
+            "title": "Read More",
+            "href": "https://thefashionwithstyle.com/real-estate-retail/citi-developers-unveils-aveline-residences-in-jumeirah-village-circle/"
+          }
+        }
+      ]
+    },
+    "ourTeam": {
+      "header": {
+        "title": "Citi Developers Team",
+        "description": "At Citi Housing, we’re more than just builders; we’re architects of dreams. As CEO, I lead our dedicated team in crafting top-tier housing solutions across Pakistan, ensuring each residence embodies safety, security, and comfort."
+      },
+      "CEOMessage": {
+        "image": {
+          "src": "/images/shared/CEO.png",
+          "alt": "CEO",
+          "width": 1023,
+          "height": 656
+        },
+        "title": "Messages From CEO",
+        "description": "At Citi Developers, we’re more than just builders; we’re architects of dreams. As CEO, I lead our dedicated team in crafting top-tier housing solutions across Pakistan, ensuring each residence embodies safety, security, and comfort.<br/>Our foremost goal is to provide avant-garde, luxury housing options that perfectly align with your lifestyle and preferences. We ardently maintain an unwavering commitment to excellence, continuously honing our offerings and services to flexibly adapt to your evolving needs.<br />Our ultimate aspiration is to cultivate flourishing, sustainable communities while cultivating enduring bonds of trust and loyalty with our esteemed clientele.<br/> We extend our heartfelt appreciation for selecting Citi Housing as your preferred housing solution. Be assured, that we ardently anticipate the privilege of perpetuating our service with unwavering excellence for many years to ensue.",
+        "ceoDetails": {
+          "title": "CEO CITI developers",
+          "name": {
+            "src": "/images/about/ourTeam/ceo-name.png",
+            "alt": "CEO Name",
+            "width": 141,
+            "height": 37
+          }
+        }
+      },
+      "managers": [
+        {
+          "image": {
+            "src": "/images/about/ourTeam/Usman Tariq.jpg",
+            "alt": "Usman Tariq",
+            "width": 1708,
+            "height": 2560
+          },
+          "name": "Usman Tariq",
+          "position": "Head of Sales & Marketing"
+        },
+        {
+          "image": {
+            "src": "/images/about/ourTeam/Wajih Qamar.jpg",
+            "alt": "Wajih Qamar",
+            "width": 1951,
+            "height": 2560
+          },
+          "name": "Wajih Qamar",
+          "position": "Project Director"
+        },
+        {
+          "image": {
+            "src": "/images/about/ourTeam/Antash Sheikh.jpg",
+            "alt": "Antash Sheikh",
+            "width": 1708,
+            "height": 2560
+          },
+          "name": "Antash Sheikh",
+          "position": "Head of H.R and Sales Operations"
+        },
+        {
+          "image": {
+            "src": "/images/about/ourTeam/Nisar Khalid.jpg",
+            "alt": "Nisar Khalid",
+            "width": 1708,
+            "height": 2560
+          },
+          "name": "Nisar Khalid",
+          "position": "GM Coordination"
+        },
+        {
+          "image": {
+            "src": "/images/about/ourTeam/Asad Ahsan.jpeg",
+            "alt": "Asad Ahsan",
+            "width": 1067,
+            "height": 1600
+          },
+          "name": "Asad Ahsan",
+          "position": "Senior Sales Manager"
+        },
+        {
+          "image": {
+            "src": "/images/about/ourTeam/Abdul Qadir.jpg",
+            "alt": "Abdul Qadir",
+            "width": 1708,
+            "height": 2560
+          },
+          "name": "Abdul Qadir",
+          "position": "GM Finance"
+        },
+        {
+          "image": {
+            "src": "/images/about/ourTeam/Sarah Noori.jpg",
+            "alt": "Sarah Noori",
+            "width": 1708,
+            "height": 2560
+          },
+          "name": "Sarah Noori",
+          "position": "Marketing Manager"
+        }
+      ],
+      "teamMembers": {
+        "title": "Other Team Members",
+        "cards": [
+          {
+            "image": {
+              "src": "/images/about/ourTeam/Fatima Taya.jpeg",
+              "alt": "Fatima Taya",
+              "width": 768,
+              "height": 1151
+            },
+            "name": "Fatima Taya"
+          },
+          {
+            "image": {
+              "src": "/images/about/ourTeam/Mario Misura.jpg",
+              "alt": "Mario Misura",
+              "width": 768,
+              "height": 1151
+            },
+            "name": "Mario Misura"
+          },
+          {
+            "image": {
+              "src": "/images/about/ourTeam/Maryam Sohrabi.jpg",
+              "alt": "Maryam Sohrabi",
+              "width": 768,
+              "height": 1151
+            },
+            "name": "Maryam Sohrabi"
+          },
+          {
+            "image": {
+              "src": "/images/about/ourTeam/Saif Ali.jpg",
+              "alt": "Saif Ali",
+              "width": 768,
+              "height": 1151
+            },
+            "name": "Saif Ali"
+          },
+          {
+            "image": {
+              "src": "/images/about/ourTeam/Amelia Thomas.jpg",
+              "alt": "Amelia Thomas",
+              "width": 768,
+              "height": 1151
+            },
+            "name": "Amelia Thomas"
+          },
+          {
+            "image": {
+              "src": "/images/about/ourTeam/Anita Aroian.jpg",
+              "alt": "Anita Aroian",
+              "width": 768,
+              "height": 1151
+            },
+            "name": "Anita Aroian"
+          },
+          {
+            "image": {
+              "src": "/images/about/ourTeam/Shirin Mirza.jpg",
+              "alt": "Shirin Mirza",
+              "width": 768,
+              "height": 1151
+            },
+            "name": "Shirin Mirza"
+          },
+          {
+            "image": {
+              "src": "/images/about/ourTeam/Demi McKenna.jpg",
+              "alt": "Demi McKenna",
+              "width": 768,
+              "height": 1151
+            },
+            "name": "Demi McKenna"
+          },
+          {
+            "image": {
+              "src": "/images/about/ourTeam/Luna Barre.jpg",
+              "alt": "Luna Barre",
+              "width": 768,
+              "height": 1151
+            },
+            "name": "Luna Barre"
+          },
+          {
+            "image": {
+              "src": "/images/about/ourTeam/Umar Safdar.jpg",
+              "alt": "Umar Safdar",
+              "width": 768,
+              "height": 1151
+            },
+            "name": "Umar Safdar"
+          },
+          {
+            "image": {
+              "src": "/images/about/ourTeam/Roohullah.jpg",
+              "alt": "Roohullah",
+              "width": 768,
+              "height": 1151
+            },
+            "name": "Roohullah"
+          },
+          {
+            "image": {
+              "src": "/images/about/ourTeam/Amjad Rehman.jpg",
+              "alt": "Amjad Rehman",
+              "width": 768,
+              "height": 1151
+            },
+            "name": "Amjad Rehman"
+          },
+          {
+            "image": {
+              "src": "/images/about/ourTeam/Mustafa Hashim.jpg",
+              "alt": "Mustafa Hashim",
+              "width": 768,
+              "height": 1151
+            },
+            "name": "Mustafa Hashim"
+          },
+          {
+            "image": {
+              "src": "/images/about/ourTeam/Ahmad Dayoub.jpg",
+              "alt": "Ahmad Dayoub",
+              "width": 768,
+              "height": 1151
+            },
+            "name": "Ahmad Dayoub"
+          }
+        ]
+      }
+    },
+    "experienceCenter": {
+      "banner": {
+        "header": {
+          "title": "Citi Developers",
+          "description": "For over A Decade, Citi Developers Reshapes Global Skylines and Empowers Communities"
+        },
+        "buttons": [
+          {
+            "title": "take a tour",
+            "href": "/projects/aveline"
+          },
+          {
+            "title": "enquire now",
+            "href": "/contact-us"
+          }
+        ],
+        "backgroundImage": {
+          "src": "/images/about/experienceCenter/bannerExperienceCenter.png",
+          "alt": "bannerExperienceCenter",
+          "width": 1920,
+          "height": 969
+        }
+      },
+      "visitExperienceCenter": {
+        "header": {
+          "subtitle": "Visit our Experience center",
+          "title": "Welcome to the Future:",
+          "description": "Experience tomorrow’s real estate today with Citi Developers. Our new center is more than just a space—it’s a glimpse into the future of living. Join us as we embark on this extraordinary journey forward."
+        },
+        "videoSrc": "https://www.youtube.com/embed/Lg8Tevx9u8o?si=_qAP8JMbLQJ-J6we&showinfo=0"
+      },
+      "features": {
+        "cards": [
+          {
+            "title": "Virtual Reality Experience",
+            "description": "Immerse yourself in a virtual journey through our upcoming projects. Experience the future of real estate in a dynamic and interactive virtual environment.",
+            "image": {
+              "src": "/images/shared/VR.jpeg",
+              "alt": "vr",
+              "width": 650,
+              "height": 650
+            }
+          },
+          {
+            "title": "One-on-One Sessions",
+            "description": "Engage in personalized discussions with our expert team. Gain insights into our projects, investment opportunities, and the unique value proposition that Citi Developers brings to the market.",
+            "image": {
+              "src": "/images/about/experienceCenter/OneonOneSessions.png",
+              "alt": "OneonOneSessions",
+              "width": 996,
+              "height": 992
+            }
+          },
+          {
+            "title": "Mockup Apartment Showcase",
+            "description": "Step into our meticulously designed mockup apartment, where every detail is a testament to the quality and sophistication that defines Citi Developers.",
+            "image": {
+              "src": "/images/about/experienceCenter/MockupApartmentShowcase.png",
+              "alt": "MockupApartmentShowcase",
+              "width": 1118,
+              "height": 1140
+            }
+          }
+        ]
+      }
+    }
+  },
+  "projects": {
+    "aveline": {
+      "banner": {
+        "backgroundImage": {
+          "src": "/images/aveline/Lobby/image_2.webp",
+          "alt": "banner",
+          "width": 4000,
+          "height": 3479
+        },
+        "image": {
+          "src": "/images/shared/logo-with-slogan.png",
+          "alt": "logo",
+          "width": 1862,
+          "height": 554
+        },
+        "buttons": [
+          {
+            "title": "take a tour",
+            "href": "/projects/aveline"
+          },
+          {
+            "title": "enquire now",
+            "href": "/contact-us"
+          }
+        ]
+      },
+      "avelineJvc": {
+        "image": {
+          "src": "/images/aveline/Exterior Renders/7.jpg",
+          "alt": "aveline",
+          "width": 4800,
+          "height": 6000
+        },
+        "title": "Aveline, {{JVC}}",
+        "article": {
+          "title": "Aveline Residences, <<By {{Citi Developers}}>>",
+          "description": "Intentionally designed to foster connections, celebrate community, and embrace convenience, as you step into Aveline, you step into a narrative where every detail forms the foundation for an exceptional residential experience. Nestled in the heart of Dubai, this exquisite development promises a lifestyle where residents can immerse themselves in a world of possibilities"
+        }
+      },
+      "projectInfo": {
+        "data": [
+          {
+            "title": "Unit Mix",
+            "description": " Studio, 1, 2 & 3 Bedroom"
+          },
+          {
+            "title": "Location",
+            "description": "Jumeirah Village Circle"
+          },
+          {
+            "title": "Handover",
+            "description": "Q2 2027"
+          },
+          {
+            "title": "Payment Plan",
+            "description": "50/50"
+          }
+        ],
+        "bookText": "Book With Just {{10%}} Down Payment!",
+        "button": {
+          "title": "Contact Us",
+          "href": "/contact-us"
+        }
+      },
+      "discoverCommunity": {
+        "image": {
+          "src": "/images/aveline/Exterior Renders/10.jpeg",
+          "alt": "discover community",
+          "width": 955,
+          "height": 1024
+        },
+        "title": "Discover A Cozy Community For A Peaceful Way Of Life, Stylish Homes In JVC",
+        "description": "Intentionally designed to foster connections, celebrate community, and embrace convenience, as you step into Aveline, you step into a narrative where every detail forms the foundation for an exceptional residential experience. Nestled in the heart of Dubai, this exquisite development promises a lifestyle where residents can immerse themselves in a world of possibilities",
+        "button": {
+          "title": "view 360 tour",
+          "href": "/tour-360"
+        }
+      },
+      "amenities": {
+        "title": "Aveline {{Amenities}}",
+        "button": {
+          "title": "View 360 tour",
+          "href": "/tour-360"
+        }
+      },
+      "exterior": {
+        "title": "Aveline {{Exterior}}",
+        "button": {
+          "title": "View 360 tour",
+          "href": "/tour-360"
+        }
+      },
+      "lobby": {
+        "title": "Aveline {{Lobby}}",
+        "button": {
+          "title": "View 360 tour",
+          "href": "/tour-360"
+        }
+      }
+    },
+    "studioApartmentAv": {
+      "banner": {
+        "backgroundImage": {
+          "src": "/images/aveline/Apartment/STUDIO APARTMENT/01.jpg",
+          "alt": "STUDIO APARTMENT",
+          "width": 2800,
+          "height": 2333
+        },
+        "image": {
+          "src": "/images/shared/logo-with-slogan.png",
+          "alt": "logo",
+          "width": 1862,
+          "height": 554
+        },
+        "buttons": [
+          {
+            "title": "take a tour",
+            "href": "/tour-360"
+          },
+          {
+            "title": "enquire now",
+            "href": "/contact-us"
+          }
+        ]
+      },
+      "header": {
+        "title": "Studio {{Apartment}}",
+        "description": "Discover modern living within Aveline Residences’ studio apartments. These meticulously designed living spaces cater to varying preferences, providing ample choice for comfortable and spacious living. Whether you’re an investor or seeking your own cozy abode, these studios offer a harmonious blend of functionality and aesthetics."
+      }
+    },
+    "oneBedroomApartmentAv": {
+      "banner": {
+        "backgroundImage": {
+          "src": "/images/aveline/Apartment/1 BEDROOM APARTMENT/LIVING ROOM/3.jpg",
+          "alt": "1 BEDROOM APARTMENT",
+          "width": 2639,
+          "height": 2200
+        },
+        "image": {
+          "src": "/images/shared/logo-with-slogan.png",
+          "alt": "logo",
+          "width": 1862,
+          "height": 554
+        },
+        "buttons": [
+          {
+            "title": "take a tour",
+            "href": "/tour-360"
+          },
+          {
+            "title": "enquire now",
+            "href": "/contact-us"
+          }
+        ]
+      },
+      "header": {
+        "title": "1 Bedroom {{Apartment}}",
+        "description": "At Aveline Residences, we take pride in crafting 1-bedroom apartments that seamlessly blend luxury with practicality. Our thoughtfully designed spaces offer the perfect balance of comfort and style."
+      },
+      "swipers": [
+        {
+          "title": "Master {{Bedroom}}",
+          "arrayMapName": "AV_1BHK_MASTER_BEDROOM"
+        },
+        {
+          "title": "Living {{Room}}",
+          "arrayMapName": "AV_1BHK_LIVING_ROOM"
+        }
+      ]
+    },
+    "twoBedroomApartmentAv": {
+      "banner": {
+        "backgroundImage": {
+          "src": "/images/aveline/Apartment/2 BEDROOM APARTMENT/LIVING ROOM/3.jpg",
+          "alt": "2 BEDROOM APARTMENT",
+          "width": 2602,
+          "height": 2546
+        },
+        "image": {
+          "src": "/images/shared/logo-with-slogan.png",
+          "alt": "logo",
+          "width": 1862,
+          "height": 554
+        },
+        "buttons": [
+          {
+            "title": "take a tour",
+            "href": "/tour-360"
+          },
+          {
+            "title": "enquire now",
+            "href": "/contact-us"
+          }
+        ]
+      },
+      "header": {
+        "title": "2 Bedroom {{Apartment}}",
+        "description": "Discover the allure of our 2-bedroom apartments at Aveline Residences, where luxury meets practicality.  Our meticulously crafted spaces offer the perfect blend of comfort and style. With modern amenities and a convenient location in JVC, you’ll find a harmonious balance that feels like home."
+      },
+      "swipers": [
+        {
+          "title": "Bedroom",
+          "arrayMapName": "AV_2BHK_BEDROOM"
+        },
+        {
+          "title": "Master {{Bedroom}}",
+          "arrayMapName": "AV_2BHK_MASTER_BEDROOM"
+        },
+        {
+          "title": "Living {{Room}}",
+          "arrayMapName": "AV_2BHK_LIVING_ROOM"
+        }
+      ]
+    },
+    "threeBedroomApartmentAv": {
+      "banner": {
+        "backgroundImage": {
+          "src": "/images/aveline/Apartment/3 BEDROOM APARTMENT/Living Room/1_View02_Post.jpg",
+          "alt": "3 BEDROOM APARTMENT",
+          "width": 2667,
+          "height": 2000
+        },
+        "image": {
+          "src": "/images/shared/logo-with-slogan.png",
+          "alt": "logo",
+          "width": 1862,
+          "height": 554
+        },
+        "buttons": [
+          {
+            "title": "take a tour",
+            "href": "/tour-360"
+          },
+          {
+            "title": "enquire now",
+            "href": "/contact-us"
+          }
+        ]
+      },
+      "header": {
+        "title": "3 Bedroom {{Apartment}}",
+        "description": "Discover spacious 3-bedroom apartments at Aveline Residences, where luxury meets practicality. Our meticulously designed spaces offer comfort and style, with premium materials. Step outside to enjoy a harmonious blend of indoor and outdoor areas."
+      },
+      "swipers": [
+        {
+          "title": "Bedroom 1",
+          "arrayMapName": "AV_3BHK_1_BEDROOM"
+        },
+        {
+          "title": "Bedroom 2",
+          "arrayMapName": "AV_3BHK_2_BEDROOM"
+        },
+        {
+          "title": "Bedroom 3",
+          "arrayMapName": "AV_3BHK_3_BEDROOM"
+        },
+        {
+          "title": "Living {{Room}}",
+          "arrayMapName": "AV_3BHK_LIVING_ROOM"
+        }
+      ]
+    }
+  },
+  "tour360": {
+    "banner": {
+      "backgroundImage": {
+        "src": "/images/about/citideveloper/citideveloper-banner.png",
+        "alt": "banner",
+        "width": 3840,
+        "height": 1983
+      },
+      "image": {
+        "src": "/images/shared/logo-with-slogan.png",
+        "alt": "logo",
+        "width": 1862,
+        "height": 554
+      },
+      "buttons": [
+        {
+          "title": "take a tour",
+          "href": "/projects/aveline"
+        },
+        {
+          "title": "enquire now",
+          "href": "/contact-us"
+        }
+      ]
+    },
+    "tabs": [
+      {
+        "tabKey": "aveline",
+        "title": "Aveline",
+        "cards": [
+          {
+            "image": {
+              "src": "/images/aveline/Lobby/image_2.webp",
+              "alt": "banner",
+              "width": 4000,
+              "height": 3479
+            },
+            "button": {
+              "title": "Lobby",
+              "href": "https://dukerenders.viewin360.co/share/collection/7X3Q9?logo=bWVkaWEvMjAxMDQzLzY1YWUtYzAyMS03ZDRhLTAxMzgucG5n&info=0&fs=1&vr=1&initload=0&autorotate=0&thumbs=1"
+            }
+          },
+          {
+            "image": {
+              "src": "/images/aveline/13th Floor/image_1.webp",
+              "alt": "13Th floor",
+              "width": 4000,
+              "height": 2250
+            },
+            "button": {
+              "title": "13Th Floor",
+              "href": "https://dukerenders.viewin360.co/share/collection/7XRPf?logo=bWVkaWEvMjAxMDQzLzY1YWUtYzAyMS03ZDRhLTAxMzgucG5n&info=0&fs=1&vr=1&initload=0&autorotate=0&thumbs=1"
+            }
+          },
+          {
+            "image": {
+              "src": "/images/aveline/Game Room/image_1.webp",
+              "alt": "Gaming Room",
+              "width": 4000,
+              "height": 2250
+            },
+            "button": {
+              "title": "Gaming Room",
+              "href": "https://dukerenders.viewin360.co/share/collection/7X3QP?logo=bWVkaWEvMjAxMDQzLzY1YWUtYzAyMS03ZDRhLTAxMzgucG5n&info=0&fs=1&vr=1&initload=0&autorotate=0&thumbs=1"
+            }
+          },
+          {
+            "image": {
+              "src": "/images/aveline/Apartment/1 BEDROOM APARTMENT/LIVING ROOM/3.jpg",
+              "alt": "1 BEDROOM APARTMENT",
+              "width": 2639,
+              "height": 2200
+            },
+            "button": {
+              "title": "1 Bedroom",
+              "href": "https://dukerenders.viewin360.co/share/collection/7XRZ7?logo=bWVkaWEvMjAxMDQzLzY1YWUtYzAyMS03ZDRhLTAxMzgucG5n&info=1&fs=1&vr=1&sd=1&thumbs=1"
+            }
+          },
+          {
+            "image": {
+              "src": "/images/aveline/11th Floor/image_4.webp",
+              "alt": "11Th Floor",
+              "width": 4000,
+              "height": 2250
+            },
+            "button": {
+              "title": "11Th Floor",
+              "href": "https://dukerenders.viewin360.co/share/collection/7X3Qf?logo=bWVkaWEvMjAxMDQzLzY1YWUtYzAyMS03ZDRhLTAxMzgucG5n&info=0&fs=1&vr=1&initload=0&autorotate=0&thumbs=1"
+            }
+          }
+        ]
+      },
+      {
+        "tabKey": "allura",
+        "title": "Allura"
+      }
+    ]
+  },
+  "shared": {
+    "latestNews": {
+      "header": {
+        "title": "Latest {{News & Resources}}",
+        "description": "See the developments that have occurred to LearnEasers in the world"
+      },
+      "button": {
+        "title": "News",
+        "href": "/about/news"
+      },
+      "mainArticle": {
+        "image": {
+          "src": "/images/shared/CEO.png",
+          "alt": "CEO",
+          "width": 1023,
+          "height": 656
+        },
+        "title": "Al Watan - Real Estate",
+        "description": "زوريز مالك المدير التنفيذي لشركة سيتي ديفيلوبرز يكشف عن توسعات جديدة للشركة في الإمارات بمفاهيم عقارية مبتكرة",
+        "date": "04 Mar 2024",
+        "button": {
+          "title": "Read More",
+          "href": "https://alwatan.ae/posts/1317005"
+        }
+      },
+      "cards": [
+        {
+          "image": {
+            "src": "/images/shared/citi-building.png",
+            "alt": "citi-building",
+            "width": 557,
+            "height": 399
+          },
+          "title": "The Gulf Time - Real Estate",
+          "description": "We Want To Deliver High-Quality Projects Tailored To The UAE Market: Citi Developers CEO",
+          "date": "01 Mar 2024",
+          "button": {
+            "title": "Read More",
+            "href": "https://gulftime.ae/we-want-to-deliver-high-quality-projects-tailored-to-the-uae-market-citi-developers-ceo"
+          }
+        },
+        {
+          "image": {
+            "src": "/images/shared/VR.jpeg",
+            "alt": "vr",
+            "width": 650,
+            "height": 650
+          },
+          "title": "Construction Business News",
+          "description": "Citi Developers Unveils Innovative Experience Centre Showcasing Aveline Residences",
+          "date": "13 Feb 2024",
+          "button": {
+            "title": "Read More",
+            "href": "https://www.cbnme.com/news/ampg-announces-60-per-cent-sales-closure-for-plazzo-residence"
+          }
+        },
+        {
+          "image": {
+            "src": "/images/shared/roof.png",
+            "alt": "roof",
+            "width": 557,
+            "height": 399
+          },
+          "title": "Dubai Newsweek - Real Estate",
+          "description": "Citi Developers Unveils Innovative Experience Centre Showcasing Aveline Residences",
+          "date": "6 Feb 2024",
+          "button": {
+            "title": "Read More",
+            "href": "https://dubainewsweek.com/citi-developers-experience-centre-aveline-residences"
+          }
+        }
+      ]
+    },
+    "apartmentsCards": {
+      "title": "Discover More About Our {{Aveline}}",
+      "cards": [
+        {
+          "image": {
+            "src": "/images/aveline/Lobby/image_2.webp",
+            "alt": "banner",
+            "width": 4000,
+            "height": 3479
+          },
+          "button": {
+            "href": "/projects/aveline",
+            "title": "Aveline"
+          }
+        },
+        {
+          "image": {
+            "src": "/images/aveline/Apartment/STUDIO APARTMENT/01.jpg",
+            "alt": "STUDIO APARTMENT",
+            "width": 2800,
+            "height": 2333
+          },
+          "button": {
+            "href": "/projects/aveline/studio-apartment",
+            "title": "Studio"
+          }
+        },
+        {
+          "image": {
+            "src": "/images/aveline/Apartment/1 BEDROOM APARTMENT/LIVING ROOM/3.jpg",
+            "alt": "1 BEDROOM APARTMENT",
+            "width": 2639,
+            "height": 2200
+          },
+          "button": {
+            "href": "/projects/aveline/one-bedroom-apartment",
+            "title": "1 Bedroom"
+          }
+        },
+        {
+          "image": {
+            "src": "/images/aveline/Apartment/2 BEDROOM APARTMENT/LIVING ROOM/3.jpg",
+            "alt": "2 BEDROOM APARTMENT",
+            "width": 2602,
+            "height": 2546
+          },
+          "button": {
+            "href": "/projects/aveline/two-bedroom-apartment",
+            "title": "2 Bedroom"
+          }
+        },
+        {
+          "image": {
+            "src": "/images/aveline/Apartment/3 BEDROOM APARTMENT/Living Room/1_View02_Post.jpg",
+            "alt": "3 BEDROOM APARTMENT",
+            "width": 2667,
+            "height": 2000
+          },
+          "button": {
+            "href": "/projects/aveline/three-bedroom-apartment",
+            "title": "3 Bedroom"
+          }
+        }
+      ]
+    },
+    "countrieslist": [
+      {
+        "value": "AF",
+        "label": "Afghanistan"
+      },
+      {
+        "value": "AX",
+        "label": "Åland Islands"
+      },
+      {
+        "value": "AL",
+        "label": "Albania"
+      },
+      {
+        "value": "DZ",
+        "label": "Algeria"
+      },
+      {
+        "value": "AS",
+        "label": "American Samoa"
+      },
+      {
+        "value": "AD",
+        "label": "Andorra"
+      },
+      {
+        "value": "AO",
+        "label": "Angola"
+      },
+      {
+        "value": "AI",
+        "label": "Anguilla"
+      },
+      {
+        "value": "AQ",
+        "label": "Antarctica"
+      },
+      {
+        "value": "AG",
+        "label": "Antigua and Barbuda"
+      },
+      {
+        "value": "AR",
+        "label": "Argentina"
+      },
+      {
+        "value": "AM",
+        "label": "Armenia"
+      },
+      {
+        "value": "AW",
+        "label": "Aruba"
+      },
+      {
+        "value": "AU",
+        "label": "Australia"
+      },
+      {
+        "value": "AT",
+        "label": "Austria"
+      },
+      {
+        "value": "AZ",
+        "label": "Azerbaijan"
+      },
+      {
+        "value": "BS",
+        "label": "Bahamas"
+      },
+      {
+        "value": "BH",
+        "label": "Bahrain"
+      },
+      {
+        "value": "BD",
+        "label": "Bangladesh"
+      },
+      {
+        "value": "BB",
+        "label": "Barbados"
+      },
+      {
+        "value": "BY",
+        "label": "Belarus"
+      },
+      {
+        "value": "BE",
+        "label": "Belgium"
+      },
+      {
+        "value": "BZ",
+        "label": "Belize"
+      },
+      {
+        "value": "BJ",
+        "label": "Benin"
+      },
+      {
+        "value": "BM",
+        "label": "Bermuda"
+      },
+      {
+        "value": "BT",
+        "label": "Bhutan"
+      },
+      {
+        "value": "BO",
+        "label": "Bolivia, Plurinational State of"
+      },
+      {
+        "value": "BQ",
+        "label": "Bonaire, Sint Eustatius and Saba"
+      },
+      {
+        "value": "BA",
+        "label": "Bosnia and Herzegovina"
+      },
+      {
+        "value": "BW",
+        "label": "Botswana"
+      },
+      {
+        "value": "BV",
+        "label": "Bouvet Island"
+      },
+      {
+        "value": "BR",
+        "label": "Brazil"
+      },
+      {
+        "value": "IO",
+        "label": "British Indian Ocean Territory"
+      },
+      {
+        "value": "BN",
+        "label": "Brunei Darussalam"
+      },
+      {
+        "value": "BG",
+        "label": "Bulgaria"
+      },
+      {
+        "value": "BF",
+        "label": "Burkina Faso"
+      },
+      {
+        "value": "BI",
+        "label": "Burundi"
+      },
+      {
+        "value": "KH",
+        "label": "Cambodia"
+      },
+      {
+        "value": "CM",
+        "label": "Cameroon"
+      },
+      {
+        "value": "CA",
+        "label": "Canada"
+      },
+      {
+        "value": "CV",
+        "label": "Cape Verde"
+      },
+      {
+        "value": "KY",
+        "label": "Cayman Islands"
+      },
+      {
+        "value": "CF",
+        "label": "Central African Republic"
+      },
+      {
+        "value": "TD",
+        "label": "Chad"
+      },
+      {
+        "value": "CL",
+        "label": "Chile"
+      },
+      {
+        "value": "CN",
+        "label": "China"
+      },
+      {
+        "value": "CX",
+        "label": "Christmas Island"
+      },
+      {
+        "value": "CC",
+        "label": "Cocos (Keeling) Islands"
+      },
+      {
+        "value": "CO",
+        "label": "Colombia"
+      },
+      {
+        "value": "KM",
+        "label": "Comoros"
+      },
+      {
+        "value": "CG",
+        "label": "Congo"
+      },
+      {
+        "value": "CD",
+        "label": "Congo, the Democratic Republic of the"
+      },
+      {
+        "value": "CK",
+        "label": "Cook Islands"
+      },
+      {
+        "value": "CR",
+        "label": "Costa Rica"
+      },
+      {
+        "value": "CI",
+        "label": "Côte d'Ivoire"
+      },
+      {
+        "value": "HR",
+        "label": "Croatia"
+      },
+      {
+        "value": "CU",
+        "label": "Cuba"
+      },
+      {
+        "value": "CW",
+        "label": "Curaçao"
+      },
+      {
+        "value": "CY",
+        "label": "Cyprus"
+      },
+      {
+        "value": "CZ",
+        "label": "Czech Republic"
+      },
+      {
+        "value": "DK",
+        "label": "Denmark"
+      },
+      {
+        "value": "DJ",
+        "label": "Djibouti"
+      },
+      {
+        "value": "DM",
+        "label": "Dominica"
+      },
+      {
+        "value": "DO",
+        "label": "Dominican Republic"
+      },
+      {
+        "value": "EC",
+        "label": "Ecuador"
+      },
+      {
+        "value": "EG",
+        "label": "Egypt"
+      },
+      {
+        "value": "SV",
+        "label": "El Salvador"
+      },
+      {
+        "value": "GQ",
+        "label": "Equatorial Guinea"
+      },
+      {
+        "value": "ER",
+        "label": "Eritrea"
+      },
+      {
+        "value": "EE",
+        "label": "Estonia"
+      },
+      {
+        "value": "ET",
+        "label": "Ethiopia"
+      },
+      {
+        "value": "FK",
+        "label": "Falkland Islands (Malvinas)"
+      },
+      {
+        "value": "FO",
+        "label": "Faroe Islands"
+      },
+      {
+        "value": "FJ",
+        "label": "Fiji"
+      },
+      {
+        "value": "FI",
+        "label": "Finland"
+      },
+      {
+        "value": "FR",
+        "label": "France"
+      },
+      {
+        "value": "GF",
+        "label": "French Guiana"
+      },
+      {
+        "value": "PF",
+        "label": "French Polynesia"
+      },
+      {
+        "value": "TF",
+        "label": "French Southern Territories"
+      },
+      {
+        "value": "GA",
+        "label": "Gabon"
+      },
+      {
+        "value": "GM",
+        "label": "Gambia"
+      },
+      {
+        "value": "GE",
+        "label": "Georgia"
+      },
+      {
+        "value": "DE",
+        "label": "Germany"
+      },
+      {
+        "value": "GH",
+        "label": "Ghana"
+      },
+      {
+        "value": "GI",
+        "label": "Gibraltar"
+      },
+      {
+        "value": "GR",
+        "label": "Greece"
+      },
+      {
+        "value": "GL",
+        "label": "Greenland"
+      },
+      {
+        "value": "GD",
+        "label": "Grenada"
+      },
+      {
+        "value": "GP",
+        "label": "Guadeloupe"
+      },
+      {
+        "value": "GU",
+        "label": "Guam"
+      },
+      {
+        "value": "GT",
+        "label": "Guatemala"
+      },
+      {
+        "value": "GG",
+        "label": "Guernsey"
+      },
+      {
+        "value": "GN",
+        "label": "Guinea"
+      },
+      {
+        "value": "GW",
+        "label": "Guinea-Bissau"
+      },
+      {
+        "value": "GY",
+        "label": "Guyana"
+      },
+      {
+        "value": "HT",
+        "label": "Haiti"
+      },
+      {
+        "value": "HM",
+        "label": "Heard Island and McDonald Mcdonald Islands"
+      },
+      {
+        "value": "VA",
+        "label": "Holy See (Vatican City State)"
+      },
+      {
+        "value": "HN",
+        "label": "Honduras"
+      },
+      {
+        "value": "HK",
+        "label": "Hong Kong"
+      },
+      {
+        "value": "HU",
+        "label": "Hungary"
+      },
+      {
+        "value": "IS",
+        "label": "Iceland"
+      },
+      {
+        "value": "IN",
+        "label": "India"
+      },
+      {
+        "value": "ID",
+        "label": "Indonesia"
+      },
+      {
+        "value": "IR",
+        "label": "Iran, Islamic Republic of"
+      },
+      {
+        "value": "IQ",
+        "label": "Iraq"
+      },
+      {
+        "value": "IE",
+        "label": "Ireland"
+      },
+      {
+        "value": "IM",
+        "label": "Isle of Man"
+      },
+      {
+        "value": "IL",
+        "label": "Israel"
+      },
+      {
+        "value": "IT",
+        "label": "Italy"
+      },
+      {
+        "value": "JM",
+        "label": "Jamaica"
+      },
+      {
+        "value": "JP",
+        "label": "Japan"
+      },
+      {
+        "value": "JE",
+        "label": "Jersey"
+      },
+      {
+        "value": "JO",
+        "label": "Jordan"
+      },
+      {
+        "value": "KZ",
+        "label": "Kazakhstan"
+      },
+      {
+        "value": "KE",
+        "label": "Kenya"
+      },
+      {
+        "value": "KI",
+        "label": "Kiribati"
+      },
+      {
+        "value": "KP",
+        "label": "Korea, Democratic People's Republic of"
+      },
+      {
+        "value": "KR",
+        "label": "Korea, Republic of"
+      },
+      {
+        "value": "KW",
+        "label": "Kuwait"
+      },
+      {
+        "value": "KG",
+        "label": "Kyrgyzstan"
+      },
+      {
+        "value": "LA",
+        "label": "Lao People's Democratic Republic"
+      },
+      {
+        "value": "LV",
+        "label": "Latvia"
+      },
+      {
+        "value": "LB",
+        "label": "Lebanon"
+      },
+      {
+        "value": "LS",
+        "label": "Lesotho"
+      },
+      {
+        "value": "LR",
+        "label": "Liberia"
+      },
+      {
+        "value": "LY",
+        "label": "Libya"
+      },
+      {
+        "value": "LI",
+        "label": "Liechtenstein"
+      },
+      {
+        "value": "LT",
+        "label": "Lithuania"
+      },
+      {
+        "value": "LU",
+        "label": "Luxembourg"
+      },
+      {
+        "value": "MO",
+        "label": "Macao"
+      },
+      {
+        "value": "MK",
+        "label": "Macedonia, the Former Yugoslav Republic of"
+      },
+      {
+        "value": "MG",
+        "label": "Madagascar"
+      },
+      {
+        "value": "MW",
+        "label": "Malawi"
+      },
+      {
+        "value": "MY",
+        "label": "Malaysia"
+      },
+      {
+        "value": "MV",
+        "label": "Maldives"
+      },
+      {
+        "value": "ML",
+        "label": "Mali"
+      },
+      {
+        "value": "MT",
+        "label": "Malta"
+      },
+      {
+        "value": "MH",
+        "label": "Marshall Islands"
+      },
+      {
+        "value": "MQ",
+        "label": "Martinique"
+      },
+      {
+        "value": "MR",
+        "label": "Mauritania"
+      },
+      {
+        "value": "MU",
+        "label": "Mauritius"
+      },
+      {
+        "value": "YT",
+        "label": "Mayotte"
+      },
+      {
+        "value": "MX",
+        "label": "Mexico"
+      },
+      {
+        "value": "FM",
+        "label": "Micronesia, Federated States of"
+      },
+      {
+        "value": "MD",
+        "label": "Moldova, Republic of"
+      },
+      {
+        "value": "MC",
+        "label": "Monaco"
+      },
+      {
+        "value": "MN",
+        "label": "Mongolia"
+      },
+      {
+        "value": "ME",
+        "label": "Montenegro"
+      },
+      {
+        "value": "MS",
+        "label": "Montserrat"
+      },
+      {
+        "value": "MA",
+        "label": "Morocco"
+      },
+      {
+        "value": "MZ",
+        "label": "Mozambique"
+      },
+      {
+        "value": "MM",
+        "label": "Myanmar"
+      },
+      {
+        "value": "NA",
+        "label": "Namibia"
+      },
+      {
+        "value": "NR",
+        "label": "Nauru"
+      },
+      {
+        "value": "NP",
+        "label": "Nepal"
+      },
+      {
+        "value": "NL",
+        "label": "Netherlands"
+      },
+      {
+        "value": "NC",
+        "label": "New Caledonia"
+      },
+      {
+        "value": "NZ",
+        "label": "New Zealand"
+      },
+      {
+        "value": "NI",
+        "label": "Nicaragua"
+      },
+      {
+        "value": "NE",
+        "label": "Niger"
+      },
+      {
+        "value": "NG",
+        "label": "Nigeria"
+      },
+      {
+        "value": "NU",
+        "label": "Niue"
+      },
+      {
+        "value": "NF",
+        "label": "Norfolk Island"
+      },
+      {
+        "value": "MP",
+        "label": "Northern Mariana Islands"
+      },
+      {
+        "value": "NO",
+        "label": "Norway"
+      },
+      {
+        "value": "OM",
+        "label": "Oman"
+      },
+      {
+        "value": "PK",
+        "label": "Pakistan"
+      },
+      {
+        "value": "PW",
+        "label": "Palau"
+      },
+      {
+        "value": "PS",
+        "label": "Palestine, State of"
+      },
+      {
+        "value": "PA",
+        "label": "Panama"
+      },
+      {
+        "value": "PG",
+        "label": "Papua New Guinea"
+      },
+      {
+        "value": "PY",
+        "label": "Paraguay"
+      },
+      {
+        "value": "PE",
+        "label": "Peru"
+      },
+      {
+        "value": "PH",
+        "label": "Philippines"
+      },
+      {
+        "value": "PN",
+        "label": "Pitcairn"
+      },
+      {
+        "value": "PL",
+        "label": "Poland"
+      },
+      {
+        "value": "PT",
+        "label": "Portugal"
+      },
+      {
+        "value": "PR",
+        "label": "Puerto Rico"
+      },
+      {
+        "value": "QA",
+        "label": "Qatar"
+      },
+      {
+        "value": "RE",
+        "label": "Réunion"
+      },
+      {
+        "value": "RO",
+        "label": "Romania"
+      },
+      {
+        "value": "RU",
+        "label": "Russian Federation"
+      },
+      {
+        "value": "RW",
+        "label": "Rwanda"
+      },
+      {
+        "value": "BL",
+        "label": "Saint Barthélemy"
+      },
+      {
+        "value": "SH",
+        "label": "Saint Helena, Ascension and Tristan da Cunha"
+      },
+      {
+        "value": "KN",
+        "label": "Saint Kitts and Nevis"
+      },
+      {
+        "value": "LC",
+        "label": "Saint Lucia"
+      },
+      {
+        "value": "MF",
+        "label": "Saint Martin (French part)"
+      },
+      {
+        "value": "PM",
+        "label": "Saint Pierre and Miquelon"
+      },
+      {
+        "value": "VC",
+        "label": "Saint Vincent and the Grenadines"
+      },
+      {
+        "value": "WS",
+        "label": "Samoa"
+      },
+      {
+        "value": "SM",
+        "label": "San Marino"
+      },
+      {
+        "value": "ST",
+        "label": "Sao Tome and Principe"
+      },
+      {
+        "value": "SA",
+        "label": "Saudi Arabia"
+      },
+      {
+        "value": "SN",
+        "label": "Senegal"
+      },
+      {
+        "value": "RS",
+        "label": "Serbia"
+      },
+      {
+        "value": "SC",
+        "label": "Seychelles"
+      },
+      {
+        "value": "SL",
+        "label": "Sierra Leone"
+      },
+      {
+        "value": "SG",
+        "label": "Singapore"
+      },
+      {
+        "value": "SX",
+        "label": "Sint Maarten (Dutch part)"
+      },
+      {
+        "value": "SK",
+        "label": "Slovakia"
+      },
+      {
+        "value": "SI",
+        "label": "Slovenia"
+      },
+      {
+        "value": "SB",
+        "label": "Solomon Islands"
+      },
+      {
+        "value": "SO",
+        "label": "Somalia"
+      },
+      {
+        "value": "ZA",
+        "label": "South Africa"
+      },
+      {
+        "value": "GS",
+        "label": "South Georgia and the South Sandwich Islands"
+      },
+      {
+        "value": "SS",
+        "label": "South Sudan"
+      },
+      {
+        "value": "ES",
+        "label": "Spain"
+      },
+      {
+        "value": "LK",
+        "label": "Sri Lanka"
+      },
+      {
+        "value": "SD",
+        "label": "Sudan"
+      },
+      {
+        "value": "SR",
+        "label": "Suriname"
+      },
+      {
+        "value": "SJ",
+        "label": "Svalbard and Jan Mayen"
+      },
+      {
+        "value": "SZ",
+        "label": "Swaziland"
+      },
+      {
+        "value": "SE",
+        "label": "Sweden"
+      },
+      {
+        "value": "CH",
+        "label": "Switzerland"
+      },
+      {
+        "value": "SY",
+        "label": "Syrian Arab Republic"
+      },
+      {
+        "value": "TW",
+        "label": "Taiwan, Province of China"
+      },
+      {
+        "value": "TJ",
+        "label": "Tajikistan"
+      },
+      {
+        "value": "TZ",
+        "label": "Tanzania, United Republic of"
+      },
+      {
+        "value": "TH",
+        "label": "Thailand"
+      },
+      {
+        "value": "TL",
+        "label": "Timor-Leste"
+      },
+      {
+        "value": "TG",
+        "label": "Togo"
+      },
+      {
+        "value": "TK",
+        "label": "Tokelau"
+      },
+      {
+        "value": "TO",
+        "label": "Tonga"
+      },
+      {
+        "value": "TT",
+        "label": "Trinidad and Tobago"
+      },
+      {
+        "value": "TN",
+        "label": "Tunisia"
+      },
+      {
+        "value": "TR",
+        "label": "Turkey"
+      },
+      {
+        "value": "TM",
+        "label": "Turkmenistan"
+      },
+      {
+        "value": "TC",
+        "label": "Turks and Caicos Islands"
+      },
+      {
+        "value": "TV",
+        "label": "Tuvalu"
+      },
+      {
+        "value": "UG",
+        "label": "Uganda"
+      },
+      {
+        "value": "UA",
+        "label": "Ukraine"
+      },
+      {
+        "value": "AE",
+        "label": "United Arab Emirates"
+      },
+      {
+        "value": "GB",
+        "label": "United Kingdom"
+      },
+      {
+        "value": "US",
+        "label": "United States"
+      },
+      {
+        "value": "UM",
+        "label": "United States Minor Outlying Islands"
+      },
+      {
+        "value": "UY",
+        "label": "Uruguay"
+      },
+      {
+        "value": "UZ",
+        "label": "Uzbekistan"
+      },
+      {
+        "value": "VU",
+        "label": "Vanuatu"
+      },
+      {
+        "value": "VE",
+        "label": "Venezuela, Bolivarian Republic of"
+      },
+      {
+        "value": "VN",
+        "label": "Viet Nam"
+      },
+      {
+        "value": "VG",
+        "label": "Virgin Islands, British"
+      },
+      {
+        "value": "VI",
+        "label": "Virgin Islands, U.S."
+      },
+      {
+        "value": "WF",
+        "label": "Wallis and Futuna"
+      },
+      {
+        "value": "EH",
+        "label": "Western Sahara"
+      },
+      {
+        "value": "YE",
+        "label": "Yemen"
+      },
+      {
+        "value": "ZM",
+        "label": "Zambia"
+      },
+      {
+        "value": "ZW",
+        "label": "Zimbabwe"
+      }
+    ],
+    "errorMessages": {
+      "email": "Email is invalid",
+      "minLength": "Min. 2 char."
+    }
+  }
+}
