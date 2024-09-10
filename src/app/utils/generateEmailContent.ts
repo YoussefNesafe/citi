@@ -8,8 +8,8 @@ const CONTACT_MESSAGE_FIELDS = {
   ContactMode: "Contact mode",
   phone: "Phone",
   message: "Message",
-  userOrAgent:"",
-salesOrMarketing:"",
+  userOrAgent:"User Or Agent",
+salesOrMarketing:"Sales Or Marketing",
 }
 
 

@@ -22,7 +22,7 @@ const TabsTour360Section = ({ tabs, className, ...props }: AdditionalProps & { t
           </div>)
         }
       </div>
-      <div className='w-full flex flex-wrap justify-between gap-[4.66vw] tablet:gap-[2.5vw] desktop:gap-[2.708vw] tablet:justify-between'>
+      <div className='w-full flex flex-wrap gap-[4.66vw] tablet:gap-[2.5vw] desktop:gap-[2.5vw] '>
         {
           activeCards ? activeCards?.map((card, index) => <PhotoCard key={index + "-photoCard"} {...card} target="_blank" />) : <div className='text-center text-[5.592vw] tablet:text-[4vw] desktop:text-[2.6vw] w-full'>Coming Soon...</div>
         }

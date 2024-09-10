@@ -1,6 +1,6 @@
 import { ContactUsFormRequestProps } from "@/models/IDictionary/FormsRequests";
 
-export const ContactUsEmailTemplate = ({fullName,email, phone,contactMode,country,message} : ContactUsFormRequestProps) => `
+export const ContactUsEmailTemplate = ({fullName,email, phone,contactMode,country,message,userOrAgent} : ContactUsFormRequestProps) => `
 
 <!DOCTYPE html>
 <html lang="en">
@@ -11,24 +11,22 @@ export const ContactUsEmailTemplate = ({fullName,email, phone,contactMode,countr
   <title>Document</title>
   <style>
     .container {
-      width: 90%;
-      margin: auto;
+      width: 100%;
     }
-
-    .wrapper {
-      display: flex;
+      .wrapper {
+      display:flex;
       align-items: center;
-      justify-content: center;
-    }
-
-    .h1 {
-      font-size: 1.225rem;
-      margin-right: 1rem;
+      margin: 0;
+      }
+    .title {
+      font-size: 1rem;
+      font-weight: bold;
       color: #B18F5D;
+      margin-right:0.5rem;
     }
 
     .p {
-      font-size: 1rem;
+      font-size: 0.875;
     }
   </style>
 </head>
@@ -36,26 +34,30 @@ export const ContactUsEmailTemplate = ({fullName,email, phone,contactMode,countr
 <body>
   <div class="container">
     <div class="wrapper">
-      <h1 class="h1">Name:</h1>
+      <div class="title">Name:</div>
       <p class="p">${fullName}</p>
     </div>
     <div class="wrapper">
-      <h1 class="h1">Email:</h1>
+      <div class="title">Email:</div>
       <p class="p">${email}</p>
     </div>
     <div class="wrapper">
-      <h1 class="h1">phone:</h1>
+      <div class="title">phone:</div>
       <p class="p">${phone}</p>
     </div>
     <div class="wrapper">
-      <h1 class="h1">Prefered Contact Mode:</h1>
+      <div class="title">Prefered Contact Mode:</div>
       <p class="p">${contactMode}</p>
     </div>
     <div class="wrapper">
-      <h1 class="h1">Country:</h1>
+      <div class="title">Client:</div>
+      <p class="p">${userOrAgent === 'client' ? 'Individual client' : 'Agent'}</p>
+    </div>
+    <div class="wrapper">
+      <div class="title">Country:</div>
       <p class="p">${country}</p>
     </div>
-    <h1 class="h1">Message:</h1>
+    <div class="title">Message:</div>
     <p class="p">${message}</p>
   </div>
 </body>
