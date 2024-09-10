@@ -2,8 +2,7 @@ import { ButtonProps } from "@/app/_components/Button/button-types";
 import { CardProps } from "@/app/_components/Card/types";
 import { IMAGES_MAP_TYPE } from "@/constants/aveline_images_maps";
 import { ImageProps } from "next/image";
-import { LinkProps } from "next/link";
-import { AnchorHTMLAttributes, HTMLAttributeAnchorTarget, HTMLAttributes, ReactElement } from "react";
+import { HTMLAttributeAnchorTarget, HTMLAttributes, ReactElement } from "react";
 export type AdditionalProps = HTMLAttributes<HTMLElement>
 
 export type SectionHeaderProps = AdditionalProps & {
@@ -75,3 +74,12 @@ export type ApartmentsCardsType = AdditionalProps & {
 
 
 export type PhotoCardType = AdditionalProps & { image: ImageProps; button: ButtonProps,target?:HTMLAttributeAnchorTarget }
+
+
+export type AlluraPopUpType = {
+  slogan: string;
+  soon: string;
+  button: ButtonProps;
+  detailsCards: { title: string; description: string }[]
+
+}

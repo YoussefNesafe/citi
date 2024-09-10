@@ -29,7 +29,6 @@ export type LayoutProps = {
   navbar: Omit<NavbarProps, 'links'>
   pagesLinks:PageLinkProps[];
   footer: Omit<FooterProps, 'links'>;
-  alluraPopUp: AlluraPopUpType;
 }
 
 // Nabar Type
@@ -62,13 +61,4 @@ export type SocialMediaLinkProps = {href: string; icon: string;}
 export type WhereToGoNextCardProps = {
   button: ButtonProps;
   image: ImageProps;
-}
-
-
-export type AlluraPopUpType = {
-  slogan: string;
-  soon: string;
-  button: ButtonProps;
-  detailsCards: { title: string; description: string }[]
-
 }

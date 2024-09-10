@@ -171,28 +171,6 @@
         "title": "Contact us"
       },
       "copyRights": "© 2010 CITI DEVELOPERS. All Rights Reserved"
-    },
-    "alluraPopUp": {
-      "slogan": "crafting elegance in living",
-      "soon": "Launching {{Soon}}",
-      "button": {
-        "title": "register now",
-        "href": "/"
-      },
-      "detailsCards": [
-        {
-          "title": "Starting From:",
-          "description": "AED 619,000"
-        },
-        {
-          "title": "{{50/50}}",
-          "description": "{{Payment Plan}}"
-        },
-        {
-          "title": "Register Your EOI With:",
-          "description": "AED 25,000"
-        }
-      ]
     }
   },
   "notFoundPage": {
@@ -3218,6 +3196,28 @@
     "errorMessages": {
       "email": "Email is invalid",
       "minLength": "Min. 2 char."
+    },
+    "alluraPopUp": {
+      "slogan": "crafting elegance in living",
+      "soon": "Launching {{Soon}}",
+      "button": {
+        "title": "register now",
+        "href": "/"
+      },
+      "detailsCards": [
+        {
+          "title": "Starting From:",
+          "description": "AED 619,000"
+        },
+        {
+          "title": "{{50/50}}",
+          "description": "{{Payment Plan}}"
+        },
+        {
+          "title": "Register Your EOI With:",
+          "description": "AED 25,000"
+        }
+      ]
     }
   }
 }

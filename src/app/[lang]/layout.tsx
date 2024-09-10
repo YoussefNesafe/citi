@@ -14,7 +14,6 @@ import { useGSAP } from "@gsap/react";
 import { isRtlLang } from "../utils/isRtlLang";
 import { getLangDir } from "../utils/getLangDir";
 import Footer from "../_components/Footer";
-import AlluraPopUpSection from "../_sections/shared/AlluraPopUpSection";
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother, useGSAP)
 
 const PlayfairDisplay = Playfair_Display({
@@ -44,7 +43,7 @@ export default async function RootLayout({
   params: { lang: Locale };
 }>) {
   setDictionaries(getDictionaries());
-  const { internetConnection, navbar, pagesLinks, footer, alluraPopUp } = await getLocalizedData<LayoutProps>(lang, 'layout');
+  const { internetConnection, navbar, pagesLinks, footer } = await getLocalizedData<LayoutProps>(lang, 'layout');
   const fontFamilyVariable = isRtlLang(lang) ? cairoFont.variable : PlayfairDisplay.className;
   return (
     <html lang={lang} dir={getLangDir(lang)} className={fontFamilyVariable}>
@@ -59,7 +58,6 @@ export default async function RootLayout({
           {children}
         </main>
         <Footer {...footer} links={pagesLinks} />
-        <AlluraPopUpSection {...alluraPopUp} />
       </body>
     </html>
   );

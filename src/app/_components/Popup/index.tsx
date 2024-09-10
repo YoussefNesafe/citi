@@ -10,7 +10,7 @@ const Popup = ({ children }: { children: ReactNode }) => {
     <Suspense>
       <Dialog defaultOpen >
         <DialogTitle hidden />
-        <DialogContent className='bg-linear-popup w-auto h-auto text-white p-[4.66vw] tablet:p-[3.75vw] desktop:p-[3.12vw]'>
+        <DialogContent className='border-0 tablet:border-0 desktop:border-0 bg-linear-popup w-auto h-auto text-white p-[4.66vw] tablet:p-[3.75vw] desktop:p-[3.12vw]'>
           {children}
         </DialogContent>
       </Dialog>

@@ -1,9 +1,9 @@
 import Button from "@/app/_components/Button";
 import Popup from "@/app/_components/Popup";
 import { getHighlightedText } from "@/hooks/getHighlightedText";
+import { AlluraPopUpType } from "@/models/IDictionary/SharedProps";
 import { sanitize } from "isomorphic-dompurify";
 import Image from "next/image";
-import { AlluraPopUpType } from "@/models/IDictionary/Layout";
 
 
 
@@ -20,6 +20,7 @@ const AlluraPopUpSection = async ({ button, detailsCards, slogan, soon }: Allura
   })
   return (
     <Popup>
+      <Image src='/images/allura/allura-popup-bg.png' alt="allura-popup-bg" width={1780} height={898} className="absolute top-0 left-0 object-fill w-full h-full" />
       <div className="text-center text-white flex flex-col gap-[3.262vw] tablet:gap-[1.75vw] desktop:gap-[1.144vw] items-center justify-center w-[82vw] tablet:w-[80vw] desktop:w-[55vw]">
         <Image src='/images/allura/allura-logo.png' alt="Allura" width={749} height={269} className="h-auto w-[69.9vw] tablet:w-[50vw] desktop:w-[38.948vw] object-cover" />
         <div className="text-primary-900 text-[3.262vw] tablet:text-[2.5vw] desktop:text-[1.04vw] font-sans capitalize font-medium">{slogan}</div>

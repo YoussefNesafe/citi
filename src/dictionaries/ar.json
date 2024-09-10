@@ -171,28 +171,6 @@
         "title": "Contact us"
       },
       "copyRights": "© 2010 CITI DEVELOPERS. All Rights Reserved"
-    },
-    "alluraPopUp": {
-      "slogan": "crafting elegance in living",
-      "soon": "Launching {{Soon}}",
-      "button": {
-        "title": "register now",
-        "href": "/"
-      },
-      "detailsCards": [
-        {
-          "title": "Starting From:",
-          "description": "AED 619,000"
-        },
-        {
-          "title": "{{50/50}}",
-          "description": "{{Payment Plan}}"
-        },
-        {
-          "title": "Register Your EOI With:",
-          "description": "AED 25,000"
-        }
-      ]
     }
   },
   "notFoundPage": {
@@ -2033,7 +2011,7 @@
             "button": {
               "title": "13Th Floor",
               "href": "https://dukerenders.viewin360.co/share/collection/7XRPf?logo=bWVkaWEvMjAxMDQzLzY1YWUtYzAyMS03ZDRhLTAxMzgucG5n&info=0&fs=1&vr=1&initload=0&autorotate=0&thumbs=1"
-            } 
+            }
           },
           {
             "image": {
@@ -2056,7 +2034,7 @@
             },
             "button": {
               "title": "1 Bedroom",
-              "href":"https://dukerenders.viewin360.co/share/collection/7XRZ7?logo=bWVkaWEvMjAxMDQzLzY1YWUtYzAyMS03ZDRhLTAxMzgucG5n&info=1&fs=1&vr=1&sd=1&thumbs=1"
+              "href": "https://dukerenders.viewin360.co/share/collection/7XRZ7?logo=bWVkaWEvMjAxMDQzLzY1YWUtYzAyMS03ZDRhLTAxMzgucG5n&info=1&fs=1&vr=1&sd=1&thumbs=1"
             }
           },
           {
@@ -2068,7 +2046,7 @@
             },
             "button": {
               "title": "11Th Floor",
-              "href":"https://dukerenders.viewin360.co/share/collection/7X3Qf?logo=bWVkaWEvMjAxMDQzLzY1YWUtYzAyMS03ZDRhLTAxMzgucG5n&info=0&fs=1&vr=1&initload=0&autorotate=0&thumbs=1"
+              "href": "https://dukerenders.viewin360.co/share/collection/7X3Qf?logo=bWVkaWEvMjAxMDQzLzY1YWUtYzAyMS03ZDRhLTAxMzgucG5n&info=0&fs=1&vr=1&initload=0&autorotate=0&thumbs=1"
             }
           }
         ]
@@ -3218,6 +3196,28 @@
     "errorMessages": {
       "email": "Email is invalid",
       "minLength": "Min. 2 char."
+    },
+    "alluraPopUp": {
+      "slogan": "crafting elegance in living",
+      "soon": "Launching {{Soon}}",
+      "button": {
+        "title": "register now",
+        "href": "/"
+      },
+      "detailsCards": [
+        {
+          "title": "Starting From:",
+          "description": "AED 619,000"
+        },
+        {
+          "title": "{{50/50}}",
+          "description": "{{Payment Plan}}"
+        },
+        {
+          "title": "Register Your EOI With:",
+          "description": "AED 25,000"
+        }
+      ]
     }
   }
 }

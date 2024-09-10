@@ -11,11 +11,12 @@ import { SharedSectionsProps } from "@/models/IDictionary";
 import AvelineSection from "../_sections/homepage/AvelineSection";
 import OurTeamSection from "../_sections/homepage/OurTeamSection";
 import { Suspense } from "react";
+import AlluraPopUpSection from "../_sections/shared/AlluraPopUpSection";
 
 
 export default async function Page({ params: { lang } }: { params: { lang: Locale } }) {
   const { banner, counterCards, whatMakesUsDifferent, avelineSection, visitExperienceCenter, ourJourney, ourTeam } = await getLocalizedData<HomePageProps>(lang, 'homePage');
-  const { latestNews } = await getLocalizedData<SharedSectionsProps>(lang, 'shared');
+  const { latestNews, alluraPopUp } = await getLocalizedData<SharedSectionsProps>(lang, 'shared');
 
   return (
     <>
@@ -29,6 +30,7 @@ export default async function Page({ params: { lang } }: { params: { lang: Local
         <OurTeamSection {...ourTeam} className="section-py" />
       </Suspense>
       <LatestNews {...latestNews} className="section-py" />
+      <AlluraPopUpSection {...alluraPopUp} />
     </>
   );
 }
