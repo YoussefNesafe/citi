@@ -20,9 +20,7 @@ export type BannerPortfolioType = AdditionalProps & {
 
 export type HighlightedImageType =ImageProps & {projectName: string, country: string}
 
-export type HighlightedImagesType = AdditionalProps &{
-  firstColumn: HighlightedImageType[];
-  secondColumn: HighlightedImageType[];
-  thirdColumn: HighlightedImageType[];
+export type HighlightedImagesType = AdditionalProps & {
+  highlightedImages: HighlightedImageType[];
 }
 

@@ -1,5 +1,7 @@
 "use client"
 import Button from '@/app/_components/Button'
+import { TABLET_BREAKPOINT } from '@/constants'
+import { useWindowSize } from '@/hooks/useWindowSize'
 import { cn } from '@/lib/utils'
 import { HighlightedImagesType, HighlightedImageType } from '@/models/IDictionary/AboutPages/Portfolio'
 import { useGSAP } from '@gsap/react'
@@ -7,9 +9,9 @@ import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { X } from 'lucide-react'
 import Image from 'next/image'
-import React, { useRef, useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 
-const ImageCard = ({ displayNumber, image, onHover }: { displayNumber: string | number; image: HighlightedImageType, onHover: (image: HighlightedImageType | null) => void }) => {
+const ImageCard = ({ displayNumber, image, onHover }: { displayNumber?: string | number; image: HighlightedImageType, onHover: (image: HighlightedImageType | null) => void }) => {
 
   const handleMouseClick = () => {
     document.body.style.overflow = 'hidden'
@@ -36,10 +38,22 @@ const ImageCard = ({ displayNumber, image, onHover }: { displayNumber: string | 
   )
 }
 
-const HighlightedImages = ({ firstColumn, secondColumn, thirdColumn, className, ...props }: HighlightedImagesType) => {
+const HighlightedImages = ({ highlightedImages, className, ...props }: HighlightedImagesType) => {
   const wrapperRef = useRef(null);
   const contentRef = useRef(null);
   const [hoveredImage, setHoveredImage] = useState<HighlightedImageType | null>(null);
+  const [imagesColumn, setImagesColumn] = useState<{
+    firstColumn: HighlightedImageType[];
+    secondColumn: HighlightedImageType[];
+    thirdColumn: HighlightedImageType[]
+  }>({
+    firstColumn: [],
+    secondColumn: [],
+    thirdColumn: []
+  })
+
+  const { width } = useWindowSize();
+  const isTabletAndDesktop = width >= TABLET_BREAKPOINT
 
   useGSAP(() => {
     const cards = gsap.utils.toArray('.card');
@@ -76,46 +90,82 @@ const HighlightedImages = ({ firstColumn, secondColumn, thirdColumn, className, 
     setHoveredImage(null)
   }
 
+  useEffect(() => {
+    const spliteImagesToThreeRows = () => {
+      let firstColumn: HighlightedImageType[] = [];
+      let secondColumn: HighlightedImageType[] = [];
+      let thirdColumn: HighlightedImageType[] = [];
+
+      highlightedImages.forEach((image, index) => {
+        if (index % 3 === 0) {
+          firstColumn.push(image); // Push images with index 0, 3, 6, etc. to firstColumn
+        } else if (index % 3 === 1) {
+          secondColumn.push(image); // Push images with index 1, 4, 7, etc. to secondColumn
+        } else if (index % 3 === 2) {
+          thirdColumn.push(image); // Push images with index 2, 5, 8, etc. to thirdColumn
+        }
+      });
+
+      setImagesColumn({
+        firstColumn,
+        secondColumn,
+        thirdColumn,
+      });
+    };
+
+    if (isTabletAndDesktop) { spliteImagesToThreeRows() };
+  }, [highlightedImages, isTabletAndDesktop]);
+
+
+  if (imagesColumn?.firstColumn.length === 0 && isTabletAndDesktop) return <></>
   return (
     <section className={cn('flex flex-col items-center', className)} ref={wrapperRef} {...props}>
       <div className='flex flex-col tablet:flex-row tablet:gap-[2.5vw] desktop:gap-[2.6vw]' ref={contentRef}>
-        <div className='w-full tablet:mt-[18.75vw] desktop:mt-[7.8vw]'>
-          {firstColumn?.map((image, index) => {
-            const displayNumber = num1 > 9 ? num1 : `0${num1}`;
-            num1 += 3;
+        {isTabletAndDesktop ? <>
+          <div className='w-full tablet:mt-[18.75vw] desktop:mt-[7.8vw]'>
+            {imagesColumn?.firstColumn?.map((image, index) => {
+              const displayNumber = num1 > 9 ? num1 : `0${num1}`;
+              num1 += 3;
+              return <ImageCard key={index + "-img"} displayNumber={displayNumber} image={image} onHover={setHoveredImage} />
+            })}
+          </div>
+          <div className='w-[0.466vw] hidden tablet:block bg-[#DFDFDF] tablet:mt-[18.75vw] desktop:mt-[7.8vw]' />
+          <div className='w-full'>{imagesColumn?.secondColumn?.map((image, index) => {
+            const displayNumber = num2 > 9 ? num2 : `0${num2}`;
+            num2 += 3;
             return <ImageCard key={index + "-img"} displayNumber={displayNumber} image={image} onHover={setHoveredImage} />
           })}
-        </div>
-        <div className='w-[0.466vw] hidden tablet:block bg-[#DFDFDF] tablet:mt-[18.75vw] desktop:mt-[7.8vw]' />
-        <div className='w-full'>{secondColumn?.map((image, index) => {
-          const displayNumber = num2 > 9 ? num2 : `0${num2}`;
-          num2 += 3;
-          return <ImageCard key={index + "-img"} displayNumber={displayNumber} image={image} onHover={setHoveredImage} />
-        })}
-        </div>
-        <div className='w-[0.466vw] hidden tablet:block  bg-[#DFDFDF] tablet:mt-[18.75vw] desktop:mt-[7.8vw]' />
-        <div className='w-full tablet:mt-[9.375vw] desktop:mt-[3.9vw]'>{thirdColumn?.map((image, index) => {
-          const displayNumber = num3 > 9 ? num3 : `0${num3}`;
-          num3 += 3;
-          return <ImageCard key={index + "-img"} displayNumber={displayNumber} image={image} onHover={setHoveredImage} />
-        })}
-        </div>
+          </div>
+          <div className='w-[0.466vw] hidden tablet:block  bg-[#DFDFDF] tablet:mt-[18.75vw] desktop:mt-[7.8vw]' />
+          <div className='w-full tablet:mt-[9.375vw] desktop:mt-[3.9vw]'>{imagesColumn?.thirdColumn?.map((image, index) => {
+            const displayNumber = num3 > 9 ? num3 : `0${num3}`;
+            num3 += 3;
+            return <ImageCard key={index + "-img"} displayNumber={displayNumber} image={image} onHover={setHoveredImage} />
+          })}
+          </div>
+
+        </> : <>
+          <div className='w-full tablet:mt-[18.75vw] desktop:mt-[7.8vw]'>
+            {highlightedImages.map((image, index) => <ImageCard key={index + "-img"} image={image} onHover={setHoveredImage} />)}
+          </div>
+        </>}
       </div>
 
       {hoveredImage && (
         <div className='fixed inset-0 flex justify-center items-center z-50 bg-black bg-opacity-80 transition-all duration-500' onClick={restHoveredImage}>
-          <div className='w-[88.54vw] tablet:w-[87.5vw] desktop:w-[62.4vw] border-[0.466vw] tablet:border-[0.375vw] desktop:border-[0.156vw]  border-white'>
+          <div className='w-[88.54vw] max-h-[95vh] tablet:w-[87.5vw] desktop:w-[62.4vw] border-[0.466vw] tablet:border-[0.375vw] desktop:border-[0.156vw]  border-white'>
             <X className='absolute -top-[2.33vw] -right-[2.33vw] tablet:-top-[2.5vw] tablet:-right-[2.5vw] desktop:-top-[1.04vw] desktop:-right-[1.04vw] rounded-full bg-primary-900 text-white border-[0.466vw] tablet:border-[0.375vw] desktop:border-[0.156vw] border-white z-[2] w-[4.66vw] h-[4.66vw] tablet:w-[5vw] tablet:h-[5vw] desktop:w-[2.08vw] desktop:h-[2.08vw] hover:cursor-pointer' onClick={restHoveredImage} />
             <Image
               {...hoveredImage}
               alt={hoveredImage.alt}
-              className='h-auto w-full object-cover '
+              className='max-h-[94vh] h-auto w-full object-cover '
               style={{ transition: 'transform 0.3s ease' }}
             />
           </div>
         </div>
-      )}
-    </section>
+      )
+      }
+    </section >
   )
 }
 

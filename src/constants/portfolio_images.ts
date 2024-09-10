@@ -1,6 +1,6 @@
 import { HighlightedImagesType } from "@/models/IDictionary/AboutPages/Portfolio";
 
-const DUBAI = [
+const highlightedImages = [
   {
     "projectName": "Allura",
     "country": "UAE",
@@ -84,6 +84,14 @@ const DUBAI = [
   {
     "projectName": "Aveline",
     "country": "UAE",
+    "src": "/images/aveline/Apartment/3 BEDROOM APARTMENT/Living Room/1_View01_Post.jpg",
+    "alt": "image",
+    "width": 2667,
+    "height": 2000
+  },
+  {
+    "projectName": "Aveline",
+    "country": "UAE",
     "src": "/images/aveline/Amenities/football_2.jpg",
     "alt": "image",
     "width": 3840,
@@ -97,10 +105,6 @@ const DUBAI = [
     "width": 3200,
     "height": 1778
   },
-];
-
-
-const UK = [
   {
     "projectName": "Eaton square",
     "country": "UK",
@@ -197,10 +201,6 @@ const UK = [
     "width": 1010,
     "height": 755
   },
-  
-]
-
-const PAKISTAN = [
   {
     "projectName": "Faisalabad sargodha",
     "country": "Pakistan",
@@ -224,14 +224,6 @@ const PAKISTAN = [
     "alt": "image",
     "width": 4000,
     "height": 2250
-  },
-  {
-    "projectName": "Gujranwala",
-    "country": "Pakistan",
-    "src": "/images/Pakistan Projects/gujranwala/2.jpg",
-    "alt": "image",
-    "width": 5472,
-    "height": 3648
   },
   {
     "projectName": "Gujranwala",
@@ -296,10 +288,10 @@ const PAKISTAN = [
     "alt": "image",
     "width": 5472,
     "height": 3648
-  },
-] 
+  }
+];
+
+
 export const PORTFOLIO_IMAGES = {
-  firstColumn:DUBAI,
-  secondColumn:UK,
-  thirdColumn:PAKISTAN
+  highlightedImages,
 } as HighlightedImagesType
