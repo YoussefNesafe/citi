@@ -8,7 +8,7 @@ import {
   DialogContent,
   DialogTrigger,
 } from "@/app/_components/ui/dialog"
-import Image from 'next/image'
+import ImageWrapper from '@/app/_components/ImageWrapper'
 import ArrowPlay from '@/app/_components/icons/ArrowPlay'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
@@ -51,7 +51,7 @@ const VisitExperienceCenterSection = ({ header, videoSrc, button, className, ...
       <SectionHeader className='opacity-0 translate-x-[70%] header text-center desktop:max-w-[59.8vw]' {...header} />
       <Dialog>
         <DialogTrigger className='border-white shadow-custom border-[1.864vw] tablet:border-[1vw] desktop:border-[0.416vw] relative rounded-[0.932vw] tablet:rounded-[0.5vw] desktop:rounded-[0.208vw] -translate-x-[70%] opacity-0 dialog-trigger'>
-          <Image src='/images/shared/vr-w.jpeg' width={1280} height={853} alt='citi_developer_buildding' className='w-full h-auto object-cover desktop:min-w-[61.204vw] desktop:h-[30.68vw] rounded-[0.932vw] tablet:rounded-[0.5vw] desktop:rounded-[0.208vw]' />
+          <ImageWrapper src='/images/shared/vr-w.jpeg' width={1280} height={853} alt='citi_developer_buildding' className='w-full h-auto object-cover desktop:min-w-[61.204vw] desktop:h-[30.68vw] rounded-[0.932vw] tablet:rounded-[0.5vw] desktop:rounded-[0.208vw]' />
           <PlayButtonIcon />
         </DialogTrigger>
         <DialogContent className='w-[93.2vw] tablet:w-[95vw] desktop:w-[55.484vw] h-[52.425vw] tablet:h-[53.125vw] desktop:h-[31.2vw]'>

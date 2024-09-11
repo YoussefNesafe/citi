@@ -1,7 +1,7 @@
 "use client"
 import { cn } from '@/lib/utils'
 import React, { HTMLAttributes } from 'react'
-import Image from 'next/image'
+import ImageWrapper from '@/app/_components/ImageWrapper'
 import { FooterProps } from '@/models/IDictionary/Layout'
 import Link from 'next/link'
 import Button from '../../Button'
@@ -72,7 +72,7 @@ const FooterLinks = ({ links, socialMediaLinks, contactUsButton, className }: Pr
   return (
     <div className={cn('flex flex-col gap-[9.32vw] tablet:gap-[5vw] desktop:gap-[4.316vw] py-[9.32vw] tablet:py-[5vw] desktop:py-[2.6vw]', className)}>
       <div className='flex flex-col gap-[4.66vw] tablet:gap-[2.5vw] desktop:gap-0 tablet:flex-row justify-between items-center'>
-        <Image src='/images/shared/logo-with-slogan.png' alt='logo' width={1862} height={554} className='w-full tablet:w-[30vw] desktop:w-[16.78vw] h-auto' />
+        <ImageWrapper src='/images/shared/logo-with-slogan.png' alt='logo' width={1862} height={554} className='w-full tablet:w-[30vw] desktop:w-[16.78vw] h-auto' />
         <SocialMediaLinks links={socialMediaLinks} />
       </div>
       {isDesktop && <DesktopLinks links={links} contactUsButton={contactUsButton} />}

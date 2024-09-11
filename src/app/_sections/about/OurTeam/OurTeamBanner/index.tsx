@@ -8,7 +8,7 @@ import { AdditionalProps } from '@/models/IDictionary/SharedProps'
 import { cn } from '@/lib/utils'
 import FloatingCardWithImage from '@/app/_sections/shared/FloatingCardWithImage'
 import { sanitize } from 'isomorphic-dompurify'
-import Image from 'next/image'
+import ImageWrapper from '@/app/_components/ImageWrapper'
 
 type Props = AdditionalProps & Pick<OurTeamPageType, 'CEOMessage' | 'header'>
 
@@ -27,7 +27,7 @@ const OurTeamBanner = ({ header, CEOMessage, className, ...props }: Props) => {
         <p className='text-[3.262vw] tablet:text-[2vw] desktop:text-[0.936vw] leading-[1.25]  text-white' dangerouslySetInnerHTML={{ __html: sanitize(CEOMessage.description) }} />
         <div className='flex justify-between items-center text-white'>
           <div className='text-[4.194vw] tablet:text-[2.5vw] desktop:text-[1.248vw] font-semibold'>{CEOMessage.ceoDetails.title}</div>
-          <Image {...CEOMessage.ceoDetails.name} alt={CEOMessage.ceoDetails.name.alt} className='w-[27.96vw] tablet:w-[17.625vw] desktop:w-[7.332vw] h-auto object-cover' />
+          <ImageWrapper {...CEOMessage.ceoDetails.name} alt={CEOMessage.ceoDetails.name.alt} className='w-[27.96vw] tablet:w-[17.625vw] desktop:w-[7.332vw] h-auto object-cover' />
         </div>
       </div>
     </div>

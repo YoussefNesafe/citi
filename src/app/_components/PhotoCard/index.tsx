@@ -1,11 +1,12 @@
-import Image, { ImageProps } from "next/image";
+import { ImageProps } from "next/image";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
 import { PhotoCardType } from "@/models/IDictionary/SharedProps";
+import ImageWrapper from "../ImageWrapper";
 
 const Content = ({ image, title }: { image: ImageProps; title: string }) => <>
   <div className='w-full h-[27.96vw] tablet:h-[12.5vw] desktop:h-[13vw] rounded-[0.932vw] tablet:rounded-[0.5vw] desktop:rounded-[0.208vw] overflow-hidden'>
-    <Image {...image} alt={image.alt} className='w-full h-full object-cover hover:scale-105 transition-all' />
+    <ImageWrapper {...image} alt={image.alt} className='w-full h-full object-cover hover:scale-105 transition-all' />
   </div>
   <p className='text-center pt-[2.33vw] tablet:pt-[1.875vw] desktop:py-[0.884vw] text-[3.728vw] tablet:text-[2.25vw] desktop:text-[1.248vw] font-sans'>{title}</p></>
 

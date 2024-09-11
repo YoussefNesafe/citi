@@ -4,7 +4,7 @@ import { NavbarProps } from '@/models/IDictionary/Layout'
 import usePathNameDetails from '@/hooks/usePathNameDetails'
 import Link from 'next/link'
 import GlobIcon from '../../icons/GlobIcon'
-import Image from 'next/image'
+import ImageWrapper from '@/app/_components/ImageWrapper'
 
 const LanguagesMenu = ({ languages }: Pick<NavbarProps, 'languages'>) => {
   const { lang } = usePathNameDetails();
@@ -25,7 +25,7 @@ const LanguagesMenu = ({ languages }: Pick<NavbarProps, 'languages'>) => {
               href={href}
               className='text-[3.262vw] tablet:text-[2vw] desktop:text-[0.936vw] font-medium py-[3.262vw] tablet:py-[1.75vw] desktop:py-[0.728vw] last-of-type:border-none border-b border-gray-450 transition-all duration-500 leading-[1.25] flex items-center gap-[1.631vw] tablet:gap-[0.875vw] desktop:gap-[0.364vw] navlink w-full ltr:justify-between'
             >
-              <Image src={`/images/flags/${value}.png`} alt={value} width={24} height={24} className='w-[5.592vw] tablet:w-[3vw] desktop:w-[1.248vw] h-[5.592vw] tablet:h-[3vw] desktop:h-[1.248vw]' />
+              <ImageWrapper src={`/images/flags/${value}.png`} alt={value} width={24} height={24} className='w-[5.592vw] tablet:w-[3vw] desktop:w-[1.248vw] h-[5.592vw] tablet:h-[3vw] desktop:h-[1.248vw]' />
               {label}
             </Link>
           ))

@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import ImageWrapper from '@/app/_components/ImageWrapper'
 import { CardProps } from './types'
 import { cn } from '@/lib/utils'
 import Calendar from '../icons/Calendar'
@@ -10,7 +10,7 @@ const NewsBlogsCard = ({ date, description, button, title, image, classNames, cl
     <div className={cn('rounded-[2.33vw] tablet:rounded-[2.5vw] desktop:rounded-[1.04vw] w-full h-full flex flex-col gap-[3.262vw] tablet:gap-[5vw] desktop:gap-[1.04vw] p-[4.194vw] tablet:p-[2.5vw] desktop:p-[1.04vw] bg-white shadow-custom', className)}>
       {image &&
         <div className={cn('shrink-0 shadow-custom rounded-[2.33vw] overflow-hidden tablet:rounded-[2.5vw] desktop:rounded-[1.04vw] object-cover w-full tablet:max-w-[38vw] desktop:max-w-[31.8vw] h-[58.25vw] tablet:h-[31.25vw] desktop:h-[15.6vw]', image?.className)}>
-          <Image {...image} alt={image.alt} className={cn('hover:scale-110 object-center duration-300 transition-all h-full object-cover w-full')} />
+          <ImageWrapper {...image} alt={image.alt} className={cn('hover:scale-110 object-center duration-300 transition-all h-full object-cover w-full')} />
         </div>
       }
       <div className={cn('flex flex-col gap-[3.262vw] tablet:gap-[1.75vw] desktop:gap-[1.04vw]', classNames?.contentWrapper)}>

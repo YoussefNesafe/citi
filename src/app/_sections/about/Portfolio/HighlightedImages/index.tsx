@@ -1,5 +1,4 @@
 "use client"
-import Button from '@/app/_components/Button'
 import { TABLET_BREAKPOINT } from '@/constants'
 import { useWindowSize } from '@/hooks/useWindowSize'
 import { cn } from '@/lib/utils'
@@ -8,7 +7,7 @@ import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { X } from 'lucide-react'
-import Image from 'next/image'
+import ImageWrapper from '@/app/_components/ImageWrapper'
 import React, { useEffect, useRef, useState } from 'react'
 
 const ImageCard = ({ displayNumber, image, onHover }: { displayNumber?: string | number; image: HighlightedImageType, onHover: (image: HighlightedImageType | null) => void }) => {
@@ -32,7 +31,7 @@ const ImageCard = ({ displayNumber, image, onHover }: { displayNumber?: string |
         <div className='text-[4.66vw] tablet:text-[5vw] desktop:text-[4.16vw] font-extrabold hidden tablet:block'>{displayNumber}</div>
       </div>
       <div className='w-full tablet:h-[25vw] desktop:h-[15.6vw] overflow-hidden'>
-        <Image {...image} alt={image.alt} className='hover:cursor-pointer w-full h-auto mb-[11.65vw] tablet:mb-[18.75vw] desktop:mb-[7.8vw]' onClick={handleMouseClick} />
+        <ImageWrapper {...image} alt={image.alt} className='hover:cursor-pointer w-full h-auto mb-[11.65vw] tablet:mb-[18.75vw] desktop:mb-[7.8vw]' onClick={handleMouseClick} />
       </div>
     </div>
   )
@@ -155,7 +154,7 @@ const HighlightedImages = ({ highlightedImages, className, ...props }: Highlight
         <div className='fixed inset-0 flex justify-center items-center z-50 bg-black bg-opacity-80 transition-all duration-500' onClick={restHoveredImage}>
           <div className='w-[88.54vw] max-h-[95vh] tablet:w-[87.5vw] desktop:w-[62.4vw] border-[0.466vw] tablet:border-[0.375vw] desktop:border-[0.156vw]  border-white'>
             <X className='absolute -top-[2.33vw] -right-[2.33vw] tablet:-top-[2.5vw] tablet:-right-[2.5vw] desktop:-top-[1.04vw] desktop:-right-[1.04vw] rounded-full bg-primary-900 text-white border-[0.466vw] tablet:border-[0.375vw] desktop:border-[0.156vw] border-white z-[2] w-[4.66vw] h-[4.66vw] tablet:w-[5vw] tablet:h-[5vw] desktop:w-[2.08vw] desktop:h-[2.08vw] hover:cursor-pointer' onClick={restHoveredImage} />
-            <Image
+            <ImageWrapper
               {...hoveredImage}
               alt={hoveredImage.alt}
               className='max-h-[94vh] h-auto w-full object-cover '

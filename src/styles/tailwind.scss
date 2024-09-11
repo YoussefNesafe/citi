@@ -32,21 +32,7 @@
 }
 
 @layer components {
-  // ::-webkit-scrollbar {
-  //   @apply hidden bg-transparent desktop:flex  desktop:w-[0.417vw];
-  // }
-
-
-  // /* Track */
-  // ::-webkit-scrollbar-track {
-  //   @apply bg-transparent;
-  // }
-
-  // /* Handle */
-  // ::-webkit-scrollbar-thumb {
-  //   @apply hidden bg-red-900  desktop:flex  desktop:rounded-[0.208vw];
-
-  // }
+ 
   form {
     .w-half {
       //Calc function to calculate the gap
@@ -259,7 +245,10 @@
     @apply bg-primary-900 absolute w-full top-0 bottom-0 -left-[100%]
   }
   
-
+  .skeleton-background {
+    background-image: linear-gradient(90deg, #0f172b, #1d2947 47.15%, #0f172b);
+    background-size: 400% 400%;
+  }
 
 }
 

@@ -1,7 +1,7 @@
 import Button from '@/app/_components/Button';
 import { cn } from '@/lib/utils';
 import { ExperienceCenterBannerType } from '@/models/IDictionary/AboutPages/ExperienceCenter';
-import Image from 'next/image'
+import ImageWrapper from '@/app/_components/ImageWrapper'
 import React from 'react'
 
 
@@ -10,7 +10,7 @@ const ExperienceCenterBannerSection = ({ backgroundImage, buttons, header, class
 
   return (
     <section className={cn('h-screen w-full px-0 tablet:px-0 desktop:px-0 flex items-center justify-center', className)} {...props}>
-      <Image
+      <ImageWrapper
         {...backgroundImage}
         alt={backgroundImage.alt}
         priority

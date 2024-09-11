@@ -7,7 +7,7 @@ import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap-trial/all'
 import { sanitize } from 'isomorphic-dompurify'
-import Image from 'next/image'
+import ImageWrapper from '@/app/_components/ImageWrapper'
 import React, { useRef } from 'react'
 
 type Props = AdditionalProps & Pick<OurTeamPageType, 'managers'>
@@ -20,7 +20,7 @@ const Card = ({ image, name, position }: ManagerCardType) => {
   return (
     <div className='w-[40.076vw] tablet:w-[25vw] desktop:w-[15.028vw] bg-white shadow-custom rounded-[0.932vw] tablet:rounded-[0.5vw] desktop:rounded-[0.208vw] overflow-hidden managerCard'>
       <div className='w-full h-[41.94vw] tablet:h-[26.25vw] desktop:h-[15.756vw] overflow-hidden'>
-        <Image {...image} alt={image.alt} className='w-full h-auto object-cover object-top hover:scale-105 transition-all' />
+        <ImageWrapper {...image} alt={image.alt} className='w-full h-auto object-cover object-top hover:scale-105 transition-all' />
       </div>
       <div className=' text-center p-[4.2vw] tablet:p-[2.5vw] desktop:py-[1.04vw] desktop:px-[0.52vw]'>
         <div className='font-semibold text-[4.194vw] tablet:text-[2.5vw] desktop:text-[1.248vw]'>{name}</div>

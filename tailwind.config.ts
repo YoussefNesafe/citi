@@ -53,14 +53,25 @@ const config: Config = {
           "0": {transform: 'translate(-10%,-50%)',},
           "100%": {transform: 'translate(0%,-50%)'},
         },
-        'imageSlideShow': {
+        imageSlideShow: {
           '0%': { transform: 'translateY(0%)' },
           '100%': { transform: 'translateY(-100%)' },
         },
-        'imageSlideShowReverse': {
+        imageSlideShowReverse: {
           '0%': { transform: 'translateY(-100%)' },
           '100%': { transform: 'translateY(0%)' },
-        }
+        },
+        linearBackgroundMoving: {
+          '0%': {
+            backgroundPosition: '0% 50%',
+          },
+          '50%': {
+            backgroundPosition: '100% 50%',
+          },
+          '100%': {
+            backgroundPosition: '0% 50%',
+          },
+        },
       },
       animation: {
         slideToBottom: 'slideToBottom 1.5s forwards linear',
@@ -72,6 +83,7 @@ const config: Config = {
         smoothTranslateX: 'smoothTranslateX 5s forwards linear',
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        linearBackgroundMoving: 'linearBackgroundMoving 4s ease infinite',
       },
       backgroundImage: {
       "contact-us-form": "url('/images/footer/contact-us.png')",

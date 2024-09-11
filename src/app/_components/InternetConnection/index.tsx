@@ -3,7 +3,7 @@
 import isBrowser from '@/app/utils/isBrowser';
 import useInternetConnection from '@/hooks/useInternetConnection';
 import { InternetConnectionProps } from '@/models/IDictionary/Layout';
-import Image from 'next/image';
+import ImageWrapper from '@/app/_components/ImageWrapper';
 import { createPortal } from 'react-dom';
 
 export default function InternetConnection({ title, description }: InternetConnectionProps) {
@@ -19,7 +19,7 @@ export default function InternetConnection({ title, description }: InternetConne
       >
 
 
-        <Image src='/images/shared/disconnected.png' alt='disconnected' width={512} height={512} className='w-[26.7vw] tablet:w-[18.75vw] desktop:w-[7.8vw] h-[26.7vw] tablet:h-[18.75vw] desktop:h-[7.8vw]  animate-pulse' />
+        <ImageWrapper src='/images/shared/disconnected.png' alt='disconnected' width={512} height={512} className='w-[26.7vw] tablet:w-[18.75vw] desktop:w-[7.8vw] h-[26.7vw] tablet:h-[18.75vw] desktop:h-[7.8vw]  animate-pulse' />
         <div className='flex flex-col gap-[2.67vw] tablet:gap-[2.5vw] desktop:gap-[1.04vw] text-center'>
           <div className='text-[6.408vw] tablet:text-[4vw] desktop:text-[1.664vw] font-semibold '>
             {title}

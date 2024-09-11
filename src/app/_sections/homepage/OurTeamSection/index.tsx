@@ -6,7 +6,7 @@ import { OurTeamSectionType } from '@/models/IDictionary/HomePage'
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
 import { sanitize } from 'isomorphic-dompurify';
-import Image from 'next/image';
+import ImageWrapper from '@/app/_components/ImageWrapper';
 import React, { useRef } from 'react';
 
 
@@ -34,7 +34,7 @@ const OurTeamSection = ({ buttons, image, header, className, ...props }: OurTeam
 
   return (
     <section className={cn('flex flex-col tablet:flex-row items-center justify-between gap-[6.99vw] tablet:gap-[5vw] desktop:gap-[3.38vw] overflow-hidden', className)} {...props} ref={containerRef}>
-      <Image {...image} className='z-[2] img tablet:max-w-[37.5vw] desktop:max-w-[31.2vw] rounded-[1.864vw] tablet:rounded-[1vw] desktop:rounded-[0.416vw] shadow-custom shrink-0 h-auto object-cover' />
+      <ImageWrapper {...image} className='z-[2] img tablet:max-w-[37.5vw] desktop:max-w-[31.2vw] rounded-[1.864vw] tablet:rounded-[1vw] desktop:rounded-[0.416vw] shadow-custom shrink-0 h-auto object-cover' />
       <div className='content flex flex-col gap-[4.66vw] tablet:gap-[3.75vw] desktop:gap-[4.16vw] desktop:max-w-[41.6vw]  text-wrap'>
         <div className='flex flex-col gap-[1.864vw] tablet:gap-[1.875vw] desktop:gap-[1.04vw]'>
           <h2 className='font-normal text-[4.66vw] tablet:text-[3.25vw] desktop:text-[2.808vw] capitalize' dangerouslySetInnerHTML={{ __html: sanitize(title) }} />

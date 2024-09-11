@@ -1,7 +1,8 @@
 import Button from '@/app/_components/Button';
+import ImageWrapper from '@/app/_components/ImageWrapper';
 import { cn } from '@/lib/utils';
 import { BannerPortfolioType } from '@/models/IDictionary/AboutPages/Portfolio'
-import Image, { ImageProps } from 'next/image'
+import { ImageProps } from 'next/image'
 import React from 'react'
 
 
@@ -9,12 +10,12 @@ const ImagesRow = ({ images, className, reverse }: { images: ImageProps[]; class
   return <div className={cn('flex flex-col shrink-0 flex-nowrap gap-[2.33vw] tablet:gap-[1.25vw] desktop:gap-[0.52vw]', className)}>
     <div className={cn('flex flex-col flex-nowrap gap-[2.33vw] tablet:gap-[1.25vw] desktop:gap-[0.52vw]', reverse ? 'animate-imageSlideShowReverse' : 'animate-imageSlideShow')}>
       {
-        images.map((image, index) => <Image {...image} alt={image.alt} key={index + "-img"} className='shrink-0 w-[46.6vw] tablet:w-[37.5vw] desktop:w-[20.8vw] h-auto object-cover' />)
+        images.map((image, index) => <ImageWrapper {...image} alt={image.alt} key={index + "-img"} className='shrink-0 w-[46.6vw] tablet:w-[37.5vw] desktop:w-[20.8vw] h-auto object-cover' />)
       }
     </div>
     <div className={cn('flex  flex-col flex-nowrap gap-[2.33vw] tablet:gap-[1.25vw] desktop:gap-[0.52vw]', reverse ? 'animate-imageSlideShowReverse' : 'animate-imageSlideShow')}>
       {
-        images.map((image, index) => <Image {...image} alt={image.alt} key={index + "-img"} className='shrink-0 w-[46.6vw] tablet:w-[37.5vw] desktop:w-[20.8vw] h-auto object-cover' />)
+        images.map((image, index) => <ImageWrapper {...image} alt={image.alt} key={index + "-img"} className='shrink-0 w-[46.6vw] tablet:w-[37.5vw] desktop:w-[20.8vw] h-auto object-cover' />)
       }
 
     </div>

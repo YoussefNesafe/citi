@@ -2,7 +2,6 @@
 
 import { useRef } from 'react';
 import { useGSAP } from '@gsap/react';
-import Image from 'next/image';
 import { HomePageBannerProps } from '@/models/IDictionary/HomePage';
 import LastLayer from './components/LastLayer';
 import MidLayer from './components/MidLayer';

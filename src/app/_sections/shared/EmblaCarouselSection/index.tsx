@@ -6,8 +6,9 @@ import {
   EmblaOptionsType
 } from 'embla-carousel'
 import useEmblaCarousel from 'embla-carousel-react'
-import Image, { ImageProps } from 'next/image'
+import { ImageProps } from 'next/image'
 import { cn } from '@/lib/utils'
+import ImageWrapper from '@/app/_components/ImageWrapper'
 
 const TWEEN_FACTOR_BASE = 0.2
 
@@ -101,7 +102,7 @@ const EmblaCarouselSection: React.FC<PropType> = ({ slides, slideClassName, imag
             <div className={cn("embla__slide", slideClassName)} key={index + "-slide"}>
               <div className="embla__parallax">
                 <div className="embla__parallax__layer">
-                  <Image
+                  <ImageWrapper
                     {...image}
                     alt={image.alt}
                     className={cn("embla__slide__img embla__parallax__img shadow-custom", imageClassName)}
