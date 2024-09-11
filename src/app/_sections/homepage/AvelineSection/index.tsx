@@ -30,7 +30,7 @@ const AvelineSection = ({ header, images, className }: AvelineSectionProps) => {
       <div className='w-full h-screen flex flex-nowrap overflow-hidden horizontal-sliders'>
         {images.map((image, index) => (
           <div key={index + "image"} className='slide w-full h-screen shrink-0'>
-            <ImageWrapper  {...image} alt={image.alt} className="w-auto h-screen desktop:w-full desktop:h-auto object-cover object-center" />
+            <ImageWrapper  {...image} alt={image.alt} className="w-auto h-screen desktop:w-full desktop:h-auto object-cover object-center" skeletonClassName='h-[100vh] w-[100vw]' />
             <div className='absolute top-0 left-0 w-full h-full bg-dark/80 desktop:bg-transparent desktop:bg-linear-overlay' />
 
             <div className='flex flex-col absolute left-[50%] -translate-x-[50%] bottom-[23.3vw] tablet:bottom-[18.75vw] desktop:bottom-[2.34vw] gap-[14vw] tablet:gap-[13vw] desktop:gap-[2.34vw] text-center text-white w-[90%] tablet:w-[80%] desktop:w-full desktop:max-w-[54.912vw]'>

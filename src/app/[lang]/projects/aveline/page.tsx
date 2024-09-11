@@ -8,8 +8,6 @@ import DiscoverCommunity from '@/app/_sections/projects/aveline/DiscoverCommunit
 import SwiperSection from '@/app/_sections/shared/SwiperSection';
 import ApartmentsCards from '@/app/_sections/projects/aveline/ApartmentsCards';
 import { SharedSectionsProps } from '@/models/IDictionary';
-import { Suspense } from 'react';
-import MapComponent from '@/app/_sections/shared/MapWrapper/MapLocation';
 import MapWrapper from '@/app/_sections/shared/MapWrapper';
 
 const mapProps = {

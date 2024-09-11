@@ -39,9 +39,9 @@ const SectionWithImageAndPointCards = ({ cards, title, image, reverse = false, c
 
 
   return (
-    <section {...props} className={cn('flex flex-col desktop:flex-row items-end gap-[6.99vw] tablet:gap-[7.5vw] desktop:gap-[8.06vw]', className, reverse && 'desktop:flex-row-reverse')} ref={wrapperRef}>
+    <section {...props} className={cn('flex flex-col desktop:flex-row items-center desktop:items-end gap-[6.99vw] tablet:gap-[7.5vw] desktop:gap-[8.06vw]', className, reverse && 'desktop:flex-row-reverse')} ref={wrapperRef}>
       <div className='shrink-0 w-full tablet:w-[80%] desktop:w-[39.936vw] h-auto overflow-hidden imageWrapepr'>
-        <ImageWrapper {...image} alt={image.alt} className='w-full h-auto object-cover hover:scale-105 duration-300 transition-all' />
+        <ImageWrapper {...image} alt={image.alt} className='w-full h-auto object-cover hover:scale-105 duration-300 transition-all' skeletonClassName='desktop:w-[39.936vw] tablet:w-[70vw] w-[86.21vw] h-[53.357vw] tablet:h-[45.625vw] desktop:h-[26.052vw]' />
       </div>
       <div className='w-full flex flex-col gap-[4.66vw] items-center desktop:items-stretch tablet:gap-[2.5vw] desktop:gap-[1.82vw] desktop:justify-center contentWrapepr'>
         <SectionTitle text={title} />

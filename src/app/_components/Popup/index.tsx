@@ -2,8 +2,8 @@ import React, { ReactNode, Suspense } from 'react'
 import {
   Dialog,
   DialogContent,
+  DialogTitle
 } from "@/app/_components/ui/dialog"
-import { DialogTitle } from '@radix-ui/react-dialog'
 import { AdditionalProps } from '@/models/IDictionary/SharedProps'
 import { cn } from '@/lib/utils'
 

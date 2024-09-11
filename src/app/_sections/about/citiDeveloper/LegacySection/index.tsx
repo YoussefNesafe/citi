@@ -5,8 +5,9 @@ import { cn } from '@/lib/utils'
 import { LegacySectionType } from '@/models/IDictionary/AboutPages/CitiDeveloper'
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
-import ImageWrapper from '@/app/_components/ImageWrapper'
 import React, { useRef } from 'react'
+import Image from 'next/image'
+import ImageWrapper from '@/app/_components/ImageWrapper'
 
 
 const Card = ({ card }: Pick<LegacySectionType, 'card'>) => {
@@ -44,7 +45,7 @@ const LegacySection = ({ card, description, image, className, ...props }: Legacy
         <Card card={card} />
         <SectionHeader className='tablet:hidden' title={card.title} subtitle={card.subtitle} description={card.description} />
         <div className='h-auto w-full tablet:w-[66.875vw] desktop:w-[66.768vw] rounded-[2.796vw] tablet:rounded-[1.5vw] desktop:rounded-[0.624vw] overflow-hidden'>
-          <ImageWrapper {...image} alt={image.alt} sizes='100vw' className='w-full h-auto object-cover hover:scale-105 transition-all duration-500' />
+          <ImageWrapper {...image} alt={image.alt} sizes='100vw' className='w-full h-auto object-cover hover:scale-105 transition-all duration-500' skeletonClassName='w-[86.21vw] tablet:w-[66.875vw] desktop:w-[66.664vw] h-[53.357vw] tablet:h-[41.25vw] desktop:h-[41.132vw]' />
           <p className='absolute max-w-[93%] tablet:max-w-[43.75vw] desktop:max-w-[45.084vw] font-semibold text-[3.262vw] tablet:text-[2vw] desktop:text-[1.248vw] text-white right-[2.33vw] tablet:right-[1.25vw] desktop:right-[2.964vw] bottom-[2.33vw] tablet:bottom-[1.25vw] desktop:bottom-[4.16vw] z-[2]'>
             {description}
           </p>

@@ -22,7 +22,7 @@ const Card = ({ description, image, title, reverse }: CardProps) => (
         </div>
       </div>
       <div className='w-[58.25vw] h-[58.25vw] tablet:w-[43.75vw] tablet:h-[43.75vw] desktop:w-[26vw] desktop:h-[26vw] rounded-[50%] shrink-0'>
-        <ImageWrapper {...image} alt={image.alt} className="w-full h-full object-cover object-center rounded-[50%]" />
+        <ImageWrapper {...image} alt={image.alt} className="w-full h-full object-cover object-center rounded-[50%]" skeletonClassName='rounded-[50%] tablet:rounded-[50%] desktop:rounded-[50%]' />
         <div className='w-full h-full rounded-[50%] shadow-innerShadow absolute top-0 left-0' />
         <div className='w-full h-full rounded-[50%] linear-border-circular absolute top-0 left-0' />
       </div>

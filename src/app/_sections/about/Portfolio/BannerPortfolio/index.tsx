@@ -10,7 +10,7 @@ const ImagesRow = ({ images, className, reverse }: { images: ImageProps[]; class
   return <div className={cn('flex flex-col shrink-0 flex-nowrap gap-[2.33vw] tablet:gap-[1.25vw] desktop:gap-[0.52vw]', className)}>
     <div className={cn('flex flex-col flex-nowrap gap-[2.33vw] tablet:gap-[1.25vw] desktop:gap-[0.52vw]', reverse ? 'animate-imageSlideShowReverse' : 'animate-imageSlideShow')}>
       {
-        images.map((image, index) => <ImageWrapper {...image} alt={image.alt} key={index + "-img"} className='shrink-0 w-[46.6vw] tablet:w-[37.5vw] desktop:w-[20.8vw] h-auto object-cover' />)
+        images.map((image, index) => <ImageWrapper {...image} alt={image.alt} key={index + "-img"} className='shrink-0 w-[46.6vw] tablet:w-[37.5vw] desktop:w-[20.8vw] h-auto object-cover' skeletonClassName='w-[46.6vw] tablet:w-[37.5vw] desktop:w-[20.8vw] h-[35vw] tablet:h-[25vw] desktop:h-[13.8vw]' />)
       }
     </div>
     <div className={cn('flex  flex-col flex-nowrap gap-[2.33vw] tablet:gap-[1.25vw] desktop:gap-[0.52vw]', reverse ? 'animate-imageSlideShowReverse' : 'animate-imageSlideShow')}>

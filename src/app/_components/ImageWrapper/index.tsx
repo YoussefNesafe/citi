@@ -2,10 +2,12 @@
 import { useState } from 'react';
 import Image, { ImageProps } from 'next/image';
 import { cn } from '../../../lib/utils';
-interface Props extends ImageProps {
+
+type Props = ImageProps & {
   skeletonClassName?: string;
   enableGlow?: boolean;
 }
+
 export default function ImageWrapper({ skeletonClassName, className, enableGlow = false, ...props }: Props) {
   const [isLoading, setIsLoading] = useState(true);
   const onLoadHandle = async () => {
