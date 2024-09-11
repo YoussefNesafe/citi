@@ -83,7 +83,7 @@ const aveline_amenities_images_array : ImageProps[]= [
 ];
 const aveline_lobby_images_array : ImageProps[]= [
   {
-    src: "/images/aveline/Lobby/LOBBY_1.jpg",
+    src: "/images/aveline/Lobby/LOBBY_1.JPG",
     alt: "LOBBY_1",
     width: 2800,
     height: 2144
