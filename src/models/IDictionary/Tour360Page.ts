@@ -1,5 +1,6 @@
-import { AdditionalProps, BannerSectionType, PhotoCardType } from './SharedProps';
+import {  BannerSectionType, MetaDataType, PhotoCardType } from './SharedProps';
 export type Tour360PageType = {
+  metadata: MetaDataType;
   banner: BannerSectionType;
   tabs: TabsSectionType;
 }

@@ -1,8 +1,9 @@
 import { ImageProps } from "next/image";
-import { AdditionalProps, SectionHeaderProps, VisitExperienceCenterSectionProps } from "../SharedProps";
+import { AdditionalProps, MetaDataType, SectionHeaderProps, VisitExperienceCenterSectionProps } from "../SharedProps";
 import { ButtonProps } from "@/app/_components/Button/button-types";
 
 export type ExperienceCenterPageType = {
+  metadata: MetaDataType;
   banner: ExperienceCenterBannerType;
   visitExperienceCenter: VisitExperienceCenterSectionProps;
   features: FeaturesOfExperienceCenterType;

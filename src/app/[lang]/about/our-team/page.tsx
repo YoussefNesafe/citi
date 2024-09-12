@@ -5,6 +5,16 @@ import { OurTeamPageType } from '@/models/IDictionary/AboutPages/OurTeamPage';
 import ManagersTeam from '@/app/_sections/about/OurTeam/ManagersTeam';
 import TeamMembers from '@/app/_sections/about/OurTeam/TeamMembers';
 import OurTeamBanner from '@/app/_sections/about/OurTeam/OurTeamBanner';
+import { Metadata } from 'next';
+import { MetaDataType } from "@/models/IDictionary/SharedProps";
+
+export async function generateMetadata({ params: { lang } }: { params: { lang: Locale } }): Promise<Metadata> {
+  // fetch data
+  const metadata = await getLocalizedData<MetaDataType>(lang, 'about.ourTeam.metadata');
+  return {
+    ...metadata,
+  };
+}
 
 const OurTeamPage = async ({ params: { lang } }: { params: { lang: Locale } }) => {
   const { header, CEOMessage, managers, teamMembers } = await getLocalizedData<OurTeamPageType>(lang, 'about.ourTeam');

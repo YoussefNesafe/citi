@@ -1,5 +1,4 @@
-import { InputProps } from "@/app/_components/Input";
-import { AdditionalProps } from "./SharedProps";
+import { AdditionalProps, MetaDataType } from "./SharedProps";
 
 
 
@@ -14,6 +13,7 @@ type ContactOption = {
 
 
 export type ContactUsFormProps = AdditionalProps & {
+  metadata: MetaDataType;
   title: string;
   description: string;
   contactOptions: ContactOption[];

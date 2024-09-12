@@ -9,6 +9,16 @@ import OverDecadeOfTrust from '@/app/_sections/about/citiDeveloper/OverDecadeOfT
 import OurPhilosophy from '@/app/_sections/about/citiDeveloper/OurPhilosophy';
 import OurValues from '@/app/_sections/about/citiDeveloper/OurValues';
 import LegacySection from '@/app/_sections/about/citiDeveloper/LegacySection';
+import { Metadata } from 'next';
+import { MetaDataType } from "@/models/IDictionary/SharedProps";
+
+export async function generateMetadata({ params: { lang } }: { params: { lang: Locale } }): Promise<Metadata> {
+  // fetch data
+  const metadata = await getLocalizedData<MetaDataType>(lang, 'about.citiDeveloper.metadata');
+  return {
+    ...metadata,
+  };
+}
 
 const CitiDeveloperPage = async ({ params: { lang } }: { params: { lang: Locale } }) => {
   const { banner, overDecadeOfTrust, legacy, ourPhilosophy, ourValues } = await getLocalizedData<CitiDeveloperPageType>(lang, 'about.citiDeveloper');

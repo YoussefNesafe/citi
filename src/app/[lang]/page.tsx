@@ -12,8 +12,16 @@ import AvelineSection from "../_sections/homepage/AvelineSection";
 import OurTeamSection from "../_sections/homepage/OurTeamSection";
 import { Suspense } from "react";
 import AlluraPopUpSection from "../_sections/shared/AlluraPopUpSection";
+import { Metadata } from 'next';
+import { MetaDataType } from "@/models/IDictionary/SharedProps";
 
-
+export async function generateMetadata({ params: { lang } }: { params: { lang: Locale } }): Promise<Metadata> {
+  // fetch data
+  const metadata = await getLocalizedData<MetaDataType>(lang, 'homePage.metadata');
+  return {
+    ...metadata,
+  };
+}
 export default async function Page({ params: { lang } }: { params: { lang: Locale } }) {
   const { banner, counterCards, whatMakesUsDifferent, avelineSection, visitExperienceCenter, ourJourney, ourTeam } = await getLocalizedData<HomePageProps>(lang, 'homePage');
   const { latestNews, alluraPopUp } = await getLocalizedData<SharedSectionsProps>(lang, 'shared');

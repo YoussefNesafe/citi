@@ -1,9 +1,10 @@
 import { ImageProps } from "next/image";
-import { AdditionalProps, BannerSectionType, SectionHeaderProps, SwiperSectionType } from "../SharedProps"
+import { AdditionalProps, BannerSectionType, MetaDataType, SectionHeaderProps, SwiperSectionType } from "../SharedProps"
 import { ButtonProps } from "@/app/_components/Button/button-types";
 import { IMAGES_MAP_TYPE } from "@/constants/aveline_images_maps";
 
 export type AvelinePageType = {
+  metadata: MetaDataType;
   banner: BannerSectionType;
   avelineJvc: AvelineJvcType;
   projectInfo: ProjectInfoType;
@@ -14,6 +15,7 @@ export type AvelinePageType = {
 }
 
 export type AvelineInnerPagesType = {
+  metadata: MetaDataType;
   banner: BannerSectionType;
   header: SectionHeaderProps;
   swipers?: {

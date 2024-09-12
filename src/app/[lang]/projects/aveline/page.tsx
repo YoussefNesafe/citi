@@ -9,6 +9,16 @@ import SwiperSection from '@/app/_sections/shared/SwiperSection';
 import { SharedSectionsProps } from '@/models/IDictionary';
 import MapWrapper from '@/app/_sections/shared/MapWrapper';
 import { Suspense } from 'react';
+import { Metadata } from 'next';
+import { MetaDataType } from "@/models/IDictionary/SharedProps";
+
+export async function generateMetadata({ params: { lang } }: { params: { lang: Locale } }): Promise<Metadata> {
+  // fetch data
+  const metadata = await getLocalizedData<MetaDataType>(lang, 'projects.aveline.metadata');
+  return {
+    ...metadata,
+  };
+}
 
 const mapProps = {
   latitude: 25.06931369197056,

@@ -1,7 +1,8 @@
 import { ImageProps } from "next/image";
-import { AdditionalProps, ManagerCardType, SectionHeaderProps } from "../SharedProps"
+import { AdditionalProps, ManagerCardType, MetaDataType, SectionHeaderProps } from "../SharedProps"
 
 export type OurTeamPageType = {
+  metadata: MetaDataType;
   header: SectionHeaderProps;
   CEOMessage: CEOMessageType;
   managers:ManagerCardType[] 

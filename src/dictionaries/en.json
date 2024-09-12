@@ -189,13 +189,33 @@
     }
   },
   "homePage": {
-    "banner": {
-      "subtractImage": {
-        "src": "/images/homepage/subtract.png",
-        "alt": "subtract",
-        "width": 1920,
-        "height": 1080
+    "metadata": {
+        "title": "Home - Explore Citi Developers innovative and urban living.",
+        "description": "Discover Citi Developers' urban excellence—blending innovation, design, and sustainability. Explore the future of city living today.",
+        "keywords": [
+          "Real Estate",
+          "Developer",
+          "Aveline",
+          "Allura",
+          "Dubai",
+          "Citi Developer",
+          "Citi",
+          "Apartment",
+          "Studio",
+          "BHK",
+          "Building",
+          "Allura"
+        ],
+        "openGraph": {
+          "title": "Home - Explore Citi Developers innovative and urban living.",
+          "description": "Discover Citi Developers' urban excellence—blending innovation, design, and sustainability. Explore the future of city living today.",
+          "images": ["/images/homepage/first.webp"]
+        },
+        "twitter": {
+          "images": ["/images/homepage/first.webp"]
+        }
       },
+    "banner": {
       "sloganBox": {
         "title": "Citi Developers",
         "description": "Transforming Cities, Enriching Lives"
@@ -434,6 +454,32 @@
     }
   },
   "contactUs": {
+    "metadata": {
+        "title": "Contact US - Explore Citi Developers innovative and urban living.",
+        "description": "Discover Citi Developers' urban excellence—blending innovation, design, and sustainability. Explore the future of city living today.",
+        "keywords": [
+          "Real Estate",
+          "Developer",
+          "Aveline",
+          "Allura",
+          "Dubai",
+          "Citi Developer",
+          "Citi",
+          "Apartment",
+          "Studio",
+          "BHK",
+          "Building",
+          "Allura"
+        ],
+        "openGraph": {
+          "title": "Contact US - Explore Citi Developers innovative and urban living.",
+          "description": "Discover Citi Developers' urban excellence—blending innovation, design, and sustainability. Explore the future of city living today.",
+          "images": ["/images/homepage/first.webp"]
+        },
+        "twitter": {
+          "images": ["/images/homepage/first.webp"]
+        }
+      },
     "form": {
       "title": "Contact Us",
       "description": "Your journey towards the perfect home begins here  let's start the conversation!",
@@ -580,6 +626,32 @@
   },
   "about": {
     "citiDeveloper": {
+      "metadata": {
+        "title": "Citi Develoepr | About US  - Explore Citi Developers innovative and urban living.",
+        "description": "Discover Citi Developers' urban excellence—blending innovation, design, and sustainability. Explore the future of city living today.",
+        "keywords": [
+          "Real Estate",
+          "Developer",
+          "Aveline",
+          "Allura",
+          "Dubai",
+          "Citi Developer",
+          "Citi",
+          "Apartment",
+          "Studio",
+          "BHK",
+          "Building",
+          "Allura"
+        ],
+        "openGraph": {
+          "title": "Citi Develoepr | About US  - Explore Citi Developers innovative and urban living.",
+          "description": "Discover Citi Developers' urban excellence—blending innovation, design, and sustainability. Explore the future of city living today.",
+          "images": ["/images/about/citideveloper/citideveloper-banner.png"]
+        },
+        "twitter": {
+          "images": ["/images/about/citideveloper/citideveloper-banner.png"]
+        }
+      },
       "banner": {
         "backgroundImage": {
           "src": "/images/about/citideveloper/citideveloper-banner.png",
@@ -725,6 +797,32 @@
       }
     },
     "portfolio": {
+      "metadata": {
+        "title": "Portfolio | About US - Explore Citi Developers innovative and urban living.",
+        "description": "Discover Citi Developers' urban excellence—blending innovation, design, and sustainability. Explore the future of city living today.",
+        "keywords": [
+          "Real Estate",
+          "Developer",
+          "Aveline",
+          "Allura",
+          "Dubai",
+          "Citi Developer",
+          "Citi",
+          "Apartment",
+          "Studio",
+          "BHK",
+          "Building",
+          "Allura"
+        ],
+        "openGraph": {
+          "title": "Portfolio | About US - Explore Citi Developers innovative and urban living.",
+          "description": "Discover Citi Developers' urban excellence—blending innovation, design, and sustainability. Explore the future of city living today.",
+          "images": ["/images/aveline/11th Floor/image_3.webp"]
+        },
+        "twitter": {
+          "images": ["/images/aveline/11th Floor/image_3.webp"]
+        }
+      },
       "banner": {
         "title": "Portfolio",
         "subtitle": "Citi Developers",
@@ -898,6 +996,32 @@
       }
     },
     "news": {
+      "metadata": {
+        "title": "News | About US - Explore Citi Developers innovative and urban living.",
+        "description": "Discover Citi Developers' urban excellence—blending innovation, design, and sustainability. Explore the future of city living today.",
+        "keywords": [
+          "Real Estate",
+          "Developer",
+          "Aveline",
+          "Allura",
+          "Dubai",
+          "Citi Developer",
+          "Citi",
+          "Apartment",
+          "Studio",
+          "BHK",
+          "Building",
+          "Allura"
+        ],
+        "openGraph": {
+          "title": "News | About US - Explore Citi Developers innovative and urban living.",
+          "description": "Discover Citi Developers' urban excellence—blending innovation, design, and sustainability. Explore the future of city living today.",
+          "images": ["/images/aveline/11th Floor/image_3.webp"]
+        },
+        "twitter": {
+          "images": ["/images/aveline/11th Floor/image_3.webp"]
+        }
+      },
       "header": {
         "title": "News",
         "description": "See the developments that have occurred to LearnEasers in the world"
@@ -1150,6 +1274,32 @@
       ]
     },
     "blogs": {
+      "metadata": {
+        "title": "Blogs | About US - Explore Citi Developers innovative and urban living.",
+        "description": "Discover Citi Developers' urban excellence—blending innovation, design, and sustainability. Explore the future of city living today.",
+        "keywords": [
+          "Real Estate",
+          "Developer",
+          "Aveline",
+          "Allura",
+          "Dubai",
+          "Citi Developer",
+          "Citi",
+          "Apartment",
+          "Studio",
+          "BHK",
+          "Building",
+          "Allura"
+        ],
+        "openGraph": {
+          "title": "Blogs | About US - Explore Citi Developers innovative and urban living.",
+          "description": "Discover Citi Developers' urban excellence—blending innovation, design, and sustainability. Explore the future of city living today.",
+          "images": ["/images/aveline/11th Floor/image_3.webp"]
+        },
+        "twitter": {
+          "images": ["/images/aveline/11th Floor/image_3.webp"]
+        }
+      },
       "header": {
         "title": "Blogs",
         "description": "Explore insights and stories shaping the world of LearnEasers."
@@ -1402,6 +1552,32 @@
       ]
     },
     "ourTeam": {
+      "metadata": {
+        "title": "Our Team | About US - Explore Citi Developers innovative and urban living.",
+        "description": "Discover Citi Developers' urban excellence—blending innovation, design, and sustainability. Explore the future of city living today.",
+        "keywords": [
+          "Real Estate",
+          "Developer",
+          "Aveline",
+          "Allura",
+          "Dubai",
+          "Citi Developer",
+          "Citi",
+          "Apartment",
+          "Studio",
+          "BHK",
+          "Building",
+          "Allura"
+        ],
+        "openGraph": {
+          "title": "Our Team | About US - Explore Citi Developers innovative and urban living.",
+          "description": "Discover Citi Developers' urban excellence—blending innovation, design, and sustainability. Explore the future of city living today.",
+          "images": ["/images/shared/CEO.png"]
+        },
+        "twitter": {
+          "images": ["/images/shared/CEO.png"]
+        }
+      },
       "header": {
         "title": "Citi Developers Team",
         "description": "At Citi Housing, we’re more than just builders; we’re architects of dreams. As CEO, I lead our dedicated team in crafting top-tier housing solutions across Pakistan, ensuring each residence embodies safety, security, and comfort."
@@ -1630,6 +1806,32 @@
       }
     },
     "experienceCenter": {
+      "metadata": {
+        "title": "Experience Center | About US - Explore Citi Developers innovative and urban living.",
+        "description": "Discover Citi Developers' urban excellence—blending innovation, design, and sustainability. Explore the future of city living today.",
+        "keywords": [
+          "Real Estate",
+          "Developer",
+          "Aveline",
+          "Allura",
+          "Dubai",
+          "Citi Developer",
+          "Citi",
+          "Apartment",
+          "Studio",
+          "BHK",
+          "Building",
+          "Allura"
+        ],
+        "openGraph": {
+          "title": "Experience Center | About US - Explore Citi Developers innovative and urban living.",
+          "description": "Discover Citi Developers' urban excellence—blending innovation, design, and sustainability. Explore the future of city living today.",
+          "images": ["/images/about/experienceCenter/bannerExperienceCenter.png"]
+        },
+        "twitter": {
+          "images": ["/images/about/experienceCenter/bannerExperienceCenter.png"]
+        }
+      },
       "banner": {
         "header": {
           "title": "Citi Developers",
@@ -1698,6 +1900,32 @@
   },
   "projects": {
     "aveline": {
+      "metadata": {
+        "title": "Aveline | Projects - Explore Citi Developers innovative and urban living.",
+        "description": "Discover Citi Developers' urban excellence—blending innovation, design, and sustainability. Explore the future of city living today.",
+        "keywords": [
+          "Real Estate",
+          "Developer",
+          "Aveline",
+          "Allura",
+          "Dubai",
+          "Citi Developer",
+          "Citi",
+          "Apartment",
+          "Studio",
+          "BHK",
+          "Building",
+          "Allura"
+        ],
+        "openGraph": {
+          "title": "Aveline | Projects - Explore Citi Developers innovative and urban living.",
+          "description": "Discover Citi Developers' urban excellence—blending innovation, design, and sustainability. Explore the future of city living today.",
+          "images": ["/images/aveline/Lobby/image_2.webp"]
+        },
+        "twitter": {
+          "images": ["/images/aveline/Lobby/image_2.webp"]
+        }
+      },
       "banner": {
         "backgroundImage": {
           "src": "/images/aveline/Lobby/image_2.webp",
@@ -1797,6 +2025,32 @@
       }
     },
     "studioApartmentAv": {
+      "metadata": {
+        "title": "Studio Apartment | Aveline - Explore Citi Developers innovative and urban living.",
+        "description": "Discover Citi Developers' urban excellence—blending innovation, design, and sustainability. Explore the future of city living today.",
+        "keywords": [
+          "Real Estate",
+          "Developer",
+          "Aveline",
+          "Allura",
+          "Dubai",
+          "Citi Developer",
+          "Citi",
+          "Apartment",
+          "Studio",
+          "BHK",
+          "Building",
+          "Allura"
+        ],
+        "openGraph": {
+          "title": "Studio Apartment | Aveline - Explore Citi Developers innovative and urban living.",
+          "description": "Discover Citi Developers' urban excellence—blending innovation, design, and sustainability. Explore the future of city living today.",
+          "images": ["/images/aveline/Lobby/image_2.webp"]
+        },
+        "twitter": {
+          "images": ["/images/aveline/Lobby/image_2.webp"]
+        }
+      },
       "banner": {
         "backgroundImage": {
           "src": "/images/aveline/Apartment/STUDIO APARTMENT/01.jpg",
@@ -1827,6 +2081,32 @@
       }
     },
     "oneBedroomApartmentAv": {
+      "metadata": {
+        "title": "1BHK Apartment | Aveline - Explore Citi Developers innovative and urban living.",
+        "description": "Discover Citi Developers' urban excellence—blending innovation, design, and sustainability. Explore the future of city living today.",
+        "keywords": [
+          "Real Estate",
+          "Developer",
+          "Aveline",
+          "Allura",
+          "Dubai",
+          "Citi Developer",
+          "Citi",
+          "Apartment",
+          "Studio",
+          "BHK",
+          "Building",
+          "Allura"
+        ],
+        "openGraph": {
+          "title": "1BHK Apartment | Aveline - Explore Citi Developers innovative and urban living.",
+          "description": "Discover Citi Developers' urban excellence—blending innovation, design, and sustainability. Explore the future of city living today.",
+          "images": ["/images/aveline/Lobby/image_2.webp"]
+        },
+        "twitter": {
+          "images": ["/images/aveline/Lobby/image_2.webp"]
+        }
+      },
       "banner": {
         "backgroundImage": {
           "src": "/images/aveline/Apartment/1 BEDROOM APARTMENT/LIVING ROOM/3.jpg",
@@ -1867,6 +2147,32 @@
       ]
     },
     "twoBedroomApartmentAv": {
+      "metadata": {
+        "title": "2BHK Apartment | Aveline - Explore Citi Developers innovative and urban living.",
+        "description": "Discover Citi Developers' urban excellence—blending innovation, design, and sustainability. Explore the future of city living today.",
+        "keywords": [
+          "Real Estate",
+          "Developer",
+          "Aveline",
+          "Allura",
+          "Dubai",
+          "Citi Developer",
+          "Citi",
+          "Apartment",
+          "Studio",
+          "BHK",
+          "Building",
+          "Allura"
+        ],
+        "openGraph": {
+          "title": "2BHK Apartment | Aveline - Explore Citi Developers innovative and urban living.",
+          "description": "Discover Citi Developers' urban excellence—blending innovation, design, and sustainability. Explore the future of city living today.",
+          "images": ["/images/aveline/Lobby/image_2.webp"]
+        },
+        "twitter": {
+          "images": ["/images/aveline/Lobby/image_2.webp"]
+        }
+      },
       "banner": {
         "backgroundImage": {
           "src": "/images/aveline/Apartment/2 BEDROOM APARTMENT/LIVING ROOM/3.jpg",
@@ -1911,6 +2217,32 @@
       ]
     },
     "threeBedroomApartmentAv": {
+      "metadata": {
+        "title": "3BHK Apartment | Aveline - Explore Citi Developers innovative and urban living.",
+        "description": "Discover Citi Developers' urban excellence—blending innovation, design, and sustainability. Explore the future of city living today.",
+        "keywords": [
+          "Real Estate",
+          "Developer",
+          "Aveline",
+          "Allura",
+          "Dubai",
+          "Citi Developer",
+          "Citi",
+          "Apartment",
+          "Studio",
+          "BHK",
+          "Building",
+          "Allura"
+        ],
+        "openGraph": {
+          "title": "3BHK Apartment | Aveline - Explore Citi Developers innovative and urban living.",
+          "description": "Discover Citi Developers' urban excellence—blending innovation, design, and sustainability. Explore the future of city living today.",
+          "images": ["/images/aveline/Lobby/image_2.webp"]
+        },
+        "twitter": {
+          "images": ["/images/aveline/Lobby/image_2.webp"]
+        }
+      },
       "banner": {
         "backgroundImage": {
           "src": "/images/aveline/Apartment/3 BEDROOM APARTMENT/Living Room/1_View02_Post.jpg",
@@ -1960,6 +2292,32 @@
     }
   },
   "tour360": {
+    "metadata": {
+      "title": "tour360 - Explore Citi Developers innovative and urban living.",
+      "description": "Discover Citi Developers' urban excellence—blending innovation, design, and sustainability. Explore the future of city living today.",
+      "keywords": [
+        "Real Estate",
+        "Developer",
+        "Aveline",
+        "Allura",
+        "Dubai",
+        "Citi Developer",
+        "Citi",
+        "Apartment",
+        "Studio",
+        "BHK",
+        "Building",
+        "Allura"
+      ],
+      "openGraph": {
+        "title": "tour360 - Explore Citi Developers innovative and urban living.",
+        "description": "Discover Citi Developers' urban excellence—blending innovation, design, and sustainability. Explore the future of city living today.",
+        "images": ["/images/about/citideveloper/citideveloper-banner.png"]
+      },
+      "twitter": {
+        "images": ["/images/about/citideveloper/citideveloper-banner.png"]
+      }
+    },
     "banner": {
       "backgroundImage": {
         "src": "/images/about/citideveloper/citideveloper-banner.png",

@@ -84,3 +84,14 @@ export type AlluraPopUpType = {
   detailsCards: { title: string; description: string }[]
 
 }
+
+export type MetaDataType = {
+  title: string;
+  description: string;
+  keywords: string;
+  openGraph?: {
+    title?: string;
+    description?: string;
+    images?: string[];
+  };
+}

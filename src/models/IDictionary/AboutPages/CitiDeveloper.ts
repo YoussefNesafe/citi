@@ -1,8 +1,9 @@
 import { ButtonProps } from './../../../app/_components/Button/button-types';
 import { ImageProps } from "next/image";
-import { AdditionalProps, BannerSectionType, PointCardProps, SectionHeaderProps } from "../SharedProps"
+import { AdditionalProps, BannerSectionType, MetaDataType, PointCardProps, SectionHeaderProps } from "../SharedProps"
 
 export type CitiDeveloperPageType = {
+  metadata: MetaDataType;
   banner: BannerSectionType;
   overDecadeOfTrust: OverDecadeOfTrustType;
   ourPhilosophy: OurPhilosophyType;

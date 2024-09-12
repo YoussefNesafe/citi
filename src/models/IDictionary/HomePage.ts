@@ -1,10 +1,11 @@
 import { ButtonProps } from "@/app/_components/Button/button-types";
 import { ImageProps } from "next/image"
-import { AdditionalProps, ManagerCardType, PointCardProps, SectionHeaderProps, VisitExperienceCenterSectionProps } from "./SharedProps";
+import { AdditionalProps, MetaDataType, PointCardProps, SectionHeaderProps, VisitExperienceCenterSectionProps } from "./SharedProps";
 import { CardProps } from "@/app/_components/Card/types";
 
 
 export type HomePageProps = {
+  metadata: MetaDataType;
   banner: HomePageBannerProps;
   counterCards: CountUpSectionProps;
   whatMakesUsDifferent: WhatMakesUsDifferentSectionProps;

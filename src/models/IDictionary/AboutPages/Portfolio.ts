@@ -1,8 +1,9 @@
 import { ButtonProps } from "@/app/_components/Button/button-types";
 import { ImageProps } from "next/image";
-import { AdditionalProps } from "../SharedProps";
+import { AdditionalProps, MetaDataType } from "../SharedProps";
 
 export type PortfolioPageType = {
+  metadata: MetaDataType;
   banner: BannerPortfolioType;
 };
 

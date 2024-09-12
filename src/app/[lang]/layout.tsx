@@ -25,11 +25,12 @@ const cairoFont = Cairo({
   variable: '--font-cairo',
 });
 
+
 export const metadata = {
   manifest: '/manifest.json',
-  themeColor: '#FFFFFF',
+  //@ts-ignore
+  metadataBase: new URL(process.env.NEXT_PUBLIC_BASE_DOMAIN),
 };
-
 export async function generateStaticParams() {
   return i18n.locales.map((locale) => ({ lang: locale }));
 }

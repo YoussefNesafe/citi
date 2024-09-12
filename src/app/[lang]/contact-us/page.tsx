@@ -5,6 +5,16 @@ import { ContactUsPageProps } from '@/models/IDictionary/ContactUsPage';
 import ContactUsFormSection from '@/app/_sections/contact-us/ContactUsFormSection';
 import { LayoutProps } from '@/models/IDictionary/Layout';
 import { SharedSectionsProps } from '@/models/IDictionary';
+import { Metadata } from 'next';
+import { MetaDataType } from "@/models/IDictionary/SharedProps";
+
+export async function generateMetadata({ params: { lang } }: { params: { lang: Locale } }): Promise<Metadata> {
+  // fetch data
+  const metadata = await getLocalizedData<MetaDataType>(lang, 'contactUs.metadata');
+  return {
+    ...metadata,
+  };
+}
 
 const ContactUsPage = async ({ params: { lang } }: { params: { lang: Locale } }) => {
   const { form } = await getLocalizedData<ContactUsPageProps>(lang, 'contactUs');

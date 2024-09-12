@@ -4,7 +4,16 @@ import React from 'react'
 import { Locale } from '../../../../../i18n-config';
 import { NewsAndBlogsPagesType } from '@/models/IDictionary/AboutPages/NewsAndBlogsPages';
 import NewsBlogsCards from '@/app/_sections/about/NewsAndBlogs/NewsBlogsCards';
+import { Metadata } from 'next';
+import { MetaDataType } from "@/models/IDictionary/SharedProps";
 
+export async function generateMetadata({ params: { lang } }: { params: { lang: Locale } }): Promise<Metadata> {
+  // fetch data
+  const metadata = await getLocalizedData<MetaDataType>(lang, 'about.blogs.metadata');
+  return {
+    ...metadata,
+  };
+}
 const BlogsPage = async ({ params: { lang } }: { params: { lang: Locale } }) => {
   const { button, cards, header } = await getLocalizedData<NewsAndBlogsPagesType>(lang, 'about.blogs');
   return (
