@@ -6,7 +6,6 @@ import { LegacySectionType } from '@/models/IDictionary/AboutPages/CitiDeveloper
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
 import React, { useRef } from 'react'
-import Image from 'next/image'
 import ImageWrapper from '@/app/_components/ImageWrapper'
 
 

@@ -62,6 +62,7 @@ export type SwiperSectionType = AdditionalProps & {
   button?: ButtonProps;
   imageClassName?: string;
   slideClassName?: string;
+  animateFrom?: 'top' | 'left' | 'right' | 'bottom'
 }
 
 export type ApartmentsCardsType = AdditionalProps & { 

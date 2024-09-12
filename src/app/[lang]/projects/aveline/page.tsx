@@ -6,9 +6,9 @@ import AvelineJvcSection from '@/app/_sections/projects/aveline/AvelineJvcSectio
 import ProjectInfo from '@/app/_sections/projects/aveline/ProjectInfo';
 import DiscoverCommunity from '@/app/_sections/projects/aveline/DiscoverCommunity';
 import SwiperSection from '@/app/_sections/shared/SwiperSection';
-import ApartmentsCards from '@/app/_sections/projects/aveline/ApartmentsCards';
 import { SharedSectionsProps } from '@/models/IDictionary';
 import MapWrapper from '@/app/_sections/shared/MapWrapper';
+import { Suspense } from 'react';
 
 const mapProps = {
   latitude: 25.06931369197056,
@@ -23,14 +23,25 @@ const AvelinePage = async ({ params: { lang } }: { params: { lang: Locale } }) =
   return (
     <>
       <BannerSection {...banner} className='section-py' overlay />
-      <AvelineJvcSection {...avelineJvc} className='section-py ' />
-      <ProjectInfo {...projectInfo} className='section-py' />
-      <DiscoverCommunity {...discoverCommunity} className='section-py' />
+      <Suspense>
+        <AvelineJvcSection {...avelineJvc} className='section-py ' />
+      </Suspense>
+      <Suspense>
+        <ProjectInfo {...projectInfo} className='section-py' />
+      </Suspense>
+      <Suspense>
+        <DiscoverCommunity {...discoverCommunity} className='section-py' />
+      </Suspense>
       <MapWrapper {...mapProps} />
-      <SwiperSection className="section-py" {...amenities} imagesArray={'AV_AMENITIES'} />
-      <SwiperSection className="section-py" {...exterior} imagesArray={'AV_EXTERIOR'} imageClassName='desktop:h-[30vw]' slideClassName='desktop:flex-[0_0_25vw]' />
-      <SwiperSection className="section-py" {...lobby} imagesArray={'AV_LOBBY'} />
-      <ApartmentsCards {...apartmentsCards} className='section-py' />
+      <Suspense>
+        <SwiperSection className="section-py" {...amenities} imagesArray={'AV_AMENITIES'} animateFrom='left' />
+      </Suspense>
+      <Suspense>
+        <SwiperSection className="section-py" {...exterior} imagesArray={'AV_EXTERIOR'} imageClassName='desktop:h-[30vw]' slideClassName='desktop:flex-[0_0_25vw]' animateFrom='right' />
+      </Suspense>
+      <Suspense>
+        <SwiperSection className="section-py" {...lobby} imagesArray={'AV_LOBBY'} animateFrom='left' />
+      </Suspense>
     </>
   )
 }

@@ -61,6 +61,11 @@ const config: Config = {
           '0%': { transform: 'translateY(-100%)' },
           '100%': { transform: 'translateY(0%)' },
         },
+        scaleInOut: {
+          '0%': { scale: '1' },
+          '50%': { scale: '1.1' },
+          '100%': { scale: '1' },
+        },
         linearBackgroundMoving: {
           '0%': {
             backgroundPosition: '0% 50%',
@@ -84,6 +89,7 @@ const config: Config = {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
         linearBackgroundMoving: 'linearBackgroundMoving 4s ease infinite',
+        scaleInOut: 'scaleInOut 4s linear infinite',
       },
       backgroundImage: {
       "contact-us-form": "url('/images/footer/contact-us.png')",
