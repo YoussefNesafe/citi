@@ -1,6 +1,6 @@
 "use client"
 import { cn } from '@/lib/utils'
-import React, { HTMLAttributes } from 'react'
+import React, { Fragment, HTMLAttributes } from 'react'
 import ImageWrapper from '@/app/_components/ImageWrapper'
 import { FooterProps } from '@/models/IDictionary/Layout'
 import Link from 'next/link'
@@ -21,15 +21,17 @@ const DesktopLinks = ({ links, contactUsButton }: Pick<FooterProps, 'contactUsBu
     <div className='flex justify-between items-start text-white'>
       {
         links.map(link => (
-          link?.href ? <Link key={link.pageKey} href={link.href} className='desktop:text-[1.04vw] font-medium leading-[1.25]'>{link.title}</Link> : <div key={link.pageKey} className='flex flex-col desktop:gap-[1.3vw]'>
-            <div className='flex items-center desktop:gap-[0.52vw] desktop:text-[1.04vw] font-medium leading-[1.25]'>
-              {link.title}
-              <ArrowDown fill='#FFFFFF' fillOpacity={1} className='desktop:w-[0.572vw] desktop:h-[0.416vw]' />
-            </div>
-            <div className='flex flex-col desktop:gap-[0.416vw]'>
-              {link?.subLinks?.map(subLink => <Link className='desktop:text-[1.04vw] leading-[1.25]' key={subLink.pageKey} href={subLink.href}>{subLink.title}</Link>)}
-            </div>
-          </div>
+          <React.Fragment key={link.pageKey}>
+            {link?.href ? <Link href={link.href} className='desktop:text-[1.04vw] font-medium leading-[1.25]'>{link.title}</Link> : <div className='flex flex-col desktop:gap-[1.3vw]'>
+              <div className='flex items-center desktop:gap-[0.52vw] desktop:text-[1.04vw] font-medium leading-[1.25]'>
+                {link.title}
+                <ArrowDown fill='#FFFFFF' fillOpacity={1} className='desktop:w-[0.572vw] desktop:h-[0.416vw]' />
+              </div>
+              <div className='flex flex-col desktop:gap-[0.416vw]'>
+                {link?.subLinks?.map(subLink => <Link className='desktop:text-[1.04vw] leading-[1.25]' key={subLink.pageKey} href={subLink.href}>{subLink.title}</Link>)}
+              </div>
+            </div>}
+          </React.Fragment>
         ))
       }
       <Button {...contactUsButton} size='sm' theme='white' className='uppercase' />
