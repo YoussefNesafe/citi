@@ -19,6 +19,9 @@ const config: Config = {
       desktop: '1024px',
     },
     extend: {
+      transitionDuration: {
+        '4000': '4000ms',
+      },
       colors:{
         dark: "#242527",
         gray:{

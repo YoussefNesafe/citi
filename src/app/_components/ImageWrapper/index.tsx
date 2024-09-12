@@ -33,7 +33,7 @@ export default function ImageWrapper({ skeletonClassName, className, enableGlow 
       <div
         className={cn(
           className,
-          'skeleton-background duration-[4000] left-0 top-0 h-full w-full animate-linearBackgroundMoving rounded-[4.27vw] !filter-none tablet:rounded-[2vw] desktop:rounded-[0.83vw]',
+          'skeleton-background duration-4000 left-0 top-0 h-full w-full animate-linearBackgroundMoving rounded-[4.27vw] !filter-none tablet:rounded-[2vw] desktop:rounded-[0.83vw]',
           skeletonClassName,
           isLoading ? '' : '!hidden'
         )}
