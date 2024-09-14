@@ -60,7 +60,7 @@ const ContactUsForm = ({ disclaimer, errorMessages, fields, submit, countrieslis
           <p
             id="disclaimer"
             className={
-              'text-left rtl:text-right text-[2.796vw] leading-[4.33vw] text-gray-450 tablet:text-[1.5vw] tablet:leading-[2vw] desktop:text-[0.728vw] desktop:leading-[1.04vw]'
+              'text-left rtl:text-right text-[2.796vw] leading-[4.33vw] text-gray-450 tablet:text-[1.5vw] tablet:leading-[2vw] desktop:text-[0.8vw] desktop:leading-[1.04vw] [&>a]:font-bold [&>a]:text-dark'
             }
             dangerouslySetInnerHTML={{ __html: sanitize(disclaimer, { ALLOWED_ATTR: ['target', 'href'] }) }}
           />
