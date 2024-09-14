@@ -3,6 +3,7 @@ import { AdditionalProps, MetaDataType } from "./SharedProps";
 
 
 export type ContactUsPageProps = {
+  metadata: MetaDataType;
   form: ContactUsFormProps;
 }
 
@@ -13,7 +14,6 @@ type ContactOption = {
 
 
 export type ContactUsFormProps = AdditionalProps & {
-  metadata: MetaDataType;
   title: string;
   description: string;
   contactOptions: ContactOption[];
