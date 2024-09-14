@@ -190,31 +190,35 @@
   },
   "homePage": {
     "metadata": {
+      "title": "Home - Explore Citi Developers innovative and urban living.",
+      "description": "Discover Citi Developers' urban excellence—blending innovation, design, and sustainability. Explore the future of city living today.",
+      "keywords": [
+        "Real Estate",
+        "Developer",
+        "Aveline",
+        "Allura",
+        "Dubai",
+        "Citi Developer",
+        "Citi",
+        "Apartment",
+        "Studio",
+        "BHK",
+        "Building",
+        "Allura"
+      ],
+      "openGraph": {
         "title": "Home - Explore Citi Developers innovative and urban living.",
         "description": "Discover Citi Developers' urban excellence—blending innovation, design, and sustainability. Explore the future of city living today.",
-        "keywords": [
-          "Real Estate",
-          "Developer",
-          "Aveline",
-          "Allura",
-          "Dubai",
-          "Citi Developer",
-          "Citi",
-          "Apartment",
-          "Studio",
-          "BHK",
-          "Building",
-          "Allura"
-        ],
-        "openGraph": {
-          "title": "Home - Explore Citi Developers innovative and urban living.",
-          "description": "Discover Citi Developers' urban excellence—blending innovation, design, and sustainability. Explore the future of city living today.",
-          "images": ["/images/homepage/first.webp"]
-        },
-        "twitter": {
-          "images": ["/images/homepage/first.webp"]
-        }
+        "images": [
+          "/images/homepage/first.webp"
+        ]
       },
+      "twitter": {
+        "images": [
+          "/images/homepage/first.webp"
+        ]
+      }
+    },
     "banner": {
       "sloganBox": {
         "title": "Citi Developers",
@@ -433,7 +437,7 @@
     "ourTeam": {
       "header": {
         "title": "citi developers {{team}}",
-        "description": "At Citi Housing, we’re more than just builders; we’re architects of dreams. As CEO, I lead our dedicated team in crafting top-tier housing solutions across Pakistan, ensuring each residence embodies safety, security, and comfort."
+        "description": "At Citi Housing, we’re more than just builders we’re architects of dreams. As CEO, I lead our dedicated team in crafting top-tier housing solutions across Pakistan, ensuring each residence embodies safety, security, and comfort."
       },
       "image": {
         "src": "/images/homepage/meet_our_team.jpg",
@@ -455,31 +459,35 @@
   },
   "contactUs": {
     "metadata": {
+      "title": "Contact US - Explore Citi Developers innovative and urban living.",
+      "description": "Discover Citi Developers' urban excellence—blending innovation, design, and sustainability. Explore the future of city living today.",
+      "keywords": [
+        "Real Estate",
+        "Developer",
+        "Aveline",
+        "Allura",
+        "Dubai",
+        "Citi Developer",
+        "Citi",
+        "Apartment",
+        "Studio",
+        "BHK",
+        "Building",
+        "Allura"
+      ],
+      "openGraph": {
         "title": "Contact US - Explore Citi Developers innovative and urban living.",
         "description": "Discover Citi Developers' urban excellence—blending innovation, design, and sustainability. Explore the future of city living today.",
-        "keywords": [
-          "Real Estate",
-          "Developer",
-          "Aveline",
-          "Allura",
-          "Dubai",
-          "Citi Developer",
-          "Citi",
-          "Apartment",
-          "Studio",
-          "BHK",
-          "Building",
-          "Allura"
-        ],
-        "openGraph": {
-          "title": "Contact US - Explore Citi Developers innovative and urban living.",
-          "description": "Discover Citi Developers' urban excellence—blending innovation, design, and sustainability. Explore the future of city living today.",
-          "images": ["/images/homepage/first.webp"]
-        },
-        "twitter": {
-          "images": ["/images/homepage/first.webp"]
-        }
+        "images": [
+          "/images/homepage/first.webp"
+        ]
       },
+      "twitter": {
+        "images": [
+          "/images/homepage/first.webp"
+        ]
+      }
+    },
     "form": {
       "title": "Contact Us",
       "description": "Your journey towards the perfect home begins here  let's start the conversation!",
@@ -505,7 +513,7 @@
           ]
         }
       ],
-      "disclaimer": "By submitting this form, you confirm that you have read and accepted the Privacy Policy and Terms and Conditions.",
+      "disclaimer": "By submitting this form, you confirm that you have read and accepted the <a href='/privacy-policy' target='_blank'>Privacy Policy </a>and <a href='/terms-and-conditions' target='_blank'>Terms and Conditions.</a>",
       "submit": "Submit",
       "fields": [
         {
@@ -646,10 +654,14 @@
         "openGraph": {
           "title": "Citi Develoepr | About US  - Explore Citi Developers innovative and urban living.",
           "description": "Discover Citi Developers' urban excellence—blending innovation, design, and sustainability. Explore the future of city living today.",
-          "images": ["/images/about/citideveloper/citideveloper-banner.png"]
+          "images": [
+            "/images/about/citideveloper/citideveloper-banner.png"
+          ]
         },
         "twitter": {
-          "images": ["/images/about/citideveloper/citideveloper-banner.png"]
+          "images": [
+            "/images/about/citideveloper/citideveloper-banner.png"
+          ]
         }
       },
       "banner": {
@@ -817,10 +829,14 @@
         "openGraph": {
           "title": "Portfolio | About US - Explore Citi Developers innovative and urban living.",
           "description": "Discover Citi Developers' urban excellence—blending innovation, design, and sustainability. Explore the future of city living today.",
-          "images": ["/images/aveline/11th Floor/image_3.webp"]
+          "images": [
+            "/images/aveline/11th Floor/image_3.webp"
+          ]
         },
         "twitter": {
-          "images": ["/images/aveline/11th Floor/image_3.webp"]
+          "images": [
+            "/images/aveline/11th Floor/image_3.webp"
+          ]
         }
       },
       "banner": {
@@ -1016,10 +1032,14 @@
         "openGraph": {
           "title": "News | About US - Explore Citi Developers innovative and urban living.",
           "description": "Discover Citi Developers' urban excellence—blending innovation, design, and sustainability. Explore the future of city living today.",
-          "images": ["/images/aveline/11th Floor/image_3.webp"]
+          "images": [
+            "/images/aveline/11th Floor/image_3.webp"
+          ]
         },
         "twitter": {
-          "images": ["/images/aveline/11th Floor/image_3.webp"]
+          "images": [
+            "/images/aveline/11th Floor/image_3.webp"
+          ]
         }
       },
       "header": {
@@ -1294,10 +1314,14 @@
         "openGraph": {
           "title": "Blogs | About US - Explore Citi Developers innovative and urban living.",
           "description": "Discover Citi Developers' urban excellence—blending innovation, design, and sustainability. Explore the future of city living today.",
-          "images": ["/images/aveline/11th Floor/image_3.webp"]
+          "images": [
+            "/images/aveline/11th Floor/image_3.webp"
+          ]
         },
         "twitter": {
-          "images": ["/images/aveline/11th Floor/image_3.webp"]
+          "images": [
+            "/images/aveline/11th Floor/image_3.webp"
+          ]
         }
       },
       "header": {
@@ -1572,15 +1596,19 @@
         "openGraph": {
           "title": "Our Team | About US - Explore Citi Developers innovative and urban living.",
           "description": "Discover Citi Developers' urban excellence—blending innovation, design, and sustainability. Explore the future of city living today.",
-          "images": ["/images/shared/CEO.png"]
+          "images": [
+            "/images/shared/CEO.png"
+          ]
         },
         "twitter": {
-          "images": ["/images/shared/CEO.png"]
+          "images": [
+            "/images/shared/CEO.png"
+          ]
         }
       },
       "header": {
         "title": "Citi Developers Team",
-        "description": "At Citi Housing, we’re more than just builders; we’re architects of dreams. As CEO, I lead our dedicated team in crafting top-tier housing solutions across Pakistan, ensuring each residence embodies safety, security, and comfort."
+        "description": "At Citi Housing, we’re more than just builders we’re architects of dreams. As CEO, I lead our dedicated team in crafting top-tier housing solutions across Pakistan, ensuring each residence embodies safety, security, and comfort."
       },
       "CEOMessage": {
         "image": {
@@ -1590,7 +1618,7 @@
           "height": 656
         },
         "title": "Messages From CEO",
-        "description": "At Citi Developers, we’re more than just builders; we’re architects of dreams. As CEO, I lead our dedicated team in crafting top-tier housing solutions across Pakistan, ensuring each residence embodies safety, security, and comfort.<br/>Our foremost goal is to provide avant-garde, luxury housing options that perfectly align with your lifestyle and preferences. We ardently maintain an unwavering commitment to excellence, continuously honing our offerings and services to flexibly adapt to your evolving needs.<br />Our ultimate aspiration is to cultivate flourishing, sustainable communities while cultivating enduring bonds of trust and loyalty with our esteemed clientele.<br/> We extend our heartfelt appreciation for selecting Citi Housing as your preferred housing solution. Be assured, that we ardently anticipate the privilege of perpetuating our service with unwavering excellence for many years to ensue.",
+        "description": "At Citi Developers, we’re more than just builders we’re architects of dreams. As CEO, I lead our dedicated team in crafting top-tier housing solutions across Pakistan, ensuring each residence embodies safety, security, and comfort.<br/>Our foremost goal is to provide avant-garde, luxury housing options that perfectly align with your lifestyle and preferences. We ardently maintain an unwavering commitment to excellence, continuously honing our offerings and services to flexibly adapt to your evolving needs.<br />Our ultimate aspiration is to cultivate flourishing, sustainable communities while cultivating enduring bonds of trust and loyalty with our esteemed clientele.<br/> We extend our heartfelt appreciation for selecting Citi Housing as your preferred housing solution. Be assured, that we ardently anticipate the privilege of perpetuating our service with unwavering excellence for many years to ensue.",
         "ceoDetails": {
           "title": "CEO CITI developers",
           "name": {
@@ -1826,10 +1854,14 @@
         "openGraph": {
           "title": "Experience Center | About US - Explore Citi Developers innovative and urban living.",
           "description": "Discover Citi Developers' urban excellence—blending innovation, design, and sustainability. Explore the future of city living today.",
-          "images": ["/images/about/experienceCenter/bannerExperienceCenter.png"]
+          "images": [
+            "/images/about/experienceCenter/bannerExperienceCenter.png"
+          ]
         },
         "twitter": {
-          "images": ["/images/about/experienceCenter/bannerExperienceCenter.png"]
+          "images": [
+            "/images/about/experienceCenter/bannerExperienceCenter.png"
+          ]
         }
       },
       "banner": {
@@ -1920,10 +1952,14 @@
         "openGraph": {
           "title": "Aveline | Projects - Explore Citi Developers innovative and urban living.",
           "description": "Discover Citi Developers' urban excellence—blending innovation, design, and sustainability. Explore the future of city living today.",
-          "images": ["/images/aveline/Lobby/image_2.webp"]
+          "images": [
+            "/images/aveline/Lobby/image_2.webp"
+          ]
         },
         "twitter": {
-          "images": ["/images/aveline/Lobby/image_2.webp"]
+          "images": [
+            "/images/aveline/Lobby/image_2.webp"
+          ]
         }
       },
       "banner": {
@@ -2045,10 +2081,14 @@
         "openGraph": {
           "title": "Studio Apartment | Aveline - Explore Citi Developers innovative and urban living.",
           "description": "Discover Citi Developers' urban excellence—blending innovation, design, and sustainability. Explore the future of city living today.",
-          "images": ["/images/aveline/Lobby/image_2.webp"]
+          "images": [
+            "/images/aveline/Lobby/image_2.webp"
+          ]
         },
         "twitter": {
-          "images": ["/images/aveline/Lobby/image_2.webp"]
+          "images": [
+            "/images/aveline/Lobby/image_2.webp"
+          ]
         }
       },
       "banner": {
@@ -2101,10 +2141,14 @@
         "openGraph": {
           "title": "1BHK Apartment | Aveline - Explore Citi Developers innovative and urban living.",
           "description": "Discover Citi Developers' urban excellence—blending innovation, design, and sustainability. Explore the future of city living today.",
-          "images": ["/images/aveline/Lobby/image_2.webp"]
+          "images": [
+            "/images/aveline/Lobby/image_2.webp"
+          ]
         },
         "twitter": {
-          "images": ["/images/aveline/Lobby/image_2.webp"]
+          "images": [
+            "/images/aveline/Lobby/image_2.webp"
+          ]
         }
       },
       "banner": {
@@ -2167,10 +2211,14 @@
         "openGraph": {
           "title": "2BHK Apartment | Aveline - Explore Citi Developers innovative and urban living.",
           "description": "Discover Citi Developers' urban excellence—blending innovation, design, and sustainability. Explore the future of city living today.",
-          "images": ["/images/aveline/Lobby/image_2.webp"]
+          "images": [
+            "/images/aveline/Lobby/image_2.webp"
+          ]
         },
         "twitter": {
-          "images": ["/images/aveline/Lobby/image_2.webp"]
+          "images": [
+            "/images/aveline/Lobby/image_2.webp"
+          ]
         }
       },
       "banner": {
@@ -2237,10 +2285,14 @@
         "openGraph": {
           "title": "3BHK Apartment | Aveline - Explore Citi Developers innovative and urban living.",
           "description": "Discover Citi Developers' urban excellence—blending innovation, design, and sustainability. Explore the future of city living today.",
-          "images": ["/images/aveline/Lobby/image_2.webp"]
+          "images": [
+            "/images/aveline/Lobby/image_2.webp"
+          ]
         },
         "twitter": {
-          "images": ["/images/aveline/Lobby/image_2.webp"]
+          "images": [
+            "/images/aveline/Lobby/image_2.webp"
+          ]
         }
       },
       "banner": {
@@ -2312,10 +2364,14 @@
       "openGraph": {
         "title": "tour360 - Explore Citi Developers innovative and urban living.",
         "description": "Discover Citi Developers' urban excellence—blending innovation, design, and sustainability. Explore the future of city living today.",
-        "images": ["/images/about/citideveloper/citideveloper-banner.png"]
+        "images": [
+          "/images/about/citideveloper/citideveloper-banner.png"
+        ]
       },
       "twitter": {
-        "images": ["/images/about/citideveloper/citideveloper-banner.png"]
+        "images": [
+          "/images/about/citideveloper/citideveloper-banner.png"
+        ]
       }
     },
     "banner": {
@@ -2415,6 +2471,74 @@
       }
     ]
   },
+  "privacyPolicy": {
+    "metadata": {
+      "title": "Privacy Policy - Explore Citi Developers innovative and urban living.",
+      "description": "Discover Citi Developers' urban excellence—blending innovation, design, and sustainability. Explore the future of city living today.",
+      "keywords": [
+        "Real Estate",
+        "Developer",
+        "Aveline",
+        "Allura",
+        "Dubai",
+        "Citi Developer",
+        "Citi",
+        "Apartment",
+        "Studio",
+        "BHK",
+        "Building",
+        "Allura"
+      ],
+      "openGraph": {
+        "title": "tour360 - Explore Citi Developers innovative and urban living.",
+        "description": "Discover Citi Developers' urban excellence—blending innovation, design, and sustainability. Explore the future of city living today.",
+        "images": [
+          "/images/about/citideveloper/citideveloper-banner.png"
+        ]
+      },
+      "twitter": {
+        "images": [
+          "/images/about/citideveloper/citideveloper-banner.png"
+        ]
+      }
+    },
+    "title": "Our Privacy Policy",
+    "htmlText": "<div><p><strong>1. INTRODUCTION</strong><br />We take your privacy seriously and are committed to safeguarding your personal information at Citi Developers Properties referred to as (“Company”, “we” or “us” or “Citi Developers”). We value you as our customer, respect your privacy, and are committed to protecting it through our compliance with this policy.</p><p>This policy describes the sources of your personal information that we may collect from you or that you may provide to us, our purposes for collecting and processing your information, and our practices for collecting, using, maintaining, retaining, protecting, and disclosing that information.</p><p>If you have any questions or concerns about this privacy policy or your personal information, please contact us using the details provided in the Section – ‘How do you contact us?’.</p><p><strong>2. WHAT ARE THE SOURCES OF YOUR PERSONAL DATA?</strong><br />The sources of your personal data collected (collectively referred to as “Platforms” in this policy) <br />may include, without limitation, the following:</p><p><strong>Citi Developers official website (www.citidevelopers.com):</strong> This is the sole website created for you and operated by us. It includes the main website under our own domain and web addresses (URLs), as well as any micro-sites affiliated with third-party social media networks such as Facebook, Instagram, TikTok, and LinkedIn.</p><p><strong>Emails, text messaging services, and other electronic messages:</strong> These encompass electronic text-based interactions between you and Citi Developers.</p><p><strong>Citi Developers customer service:</strong> Any communication between you and our customer service center (e.g., phone, chatbot, email, WhatsApp, etc.).</p><p><strong>Online/Offline registration forms:</strong> These include printed/digital registrations, surveys, or questionnaires collected by Citi Developers through registration forms, contests, events, and various promotions when you participate in one of our events or visit our promotional stands in malls to <br />inquire about our properties.</p><p><strong>Advertising:</strong> You might interact with one of our or our partners’ advertisements on our official website and apps, and we might receive and collect this information.</p><p><strong>Career Portal:</strong> This includes the recruitment portal across Citi Developers.</p><p><strong>Data we create:</strong> Citi Developers may also create data about you when you avail our services.</p><p><strong>Data from other sources:</strong> These include social media networks such as Facebook, Instagram, TikTok and LinkedIn, market research agencies, Citi Developers third-party sales agents, registered brokers, promotional partners (such as Banks, UAE Government entities), public sources, and data received when we acquire other companies.</p><p>Please note that this policy does not apply to information collected:</p><ul><li>through any other means, including any other website operated by any third party, or by any third party, including through any application or content (including advertising) that may link to the Citi Developers official website.</li></ul><p><strong>Information Submitted to Payment Processors: </strong>Payment transactions with Citi Developers are facilitated through third-party payment processing services selected by Citi Developers. Any data gathered by these external service providers to facilitate payment processing remains inaccessible to us, unless you have explicitly shared such information with us in the course of using our websites, products, or services.</p><p><strong>3. WHAT INFORMATION WE COLLECT ABOUT YOU AND HOW WE USE YOUR PERSONAL INFORMATION?</strong><br />The type of personal information we collect on or through our platforms, why we collect and how we <br />use the personal information are explained in the following:</p><p><strong>3.1 TO ADDRESS ANY QUESTIONS OR INDICATIONS OF INTEREST FROM YOU:</strong></p><p>Your personal data is utilized to assist us in addressing your questions or indications of interest and to ensure we guide you towards the most suitable property for your requirements. We may obtain your personal data through various means:</p><ul><li>When you submit an inquiry through our website, social media page, phone call, or WhatsApp concerning one of our properties.</li><li>When you engage with us during events or visit our stands to inquire about our properties. If you express interest in our properties through our third-party agents.</li><li>When you visit our sales office or contact our sales advisors regarding any property you wish to purchase. We gather the following personal information – name, email address, phone number, nationality, and details of your inquiry – in line with our legitimate business interests. In specific instances, your inquiry may pertain to a particular service request, such as raising questions about a specific property.</li><li>In such cases, we use your personal information to address your request and fulfill our contractual obligations associated with the requested service.</li></ul><p><strong>3.2 FOR INITIATING OR FINALIZING A SALES PURCHASE AGREEMENT:</strong></p><p>When you opt to proceed with the purchase of a property with Citi Developers, we gather personal data including name, passport information, visa details, address, national ID, and contact details. This information is essential to conclude the contractual arrangements necessary to finalize the property sale and facilitate processes such as property registrations, handovers, and payment <br />arrangements.</p><p>Furthermore, as part of concluding property sales, we are mandated to conduct a security clearance of our customers. This is done in compliance with local laws and aligns with our legitimate business interest to deter and prevent any fraudulent transactions.</p><p><strong>3.3 FOR FACILITATING EMAIL CAMPAIGNS CONDUCTED BY OUR SALES AND MARKETING DEPARTMENTS:</strong></p><p>In the course of our email campaigns, we monitor your interactions with the emails you receive from <br />Citi Developers, including instances of receipt, opening, link clicking, or attachment downloads. <br />Automated profiling of this information is conducted to assess your interest in our service offerings or promotions. This processing allows us to pinpoint and target potential customers or business partners, customize our marketing efforts, and deliver pertinent and timely content aligned with your interests, all in pursuit of our legitimate business interests.</p><p>If you wish to abstain from receiving such information, you have the option to opt out by following the instructions provided in the Section titled “How to opt out?”.</p><p><strong>3.4 FOR ENABLING ADVERTISEMENTS:</strong></p><p>Citi Developers utilizes the personal information you furnish us for commercial purposes, aiding us in customizing and presenting advertisements to you. We may collaborate with third parties to assist in displaying pertinent advertising and managing our advertising across various channels, including social media platforms. Our third-party partners might employ cookies and non-cookie-based technologies to assist us in showcasing advertising tailored to your browsing activities and <br />interests.</p><p>If you desire to opt-out of this service, you can do so by following the instructions provided in the Section titled “How to opt out?”</p><p><strong>3.5 FOR LEGAL COMPLIANCE AND THE EXERCISE OR DEFENSE OF LEGAL CLAIMS:</strong></p><p>The processing and retention of your personal information may be necessary for us to comply with legal requirements applicable to us, such as those related to licensing and health and safety. Processing personal information for the purpose of exercising and defending legal claims aligns with our legitimate interests. Additionally, the processing of personal information may be essential to ensure compliance with relevant legal and regulatory obligations.</p><p><strong>3.6 FOR PAYMENT PROCESSING AND FRAUD PREVENTION:</strong></p><p>We may find it necessary to process your personal information to ensure the security of your payments and protect against fraudulent transactions. This aligns with our legitimate interests in maintaining the safety and security of your payments and preventing fraud. Additionally, your personal information may be required for sending payment reminders and legal intimations in the case of overdue payments. Processing personal information in this manner is also essential to ensure <br />compliance with relevant legal and regulatory obligations.</p><p><strong>3.7 TO HONOR OPT-OUT OR DO NOT DISTURB REQUESTS:</strong></p><p>We recognize and respect your preference not to receive offers, promotions, or details about our products and services. If you choose to opt-out, we may need to retain information such as your name, email ID/contact number, and the subscription(s) you opted out of to comply with your requests. Should you wish to hear from us in the future, you can contact us at any time to opt-in, and we will gladly keep you informed about our latest offers, promotions, and/or details of our <br />products and services.</p><p><strong>3.8 FOR COMPLIANCE WITH HEALTH AND SAFETY OBLIGATIONS:</strong></p><p>In the event of an accident or injury at our residential units or managed communities, we may be required to process your medical information or other health-related details. This processing is in line with our legitimate interest in managing accidents and injuries within our managed facilities. This information is crucial for enhancing our accident prevention system, including fire protection and safeguarding against foreseeable natural and technological risks. Additionally, it may be necessary for legal purposes or to prepare for and defend against legal claims.</p><p><strong>3.9 OTHER INFORMATION WE COLLECT:</strong></p><p>There is additional information we may collect that does not directly disclose your specific identity or relate directly to you as an individual. Pursuant to our legitimate business interests, we automatically collect the following information when you use or interact with our platform:</p><ul><li>Usage data – we collect details of your use of our Platform (including traffic data, IP address, location data, device and browser information, device operating system information, logs, and other <br />communication data), and the resources that you access on our Platform.</li></ul><p><strong>Cookies:</strong> We automatically collect data about your browsing session on our website and apps via cookies, which help us to understand your interests. For example, we use cookies to store your preferences, enhance user experience and navigation, conduct market research, and create user statistics.</p><p><strong>Third-party Cookies:</strong> Some of the cookies placed on our website come from third parties, such as our advertising partners, affiliates, and vendors. These third-party cookies assist us in delivering tailored advertisements, gauging the effectiveness of ad campaigns, and refining our offerings to improve your online experience.</p><p><strong>Device information:</strong> We may collect your device ID and other information relating to the device you use to access our website.</p><p><strong>Online behavior:</strong> We may collect data on your online behavior, such as pages you have viewed on our website, time spent on each page, and any searches you have performed.</p><p><strong>Social media profiles:</strong> We may collect details about your social media profiles and <br />interactions if you have connected your social media accounts with us, or if you interact with us <br />via social media.</p><p><strong>4. WHO MAY WE SHARE YOUR PERSONAL INFORMATION WITH?</strong><br />We may share your personal data with the following categories of parties:</p><ul><li><strong>With third-party service providers:</strong> We engage external vendors or service providers to perform services on our behalf, including hosting, technical, operational, or commercial support, and email and newsletter distribution. In the course of delivering these services, they may have access to your personal information.</li><li><strong>With third-party partners:</strong> We may share your personal information with third-party advertising partners or social media platforms for personalized advertising purposes. This may include aggregating your personal information with data from other sources for tailored ad campaigns and improving our marketing strategies.</li><li><strong>With legal and regulatory authorities:</strong> We may be required to share your personal information with relevant authorities to comply with legal and regulatory requirements.</li><li><strong>With our affiliates:</strong> We may share your personal data within our group of companies for legitimate business purposes, including operational efficiency and consistency across our services.</li><li><strong>In connection with business transfers:</strong> We may share your personal information in the event of a merger, acquisition, reorganization, or sale of all or a portion of our business, subject to compliance with applicable data protection laws.</li></ul><p><strong>5. HOW LONG DO WE RETAIN YOUR PERSONAL DATA?</strong><br />We retain your personal information for as long as necessary to fulfill the purposes outlined in this privacy policy, unless a longer retention period is required by law. Upon completion of the data retention period, we will securely delete or anonymize your personal information in line with applicable laws.</p><p><strong>6. HOW DO WE PROTECT YOUR PERSONAL DATA?</strong><br />We take appropriate technical and organizational measures to safeguard your personal data and protect it against unauthorized access, disclosure, alteration, or destruction. Our security measures include encryption, firewalls, access control procedures, and regular security audits to ensure the integrity and confidentiality of your personal data.</p><p><strong>7. WHAT ARE YOUR RIGHTS?</strong><br />You have the following rights regarding your personal data:</p><ul><li><strong>Right to access:</strong> You have the right to request access to the personal information we hold about you, along with details about how we process your data.</li><li><strong>Right to rectification:</strong> You have the right to request the correction of inaccurate or incomplete personal data we hold about you.</li><li><strong>Right to erasure:</strong> You have the right to request the deletion of your personal data in certain circumstances, such as when it is no longer necessary for the purposes for which it was collected or processed.</li><li><strong>Right to restrict processing:</strong> You have the right to request the restriction of processing of your personal data in certain circumstances.</li><li><strong>Right to object:</strong> You have the right to object to the processing of your personal data in certain circumstances, including for direct marketing purposes.</li><li><strong>Right to data portability:</strong> You have the right to receive a copy of your personal data in a structured, commonly used, and machine-readable format, and to transmit it to another data controller.</li><li><strong>Right to withdraw consent:</strong> If we process your personal data based on your consent, you have the right to withdraw your consent at any time.</li><li><strong>Right to lodge a complaint:</strong> You have the right to lodge a complaint with the relevant data protection authority if you believe that we have violated your data protection rights.</li></ul><p><strong>8. HOW TO OPT OUT?</strong><br />If you wish to opt out of receiving marketing communications from us, you can do so by following the unsubscribe instructions provided in our emails, or by contacting us directly. You may also adjust your cookie preferences to opt out of personalized advertisements by following the instructions in the Section titled “Cookies” above.</p><p><strong>9. HOW DO YOU CONTACT US?</strong><br />If you have any questions or concerns about this privacy policy or your personal data, you can contact us at:</p><p><strong>Address:</strong> Citi Developers Properties, Address line here<br /><strong>Email:</strong> emailaddresshere@citidevelopers.com</p></div>"
+  },
+  "termsAndConditions": {
+    "metadata": {
+      "title": "Terms And Conditions - Explore Citi Developers innovative and urban living.",
+      "description": "Discover Citi Developers' urban excellence—blending innovation, design, and sustainability. Explore the future of city living today.",
+      "keywords": [
+        "Real Estate",
+        "Developer",
+        "Aveline",
+        "Allura",
+        "Dubai",
+        "Citi Developer",
+        "Citi",
+        "Apartment",
+        "Studio",
+        "BHK",
+        "Building",
+        "Allura"
+      ],
+      "openGraph": {
+        "title": "tour360 - Explore Citi Developers innovative and urban living.",
+        "description": "Discover Citi Developers' urban excellence—blending innovation, design, and sustainability. Explore the future of city living today.",
+        "images": [
+          "/images/about/citideveloper/citideveloper-banner.png"
+        ]
+      },
+      "twitter": {
+        "images": [
+          "/images/about/citideveloper/citideveloper-banner.png"
+        ]
+      }
+    },
+    "title": "Our Terms and Conditions",
+    "htmlText": "<div><p>GOVERNING USE OF CITIDEVELOPER.COM TO PROTECT YOUR RIGHTS</p><p>Please read these Terms &amp Conditions carefully. These are the general Terms &amp Conditions governing your access and use of this website (“Site”).</p><p>ACCEPTANCE OF THE TERMS OF US</p><p>This website is the property of Citi Developers and is operated by Citi Developers (“Citi Developers” “Company”, “we” or “us”). The ensuing terms and conditions, in conjunction with any lease or sale and purchase agreement (“Property Agreement”) executed with the Company or any of its affiliates concerning a commercial lease, unit, or plot in an Citi Developers project utilized through this website, along with any explicitly referenced documents (collectively referred to as these “Terms of Use”), dictate your access to and<br />utilization of www.citideveloper.com (the “Website”), encompassing any content, features, and services provided on or through the Website, whether as a guest or a registered user. Kindly peruse the Terms of Use meticulously before commencing the use of the Website. By accessing the Website or, as applicable, by consenting to or concurring with the Terms of Use when such an option is presented to you, you acknowledge and consent to abide by these Terms of Use and our Privacy Policy, available at www.citideveloper.com, which is incorporated herein by reference. Should you decline to accept these Terms of Use or the Privacy Policy, you are obligated to refrain from accessing or utilizing the Website.</p><p>MODIFICATIONS TO THE TERMS OF USE:</p><p>We reserve the right to modify and update these Terms of Use periodically at our discretion. All amendments become effective immediately upon their posting, and they govern all subsequent access to and usage of the Website. Your ongoing utilization of the Website subsequent to the publication of revised Terms of Use signifies your acceptance and agreement to the modifications. It is expected that you review this page periodically to stay informed about any changes, as they are obligatory for you.</p><p>ACCESSING THE WEBSITE AND ENSURING ACCOUNT SECURITY</p><p>We retain the right to withdraw or modify the Website, as well as any service or content offered on it, at our sole discretion without prior notice. We shall not be held liable if, for any reason, all or any part of the Website becomes unavailable at any time or for any duration. Periodically, we may limit access to certain sections of the Website, or the entire website, to any user, including registered users.<br />Your responsibilities include:</p><ul><li>Making all necessary arrangements to access the Website.</li><li>Ensuring that all individuals who access the Website through your internet connection are familiar with these Terms of Use and adhere to them.</li></ul><p>To access the Website or utilize some of its features, such as making payments via credit cards or other electronic payment methods, you may be required to provide certain registration details or other information. Your use of the Website is contingent upon the accuracy, currency, and completeness of all information you provide, including but not limited to credit card details or information related to other electronic payment methods. By registering on this Website or engaging with any interactive features it offers, you acknowledge that all information you provide is subject to our Privacy Policy. You consent to all actions we take regarding your information in accordance with our Privacy Policy.</p><p>If you opt for, or are furnished with, a username, password, or any other confidential piece of information as part of our security measures, it is imperative that you treat such information with utmost confidentiality and refrain from disclosing it to any other individual or entity. Additionally, you acknowledge that your account is designated solely for your personal use, and therefore agree not to grant access to this Website or any of its sections to any other individual using your username, password, or other security credentials. Promptly inform us of any unauthorized access to or utilization of your username or password, or any other security breach. Furthermore, commit to logging out of your account at the conclusion of each session. Exercise caution, particularly when accessing your account from a public or shared computer, to prevent others from observing or recording your password or personal information.</p><p>You are permitted to have only one account with this Website. Should you receive multiple usernames, passwords, or activation codes, please notify us immediately, as utilizing more than one account constitutes a violation of these Terms of Use. We reserve the right to deactivate any username, password, or other identifiers, whether chosen by you or provided by us, at our discretion and without prior notice, for any reason or no reason at all, especially if, in our opinion, you have contravened any provision of these Terms of Use.</p><p>To ensure secure online transactions and safeguard all personal data, the Website employs SSL (Secure Socket Layer) technology. SSL encrypts all communication between your computer and our server, ensuring that the information can only be comprehended by us. Typically, a closed lock icon displayed in your browser window indicates a secure connection. For further details, please refer to your browser’s security specifications. If your browser supports SSL, your transaction will automatically be secured. The conventional indicator of a secure site on the Internet is a closed lock icon at the bottom of the browser. As long as the lock remains closed, your information is secure and encrypted to prevent misuse. If you click on the secure transaction link and still do not see the closed lock icon, it may be due to the window being nested within another frame.</p><p>INTELLECTUAL PROPERTY RIGHTS</p><p>The Website, including all of its components, features, and functionalities (such as information, software, text, displays, images, video, audio, and their arrangement), is the property of the Company, its licensors, or other providers, and is protected by copyright, trademark, patent, trade secret, and other intellectual property laws in the United Arab Emirates and internationally.</p><p>These Terms of Use grant you permission to use the Website for personal, noncommercial purposes only. You are not allowed to reproduce, distribute, modify, create derivative works of, publicly display or perform, republish, download, store, or transmit any material from the Website, except under the following circumstances:</p><ul><li>Your computer may temporarily store copies of materials in RAM while accessing and viewing them.</li><li>Your web browser may automatically cache files for display enhancement purposes.</li><li>You may print or download one copy of a reasonable number of pages for personal, non-commercial use, provided you do not further distribute them.</li><li>If provided, you may download a single copy of desktop, mobile, or other applications for personal, non-commercial use, subject to our end-user license agreement.</li><li>If social media features are provided, you may use them as enabled.</li></ul><p>You are prohibited from:</p><ul><li>Altering copies of any materials.</li><li>Republishing any part of the Website on another platform or medium, or as part of any commercial service.</li><li>Separating illustrations, photographs, videos, audio sequences, or graphics from their accompanying text.</li><li>Removing or altering any copyright, trademark, or other proprietary notices.</li><li>No rights, title, or interest in the Website or its content are transferred to you, and all rights not expressly granted are reserved by the Company. Any unauthorized use of the Website violates these Terms of Use and may infringe upon copyright, trademark, and other laws.</li></ul><div><p>TRADEMARKS</p></div><div><span >The names of the Company, its brand names, logos, and all associated names, logos,</span><span >product and service names, designs, and slogans are trademarks owned by the</span><span >Company, its affiliates, or licensors. You are prohibited from using such marks without</span><span >obtaining prior written permission from the Company. Any other names, logos, product</span><span >and service names, designs, and slogans found on this Website are trademarks</span><span>belonging to their respective owners.</span></div><div>PROHIBITED USES</div><div>You may utilize the Website solely for lawful purposes and in compliance with these Terms of Use. You agree not to use the Website:</div><ul><li>In any manner that violates any applicable federal, local, or international laws or regulations, including misuse of credit cards or other forms of electronic payments.</li><li>To transmit, or solicit the transmission of, any advertising or promotional materials, including “junk mail,” “chain letters,” or “spam,” or any similar unsolicited communications.</li><li>To impersonate or attempt to impersonate the Company, a Company employee, another user, or any other person or entity, including by using email addresses or screen names associated with any of the aforementioned.</li><li>To engage in any conduct that impedes or restricts anyone’s use or enjoyment of the Website, or that, as determined by us, may harm the Company or users of the Website, or expose them to liability.</li></ul><p>Furthermore, you agree not to:</p><ul><li>Utilize any automated means, such as robots or spiders, to access the Website for any purpose, including monitoring or copying any material from the Website.</li><li>Employ any manual process to monitor or copy material from the Website without our prior written consent for any unauthorized purpose.</li><li>Use any device, software, or routine that interferes with the proper functioning of the Website.</li><li>Introduce any viruses, trojan horses, worms, logic bombs, or other malicious or<br />technologically harmful material.</li><li>Attempt to gain unauthorized access to, interfere with, damage, or disrupt any part of the Website, the server on which the Website is hosted, or any server, computer, or database connected to the Website.</li><li>Launch a denial-of-service attack or a distributed denial-of-service attack against the Website.</li><li>Otherwise attempt to interfere with the proper operation of the Website.</li></ul><p>RELIANCE ON INFORMATION PROVIDED</p><p>The information provided on or through the Website is intended solely for general informational purposes. We do not guarantee the accuracy, completeness, or usefulness of this information. Any reliance you place on such information is done strictly at your own risk. We disclaim all liability and responsibility for any reliance placed on such materials by you or any other visitor to the Website, or by anyone who may be informed of its contents.</p><p>UPDATE OF WEBSITE CONTENT</p><p>We reserve the right to update the content on the Website periodically, but we do not necessarily ensure that such content is complete or up-to-date. Some material on the Website may become outdated over time, and we are not obligated to update such material.</p><p>INFORMATION COLLECTED AND PRIVACY</p><p>All information collected on this Website is governed by our Privacy Policy. By utilizing the Website, you consent to all actions taken by us regarding your information in accordance with the Privacy Policy.</p><p>TERMS AND CONDITIONS FOR ONLINE TRANSACTIONS</p><p>All transactions conducted on our website, including purchases and other services obtained through the website or as a result of your visits, are governed by the Terms of Use and the Property Agreement.</p><p>Specific parts, services, or features of the website may have additional terms and conditions. These additional terms and conditions are hereby included into the Terms of Use. All payments made through this website are subject to these Terms of Use and the Property Agreement. Consequently, the Company is not obligated to accept payments that do not comply with these terms or the Property Agreement, even if made after termination of either. You acknowledge and accept that any payment received through this website does not imply acceptance or waiver of the right to reject payment at a later date.</p><p>Description of Goods and Services: Our website facilitates payment for service fees, utilities, and other charges related to community management, compliance with community rules, or legal requirements specified in the Property Agreement.</p><p>Transactions are processed in AED unless otherwise specified.</p><p>It is your responsibility to ensure that payments are accurately and promptly received by the Company. We bear no liability for any incorrect, rejected, or declined payments, and we are not obligated to notify you of such occurrences. Additionally, you are responsible for ensuring sufficient credit availability, and in the event of a declined credit card payment, you must pay any additional fees levied by financial institutions or the Company. You must promptly inform us of any failed transactions or technical issues encountered on the website.</p><p>If any transaction is deemed incorrect, unauthorized, or fraudulent, payment may be reversed, and the relevant payments will remain outstanding. Transactions are processed on the day they are submitted for payment unless submitted on a weekend or non-working weekday, in which case they will be processed on the next working day. Upon receipt of funds into our bank account, we will issue a proper receipt. While we endeavor to process transactions promptly, we expressly disclaim liability for any processing delays that may occur. Payment is not considered accepted until funds have cleared. Refunds, if applicable, are subject to the terms and conditions outlined in the Property Agreement. Any duplicate or excess payments received will be adjusted against future invoices. It is your responsibility to maintain documentation evidencing payments made through the<br />website. Any service or maintenance requests made through this website are subject to the Property Agreement.</p><p>ADVERTISEMENT TERMS OUTSIDE THE UNITED ARAB EMIRATES</p><p>All purchases must be made in Arab Emirates Dirhams (AED), regardless of the currency stated in the ads. Please note that due to currency fluctuations, the amounts listed in currencies other than AED may be higher or lower at the time of signing the Property Agreement. We advise contacting our Sales Center to confirm the purchase price in AED.</p><p>Purchases are subject to signing a separate Property Agreement with its own terms and conditions. The amounts due under the Property Agreement will be listed in AED and must be paid in AED.</p><p>LINKING TO THE WEBSITE AND SOCIAL MEDIA FEATURES</p><p>You are permitted to link to any page as long as you do so fairly and legally, without damaging our reputation or exploiting it. However, you must not create a link in a way that implies any form of association, approval, or endorsement on our part</p><p>This Website may offer certain social media features that allow you to:</p><ul><li>Link from your own or certain third-party websites to specific content on this Website.</li><li>Send emails or other communications containing specific content or links to specific content on this Website.</li><li>Display limited portions of content from this Website on your own or certain third party websites.</li></ul><p>You may only use these features as provided by us, solely with respect to the content they are associated with, and in accordance with any additional terms and conditions we provide. You are not permitted to:</p><ul><li>Establish a link from any website that you do not own.</li><li>Take any action with respect to the materials on this Website that is inconsistent with any other provision of these Terms of Use.</li></ul><p>You agree to cooperate with us to immediately cease any unauthorized framing or linking. We reserve the right to withdraw linking permission without notice.</p><p>We may disable all or any social media features and any links at any time without notice at our discretion.</p><p>WEBSITE LINKS</p><p>If the Website includes links to other websites and resources provided by third parties, these links are provided solely for your convenience. This includes links within advertisements, such as banner advertisements and sponsored links. We do not have control over the content of those sites or resources and accept no responsibility for them or for any loss or damage that may arise from your use of them. If you choose to access any of the third-party websites linked to this Website, you do so entirely at your own risk and subject to the terms and conditions of use for those websites.</p><p>GEOGRAPHIC RESRICTIONS</p><p>The owner of the Website is located in the United Arab Emirates. We do not make any claims that the Website or any of its content is accessible or appropriate outside of the United Arab Emirates. Access to the Website may not be legal for certain individuals or in certain countries. If you access the Website from outside the United Arab Emirates, you do so at your own initiative and are responsible for complying with local laws.</p><p>WARRANTY DISCLAIMER</p><p>It is understood that we cannot and do not guarantee or warrant the Website to be free of viruses or other destructive code. You are responsible for implementing adequate procedures and safeguards to meet your specific requirements for antivirus protection and data accuracy. Additionally, you must maintain external means to reconstruct any lost data.</p><p>We shall not be held liable for any loss or damage caused by distributed denial-of-service attacks, viruses, or any other technologically harmful material that may infect your computer equipment, software, data, or other proprietary material due to your use of the Website. This includes any services or items obtained through the Website or any material downloaded from it or any linked websites.</p><p>Your use of the Website, its content, and any services or items obtained through it is solely at your own risk. The Website, its content, and any services or items obtained through it are provided on an “as is” and “as available” basis, without any warranties of any kind, whether express or implied. Neither the Company nor any person associated with the Company makes any warranty or representation regarding the completeness, security, reliability, quality, accuracy, or availability of the Website. Without limiting the foregoing, neither the Company nor anyone associated with the Company represents or warrants that the Website, its content, or any services or items obtained through the Website will be accurate, reliable, error-free, or uninterrupted. Furthermore, we do not warrant that our site or the server that makes it available are free of viruses or other harmful components, or that the Website or any services will meet your needs or expectations.</p><p>The Company hereby disclaims all warranties of any kind, whether express or implied, statutory, or otherwise, including but not limited to any warranties of non-infringement. However, this disclaimer does not affect any warranties that cannot be excluded or limited under applicable law.</p><p>LIMITATION ON LIABILITY</p><p>In no event will the company, its affiliates or their licensors, service providers, employees, agents, officers or directors be liable for damages of any kind, under any legal theory, arising out of or in connection with your use, or inability to use, the website, any websites linked to it, any content on the website or such other websites or any services or items obtained through the website or such other websites, including any direct, indirect,<br />special, incidental, consequential or punitive damages, including but not limited to, personal injury, pain and suffering, emotional distress, loss of revenue, loss of profits, loss of business or anticipated savings, loss of use, loss of goodwill, loss of data, and whether caused by tort (including negligence), breach of contract or otherwise, even if foreseeable.</p><p>The foregoing does not affect any liability which cannot be excluded or limited under<br />applicable law.</p><p>INDEMNIFICATION</p><p>You commit to defending, indemnifying, and safeguarding the Company, its affiliates, licensors, and service providers, as well as their respective officers, directors, employees, contractors, agents, licensors, suppliers, successors, and assigns from and against any claims, liabilities, damages, judgments, awards, losses, costs, expenses, or fees (including reasonable attorneys’ fees) arising from or related to your violation of these Terms of Use or your use of the Website. This includes any use of the Website’s content, services, and products other than as expressly authorized in these Terms of Use or your use of any information obtained from the Website.</p><p>GOVERNING LAW AND JURISDICTION</p><p>All matters concerning the Website, these Terms of Use, and any dispute or claim arising from or related to them (including non-contractual disputes or claims) shall be governed by and construed in accordance with the laws of the Emirate of Dubai, United Arab Emirates, without giving effect to any choice or conflict of law provision or rule (whether of the United Arab Emirates or any other jurisdiction).</p><p>Any legal action, suit, or proceeding arising from or related to these Terms of Use or the Website shall be exclusively initiated in the courts of Dubai, United Arab Emirates, although we reserve the right to bring any legal action, suit, or proceeding against you for breaching these Terms of Use in your place of residence or any other relevant country.<br />You waive any objections to the exercise of jurisdiction over you by such courts and to venue in such courts.</p><p>LIMITATION ON TIME TO FILE CLAIMS</p><p>Any cause of action or claim you may have arising from or relating to these Terms of Use or the Website must be commenced within one (1) week after the cause of action accrues. Otherwise, such cause of action or claim is permanently barred.</p><p>WAIVER AND SEVERABILITY</p><p>No waiver by the Company of any provision in these Terms of Use shall be considered a continuing waiver of that provision or of any other provision, and the Company’s failure to assert any right or provision under these Terms of Use shall not constitute a waiver of such right or provision.</p><p>If any provision of these Terms of Use is found to be invalid, illegal, or unenforceable by a court or other competent authority, that provision shall be modified or limited to the minimum extent necessary for the remaining provisions of these Terms of Use to remain in full force and effect.</p><p>ENTIRE AGREEMENT</p><p>These Terms of Use, our Privacy Policy, and the Property Agreement constitute the complete agreement between you and the Company regarding the Website, superseding all prior understandings, agreements, representations, and warranties, whether written or oral, concerning the Website.</p><p>YOUR COMMENTS AND CONCERNS</p><p>This website is owned and operated by the Company. For technical support inquiries or other communications related to the Website, please use our website contact form or email us at info@citideveloper.com.</p><p><br />For feedback or suggestions, please use the We Care form on the Website.</p><p><br />By using this Website to update your personal information, address(es), or contact details, you acknowledge and accept that the Company or its affiliates may, at their discretion, use such information to send legal notices under these Terms of Use or the Property Agreement. You are responsible for promptly informing the Company of any changes to this information.</p><p></p></div>"
+    },
   "shared": {
     "latestNews": {
       "header": {

@@ -6,6 +6,7 @@ import { ContactUsPageProps } from './ContactUsPage';
 import { AboutPages } from './AboutPages';
 import { ProjectsPages } from './ProjectsPages';
 import { Tour360PageType } from './Tour360Page';
+import { PrivacyPolicyAndTermsConditionsType } from './PrivacyPolicyAndTermsConditions';
 
 export interface IDictionary {
   layout: LayoutProps;
@@ -15,6 +16,8 @@ export interface IDictionary {
   about: AboutPages;
   projects: ProjectsPages;
   tour360: Tour360PageType;
+  privacyPolicy: PrivacyPolicyAndTermsConditionsType;
+  termsAndConditions: PrivacyPolicyAndTermsConditionsType;
   shared: SharedSectionsProps;
 } 
 
