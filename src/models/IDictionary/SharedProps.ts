@@ -95,3 +95,12 @@ export type MetaDataType = {
     images?: string[];
   };
 }
+
+export type ProjectBriefSectionType = AdditionalProps & {
+  image: ImageProps;
+  title: string;
+  article: {
+    title: string;
+    description: string
+  }
+}

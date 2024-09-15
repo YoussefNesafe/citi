@@ -1,4 +1,4 @@
-import { AlluraPopUpType, ApartmentsCardsType, CountriesListProps, ErrorMessagesProps, LatestNewsProps } from './SharedProps';
+import { AlluraPopUpType, ApartmentsCardsType, CountriesListProps, ErrorMessagesProps, LatestNewsProps, SectionHeaderProps } from './SharedProps';
 import { HomePageProps } from './HomePage';
 import { LayoutProps } from "./Layout";
 import { NotFoundPageProps } from './NotFoundPage';
@@ -27,4 +27,5 @@ export type SharedSectionsProps = {
   errorMessages: ErrorMessagesProps;
   countrieslist: CountriesListProps;
   alluraPopUp: AlluraPopUpType;
+  mapHeader: SectionHeaderProps;
 } 

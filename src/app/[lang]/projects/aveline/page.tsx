@@ -2,7 +2,6 @@ import BannerSection from '@/app/_sections/shared/BannerSection'
 import getLocalizedData from '@/services/getLocalizedData';
 import { Locale } from '../../../../../i18n-config';
 import { AvelinePageType } from '@/models/IDictionary/ProjectsPages/AvelinePage';
-import AvelineJvcSection from '@/app/_sections/projects/aveline/AvelineJvcSection';
 import ProjectInfo from '@/app/_sections/projects/aveline/ProjectInfo';
 import DiscoverCommunity from '@/app/_sections/projects/aveline/DiscoverCommunity';
 import SwiperSection from '@/app/_sections/shared/SwiperSection';
@@ -11,6 +10,7 @@ import MapWrapper from '@/app/_sections/shared/MapWrapper';
 import { Suspense } from 'react';
 import { Metadata } from 'next';
 import { MetaDataType } from "@/models/IDictionary/SharedProps";
+import ProjectBriefSection from '@/app/_sections/shared/ProjectBriefSection';
 
 export async function generateMetadata({ params: { lang } }: { params: { lang: Locale } }): Promise<Metadata> {
   // fetch data
@@ -27,14 +27,14 @@ const mapProps = {
 }
 
 const AvelinePage = async ({ params: { lang } }: { params: { lang: Locale } }) => {
-  const { banner, avelineJvc, projectInfo, discoverCommunity, amenities, exterior, lobby } = await getLocalizedData<AvelinePageType>(lang, 'projects.aveline');
-  const { apartmentsCards } = await getLocalizedData<SharedSectionsProps>(lang, 'shared');
+  const { banner, projectBrief, projectInfo, discoverCommunity, amenities, exterior, lobby } = await getLocalizedData<AvelinePageType>(lang, 'projects.aveline');
+  const { mapHeader } = await getLocalizedData<SharedSectionsProps>(lang, 'shared');
 
   return (
     <>
       <BannerSection {...banner} className='section-py' overlay />
       <Suspense>
-        <AvelineJvcSection {...avelineJvc} className='section-py ' />
+        <ProjectBriefSection {...projectBrief} className='section-py ' />
       </Suspense>
       <Suspense>
         <ProjectInfo {...projectInfo} className='section-py' />
@@ -42,7 +42,7 @@ const AvelinePage = async ({ params: { lang } }: { params: { lang: Locale } }) =
       <Suspense>
         <DiscoverCommunity {...discoverCommunity} className='section-py' />
       </Suspense>
-      <MapWrapper {...mapProps} />
+      <MapWrapper {...mapProps} header={mapHeader} />
       <Suspense>
         <SwiperSection className="section-py" {...amenities} imagesArray={'AV_AMENITIES'} animateFrom='left' />
       </Suspense>

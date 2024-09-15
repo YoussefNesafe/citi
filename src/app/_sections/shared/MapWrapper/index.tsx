@@ -1,14 +1,21 @@
 import dynamic from 'next/dynamic';
 import React from 'react'
 import { MapComponentProps } from './MapLocation';
+import SectionHeader from '@/app/_components/SectionHeader';
+import { SectionHeaderProps } from '@/models/IDictionary/SharedProps';
 
-const MapWrapper = ({ ...props }: MapComponentProps) => {
+const MapWrapper = ({ header, ...props }: MapComponentProps & { header: SectionHeaderProps; }) => {
 
   const MapComponent = dynamic(() => import('./MapLocation'), {
     ssr: false,
   });
   return (
-    <MapComponent {...props} />
+    <>
+      <div className='text-center section-pt'>
+        <SectionHeader {...header} />
+      </div>
+      <MapComponent {...props} />
+    </>
   )
 }
 

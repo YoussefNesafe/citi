@@ -1,12 +1,12 @@
 import { ImageProps } from "next/image";
-import { AdditionalProps, BannerSectionType, MetaDataType, SectionHeaderProps, SwiperSectionType } from "../SharedProps"
+import { AdditionalProps, BannerSectionType, MetaDataType, ProjectBriefSectionType, SectionHeaderProps, SwiperSectionType } from "../SharedProps"
 import { ButtonProps } from "@/app/_components/Button/button-types";
 import { IMAGES_MAP_TYPE } from "@/constants/aveline_images_maps";
 
 export type AvelinePageType = {
   metadata: MetaDataType;
   banner: BannerSectionType;
-  avelineJvc: AvelineJvcType;
+  projectBrief: ProjectBriefSectionType;
   projectInfo: ProjectInfoType;
   discoverCommunity: DiscoverCommunityType;
   amenities: SwiperSectionType;
@@ -24,14 +24,7 @@ export type AvelineInnerPagesType = {
   }[] 
 }
 
-export type AvelineJvcType = AdditionalProps & {
-  image: ImageProps;
-  title: string;
-  article: {
-    title: string;
-    description: string
-  }
-}
+
 
 export type ProjectInfoBoxType = {title: string; description: string}
 

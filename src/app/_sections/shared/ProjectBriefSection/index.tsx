@@ -1,14 +1,14 @@
 "use client"
 import { getHighlightedText } from '@/hooks/getHighlightedText'
 import { cn } from '@/lib/utils'
-import { AvelineJvcType } from '@/models/IDictionary/ProjectsPages/AvelinePage'
 import { sanitize } from 'isomorphic-dompurify'
 import ImageWrapper from '@/app/_components/ImageWrapper'
 import React, { useRef } from 'react'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
+import { ProjectBriefSectionType } from '@/models/IDictionary/SharedProps'
 
-const AvelineJvcSection = ({ article, image, title, className, ...props }: AvelineJvcType) => {
+const ProjectBriefSection = ({ article, image, title, className, ...props }: ProjectBriefSectionType) => {
   const containerRef = useRef(null)
 
 
@@ -58,4 +58,4 @@ const AvelineJvcSection = ({ article, image, title, className, ...props }: Aveli
   )
 }
 
-export default AvelineJvcSection
+export default ProjectBriefSection

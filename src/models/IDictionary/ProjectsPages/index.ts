@@ -1,3 +1,4 @@
+import { AlluraPageType } from "./AlluraPage";
 import { AvelineInnerPagesType, AvelinePageType } from "./AvelinePage"
 
 export type ProjectsPages = {
@@ -6,4 +7,5 @@ export type ProjectsPages = {
   oneBedroomApartment: AvelineInnerPagesType;
   twoBedroomApartment: AvelineInnerPagesType;
   threeBedroomApartment: AvelineInnerPagesType;
+  allura: AlluraPageType;
 }
