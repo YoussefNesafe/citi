@@ -4,8 +4,16 @@ import { cn } from '@/lib/utils'
 import Calendar from '../icons/Calendar'
 import LongArrowUp from '../icons/LongArrowUp'
 import Link from 'next/link'
+import {
+  Sheet, SheetTrigger
+  , SheetContent,
+  SheetClose,
+} from '@/app/_components/ui/sheet';
+import { isRtlLang } from '@/app/utils/isRtlLang'
+import { Locale } from '../../../../i18n-config'
+import { sanitize } from 'isomorphic-dompurify'
 
-const NewsBlogsCard = ({ date, description, button, title, image, classNames, className }: Omit<CardProps, 'type'>) => {
+const NewsBlogsCard = ({ date, description, button, title, image, classNames, className, content }: Omit<CardProps, 'type'>) => {
   return (
     <div className={cn('rounded-[2.33vw] tablet:rounded-[2.5vw] desktop:rounded-[1.04vw] w-full h-full flex flex-col gap-[3.262vw] tablet:gap-[5vw] desktop:gap-[1.04vw] p-[4.194vw] tablet:p-[2.5vw] desktop:p-[1.04vw] bg-white shadow-custom', className)}>
       {image &&
@@ -36,11 +44,20 @@ const NewsBlogsCard = ({ date, description, button, title, image, classNames, cl
           }
           {
             button &&
-            <Link href={button?.href || "/"} target='_blank' className='flex gap-[0.932vw] tablet:gap-[1.25vw] desktop:gap-[0.52vw] items-center text-primary-900 leading-[1.25] text-[2.796vw] tablet:text-[2vw] desktop:text-[0.832vw] hover:scale-105 duration-300 transition-all'>{button?.title}
-              <LongArrowUp className='rotate-90 w-[3.262vw] tablet:w-[3vw] desktop:w-[1.248vw] h-[3.262vw] tablet:h-[3vw] desktop:h-[1.248vw] [&>path]:fill-primary-900' />
-            </Link>
 
+
+            <Sheet>
+              <SheetTrigger >
+                <div {...button} className='flex gap-[0.932vw] tablet:gap-[1.25vw] desktop:gap-[0.52vw] items-center text-primary-900 leading-[1.25] text-[2.796vw] tablet:text-[2vw] desktop:text-[0.832vw] hover:scale-105 duration-300 transition-all'>{button?.title}
+                  <LongArrowUp className='rotate-90 w-[3.262vw] tablet:w-[3vw] desktop:w-[1.248vw] h-[3.262vw] tablet:h-[3vw] desktop:h-[1.248vw] [&>path]:fill-primary-900' />
+                </div>
+              </SheetTrigger>
+              <SheetContent side={isRtlLang(Locale.en) ? 'left' : 'right'} className="w-full flex flex-col overflow-y-auto">
+                {content && <div className='text-dark [&>div>.vertical-menu]:hidden odd:[&>div>section>div.elementor-column-gap-extended>div.elementor-col-33]:hidden [&>img]:w-full text-[16px] tablet:text-[16px] desktop:text-[18px] [&>div>section>div.elementor-column-gap-extended>div.elementor-col-33]:flex [&>div>section>div.elementor-column-gap-extended>div.elementor-col-33]:items-center [&>div>section>div.elementor-column-gap-extended>div.elementor-col-33]:justify-center ' dangerouslySetInnerHTML={{ __html: sanitize(content) }} />}
+              </SheetContent>
+            </Sheet>
           }
+
         </div>
       </div>
     </div>

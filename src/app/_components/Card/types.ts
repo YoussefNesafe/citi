@@ -5,17 +5,19 @@ import { ButtonProps } from "../Button/button-types";
 export enum CardType  {
   POINT_CARD = 'point_card',
   JOURNEY_CARD= 'journey_card',
-  NEWS_BLOGS_CARD= 'news_blogs_card'
+  NEWS_BLOGS_CARD= 'news_blogs_card',
+  BLOGS_CARD= 'blogs_card'
 }
 
 export type CardProps = HTMLAttributes<HTMLElement> & {
-  title: string;
-  description: string;
+  title?: string;
+  description?: string;
   type:  CardType;
   date?: string;
   image?: ImageProps;
   button?: ButtonProps;
   readMore?: string;
+  content?:string;
   classNames?:{
     title?: string;
     description?: string;
