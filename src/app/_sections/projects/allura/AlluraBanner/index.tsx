@@ -1,11 +1,21 @@
 "use client"
-import { useRef } from 'react';
+import { ReactNode, useRef } from 'react';
 import { gsap } from 'gsap';
 import Image from 'next/image';
 import { cn } from '@/lib/utils'; // If you have a utility for classnames
 import { useGSAP } from '@gsap/react';
 import { AlluraBannerType } from '@/models/IDictionary/ProjectsPages/AlluraPage';
 import Button from '@/app/_components/Button';
+
+const CustomSpan = ({ children }: { children: ReactNode }) => <span style={{
+  backgroundImage: 'url("/images/allura/allura-popup-bg.png")',
+  backgroundSize: 'cover',
+  backgroundPosition: 'center',
+  WebkitBackgroundClip: 'text',
+  WebkitTextFillColor: 'transparent',
+}}>{children}</span>
+
+
 
 const AlluraBanner = ({ backgroundImage, slugan, locationAndCompletion, appartments, logo, button, className }: AlluraBannerType) => {
   const firstLayerRef = useRef(null);
@@ -48,6 +58,10 @@ const AlluraBanner = ({ backgroundImage, slugan, locationAndCompletion, appartme
     // First Layer animation (fade out and scale)
     tl.fromTo('.firstLayer .allura', { opacity: 1, scale: 1 }, { opacity: 0, scale: 10, duration: 4 });
 
+    tl.to('.overlay', { background: '#000', opacity: 0.6, duration: 0.1 }, 0);
+    tl.to('.firstLayer .slugan', { color: '#fff', duration: 0.1 }, 0);
+
+
     // Second Layer animation (fade in)
     tl.fromTo(secondLayerRef.current, { opacity: 0, y: 200 }, { opacity: 1, y: 0, duration: 2 });
 
@@ -83,7 +97,7 @@ const AlluraBanner = ({ backgroundImage, slugan, locationAndCompletion, appartme
         priority
         className='w-full h-full absolute top-0 left-0 object-cover object-bottom'
       />
-      <div className='absolute top-0 left-0 bg-dark/60 w-full h-screen overlay' />
+      <div className='absolute top-0 left-0 bg-white/60 w-full h-screen overlay' />
       {/* 4th Layer */}
       <div ref={fourthLayerRef} className='w-full z-[2] h-screen absolute top-0 left-0  flex flex-col items-center justify-center '>
         <Image {...logo} alt={logo.alt} className=' w-[93.2vw] tablet:w-[57vw] desktop:w-[23.712vw] h-auto object-cover
@@ -118,17 +132,17 @@ const AlluraBanner = ({ backgroundImage, slugan, locationAndCompletion, appartme
         </div>
       </div>
       {/* First Layer */}
-      <div ref={firstLayerRef} className='w-full h-screen absolute top-0 left-0  flex flex-col items-center justify-center firstLayer text-white'>
-        <h2 className='text-[6.99vw] tablet:text-[5vw] desktop:text-[2.912vw] text-center font-bold capitalize slugan'>{slugan}</h2>
+      <div ref={firstLayerRef} className='w-full h-screen absolute top-0 left-0  flex flex-col items-center justify-center firstLayer text-dark'>
+        <h2 className='text-[6.99vw] tablet:text-[5vw] desktop:text-[2.912vw] text-center font-extrabold capitalize slugan'>{slugan}</h2>
         <h1
-          className='text-[18.64vw] tablet:text-[15vw] desktop:text-[13vw] font-bold allura'
+          className='text-[18.64vw] tablet:text-[15vw] desktop:text-[13vw] font-extrabold allura'
         >
-          <span>A</span>
-          <span>L</span>
-          <span>L</span>
-          <span>U</span>
-          <span>R</span>
-          <span>A</span>
+          <CustomSpan>A</CustomSpan>
+          <CustomSpan>L</CustomSpan>
+          <CustomSpan>L</CustomSpan>
+          <CustomSpan>U</CustomSpan>
+          <CustomSpan>R</CustomSpan>
+          <CustomSpan>A</CustomSpan>
         </h1>
       </div>
     </div>
