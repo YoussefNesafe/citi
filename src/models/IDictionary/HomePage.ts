@@ -23,7 +23,6 @@ export type  HomePageBannerProps = AdditionalProps & {
     },
     firstLayerData: {
       image: ImageProps;
-      startText: string;
     },
     secondLayerData: {
       image: ImageProps;

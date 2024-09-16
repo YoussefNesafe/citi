@@ -226,16 +226,15 @@
       },
       "firstLayerData": {
         "image": {
-          "src": "/images/homepage/first.webp",
+          "src": "/images/homepage/first.png",
           "alt": "firstLayer",
-          "width": 1920,
-          "height": 1080
-        },
-        "startText": "Start the experience"
+          "width": 4558,
+          "height": 2824
+        }
       },
       "secondLayerData": {
         "image": {
-          "src": "/images/homepage/second.jpg",
+          "src": "/images/homepage/second.png",
           "alt": "secondLayer",
           "width": 5000,
           "height": 2813
@@ -244,10 +243,10 @@
       },
       "thirdLayerData": {
         "image": {
-          "src": "/images/homepage/third.jpg",
+          "src": "/images/homepage/third-1.jpg",
           "alt": "thirdLayer",
           "width": 5000,
-          "height": 2500
+          "height": 2810
         },
         "button": {
           "href": "/contact-us",

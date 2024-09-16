@@ -16,7 +16,7 @@ const LastLayer = ({ thirdLayerData: { button, image, sloganText, title } }: Pic
           <p className='max-w-[90%] w-full text-[3.728vw] tablet:text-[2.25vw] desktop:text-[1.25vw]'>{sloganText}</p>
         </div>
       </div>
-      <Image {...image} alt={image.alt} priority className='w-full min-h-screen object-cover h-auto desktop:scale-[0.16]' />
+      <Image {...image} alt={image.alt} priority className='w-full min-h-screen object-cover h-auto desktop:scale-[0.8]' />
     </div>
   )
 }

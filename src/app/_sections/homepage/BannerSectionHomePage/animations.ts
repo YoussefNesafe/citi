@@ -15,12 +15,6 @@ export const animateHomePageBanner = (wrapperRef:RefObject<HTMLElement>) => {
         delay: 0.2,
       }, 0) // start at the same time
 
-      .to('.experienceBox', {
-        opacity: 1,
-        y: 0,
-        duration: 1.5,
-        delay: 0.2,
-      }, 0) // start at the same time
 
       .to(".firstLayer img", {
         scale: 1.05,
@@ -57,17 +51,13 @@ export const animateHomePageBanner = (wrapperRef:RefObject<HTMLElement>) => {
         duration: 0.6,
       }, 0)
   
-      .to('.experienceBox', {
-        opacity: 0,
-        duration: 0.6,
-      }, 0) // Start at the same time
-  
       .to(".midLayer img", {
         scale: 1,
+        bottom: 0,
       }, 0) // Start at the same time
   
       .to(".lastLayer img", {
-        scale: 0.22,
+        scale: 0.9,
         duration: 0.5,
       }, 0); // Start at the same time
   
