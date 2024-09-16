@@ -1,10 +1,11 @@
-import { NextRequest, NextResponse } from 'next/server';
+import { NextRequest, NextResponse } from 'next/server'; 
 import { ZodError } from 'zod';
 import { ContactUsFormRequestProps } from '@/models/IDictionary/FormsRequests';
 import { contactUsRequestSchema } from '@/models/zod/contactUsFormSchema';
 import { mailOptions } from '../../../../../config/nodemailer';
 import { sendEmailTo } from '@/services/sendEmail';
 import { generateEmailContent } from '@/app/utils/generateEmailContent';
+import { FormType } from '@/models/IDictionary/SharedProps';
 
 type MailToParams = { user: string; type: string; subject?: boolean };
 
@@ -33,7 +34,7 @@ export async function POST(request: NextRequest) {
     };
 
     const validatedBody = contactUsRequestSchema.parse(reqBody);
-    const { text, html } = generateEmailContent({ data: validatedBody, type: 'ContactUs' });
+    const { text, html } = generateEmailContent({ data: validatedBody, type: FormType.contactUs });
 
     const ccEmail =
     //@ts-ignore
@@ -47,7 +48,7 @@ export async function POST(request: NextRequest) {
       ...mailOptions,
       // @ts-ignore
       to: getMailTo({ user: body.userOrAgent?.[0]?.value, type: body.salesOrMarketing?.[0]?.value,}),
-      subject: 'CONTACT US',
+      subject: body.leadSource,
       text,
       html,
     });

@@ -1,5 +1,7 @@
+import { FormType } from '@/models/IDictionary/SharedProps';
+import { ProjectsContactUsEmailTemplate } from '../../../emails/projectsContactUsTemplate';
 import { ContactUsEmailTemplate } from './../../../emails/contactUsTemplate';
-import { ContactUsFormRequestProps } from "@/models/IDictionary/FormsRequests"
+import { ContactUsFormRequestProps, ProjectsContactUsFormRequestProps } from "@/models/IDictionary/FormsRequests"
 
 const CONTACT_MESSAGE_FIELDS = {
   fullName: "Name",
@@ -9,17 +11,19 @@ const CONTACT_MESSAGE_FIELDS = {
   phone: "Phone",
   message: "Message",
   userOrAgent:"User Or Agent",
-salesOrMarketing:"Sales Or Marketing",
+  salesOrMarketing:"Sales Or Marketing",
+  bedrooms: 'Number of bedrooms',
+  budget: 'Budget',
 }
 
 
 type props = {
-  data : ContactUsFormRequestProps;
-  type: 'ContactUs' | 'Career'
+  data : ContactUsFormRequestProps | ProjectsContactUsFormRequestProps;
+  type : FormType
 }
 const templateMap =  {
-  ContactUs :  (data : ContactUsFormRequestProps) => ContactUsEmailTemplate(data),
-  Career : (data : ContactUsFormRequestProps) => ContactUsEmailTemplate(data)
+  [FormType.contactUs] :  (data : ContactUsFormRequestProps) => ContactUsEmailTemplate(data),
+  [FormType.projectsPagesContacts] : (data : ProjectsContactUsFormRequestProps) => ProjectsContactUsEmailTemplate(data)
 }
 
 export const generateEmailContent = ({data, type}: props) => {
@@ -27,6 +31,6 @@ export const generateEmailContent = ({data, type}: props) => {
   , "" )
   return {
     text: stringData,
-    html: templateMap[type as keyof typeof templateMap](data)
+    html: templateMap[type](data as any)
   }
 }

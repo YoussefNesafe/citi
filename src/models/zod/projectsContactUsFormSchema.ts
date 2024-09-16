@@ -1,13 +1,12 @@
 import { z } from 'zod';
 
-export const contactUsRequestSchema = z.object({
+export const projectsContactUsFormSchema = z.object({
   fullName: z.string(),
   email: z.string(),
   country: z.string(),
   phone: z.string(),
-  message: z.string(),
   contactMode: z.string(),
-  userOrAgent: z.string(),
-  salesOrMarketing: z.string(),
   leadSource: z.string(),
+  bedrooms: z.string(),
+  budget: z.string()
 });

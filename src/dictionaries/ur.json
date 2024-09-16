@@ -491,6 +491,7 @@
     "form": {
       "title": "Contact Us",
       "description": "Your journey towards the perfect home begins here  let's start the conversation!",
+      "leadSource": "CONTACT US",
       "contactOptions": [
         {
           "icon": "phone",
@@ -1994,6 +1995,11 @@
           "height": 6000
         },
         "title": "Aveline, {{JVC}}",
+        "button": {
+          "title": "Contact Us",
+          "as": "button",
+          "elemSelector": "#formSection"
+        },
         "article": {
           "title": "Aveline Residences, <<By {{Citi Developers}}>>",
           "description": "Intentionally designed to foster connections, celebrate community, and embrace convenience, as you step into Aveline, you step into a narrative where every detail forms the foundation for an exceptional residential experience. Nestled in the heart of Dubai, this exquisite development promises a lifestyle where residents can immerse themselves in a world of possibilities"
@@ -2021,7 +2027,8 @@
         "bookText": "Book With Just {{10%}} Down Payment!",
         "button": {
           "title": "Contact Us",
-          "href": "/contact-us"
+          "as": "button",
+          "elemSelector": "#formSection"
         }
       },
       "discoverCommunity": {
@@ -2359,7 +2366,8 @@
         },
         "button": {
           "title": "Book Now",
-          "href": "/allura/registration"
+          "as": "button",
+          "elemSelector": "#formSection"
         },
         "locationAndCompletion": [
           {
@@ -2475,6 +2483,11 @@
           "height": 2813
         },
         "title": "Allura, {{JVC}}",
+        "button": {
+          "title": "Contact Us",
+          "as": "button",
+          "elemSelector": "#formSection"
+        },
         "article": {
           "title": "Allura Residences, <<By {{Citi Developers}}>>",
           "description": "Intentionally designed to foster connections, celebrate community, and embrace convenience, as you step into Allura, you step into a narrative where every detail forms the foundation for an exceptional residential experience. Nestled in the heart of Dubai, this exquisite development promises a lifestyle where residents can immerse themselves in a world of possibilities"
@@ -3843,6 +3856,97 @@
     "mapHeader": {
       "subtitle": "Location",
       "title": "More than just a place"
+    },
+    "projectsPagesContactUsForm": {
+      "title": "Contact Us",
+      "description": "Book With Just {{10%}} Down Payment!",
+      "disclaimer": "By submitting this form, you confirm that you have read and accepted the <a href='/privacy-policy' target='_blank'>Privacy Policy </a>and <a href='/terms-and-conditions' target='_blank'>Terms and Conditions.</a>",
+      "submit": "Submit",
+      "fields": [
+        {
+          "key": "fullName",
+          "label": "Full Name*",
+          "placeholder": "Full Name*",
+          "fieldSetWidthClassProp": "half",
+          "type": "text",
+          "validation": {
+            "required": "Full Name is required"
+          }
+        },
+        {
+          "key": "country",
+          "placeholder": "Select Country*",
+          "type": "select",
+          "searchable": true,
+          "label": "Country*",
+          "fieldSetWidthClassProp": "half",
+          "validation": {
+            "required": "Country is required"
+          }
+        },
+        {
+          "key": "email",
+          "label": "Email*",
+          "placeholder": "Email*",
+          "type": "email",
+          "fieldSetWidthClassProp": "half",
+          "validation": {
+            "required": "Email is required",
+            "validate": {
+              "email": "Email is invalid"
+            }
+          },
+          "required": true
+        },
+        {
+          "key": "phone",
+          "label": "Phone Number*",
+          "placeholder": "123 4567",
+          "fieldSetWidthClassProp": "half",
+          "validation": {
+            "required": "Phone number is required"
+          }
+        },
+        {
+          "key": "bedrooms",
+          "type": "number",
+          "label": "How many bedrooms you are interested in*",
+          "placeholder": "5",
+          "fieldSetWidthClassProp": "half",
+          "validation": {
+            "required": "This field is required"
+          }
+        },
+        {
+          "key": "budget",
+          "type": "number",
+          "min": 25000,
+          "label": "How much is your budget (AED)*",
+          "placeholder": "50,000",
+          "fieldSetWidthClassProp": "half",
+          "validation": {
+            "required": "This field is required"
+          }
+        },
+        {
+          "key": "contactMode",
+          "type": "radio",
+          "label": "Which mode of contact do you prefer?",
+          "fieldSetWidthClassProp": "full",
+          "options": [
+            {
+              "label": "Phone",
+              "value": "phone",
+              "icon": "phone"
+            },
+            {
+              "label": "Email",
+              "value": "email",
+              "icon": "mail"
+            }
+          ]
+        }
+      ]
     }
   }
 }

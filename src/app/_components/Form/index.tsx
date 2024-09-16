@@ -1,8 +1,6 @@
 "use client"
 import { SharedSectionsProps } from "@/models/IDictionary";
-import { ContactUsFormProps } from "@/models/IDictionary/ContactUsPage"
-import { ContactUsFormRequestProps } from "@/models/IDictionary/FormsRequests";
-import { AdditionalProps } from "@/models/IDictionary/SharedProps";
+import { FormProps, FormType } from "@/models/IDictionary/SharedProps";
 import ContactUsFormAPI from "@/services/contactUsForm";
 import { FormProvider, SubmitHandler, useForm } from 'react-hook-form';
 import Input from "../Input";
@@ -12,13 +10,18 @@ import { cn } from "@/lib/utils";
 import Spinner from "../Spinner";
 import { getValidationFunctions } from "@/app/utils/getValidationFunctions";
 import { useRouter } from "next/navigation";
+import ProjectsContactUsFormAPI from "@/services/projectsContactUsForm";
 interface Inputs {
   [key: string]: object | any;
 }
 
+const formServiceMap: { [type in FormType]: any } = {
+  [FormType.contactUs]: ContactUsFormAPI,
+  [FormType.projectsPagesContacts]: ProjectsContactUsFormAPI
+};
 
-type Props = AdditionalProps & Pick<ContactUsFormProps, 'fields' | 'submit' | 'disclaimer'> & Pick<SharedSectionsProps, 'errorMessages' | 'countrieslist'>
-const ContactUsForm = ({ disclaimer, errorMessages, fields, submit, countrieslist, className, ...props }: Props) => {
+type Props = FormProps & Pick<SharedSectionsProps, 'errorMessages' | 'countrieslist'>
+const Form = ({ leadSource, formType, disclaimer, errorMessages, fields, submit, countrieslist, className, ...props }: Props) => {
   const methods = useForm<Inputs>({ criteriaMode: 'all', mode: 'onChange' });
   const router = useRouter()
   const {
@@ -28,9 +31,12 @@ const ContactUsForm = ({ disclaimer, errorMessages, fields, submit, countrieslis
   } = methods;
 
   const onSubmit: SubmitHandler<Inputs> = async (data) => {
-    const formAPIRes = await ContactUsFormAPI(data as ContactUsFormRequestProps, setError);
-    if (!formAPIRes || !formAPIRes.ok) return;
-    router.push('/thank-you')
+    if (formType && data) {
+      const requestData = { ...data, leadSource }
+      const formAPIRes = await formServiceMap[formType](requestData, setError)
+      if (!formAPIRes || !formAPIRes.ok) return;
+      router.push('/thank-you')
+    }
   };
 
 
@@ -88,4 +94,4 @@ const ContactUsForm = ({ disclaimer, errorMessages, fields, submit, countrieslis
   )
 }
 
-export default ContactUsForm
+export default Form

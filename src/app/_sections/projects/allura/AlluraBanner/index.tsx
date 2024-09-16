@@ -6,6 +6,7 @@ import { cn } from '@/lib/utils'; // If you have a utility for classnames
 import { useGSAP } from '@gsap/react';
 import { AlluraBannerType } from '@/models/IDictionary/ProjectsPages/AlluraPage';
 import Button from '@/app/_components/Button';
+import { scrollToElement } from '@/app/utils/ScrollToSection';
 
 const CustomSpan = ({ children }: { children: ReactNode }) => <span style={{
   backgroundImage: 'url("/images/allura/allura-popup-bg.png")',
@@ -102,7 +103,12 @@ const AlluraBanner = ({ backgroundImage, slugan, locationAndCompletion, appartme
       <div ref={fourthLayerRef} className='w-full z-[2] h-screen absolute top-0 left-0  flex flex-col items-center justify-center '>
         <Image {...logo} alt={logo.alt} className=' w-[93.2vw] tablet:w-[57vw] desktop:w-[23.712vw] h-auto object-cover
         ' />
-        <Button {...button} size='lg' />
+        <Button
+          {...button}
+          size="lg"
+          onClick={() => scrollToElement({ elemSelector: button?.elemSelector || '' })}
+        />
+
       </div>
 
       {/* Third Layer */}

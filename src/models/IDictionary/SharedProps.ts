@@ -99,8 +99,29 @@ export type MetaDataType = {
 export type ProjectBriefSectionType = AdditionalProps & {
   image: ImageProps;
   title: string;
+  button: ButtonProps;
   article: {
     title: string;
     description: string
-  }
+  },
+}
+
+
+type ContactOption = {
+  icon: string;
+  list: string[];
+}
+export enum FormType {
+  contactUs = "contactUs",
+  projectsPagesContacts = "projectsPagesContacts"
+}
+export type FormProps = AdditionalProps & {
+  title: string;
+  description: string;
+  disclaimer: string;
+  contactOptions?: ContactOption[]; 
+  submit: string;
+  formType: FormType;
+  fields: {[key: string]: object | any}[];
+  leadSource: string;
 }

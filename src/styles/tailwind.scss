@@ -9,7 +9,17 @@
     box-sizing: border-box;
     font-variant-ligatures: none;
   }
+    /* Chrome, Safari, Edge, Opera */
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
 
+    /* Firefox */
+    input[type=number] {
+      -moz-appearance: textfield;
+    }
   body {
     // @apply text-dark mt-[14.912vw] tablet:mt-[10vw] desktop:mt-[4.9vw]; 
     @apply text-dark;

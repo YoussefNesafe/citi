@@ -9,6 +9,7 @@ import { AlluraPageType } from '@/models/IDictionary/ProjectsPages/AlluraPage';
 import AlluraOverview from '@/app/_sections/projects/allura/AlluraOverview';
 import { SharedSectionsProps } from '@/models/IDictionary';
 import ProjectBriefSection from '@/app/_sections/shared/ProjectBriefSection';
+import ProjectsPagesForm from '@/app/_sections/shared/ProjectsPagesForm';
 
 const mapProps = {
   latitude: 25.06244118496213,
@@ -18,8 +19,7 @@ const mapProps = {
 
 const AlluraPage = async ({ params: { lang } }: { params: { lang: Locale } }) => {
   const { banner, overView, projectBrief } = await getLocalizedData<AlluraPageType>(lang, 'projects.allura');
-  const { alluraPopUp, mapHeader } = await getLocalizedData<SharedSectionsProps>(lang, 'shared');
-
+  const { alluraPopUp, mapHeader, projectsPagesContactUsForm, errorMessages, countrieslist } = await getLocalizedData<SharedSectionsProps>(lang, 'shared');
 
   return (
     <>
@@ -31,6 +31,13 @@ const AlluraPage = async ({ params: { lang } }: { params: { lang: Locale } }) =>
       </Suspense>
       <ProjectBriefSection {...projectBrief} className='section-py' />
       <MapWrapper {...mapProps} header={mapHeader} />
+      <ProjectsPagesForm
+        className='section-py'
+        {...projectsPagesContactUsForm}
+        leadSource='ALLURA - CONTACT US'
+        countrieslist={countrieslist}
+        errorMessages={errorMessages}
+      />
       {/* <AlluraPopUpSection {...alluraPopUp} /> */}
     </>
   )

@@ -1,18 +1,18 @@
 'use client'
-import ContactUsForm from '@/app/_components/ContactUsForm'
 import { cn } from '@/lib/utils'
 import { SharedSectionsProps } from '@/models/IDictionary'
-import { ContactUsFormProps } from '@/models/IDictionary/ContactUsPage'
 import { FooterProps } from '@/models/IDictionary/Layout'
-import React, { Suspense, useRef } from 'react'
+import React, { useRef } from 'react'
 import FormContent from './FormContent'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
+import Form from '@/app/_components/Form'
+import { FormProps, FormType } from '@/models/IDictionary/SharedProps'
 
 
-type Props = ContactUsFormProps & Pick<SharedSectionsProps, 'errorMessages' | 'countrieslist'> & Pick<FooterProps, "socialMediaLinks">
+type Props = FormProps & Pick<SharedSectionsProps, 'errorMessages' | 'countrieslist'> & Pick<FooterProps, "socialMediaLinks">
 
-const ContactUsFormSection = ({ disclaimer, fields, errorMessages, countrieslist, submit, className, ...rest }: Props) => {
+const ContactUsFormSection = ({ className, ...formData }: Props) => {
   const containerRef = useRef(null);
   useGSAP(
     () => {
@@ -27,8 +27,8 @@ const ContactUsFormSection = ({ disclaimer, fields, errorMessages, countrieslist
   return (
     <section className={cn('', className)} ref={containerRef}>
       <div className=' bg-white p-[4.66vw] tablet:p-[3.125vw] desktop:p-[2.028vw] flex flex-col desktop:flex-row gap-[10.485vw] tablet:gap-[5.625vw] desktop:gap-[4.16vw] shrink-0 shadow-custom rounded-[2.796vw] tablet:rounded-[1.5vw] desktop:rounded-[0.624vw] overflow-hidden'>
-        <FormContent {...rest} className='formContent' />
-        <ContactUsForm className='form' disclaimer={disclaimer} errorMessages={errorMessages} countrieslist={countrieslist} submit={submit} fields={fields} />
+        <FormContent {...formData} className='formContent' />
+        <Form className='form' {...formData} formType={FormType.contactUs} />
       </div>
     </section>
   )

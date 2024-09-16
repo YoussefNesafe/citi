@@ -1,23 +1,10 @@
-import { AdditionalProps, MetaDataType } from "./SharedProps";
+import { AdditionalProps, FormProps, MetaDataType } from "./SharedProps";
 
 
 
 export type ContactUsPageProps = {
   metadata: MetaDataType;
-  form: ContactUsFormProps;
-}
-
-type ContactOption = {
-  icon: string;
-  list: string[];
+  form: FormProps;
 }
 
 
-export type ContactUsFormProps = AdditionalProps & {
-  title: string;
-  description: string;
-  contactOptions: ContactOption[];
-  disclaimer: string;
-  submit: string;
-  fields: {[key: string]: object | any}[];
-}

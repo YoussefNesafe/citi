@@ -1,12 +1,13 @@
 'use client';
 
-import { ContactUsFormRequestProps } from "@/models/IDictionary/FormsRequests";
+import {  ProjectsContactUsFormRequestProps } from "@/models/IDictionary/FormsRequests";
 import { UseFormSetError } from "react-hook-form";
 
 // eslint-disable-next-line @next/next/no-async-client-component
-const ContactUsFormAPI = async (formRequest: ContactUsFormRequestProps, setError: UseFormSetError<any>) => {
+const ProjectsContactUsFormAPI = async (formRequest: ProjectsContactUsFormRequestProps, setError: UseFormSetError<any>) => {
+  
   try {
-    const res = await fetch('/api/forms/contact-us', {
+    const res = await fetch('/api/forms/projects-contact-us', {
       method: 'POST',
       body: JSON.stringify(formRequest),
       headers: { 'Content-Type': 'application/json', 'Accept': 'application/json'}
@@ -21,4 +22,4 @@ const ContactUsFormAPI = async (formRequest: ContactUsFormRequestProps, setError
   }
 };
 
-export default ContactUsFormAPI;
+export default ProjectsContactUsFormAPI;

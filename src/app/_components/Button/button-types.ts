@@ -7,6 +7,7 @@ interface BaseButtonProps extends HTMLAttributes<HTMLElement>, VariantProps<type
   title: string;
   className?: string;
   onClick?: () => void;
+  elemSelector?:string;
 }
 
 // Link button props

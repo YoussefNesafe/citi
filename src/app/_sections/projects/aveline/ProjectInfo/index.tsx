@@ -1,3 +1,4 @@
+"use client"
 import Button from '@/app/_components/Button'
 import { getHighlightedText } from '@/hooks/getHighlightedText'
 import { cn } from '@/lib/utils'
@@ -5,6 +6,7 @@ import { ProjectInfoType } from '@/models/IDictionary/ProjectsPages/AvelinePage'
 import { sanitize } from 'isomorphic-dompurify'
 import React, { Suspense } from 'react';
 import InfoBox from './InfoBox'
+import { scrollToElement } from '@/app/utils/ScrollToSection'
 
 
 const ProjectInfo = ({ bookText, button, data, className, ...props }: ProjectInfoType) => {
@@ -22,7 +24,11 @@ const ProjectInfo = ({ bookText, button, data, className, ...props }: ProjectInf
       </div>
       <div className='flex flex-col justify-center items-center gap-[4.66vw] tablet:gap-[2.5vw] desktop:gap-[3.64vw]'>
         <h4 dangerouslySetInnerHTML={{ __html: sanitize(text) }} className='animate-pulse text-[5.126vw] tablet:text-[5vw] desktop:text-[2.6vw] text-center' />
-        <Button {...button} size="md" theme='secondary' className='animate-scaleInOut' />
+        <Button
+          {...button}
+          size="md"
+          onClick={() => scrollToElement({ elemSelector: button?.elemSelector || '' })}
+        />
       </div>
     </section>
   )

@@ -11,6 +11,7 @@ import { Suspense } from 'react';
 import { Metadata } from 'next';
 import { MetaDataType } from "@/models/IDictionary/SharedProps";
 import ProjectBriefSection from '@/app/_sections/shared/ProjectBriefSection';
+import ProjectsPagesForm from '@/app/_sections/shared/ProjectsPagesForm';
 
 export async function generateMetadata({ params: { lang } }: { params: { lang: Locale } }): Promise<Metadata> {
   // fetch data
@@ -28,8 +29,7 @@ const mapProps = {
 
 const AvelinePage = async ({ params: { lang } }: { params: { lang: Locale } }) => {
   const { banner, projectBrief, projectInfo, discoverCommunity, amenities, exterior, lobby } = await getLocalizedData<AvelinePageType>(lang, 'projects.aveline');
-  const { mapHeader } = await getLocalizedData<SharedSectionsProps>(lang, 'shared');
-
+  const { mapHeader, projectsPagesContactUsForm, errorMessages, countrieslist } = await getLocalizedData<SharedSectionsProps>(lang, 'shared');
   return (
     <>
       <BannerSection {...banner} className='section-py' overlay />
@@ -43,6 +43,13 @@ const AvelinePage = async ({ params: { lang } }: { params: { lang: Locale } }) =
         <DiscoverCommunity {...discoverCommunity} className='section-py' />
       </Suspense>
       <MapWrapper {...mapProps} header={mapHeader} />
+      <ProjectsPagesForm
+        className='section-py'
+        {...projectsPagesContactUsForm}
+        leadSource='AVELINE - CONTACT US'
+        countrieslist={countrieslist}
+        errorMessages={errorMessages}
+      />
       <Suspense>
         <SwiperSection className="section-py" {...amenities} imagesArray={'AV_AMENITIES'} animateFrom='left' />
       </Suspense>

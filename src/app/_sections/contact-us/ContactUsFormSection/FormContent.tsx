@@ -4,9 +4,8 @@ import Phone from "@/app/_components/icons/Phone"
 import SocialMediaLinks from "@/app/_components/SocialMediaLinks"
 import { getHighlightedText } from "@/hooks/getHighlightedText"
 import { cn } from "@/lib/utils"
-import { ContactUsFormProps } from "@/models/IDictionary/ContactUsPage"
 import { FooterProps } from "@/models/IDictionary/Layout"
-import { AdditionalProps } from "@/models/IDictionary/SharedProps"
+import { AdditionalProps, FormProps } from "@/models/IDictionary/SharedProps"
 import { sanitize } from "isomorphic-dompurify"
 
 const ICONS_MAP = {
@@ -17,7 +16,7 @@ const ICONS_MAP = {
 
 
 type SocialMediaLinksProps = Pick<FooterProps, "socialMediaLinks">
-type FormContentProps = AdditionalProps & Pick<ContactUsFormProps, 'title' | 'description' | 'contactOptions'> & SocialMediaLinksProps
+type FormContentProps = FormProps & SocialMediaLinksProps
 
 const FormContent = ({ title, description, contactOptions, className, socialMediaLinks }: FormContentProps) => {
 
@@ -31,7 +30,7 @@ const FormContent = ({ title, description, contactOptions, className, socialMedi
     <div className='text-[14] tablet:text-[1.75vw] desktop:text-[0.936vw] leading-[1.25] mb-[5.825vw] tablet:mb-[3.125vw] desktop:mb-[5.2vw] '>{description}</div>
 
     <div className='flex flex-col gap-[3.495vw] tablet:gap-[1.875vw] desktop:gap-[1.56vw] mb-[9.087vw] tablet:mb-[4.875vw] desktop:mb-[3.9vw] '>
-      {contactOptions.map(({ icon, list }, index) => (
+      {contactOptions && contactOptions.map(({ icon, list }, index) => (
         <div className='flex gap-[3.728vw] tablet:gap-[2vw] desktop:gap-[1.56vw] items-start' key={index + "contact"}>
           {ICONS_MAP[icon as keyof typeof ICONS_MAP]}
           <div className='flex flex-col gap-[1.864vw] tablet:gap-[1vw] desktop:gap-[0.52vw]'>

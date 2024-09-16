@@ -7,8 +7,10 @@ import React, { useRef } from 'react'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import { ProjectBriefSectionType } from '@/models/IDictionary/SharedProps'
+import Button from '@/app/_components/Button'
+import { scrollToElement } from '@/app/utils/ScrollToSection'
 
-const ProjectBriefSection = ({ article, image, title, className, ...props }: ProjectBriefSectionType) => {
+const ProjectBriefSection = ({ article, image, button, title, className, ...props }: ProjectBriefSectionType) => {
   const containerRef = useRef(null)
 
 
@@ -52,6 +54,7 @@ const ProjectBriefSection = ({ article, image, title, className, ...props }: Pro
         <div className='content flex flex-col gap-[2.33vw] tablet:gap-[1.25vw] desktop:gap-[1.56vw] w-full desktop:max-w-[36.14vw]'>
           <h4 dangerouslySetInnerHTML={{ __html: sanitize(finalArticleTitle) }} className='text-[4.66vw] tablet:text-[4vw] desktop:text-[2.288vw] font-medium' />
           <p className='text-gray-450 text-[3.262vw] tablet:text-[2.75vw] desktop:text-[1.248vw]'>{article.description}</p>
+          <Button {...button} size='md' className='w-full tablet:w-fit' onClick={() => scrollToElement({ elemSelector: button?.elemSelector || '' })} />
         </div>
       </div>
     </section>
