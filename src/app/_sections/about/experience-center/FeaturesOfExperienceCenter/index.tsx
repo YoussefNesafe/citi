@@ -25,7 +25,7 @@ const Card = ({ description, image, title, reverse }: CardProps) => (
         <div className="text-primary-600 text-[4.194vw] tablet:text-[2.75vw] desktop:text-[2.08vw] font-semibold">
           {title}
         </div>
-        <div className="text-center desktop:text-left text-white text-[3.262vw] tablet:text-[1.75vw] desktop:text-[1.56vw] font-medium">
+        <div className="text-center rtl:text-right desktop:text-left text-white text-[3.262vw] tablet:text-[1.75vw] desktop:text-[1.56vw] font-medium">
           {description}
         </div>
       </div>

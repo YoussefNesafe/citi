@@ -30,7 +30,7 @@ const InfoBox = ({ description, title, index }: ProjectInfoBoxType & { index: nu
   return (
     <div
       ref={boxRef}
-      className="flex shrink-0 flex-col p-[4.66vw] tablet:px-[6.25vw] tablet:py-[2.5vw] desktop:px-[4.68vw] w-[47%] desktop:w-auto desktop:max-w-[22.88vw] gap-[2.33vw] tablet:gap-[3.75vw] desktop:gap-[2.08vw] text-center border-b desktop:border-b-0 desktop:border-r border-primary-900 desktop:last-of-type:border-none"
+      className="flex shrink-0 flex-col p-[4.66vw] tablet:px-[6.25vw] tablet:py-[2.5vw] desktop:px-[4.68vw] w-[47%] desktop:w-auto desktop:max-w-[22.88vw] gap-[2.33vw] tablet:gap-[3.75vw] desktop:gap-[2.08vw] text-center border-b desktop:border-b-0 desktop:border-r rtl:desktop:border-r-0 rtl:desktop:border-l border-primary-900 desktop:last-of-type:border-none"
     >
       <div className="text-primary-600 font-extrabold text-[4.194vw] tablet:text-[4vw] desktop:text-[2.08vw]">
         {title}

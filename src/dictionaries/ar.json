@@ -1,8 +1,8 @@
 {
   "layout": {
     "internetConnection": {
-      "title": "No internet connection",
-      "description": "Please check your internet connection and try again."
+      "title": "لا يوجد اتصال بالإنترنت",
+      "description": "يرجى التحقق من اتصالك بالإنترنت والمحاولة مرة أخرى."
     },
     "navbar": {
       "languages": [
@@ -15,26 +15,21 @@
           "label": "عربي",
           "value": "ar",
           "href": "/ar"
-        },
-        {
-          "label": "اُردُو",
-          "value": "ur",
-          "href": "/ur"
         }
       ],
       "contactUsButton": {
         "href": "/contact-us",
-        "title": "Contact us"
+        "title": "تواصل معنا"
       }
     },
     "pagesLinks": [
       {
-        "title": "Home",
+        "title": "الصفحة الرئيسية",
         "href": "/",
         "pageKey": "home"
       },
       {
-        "title": "About",
+        "title": "حول",
         "pageKey": "about",
         "subLinks": [
           {
@@ -43,39 +38,34 @@
             "pageKey": "citi-developer"
           },
           {
-            "title": "Portfolio",
+            "title": "المعرض",
             "href": "/about/portfolio",
             "pageKey": "portfolio"
           },
           {
-            "title": "News",
+            "title": "الأخبار",
             "href": "/about/news",
             "pageKey": "news"
           },
           {
-            "title": "Blogs",
+            "title": "المدونات",
             "href": "/about/blogs",
             "pageKey": "blogs"
           },
           {
-            "title": "Our Team",
+            "title": "فريقنا",
             "href": "/about/our-team",
             "pageKey": "our-team"
           },
           {
-            "title": "Experience Center",
+            "title": "مركز التجارب",
             "href": "/about/experience-center",
             "pageKey": "experience-center"
-          },
-          {
-            "title": "Careers",
-            "href": "/about/careers",
-            "pageKey": "careers"
           }
         ]
       },
       {
-        "title": "Projects",
+        "title": "المشاريع",
         "pageKey": "projects",
         "subLinks": [
           {
@@ -91,18 +81,18 @@
         ]
       },
       {
-        "title": "tour 360",
+        "title": "جولة 360",
         "href": "/tour-360",
         "pageKey": "tour-360"
       }
     ],
     "footer": {
       "locationCard": {
-        "title": "Reserve your experience {{with us!}}",
-        "description": " Secure your spot today and unlock exclusive access to our premier real estate experience. Join us for an unforgettable journey through innovation and excellence!",
+        "title": "احجز تجربتك {{معنا!}}",
+        "description": "أمّن مكانك اليوم واحصل على وصول حصري لتجربة عقارية رائدة. انضم إلينا في رحلة لا تُنسى عبر الابتكار والتميز!",
         "locationUrl": "https://maps.app.goo.gl/WENwtfSEt8c18Dtr5",
         "button": {
-          "title": "enquire now",
+          "title": "استفسر الآن",
           "href": "https://docs.google.com/forms/d/e/1FAIpQLSeVdYnG6U9P3r-QCESarKyLptxd1r68R4Ymc261Uds2_Sh-tw/viewform"
         }
       },
@@ -152,7 +142,7 @@
         {
           "button": {
             "href": "/contact-us",
-            "title": "Contact us"
+            "title": "تواصل معنا"
           },
           "image": {
             "src": "/images/footer/contact-us.png",
@@ -164,47 +154,47 @@
       ],
       "contactUsButton": {
         "href": "/contact-us",
-        "title": "Contact us"
+        "title": "تواصل معنا"
       },
       "copyRights": "© 2010 CITI DEVELOPERS. All Rights Reserved"
     }
   },
   "notFoundPage": {
-    "title": "Opps! Page Not Found",
+    "title": "عفوًا! الصفحة غير موجودة",
     "button": {
-      "title": "Back to Home",
+      "title": "العودة إلى الصفحة الرئيسية",
       "href": "/"
     }
   },
   "thankYouPage": {
-    "title": "Thank you for your interest in {{Citi Developer}}",
-    "description": "Your message has been received and our team will get in touch with you shortly.",
+    "title": "شكرًا لاهتمامك بـ {{Citi Developer}}",
+    "description": "لقد تم استلام رسالتك وسيتواصل معك فريقنا قريبًا.",
     "button": {
-      "title": "Go Back to Home Page",
+      "title": "العودة إلى الصفحة الرئيسية",
       "href": "/"
     }
   },
   "homePage": {
     "metadata": {
-      "title": "Home - Explore Citi Developers innovative and urban living.",
-      "description": "Discover Citi Developers' urban excellence—blending innovation, design, and sustainability. Explore the future of city living today.",
+      "title": "الصفحة الرئيسية - استكشاف الابتكار والحياة الحضرية مع Citi Developers.",
+      "description": "اكتشف التميز الحضري لـ Citi Developers—مزيج من الابتكار والتصميم والاستدامة. استكشف مستقبل الحياة في المدينة اليوم.",
       "keywords": [
-        "Real Estate",
-        "Developer",
-        "Aveline",
-        "Allura",
-        "Dubai",
+        "عقارات",
+        "مطور",
+        "أفيلين",
+        "ألورا",
+        "دبي",
         "Citi Developer",
         "Citi",
-        "Apartment",
-        "Studio",
+        "شقة",
+        "استوديو",
         "BHK",
-        "Building",
-        "Allura"
+        "مبنى",
+        "ألورا"
       ],
       "openGraph": {
-        "title": "Home - Explore Citi Developers innovative and urban living.",
-        "description": "Discover Citi Developers' urban excellence—blending innovation, design, and sustainability. Explore the future of city living today.",
+        "title": "الصفحة الرئيسية - استكشاف الابتكار والحياة الحضرية مع Citi Developers.",
+        "description": "اكتشف التميز الحضري لـ Citi Developers—مزيج من الابتكار والتصميم والاستدامة. استكشف مستقبل الحياة في المدينة اليوم.",
         "images": [
           "/images/homepage/first.webp"
         ]
@@ -218,7 +208,7 @@
     "banner": {
       "sloganBox": {
         "title": "Citi Developers",
-        "description": "Transforming Cities, Enriching Lives"
+        "description": "تحويل المدن، إثراء الحياة"
       },
       "firstLayerData": {
         "image": {
@@ -235,7 +225,7 @@
           "width": 5000,
           "height": 2813
         },
-        "luxuary": "luxury <br />livingroom"
+        "luxuary": "غرفة معيشة <br />فاخرة"
       },
       "thirdLayerData": {
         "image": {
@@ -246,42 +236,42 @@
         },
         "button": {
           "href": "/contact-us",
-          "title": "Talk Now"
+          "title": "تواصل معنا"
         },
-        "title": "Talk to our <br/> advisors now",
-        "sloganText": "For over a decade, Citi Developers has reshaped global skylines and empowers communities"
+        "title": "تحدث إلى <br/> مستشارينا الآن",
+        "sloganText": "لأكثر من عقد من الزمن، أعادت Citi Developers تشكيل أفق المدن العالمية وتمكين المجتمعات"
       }
     },
     "counterCards": [
       {
         "number": 10,
-        "text": "Projects"
+        "text": "مشاريع"
       },
       {
         "number": 3,
-        "text": "Countries"
+        "text": "دول"
       },
       {
         "number": 350,
-        "text": "Homes",
+        "text": "منازل",
         "suffix": "K+"
       },
       {
         "number": 500,
-        "text": "Happy Customers",
+        "text": "عملاء سعداء",
         "suffix": "K+"
       },
       {
         "number": 450,
-        "text": "Sq Ft Developed Area",
+        "text": "مساحة تطوير (قدم مربع)",
         "suffix": "M+"
       }
     ],
     "whatMakesUsDifferent": {
       "header": {
         "subtitle": "Citi Developers",
-        "title": "What makes {{us Different}}?",
-        "description": "With a legacy of over a decade, we proudly stand as a world leading master developer, renowned for reshaping cityscapes and enriching communities across continents."
+        "title": "ما الذي يجعلنا {{مختلفين}}؟",
+        "description": "بفضل إرث يمتد لأكثر من عقد من الزمان، نفخر بكوننا مطورًا رئيسيًا رائدًا عالميًا، ومشهورين بإعادة تشكيل الأفق الحضري وإثراء المجتمعات عبر القارات."
       },
       "cards": [
         {
@@ -291,8 +281,8 @@
             "width": 72,
             "height": 72
           },
-          "title": "Integrity",
-          "description": "Trust and integrity is the bedrock of our foundation. We value credibility, and accountability, seing new benchmarks in building exceptional communities"
+          "title": "النزاهة",
+          "description": "الثقة والنزاهة هما أساسنا. نحن نقدر المصداقية والمساءلة، ونضع معايير جديدة في بناء المجتمعات الاستثنائية."
         },
         {
           "image": {
@@ -301,8 +291,8 @@
             "width": 72,
             "height": 72
           },
-          "title": "Quality",
-          "description": "Our commitment to quality goes beyond meeting industry standards, pushing the boundaries and creating properties that place high priority on attention to detail, liveability, and quality of life."
+          "title": "الجودة",
+          "description": "التزامنا بالجودة يتجاوز مجرد تلبية معايير الصناعة، حيث ندفع الحدود ونخلق ممتلكات تعطي الأولوية للاهتمام بالتفاصيل، وقابلية العيش، وجودة الحياة."
         },
         {
           "image": {
@@ -311,8 +301,8 @@
             "width": 72,
             "height": 72
           },
-          "title": "Empathy",
-          "description": "Empathy is the core of our brand ethos. By understanding and embracing the perspective of our community, we create developments that cater to their fostering a sense of belonging and enhancing their living experiences."
+          "title": "التعاطف",
+          "description": "التعاطف هو جوهر فلسفتنا العلامية. من خلال فهم واحتضان وجهة نظر مجتمعنا، نخلق مشاريع تلبية احتياجاتهم وتعزز إحساسهم بالانتماء وتحسن تجاربهم الحياتية."
         }
       ],
       "images": [
@@ -342,7 +332,7 @@
         {
           "header": {
             "title": "CITI DEVELOPERS",
-            "description": "Beginning with Jumeirah Village Circle in Dubai followed very closely with Dubai Island, every project will be a level up from the previous one. Just like Aveline  and Allura the recent projects by CD."
+            "description": "بدايةً من قرية جميرا الدائرية في دبي، تليها جزيرة دبي، سيكون كل مشروع خطوة إلى الأمام من المشروع السابق. تمامًا مثل أفيلين وألور، أحدث المشاريع من CD."
           },
           "image": {
             "src": "/images/homepage/Infinity Pool.jpg",
@@ -354,7 +344,7 @@
         {
           "header": {
             "title": "Allura",
-            "description": "welcome to Allura, where sophistication meets comforts in every corner.    Designed with meticulous attention to details, Allura offers a range of luxurious living options tailored to suit your lifestyle."
+            "description": "مرحبًا بك في Allura، حيث يلتقي الرقي بالراحة في كل زاوية. تم تصميم Allura بعناية فائقة للتفاصيل، وتقدم مجموعة من خيارات المعيشة الفاخرة التي تناسب أسلوب حياتك."
           },
           "image": {
             "src": "/images/homepage/third.jpg",
@@ -366,7 +356,7 @@
         {
           "header": {
             "title": "Aveline",
-            "description": "Aveline is designed to foster connections, celebrate community, and embrace convenience. Located in the heart of Dubai, it offers an exceptional residential experience where every detail matters, promising a lifestyle full of possibilities."
+            "description": "تم تصميم Aveline لتعزيز الروابط، والاحتفال بالمجتمع، واحتضان الراحة. تقع في قلب دبي، وتقدم تجربة سكنية استثنائية حيث كل تفاصيل تهم، مما يعد بنمط حياة مليء بالإمكانات."
           },
           "image": {
             "src": "/images/aveline/13th Floor/image_2.webp",
@@ -379,65 +369,65 @@
     },
     "visitExperienceCenter": {
       "header": {
-        "title": "Visit our {{Experience center}}",
-        "description": "Explore The Future Of Real Estate With Us At Our Cutting-Edge Center"
+        "title": "زر مركزنا {{المميز}}",
+        "description": "استكشف مستقبل العقارات معنا في مركزنا المتطور"
       },
       "button": {
-        "title": "Explore More",
+        "title": "استكشاف المزيد",
         "href": "about/experience-center"
       },
       "videoSrc": "https://www.youtube.com/embed/Lg8Tevx9u8o?si=_qAP8JMbLQJ-J6we&showinfo=0"
     },
     "ourJourney": {
       "header": {
-        "title": "Our {{Journey}}"
+        "title": "{{رحلتنا}}"
       },
       "cards": [
         {
           "image": {
             "src": "/images/shared/pakistan.jpeg",
-            "alt": "pakistan",
+            "alt": "باكستان",
             "width": 812,
             "height": 341
           },
-          "title": "Pakistan",
+          "title": "باكستان",
           "date": "2011",
-          "description": "Our roots lie in Pakistan, where we have been instrumental in building entire townships and changing the face of cities... ",
-          "readMore": "Read more",
+          "description": "جذورنا في باكستان، حيث كنا مساهمين أساسيين في بناء مجتمعات سكنية كاملة وتغيير وجه المدن... ",
+          "readMore": "اقرأ المزيد",
           "button": {
-            "title": "Find Out More",
+            "title": "اكتشف المزيد",
             "href": "/about/portfolio"
           }
         },
         {
           "image": {
             "src": "/images/shared/uk.jpeg",
-            "alt": "uk",
+            "alt": "المملكة المتحدة",
             "width": 812,
             "height": 608
           },
-          "title": "UK",
+          "title": "المملكة المتحدة",
           "date": "2014",
-          "description": "Citi Developers has an active presence in the UK, featuring exquisite properties in some of its most beautiful towns... ",
-          "readMore": "Read more",
+          "description": "تمتلك Citi Developers حضورًا نشطًا في المملكة المتحدة، حيث تعرض عقارات رائعة في بعض من أجمل مدنها... ",
+          "readMore": "اقرأ المزيد",
           "button": {
-            "title": "Find Out More",
+            "title": "اكتشف المزيد",
             "href": "/about/portfolio"
           }
         },
         {
           "image": {
             "src": "/images/shared/uae.jpeg",
-            "alt": "UAE",
+            "alt": "الإمارات العربية المتحدة",
             "width": 812,
             "height": 541
           },
-          "title": "UAE",
+          "title": "الإمارات العربية المتحدة",
           "date": "2029",
-          "description": "Beginning with Jumeirah Village Circle in Dubai followed very closely with Majan, and then in Al Marjan island... ",
-          "readMore": "Read more",
+          "description": "بدءًا من قرية جميرا الدائرية في دبي تلتها ماجان، ومن ثم جزيرة المرجان... ",
+          "readMore": "اقرأ المزيد",
           "button": {
-            "title": "Find Out More",
+            "title": "اكتشف المزيد",
             "href": "/about/portfolio"
           }
         }
@@ -445,22 +435,22 @@
     },
     "ourTeam": {
       "header": {
-        "title": "citi developers {{team}}",
-        "description": "At Citi Housing, we’re more than just builders we’re architects of dreams. As CEO, I lead our dedicated team in crafting top-tier housing solutions across Pakistan, ensuring each residence embodies safety, security, and comfort."
+        "title": "فريق {{Citi Developers}}",
+        "description": "في Citi Housing، نحن أكثر من مجرد بنائين، نحن مهندسون للأحلام. كمدير تنفيذي، أقود فريقنا المتفاني في تقديم حلول سكنية من الدرجة الأولى عبر باكستان، لضمان أن كل مسكن يجسد الأمان والحماية والراحة."
       },
       "image": {
         "src": "/images/homepage/meet_our_team.jpg",
-        "alt": "Meet_our_team",
+        "alt": "تعرف على فريقنا",
         "width": 1080,
         "height": 1080
       },
       "buttons": [
         {
-          "title": "Our Team",
+          "title": "فريقنا",
           "href": "/about/our-team"
         },
         {
-          "title": "Find Out More",
+          "title": "اكتشف المزيد",
           "href": "/about/citi-developer"
         }
       ]
@@ -468,25 +458,25 @@
   },
   "contactUs": {
     "metadata": {
-      "title": "Contact US - Explore Citi Developers innovative and urban living.",
-      "description": "Discover Citi Developers' urban excellence—blending innovation, design, and sustainability. Explore the future of city living today.",
+      "title": "تواصل معنا - استكشف الابتكار والحياة الحضرية مع Citi Developers.",
+      "description": "اكتشف تميز Citi Developers الحضري - مزيج من الابتكار، التصميم، والاستدامة. استكشف مستقبل الحياة الحضرية اليوم.",
       "keywords": [
-        "Real Estate",
-        "Developer",
-        "Aveline",
-        "Allura",
-        "Dubai",
+        "عقارات",
+        "مطور",
+        "أفيلين",
+        "ألورا",
+        "دبي",
         "Citi Developer",
         "Citi",
-        "Apartment",
-        "Studio",
+        "شقة",
+        "استوديو",
         "BHK",
-        "Building",
-        "Allura"
+        "مبنى",
+        "ألورا"
       ],
       "openGraph": {
-        "title": "Contact US - Explore Citi Developers innovative and urban living.",
-        "description": "Discover Citi Developers' urban excellence—blending innovation, design, and sustainability. Explore the future of city living today.",
+        "title": "تواصل معنا - استكشف الابتكار والحياة الحضرية مع Citi Developers.",
+        "description": "اكتشف تميز Citi Developers الحضري - مزيج من الابتكار، التصميم، والاستدامة. استكشف مستقبل الحياة الحضرية اليوم.",
         "images": [
           "/images/homepage/first.webp"
         ]
@@ -498,15 +488,15 @@
       }
     },
     "form": {
-      "title": "Contact Us",
-      "description": "Your journey towards the perfect home begins here  let's start the conversation!",
-      "leadSource": "CONTACT US",
+      "title": "تواصل معنا",
+      "description": "رحلتك نحو المنزل المثالي تبدأ من هنا، دعنا نبدأ المحادثة!",
+      "leadSource": "تواصل معنا",
       "contactOptions": [
         {
           "icon": "phone",
           "list": [
-            "Toll-Free: 80044440",
-            "Landline: 044031000"
+            "الرقم المجاني: 80044440",
+            "الهاتف الأرضي: 044031000"
           ]
         },
         {
@@ -518,113 +508,113 @@
         {
           "icon": "address",
           "list": [
-            "{{Experience Centre:}} 625 Jumeirah Road, Umm Suqeim First, Dubai, UAE.",
-            "{{Head Office:}}Office 1101, Marina Plaza, Dubai Marina, Dubai, UAE."
+            "{{مركز التجربة:}} 625 طريق جميرا، أم سقيم الأولى، دبي، الإمارات العربية المتحدة.",
+            "{{المكتب الرئيسي:}} مكتب 1101، مارينا بلازا، مرسى دبي، دبي، الإمارات العربية المتحدة."
           ]
         }
       ],
-      "disclaimer": "By submitting this form, you confirm that you have read and accepted the <a href='/privacy-policy' target='_blank'>Privacy Policy </a>and <a href='/terms-and-conditions' target='_blank'>Terms and Conditions.</a>",
-      "submit": "Submit",
+      "disclaimer": "من خلال تقديم هذا النموذج، تؤكد أنك قرأت ووافقت على <a href='/privacy-policy' target='_blank'>سياسة الخصوصية</a> و<a href='/terms-and-conditions' target='_blank'>الشروط والأحكام.</a>",
+      "submit": "إرسال",
       "fields": [
         {
           "key": "fullName",
-          "label": "Full Name*",
-          "placeholder": "Full Name*",
+          "label": "الاسم الكامل*",
+          "placeholder": "الاسم الكامل*",
           "fieldSetWidthClassProp": "half",
           "type": "text",
           "validation": {
-            "required": "Full Name is required"
+            "required": "الاسم الكامل مطلوب"
           }
         },
         {
           "key": "country",
-          "placeholder": "Select Country",
+          "placeholder": "اختر الدولة",
           "type": "select",
           "searchable": true,
-          "label": "Country",
+          "label": "الدولة",
           "fieldSetWidthClassProp": "half",
           "validation": {
-            "required": "Country is required"
+            "required": "الدولة مطلوبة"
           }
         },
         {
           "key": "email",
-          "label": "Email*",
-          "placeholder": "Email*",
+          "label": "البريد الإلكتروني*",
+          "placeholder": "البريد الإلكتروني*",
           "type": "email",
           "fieldSetWidthClassProp": "half",
           "validation": {
-            "required": "Email is required",
+            "required": "البريد الإلكتروني مطلوب",
             "validate": {
-              "email": "Email is invalid"
+              "email": "البريد الإلكتروني غير صحيح"
             }
           },
           "required": true
         },
         {
           "key": "phone",
-          "label": "Phone Number",
+          "label": "رقم الهاتف",
           "placeholder": "123 4567",
           "fieldSetWidthClassProp": "half",
           "validation": {
-            "required": "Phone number is required"
+            "required": "رقم الهاتف مطلوب"
           }
         },
         {
           "key": "userOrAgent",
           "type": "select",
-          "label": "Classify your business*",
-          "placeholder": "Select your classification...",
+          "label": "صنف عملك*",
+          "placeholder": "اختر تصنيفك...",
           "fieldSetWidthClassProp": "half",
           "searchable": true,
           "options": [
             {
-              "label": "Client",
+              "label": "عميل",
               "value": "client"
             },
             {
-              "label": "Agent",
+              "label": "وكيل",
               "value": "agent"
             }
           ],
           "validation": {
-            "required": "This field is required"
+            "required": "هذا الحقل مطلوب"
           }
         },
         {
           "key": "salesOrMarketing",
           "type": "select",
-          "placeholder": "Department to Contact...",
-          "label": "Preferred Department",
+          "placeholder": "القسم المفضل للتواصل...",
+          "label": "القسم المفضل",
           "fieldSetWidthClassProp": "half",
           "searchable": true,
           "options": [
             {
-              "label": "Sales",
+              "label": "المبيعات",
               "value": "sales"
             },
             {
-              "label": "Marketing",
+              "label": "التسويق",
               "value": "marketing"
             }
           ],
           "validation": {
-            "required": "This field is required"
+            "required": "هذا الحقل مطلوب"
           }
         },
         {
           "key": "contactMode",
           "type": "radio",
-          "label": "Which mode of contact do you prefer?",
+          "label": "ما هي وسيلة الاتصال المفضلة لديك؟",
           "fieldSetWidthClassProp": "full",
           "options": [
             {
-              "label": "Phone",
+              "label": "الهاتف",
               "value": "phone",
               "icon": "phone"
             },
             {
-              "label": "Email",
+              "label": "البريد الإلكتروني",
               "value": "email",
               "icon": "mail"
             }
@@ -632,11 +622,11 @@
         },
         {
           "key": "message",
-          "label": "Please provide a brief description of your requirement*",
-          "placeholder": "Type your message here",
+          "label": "يرجى تقديم وصف موجز لمتطلباتك*",
+          "placeholder": "اكتب رسالتك هنا",
           "type": "textarea",
           "validation": {
-            "required": "Message is required"
+            "required": "الرسالة مطلوبة"
           }
         }
       ]
@@ -645,25 +635,25 @@
   "about": {
     "citiDeveloper": {
       "metadata": {
-        "title": "Citi Develoepr | About US  - Explore Citi Developers innovative and urban living.",
-        "description": "Discover Citi Developers' urban excellence—blending innovation, design, and sustainability. Explore the future of city living today.",
+        "title": "Citi Developer | حولنا - استكشف الابتكار والحياة الحضرية مع Citi Developers.",
+        "description": "اكتشف تميز Citi Developers الحضري - مزيج من الابتكار، التصميم، والاستدامة. استكشف مستقبل الحياة الحضرية اليوم.",
         "keywords": [
-          "Real Estate",
-          "Developer",
-          "Aveline",
-          "Allura",
-          "Dubai",
+          "عقارات",
+          "مطور",
+          "أفيلين",
+          "ألورا",
+          "دبي",
           "Citi Developer",
           "Citi",
-          "Apartment",
-          "Studio",
+          "شقة",
+          "استوديو",
           "BHK",
-          "Building",
-          "Allura"
+          "مبنى",
+          "ألورا"
         ],
         "openGraph": {
-          "title": "Citi Develoepr | About US  - Explore Citi Developers innovative and urban living.",
-          "description": "Discover Citi Developers' urban excellence—blending innovation, design, and sustainability. Explore the future of city living today.",
+          "title": "Citi Developer | حولنا - استكشف الابتكار والحياة الحضرية مع Citi Developers.",
+          "description": "اكتشف تميز Citi Developers الحضري - مزيج من الابتكار، التصميم، والاستدامة. استكشف مستقبل الحياة الحضرية اليوم.",
           "images": [
             "/images/about/citideveloper/citideveloper-banner.png"
           ]
@@ -677,79 +667,79 @@
       "banner": {
         "backgroundImage": {
           "src": "/images/about/citideveloper/citideveloper-banner.png",
-          "alt": "banner",
+          "alt": "بانر",
           "width": 3840,
           "height": 1983
         },
         "image": {
           "src": "/images/shared/logo-with-slogan.png",
-          "alt": "logo",
+          "alt": "شعار",
           "width": 1862,
           "height": 554
         },
         "buttons": [
           {
-            "title": "take a tour",
+            "title": "قم بجولة",
             "href": "/projects/aveline"
           },
           {
-            "title": "enquire now",
+            "title": "استفسر الآن",
             "href": "/contact-us"
           }
         ]
       },
       "legacy": {
         "card": {
-          "title": "The Legacy",
-          "subtitle": "SETTING NEW STANDARDS",
-          "description": "We set new standards of excellence in the real estate industry, not only in terms of architectural innovation but also in placemaking, artistry, quality, and customer satisfaction.",
+          "title": "الإرث",
+          "subtitle": "وضع معايير جديدة",
+          "description": "نضع معايير جديدة للتميز في صناعة العقارات، ليس فقط من حيث الابتكار المعماري ولكن أيضًا في بناء المجتمعات والفن والجودة ورضا العملاء.",
           "button": {
-            "title": "explore more",
+            "title": "اكتشف المزيد",
             "href": "/projects/allura"
           }
         },
         "image": {
           "src": "/images/about/citideveloper/legacy.png",
-          "alt": "legacy",
+          "alt": "الإرث",
           "width": 1284,
           "height": 792
         },
-        "description": "We are committed to delivering excellence and surpassing expectations, earning the respect and trust of stakeholders and customers alike."
+        "description": "نحن ملتزمون بتقديم التميز وتجاوز التوقعات، مكتسبين احترام وثقة المساهمين والعملاء على حد سواء."
       },
       "overDecadeOfTrust": {
         "header": {
-          "subtitle": "WE ARE CITI DEVELOPERS",
-          "title": "Over a decade of trust",
-          "description": "With a legacy of over a decade, we proudly stand as a world-leading master developer, renowned for reshaping cityscapes and enriching communities across continents. At Citi, trust is our foundation, and experience, our currency. We understand how our residents and investors think, and we apply this knowledge in everything we do. We know that trust takes time, resources, and years to build, and we are proud to have earned and perfected it over the past decade. Join us on this journey of trust, innovation, and exceptional living experiences as we reinvent real estate landscapes across cities."
+          "subtitle": "نحن Citi Developers",
+          "title": "أكثر من عقد من الثقة",
+          "description": "مع إرث يمتد لأكثر من عقد من الزمان، نفخر بأننا مطور عالمي رائد، معروف بإعادة تشكيل المدن وإثراء المجتمعات عبر القارات. في Citi، الثقة هي أساسنا والخبرة هي عملتنا. نحن نفهم كيف يفكر سكاننا ومستثمرينا ونطبق هذا الفهم في كل ما نقوم به. نعلم أن الثقة تستغرق وقتًا وموارد وسنوات لبنائها، ونحن فخورون بأننا بنيناها وأتقنّاها على مدار العقد الماضي. انضم إلينا في هذه الرحلة من الثقة والابتكار وتجارب العيش الاستثنائية ونحن نعيد ابتكار مشاهد العقارات في المدن."
         },
         "images": [
           {
             "src": "/images/about/citideveloper/overTrust.jpeg",
-            "alt": "over trust",
+            "alt": "ثقة",
             "width": 704,
             "height": 1056
           },
           {
             "src": "/images/homepage/citi-building-front.jpg",
-            "alt": "citi developer",
+            "alt": "مطور سيتي",
             "width": 1600,
             "height": 1066,
             "className": "object-left"
           },
           {
             "src": "/images/homepage/bedroom.jpg",
-            "alt": "livingroom",
+            "alt": "غرفة معيشة",
             "width": 2600,
             "height": 2364
           }
         ],
-        "animatedText": "We Published since 2023 - We Published since 2023 - "
+        "animatedText": "لقد بدأنا منذ 2023 - لقد بدأنا منذ 2023 - "
       },
       "ourPhilosophy": {
-        "title": "Our {{Philosophy}}",
+        "title": "فلسفتنا",
         "image": {
           "src": "/images/about/citideveloper/philosophy.png",
-          "alt": "philosophy",
+          "alt": "فلسفتنا",
           "width": 1536,
           "height": 1002
         },
@@ -757,30 +747,30 @@
           {
             "image": {
               "src": "/images/about/citideveloper/vision.svg",
-              "alt": "Vision",
+              "alt": "رؤية",
               "width": 72,
               "height": 72
             },
-            "title": "Vision",
-            "description": "To be one of the world’s most trusted real estate developers, renowned for reimagining and elevating residential communities, setting global benchmarks."
+            "title": "الرؤية",
+            "description": "أن نكون من بين أكثر المطورين العقاريين ثقة في العالم، معروفين بإعادة تصور ورفع مستوى المجتمعات السكنية ووضع معايير عالمية."
           },
           {
             "image": {
               "src": "/images/about/citideveloper/mission.svg",
-              "alt": "Mission",
+              "alt": "مهمة",
               "width": 72,
               "height": 72
             },
-            "title": "Mission",
-            "description": "With an unwavering commitment to quality, liveability, reliability, and innovation, our mission is to reshape property landscapes and enrich communities, delivering projects that stand the test of time."
+            "title": "المهمة",
+            "description": "نحن ملتزمون بالجودة، والعيش الرغيد، والموثوقية، والابتكار، ونهدف إلى إعادة تشكيل مشاهد العقارات وإثراء المجتمعات من خلال تقديم مشاريع تدوم مع مرور الزمن."
           }
         ]
       },
       "ourValues": {
-        "title": "Our {{Values}}",
+        "title": "قيمنا",
         "image": {
           "src": "/images/about/citideveloper/burjkhalifa.png",
-          "alt": "Burj khalifa",
+          "alt": "برج خليفة",
           "width": 1621,
           "height": 1002
         },
@@ -788,57 +778,57 @@
           {
             "image": {
               "src": "/images/shared/integrity.svg",
-              "alt": "Integrity",
+              "alt": "النزاهة",
               "width": 72,
               "height": 72
             },
-            "title": "Integrity",
-            "description": "Trust and integrity is the bedrock of our foundation. We value credibility, and accountability, seing new benchmarks in building exceptional communities"
+            "title": "النزاهة",
+            "description": "الثقة والنزاهة هما أساسنا. نقدر المصداقية والمساءلة، ونضع معايير جديدة في بناء مجتمعات استثنائية."
           },
           {
             "image": {
               "src": "/images/shared/quality.svg",
-              "alt": "Quality",
+              "alt": "الجودة",
               "width": 72,
               "height": 72
             },
-            "title": "Quality",
-            "description": "Our commitment to quality goes beyond meeting industry standards, pushing the boundaries and creating properties that place high priority on attention to detail, liveability, and quality of life."
+            "title": "الجودة",
+            "description": "التزامنا بالجودة يتجاوز المعايير الصناعية، ويدفع الحدود ويخلق عقارات تضع الأولوية في التفاصيل والعيش الرغيد ونوعية الحياة."
           },
           {
             "image": {
               "src": "/images/shared/empathy.svg",
-              "alt": "Empathy",
+              "alt": "التعاطف",
               "width": 72,
               "height": 72
             },
-            "title": "Empathy",
-            "description": "Empathy is the core of our brand ethos. By understanding and embracing the perspective of our community, we create developments that cater to their fostering a sense of belonging and enhancing their living experiences."
+            "title": "التعاطف",
+            "description": "التعاطف هو جوهر فلسفتنا. من خلال فهم واحتضان منظور مجتمعنا، نقوم بإنشاء تطويرات تلبي احتياجاتهم وتعزز إحساسهم بالانتماء وتحسن من تجاربهم المعيشية."
           }
         ]
       }
     },
     "portfolio": {
       "metadata": {
-        "title": "Portfolio | About US - Explore Citi Developers innovative and urban living.",
-        "description": "Discover Citi Developers' urban excellence—blending innovation, design, and sustainability. Explore the future of city living today.",
+        "title": "المعرض | عنّا - اكتشف حياة Citi Developers المبتكرة والحضرية.",
+        "description": "اكتشف تميّز Citi Developers الحضري - مزيج من الابتكار والتصميم والاستدامة. استكشف مستقبل الحياة الحضرية اليوم.",
         "keywords": [
-          "Real Estate",
-          "Developer",
+          "العقارات",
+          "المطور",
           "Aveline",
           "Allura",
-          "Dubai",
+          "دبي",
           "Citi Developer",
           "Citi",
-          "Apartment",
-          "Studio",
+          "شقة",
+          "استوديو",
           "BHK",
-          "Building",
+          "البناء",
           "Allura"
         ],
         "openGraph": {
-          "title": "Portfolio | About US - Explore Citi Developers innovative and urban living.",
-          "description": "Discover Citi Developers' urban excellence—blending innovation, design, and sustainability. Explore the future of city living today.",
+          "title": "المعرض | عنّا - اكتشف حياة Citi Developers المبتكرة والحضرية.",
+          "description": "اكتشف تميّز Citi Developers الحضري - مزيج من الابتكار والتصميم والاستدامة. استكشف مستقبل الحياة الحضرية اليوم.",
           "images": [
             "/images/aveline/11th Floor/image_3.webp"
           ]
@@ -850,20 +840,20 @@
         }
       },
       "banner": {
-        "title": "Portfolio",
+        "title": "المعرض",
         "subtitle": "Citi Developers",
-        "description": "Welcome to Citi Developers, where innovation meets excellence. Our diverse portfolio spans across three vibrant regions: the United Arab Emirates (UAE), the United Kingdom (UK), and Pakistan. Explore our remarkable projects and discover the art of transformative real estate.",
+        "description": "مرحبًا بكم في Citi Developers، حيث يلتقي الابتكار مع التميز. تمتد محفظتنا المتنوعة عبر ثلاث مناطق حيوية: الإمارات العربية المتحدة، المملكة المتحدة، وباكستان. استكشف مشاريعنا الرائعة واكتشف فن العقارات التحويلية.",
         "buttons": [
           {
-            "title": "take a tour",
+            "title": "قم بجولة",
             "href": "/projects/aveline"
           },
           {
-            "title": "enquire now",
+            "title": "استفسر الآن",
             "href": "/contact-us"
           },
           {
-            "title": "allura project",
+            "title": "مشروع Allura",
             "href": "/projects/allura"
           }
         ],
@@ -1023,25 +1013,25 @@
     },
     "news": {
       "metadata": {
-        "title": "News | About US - Explore Citi Developers innovative and urban living.",
-        "description": "Discover Citi Developers' urban excellence—blending innovation, design, and sustainability. Explore the future of city living today.",
+        "title": "الأخبار | عنّا - اكتشف حياة Citi Developers المبتكرة والحضرية.",
+        "description": "اكتشف تميّز Citi Developers الحضري - مزيج من الابتكار والتصميم والاستدامة. استكشف مستقبل الحياة الحضرية اليوم.",
         "keywords": [
-          "Real Estate",
-          "Developer",
+          "العقارات",
+          "المطور",
           "Aveline",
           "Allura",
-          "Dubai",
+          "دبي",
           "Citi Developer",
           "Citi",
-          "Apartment",
-          "Studio",
+          "شقة",
+          "استوديو",
           "BHK",
-          "Building",
+          "البناء",
           "Allura"
         ],
         "openGraph": {
-          "title": "News | About US - Explore Citi Developers innovative and urban living.",
-          "description": "Discover Citi Developers' urban excellence—blending innovation, design, and sustainability. Explore the future of city living today.",
+          "title": "الأخبار | عنّا - اكتشف حياة Citi Developers المبتكرة والحضرية.",
+          "description": "اكتشف تميّز Citi Developers الحضري - مزيج من الابتكار والتصميم والاستدامة. استكشف مستقبل الحياة الحضرية اليوم.",
           "images": [
             "/images/aveline/11th Floor/image_3.webp"
           ]
@@ -1053,11 +1043,11 @@
         }
       },
       "header": {
-        "title": "News",
-        "description": "See the developments that have occurred to LearnEasers in the world"
+        "title": "الأخبار",
+        "description": "اطلع على التطورات التي حدثت لـ LearnEasers في العالم"
       },
       "button": {
-        "title": "Switch To Blogs",
+        "title": "التحويل إلى المدونات",
         "href": "/about/blogs"
       },
       "cards": [
@@ -1069,10 +1059,10 @@
             "height": 680
           },
           "title": "Al Watan - Real Estate",
-          "description": "زوريز مالك المدير التنفيذي لشركة سيتي ديفيلوبرز يكشف عن توسعات جديدة للشركة في الإمارات بمفاهيم عقارية مبتكرة",
+          "description": "زوريز مالك المدير التنفيذي لشركة Citi Developer يكشف عن توسعات جديدة للشركة في الإمارات بمفاهيم عقارية مبتكرة",
           "date": "04 Mar 2024",
           "button": {
-            "title": "Read More",
+            "title": "اقرأ المزيد",
             "href": "https://alwatan.ae/posts/1317005"
           }
         },
@@ -1087,7 +1077,7 @@
           "description": "We Want To Deliver High-Quality Projects Tailored To The UAE Market: Citi Developers CEO",
           "date": "01 Mar 2024",
           "button": {
-            "title": "Read More",
+            "title": "اقرأ المزيد",
             "href": "https://gulftime.ae/we-want-to-deliver-high-quality-projects-tailored-to-the-uae-market-citi-developers-ceo"
           }
         },
@@ -1102,7 +1092,7 @@
           "description": "Citi Developers Unveils Innovative Experience Centre Showcasing Aveline Residences",
           "date": "13 Feb 2024",
           "button": {
-            "title": "Read More",
+            "title": "اقرأ المزيد",
             "href": "https://www.cbnme.com/news/ampg-announces-60-per-cent-sales-closure-for-plazzo-residence"
           }
         },
@@ -1117,7 +1107,7 @@
           "description": "Citi Developers Unveils Innovative Experience Centre Showcasing Aveline Residences",
           "date": "6 Feb 2024",
           "button": {
-            "title": "Read More",
+            "title": "اقرأ المزيد",
             "href": "https://dubainewsweek.com/citi-developers-experience-centre-aveline-residences"
           }
         },
@@ -1132,7 +1122,7 @@
           "description": "سيتي للتطوير العقاري تكشف النقاب عن مركز التجاربالمبتكر لاستعراض مشروع “أفيلاين ريزيدنسز”",
           "date": "6 Feb 2024",
           "button": {
-            "title": "Read More",
+            "title": "اقرأ المزيد",
             "href": "https://alwatan.ae/posts/1297525"
           }
         },
@@ -1147,7 +1137,7 @@
           "description": "Citi Developer Unveils Innovative Experience Centre Showcasing Aveline Residences",
           "date": "7 Feb 2024",
           "button": {
-            "title": "Read More",
+            "title": "اقرأ المزيد",
             "href": "https://www.ladyleadmag.com/citi-developer-unveils-innovative-experience-centre-showcasing-aveline-residences/"
           }
         },
@@ -1162,7 +1152,7 @@
           "description": "Citi Developer Unveils Innovative Experience Centre Showcasing Aveline Residences",
           "date": "6 Feb 2024",
           "button": {
-            "title": "Read More",
+            "title": "اقرأ المزيد",
             "href": "https://uaenews4u.com/2024/02/06/citi-developer-unveils-innovative-experience-centre-showcasing-aveline-residences/"
           }
         },
@@ -1177,7 +1167,7 @@
           "description": "Citi Developer Unveils Innovative Experience Centre Showcasing Aveline Residences",
           "date": "6 Feb 2024",
           "button": {
-            "title": "Read More",
+            "title": "اقرأ المزيد",
             "href": "https://www.observerdubai.com/2024/02/06/citi-developer-unveils-innovative-experience-centre-showcasing-aveline-residences/"
           }
         },
@@ -1192,7 +1182,7 @@
           "description": "Citi Developer Unveils Innovative Experience Centre Showcasing Aveline Residences",
           "date": "6 Feb 2024",
           "button": {
-            "title": "Read More",
+            "title": "اقرأ المزيد",
             "href": "https://pantimearabia.com/citi-developer-unveils-innovative-experience-centre-showcasing-aveline-residences"
           }
         },
@@ -1207,7 +1197,7 @@
           "description": "Citi Developers Unveils Aveline Residences in Jumeirah Village Circle",
           "date": "16 Nov 2023",
           "button": {
-            "title": "Read More",
+            "title": "اقرأ المزيد",
             "href": "https://pantimearabia.com/citi-developer-unveils-innovative-experience-centre-showcasing-aveline-residences/"
           }
         },
@@ -1222,7 +1212,7 @@
           "description": "Citi Developers Unveils Aveline Residences in Jumeirah Village Circle",
           "date": "17 Nov 2023",
           "button": {
-            "title": "Read More",
+            "title": "اقرأ المزيد",
             "href": "https://pantimearabia.com/citi-developers-unveils-aveline-residences-in-jumeirah-village-circle/"
           }
         },
@@ -1237,7 +1227,7 @@
           "description": "Citi Developers Unveils Aveline Residences in Jumeirah Village Circle",
           "date": "17 Nov 2023",
           "button": {
-            "title": "Read More",
+            "title": "اقرأ المزيد",
             "href": "https://www.biztoday.news/2023/11/17/citi-developers-launches-aveline-residences-in-jumeirah-village-circle/"
           }
         },
@@ -1252,7 +1242,7 @@
           "description": "Citi Developers Unveils Aveline Residences in Jumeirah Village Circle",
           "date": "16 Nov 2023",
           "button": {
-            "title": "Read More",
+            "title": "اقرأ المزيد",
             "href": "https://thebrewnews.com/brew-circle/citi-developers-unveils-aveline-residences-in-jumeirah-village-circle/"
           }
         },
@@ -1267,7 +1257,7 @@
           "description": "Citi Developers Unveils Aveline Residences In Jumeirah Village Circle",
           "date": "16 Nov 2023",
           "button": {
-            "title": "Read More",
+            "title": "اقرأ المزيد",
             "href": "https://menafn.com/1107442594/Citi-Developers-Unveils-Aveline-Residences-In-Jumeirah-Village-Circle"
           }
         },
@@ -1282,7 +1272,7 @@
           "description": "Citi Developers Unveils Aveline Residences In Jumeirah Village Circle",
           "date": "16 Nov 2023",
           "button": {
-            "title": "Read More",
+            "title": "اقرأ المزيد",
             "href": "https://www.mydubainews.com/citi-properties-unveils-aveline-residences-in-jumeirah-village-circle/"
           }
         },
@@ -1297,7 +1287,7 @@
           "description": "Citi Developers Unveils Aveline Residences In Jumeirah Village Circle",
           "date": "17 Nov 2023",
           "button": {
-            "title": "Read More",
+            "title": "اقرأ المزيد",
             "href": "https://thefashionwithstyle.com/real-estate-retail/citi-developers-unveils-aveline-residences-in-jumeirah-village-circle/"
           }
         }
@@ -1305,25 +1295,25 @@
     },
     "blogs": {
       "metadata": {
-        "title": "Blogs | About US - Explore Citi Developers innovative and urban living.",
-        "description": "Discover Citi Developers' urban excellence—blending innovation, design, and sustainability. Explore the future of city living today.",
+        "title": "المدونات | عنّا - اكتشف حياة Citi Developers المبتكرة والحضرية.",
+        "description": "اكتشف تميّز Citi Developers الحضري - مزيج من الابتكار والتصميم والاستدامة. استكشف مستقبل الحياة الحضرية اليوم.",
         "keywords": [
-          "Real Estate",
-          "Developer",
+          "العقارات",
+          "المطور",
           "Aveline",
           "Allura",
-          "Dubai",
+          "دبي",
           "Citi Developer",
           "Citi",
-          "Apartment",
-          "Studio",
+          "شقة",
+          "استوديو",
           "BHK",
-          "Building",
+          "البناء",
           "Allura"
         ],
         "openGraph": {
-          "title": "Blogs | About US - Explore Citi Developers innovative and urban living.",
-          "description": "Discover Citi Developers' urban excellence—blending innovation, design, and sustainability. Explore the future of city living today.",
+          "title": "المدونات | عنّا - اكتشف حياة Citi Developers المبتكرة والحضرية.",
+          "description": "اكتشف تميّز Citi Developers الحضري - مزيج من الابتكار والتصميم والاستدامة. استكشف مستقبل الحياة الحضرية اليوم.",
           "images": [
             "/images/aveline/11th Floor/image_3.webp"
           ]
@@ -1335,11 +1325,11 @@
         }
       },
       "header": {
-        "title": "Blogs",
-        "description": "Explore insights and stories shaping the world of LearnEasers."
+        "title": "المدونات",
+        "description": "استكشف الأفكار والقصص التي تشكّل عالم LearnEasers."
       },
       "button": {
-        "title": "Switch To News",
+        "title": "التحويل إلى الأخبار",
         "href": "/about/news"
       },
       "cards": [
@@ -1351,10 +1341,10 @@
             "height": 680
           },
           "title": "Al Watan - Real Estate",
-          "description": "زوريز مالك المدير التنفيذي لشركة سيتي ديفيلوبرز يكشف عن توسعات جديدة للشركة في الإمارات بمفاهيم عقارية مبتكرة",
+          "description": "زوريز مالك المدير التنفيذي لشركة Citi Developer يكشف عن توسعات جديدة للشركة في الإمارات بمفاهيم عقارية مبتكرة",
           "date": "04 Mar 2024",
           "button": {
-            "title": "Read More",
+            "title": "اقرأ المزيد",
             "href": "https://alwatan.ae/posts/1317005"
           }
         },
@@ -1369,7 +1359,7 @@
           "description": "We Want To Deliver High-Quality Projects Tailored To The UAE Market: Citi Developers CEO",
           "date": "01 Mar 2024",
           "button": {
-            "title": "Read More",
+            "title": "اقرأ المزيد",
             "href": "https://gulftime.ae/we-want-to-deliver-high-quality-projects-tailored-to-the-uae-market-citi-developers-ceo"
           }
         },
@@ -1384,7 +1374,7 @@
           "description": "Citi Developers Unveils Innovative Experience Centre Showcasing Aveline Residences",
           "date": "13 Feb 2024",
           "button": {
-            "title": "Read More",
+            "title": "اقرأ المزيد",
             "href": "https://www.cbnme.com/news/ampg-announces-60-per-cent-sales-closure-for-plazzo-residence"
           }
         },
@@ -1399,7 +1389,7 @@
           "description": "Citi Developers Unveils Innovative Experience Centre Showcasing Aveline Residences",
           "date": "6 Feb 2024",
           "button": {
-            "title": "Read More",
+            "title": "اقرأ المزيد",
             "href": "https://dubainewsweek.com/citi-developers-experience-centre-aveline-residences"
           }
         },
@@ -1414,7 +1404,7 @@
           "description": "سيتي للتطوير العقاري تكشف النقاب عن مركز التجاربالمبتكر لاستعراض مشروع “أفيلاين ريزيدنسز”",
           "date": "6 Feb 2024",
           "button": {
-            "title": "Read More",
+            "title": "اقرأ المزيد",
             "href": "https://alwatan.ae/posts/1297525"
           }
         },
@@ -1429,7 +1419,7 @@
           "description": "Citi Developer Unveils Innovative Experience Centre Showcasing Aveline Residences",
           "date": "7 Feb 2024",
           "button": {
-            "title": "Read More",
+            "title": "اقرأ المزيد",
             "href": "https://www.ladyleadmag.com/citi-developer-unveils-innovative-experience-centre-showcasing-aveline-residences/"
           }
         },
@@ -1444,7 +1434,7 @@
           "description": "Citi Developer Unveils Innovative Experience Centre Showcasing Aveline Residences",
           "date": "6 Feb 2024",
           "button": {
-            "title": "Read More",
+            "title": "اقرأ المزيد",
             "href": "https://uaenews4u.com/2024/02/06/citi-developer-unveils-innovative-experience-centre-showcasing-aveline-residences/"
           }
         },
@@ -1459,7 +1449,7 @@
           "description": "Citi Developer Unveils Innovative Experience Centre Showcasing Aveline Residences",
           "date": "6 Feb 2024",
           "button": {
-            "title": "Read More",
+            "title": "اقرأ المزيد",
             "href": "https://www.observerdubai.com/2024/02/06/citi-developer-unveils-innovative-experience-centre-showcasing-aveline-residences/"
           }
         },
@@ -1474,7 +1464,7 @@
           "description": "Citi Developer Unveils Innovative Experience Centre Showcasing Aveline Residences",
           "date": "6 Feb 2024",
           "button": {
-            "title": "Read More",
+            "title": "اقرأ المزيد",
             "href": "https://pantimearabia.com/citi-developer-unveils-innovative-experience-centre-showcasing-aveline-residences"
           }
         },
@@ -1489,7 +1479,7 @@
           "description": "Citi Developers Unveils Aveline Residences in Jumeirah Village Circle",
           "date": "16 Nov 2023",
           "button": {
-            "title": "Read More",
+            "title": "اقرأ المزيد",
             "href": "https://pantimearabia.com/citi-developer-unveils-innovative-experience-centre-showcasing-aveline-residences/"
           }
         },
@@ -1504,7 +1494,7 @@
           "description": "Citi Developers Unveils Aveline Residences in Jumeirah Village Circle",
           "date": "17 Nov 2023",
           "button": {
-            "title": "Read More",
+            "title": "اقرأ المزيد",
             "href": "https://pantimearabia.com/citi-developers-unveils-aveline-residences-in-jumeirah-village-circle/"
           }
         },
@@ -1519,7 +1509,7 @@
           "description": "Citi Developers Unveils Aveline Residences in Jumeirah Village Circle",
           "date": "17 Nov 2023",
           "button": {
-            "title": "Read More",
+            "title": "اقرأ المزيد",
             "href": "https://www.biztoday.news/2023/11/17/citi-developers-launches-aveline-residences-in-jumeirah-village-circle/"
           }
         },
@@ -1534,7 +1524,7 @@
           "description": "Citi Developers Unveils Aveline Residences in Jumeirah Village Circle",
           "date": "16 Nov 2023",
           "button": {
-            "title": "Read More",
+            "title": "اقرأ المزيد",
             "href": "https://thebrewnews.com/brew-circle/citi-developers-unveils-aveline-residences-in-jumeirah-village-circle/"
           }
         },
@@ -1549,7 +1539,7 @@
           "description": "Citi Developers Unveils Aveline Residences In Jumeirah Village Circle",
           "date": "16 Nov 2023",
           "button": {
-            "title": "Read More",
+            "title": "اقرأ المزيد",
             "href": "https://menafn.com/1107442594/Citi-Developers-Unveils-Aveline-Residences-In-Jumeirah-Village-Circle"
           }
         },
@@ -1564,7 +1554,7 @@
           "description": "Citi Developers Unveils Aveline Residences In Jumeirah Village Circle",
           "date": "16 Nov 2023",
           "button": {
-            "title": "Read More",
+            "title": "اقرأ المزيد",
             "href": "https://www.mydubainews.com/citi-properties-unveils-aveline-residences-in-jumeirah-village-circle/"
           }
         },
@@ -1579,7 +1569,7 @@
           "description": "Citi Developers Unveils Aveline Residences In Jumeirah Village Circle",
           "date": "17 Nov 2023",
           "button": {
-            "title": "Read More",
+            "title": "اقرأ المزيد",
             "href": "https://thefashionwithstyle.com/real-estate-retail/citi-developers-unveils-aveline-residences-in-jumeirah-village-circle/"
           }
         }
@@ -1587,25 +1577,25 @@
     },
     "ourTeam": {
       "metadata": {
-        "title": "Our Team | About US - Explore Citi Developers innovative and urban living.",
-        "description": "Discover Citi Developers' urban excellence—blending innovation, design, and sustainability. Explore the future of city living today.",
+        "title": "فريقنا | عنّا - اكتشف حياة Citi Developers المبتكرة والحضرية.",
+        "description": "اكتشف تميّز Citi Developers الحضري - مزيج من الابتكار والتصميم والاستدامة. استكشف مستقبل الحياة الحضرية اليوم.",
         "keywords": [
-          "Real Estate",
-          "Developer",
+          "العقارات",
+          "المطور",
           "Aveline",
           "Allura",
-          "Dubai",
+          "دبي",
           "Citi Developer",
           "Citi",
-          "Apartment",
-          "Studio",
+          "شقة",
+          "استوديو",
           "BHK",
-          "Building",
+          "البناء",
           "Allura"
         ],
         "openGraph": {
-          "title": "Our Team | About US - Explore Citi Developers innovative and urban living.",
-          "description": "Discover Citi Developers' urban excellence—blending innovation, design, and sustainability. Explore the future of city living today.",
+          "title": "فريقنا | عنّا - اكتشف حياة Citi Developers المبتكرة والحضرية.",
+          "description": "اكتشف تميّز Citi Developers الحضري - مزيج من الابتكار والتصميم والاستدامة. استكشف مستقبل الحياة الحضرية اليوم.",
           "images": [
             "/images/shared/CEO.png"
           ]
@@ -1617,23 +1607,23 @@
         }
       },
       "header": {
-        "title": "Citi Developers Team",
-        "description": "At Citi Housing, we’re more than just builders we’re architects of dreams. As CEO, I lead our dedicated team in crafting top-tier housing solutions across Pakistan, ensuring each residence embodies safety, security, and comfort."
+        "title": "فريق Citi Developers",
+        "description": "في Citi Housing، نحن أكثر من مجرد بناة، نحن مهندسو الأحلام. بصفتي الرئيس التنفيذي، أقود فريقنا المخلص لتقديم حلول سكنية عالية الجودة في جميع أنحاء باكستان، مع ضمان أن كل مسكن يجسد الأمان والراحة."
       },
       "CEOMessage": {
         "image": {
           "src": "/images/shared/CEO.png",
-          "alt": "CEO",
+          "alt": "الرئيس التنفيذي",
           "width": 1023,
           "height": 656
         },
-        "title": "Messages From CEO",
-        "description": "At Citi Developers, we’re more than just builders we’re architects of dreams. As CEO, I lead our dedicated team in crafting top-tier housing solutions across Pakistan, ensuring each residence embodies safety, security, and comfort.<br/>Our foremost goal is to provide avant-garde, luxury housing options that perfectly align with your lifestyle and preferences. We ardently maintain an unwavering commitment to excellence, continuously honing our offerings and services to flexibly adapt to your evolving needs.<br />Our ultimate aspiration is to cultivate flourishing, sustainable communities while cultivating enduring bonds of trust and loyalty with our esteemed clientele.<br/> We extend our heartfelt appreciation for selecting Citi Housing as your preferred housing solution. Be assured, that we ardently anticipate the privilege of perpetuating our service with unwavering excellence for many years to ensue.",
+        "title": "رسالة من الرئيس التنفيذي",
+        "description": "في Citi Developers، نحن أكثر من مجرد بناة، نحن مهندسو الأحلام. بصفتي الرئيس التنفيذي، أقود فريقنا المخلص لتقديم حلول سكنية عالية الجودة في جميع أنحاء باكستان، مع ضمان أن كل مسكن يجسد الأمان والراحة.<br/>هدفنا الرئيسي هو تقديم خيارات سكنية فاخرة، تتماشى تمامًا مع نمط حياتكم وتفضيلاتكم. نحن نحافظ بشغف على التزامنا المستمر بالتميز، ونعمل دائمًا على تحسين خدماتنا ومنتجاتنا بما يتوافق مع احتياجاتكم المتغيرة.<br />طموحنا الأسمى هو بناء مجتمعات مزدهرة ومستدامة، مع الحفاظ على روابط الثقة والولاء مع عملائنا الكرام.<br/>نشكركم جزيل الشكر لاختياركم Citi Housing كخياركم المفضل للسكن. كونوا على يقين أننا نتطلع بشغف إلى مواصلة خدمتكم بتميز لسنوات عديدة قادمة.",
         "ceoDetails": {
-          "title": "CEO CITI developers",
+          "title": "الرئيس التنفيذي لمطوري CITI",
           "name": {
             "src": "/images/about/ourTeam/ceo-name.png",
-            "alt": "CEO Name",
+            "alt": "اسم الرئيس التنفيذي",
             "width": 141,
             "height": 37
           }
@@ -1648,7 +1638,7 @@
             "height": 2560
           },
           "name": "Usman Tariq",
-          "position": "Head of Sales & Marketing"
+          "position": "رئيس المبيعات والتسويق"
         },
         {
           "image": {
@@ -1658,7 +1648,7 @@
             "height": 2560
           },
           "name": "Wajih Qamar",
-          "position": "Project Director"
+          "position": "مدير المشروع"
         },
         {
           "image": {
@@ -1668,7 +1658,7 @@
             "height": 2560
           },
           "name": "Antash Sheikh",
-          "position": "Head of H.R and Sales Operations"
+          "position": "رئيس قسم الموارد البشرية وعمليات المبيعات"
         },
         {
           "image": {
@@ -1678,7 +1668,7 @@
             "height": 2560
           },
           "name": "Nisar Khalid",
-          "position": "GM Coordination"
+          "position": "المدير العام للتنسيق"
         },
         {
           "image": {
@@ -1688,7 +1678,7 @@
             "height": 1600
           },
           "name": "Asad Ahsan",
-          "position": "Senior Sales Manager"
+          "position": "مدير مبيعات أول"
         },
         {
           "image": {
@@ -1698,7 +1688,7 @@
             "height": 2560
           },
           "name": "Abdul Qadir",
-          "position": "GM Finance"
+          "position": "المدير العام للمالية"
         },
         {
           "image": {
@@ -1708,7 +1698,7 @@
             "height": 2560
           },
           "name": "Sarah Noori",
-          "position": "Marketing Manager"
+          "position": "مدير التسويق"
         },
         {
           "image": {
@@ -1718,11 +1708,11 @@
             "height": 1600
           },
           "name": "Ahtasham Malik",
-          "position": "Head of Administration"
+          "position": "رئيس الإدارة"
         }
       ],
       "teamMembers": {
-        "title": "Other Team Members",
+        "title": "أعضاء الفريق الآخرون",
         "cards": [
           {
             "image": {
@@ -1855,25 +1845,25 @@
     },
     "experienceCenter": {
       "metadata": {
-        "title": "Experience Center | About US - Explore Citi Developers innovative and urban living.",
-        "description": "Discover Citi Developers' urban excellence—blending innovation, design, and sustainability. Explore the future of city living today.",
+        "title": "مركز التجربة | من نحن - اكتشف حياة Citi Developers المبتكرة والحضرية.",
+        "description": "اكتشف التميز الحضري لـ Citi Developers - مزج الابتكار والتصميم والاستدامة. استكشف مستقبل الحياة الحضرية اليوم.",
         "keywords": [
-          "Real Estate",
-          "Developer",
+          "عقارات",
+          "مطور",
           "Aveline",
           "Allura",
-          "Dubai",
+          "دبي",
           "Citi Developer",
           "Citi",
-          "Apartment",
-          "Studio",
+          "شقة",
+          "استوديو",
           "BHK",
-          "Building",
+          "مبنى",
           "Allura"
         ],
         "openGraph": {
-          "title": "Experience Center | About US - Explore Citi Developers innovative and urban living.",
-          "description": "Discover Citi Developers' urban excellence—blending innovation, design, and sustainability. Explore the future of city living today.",
+          "title": "مركز التجربة | من نحن - اكتشف حياة Citi Developers المبتكرة والحضرية.",
+          "description": "اكتشف التميز الحضري لـ Citi Developers - مزج الابتكار والتصميم والاستدامة. استكشف مستقبل الحياة الحضرية اليوم.",
           "images": [
             "/images/about/experienceCenter/bannerExperienceCenter.png"
           ]
@@ -1887,15 +1877,15 @@
       "banner": {
         "header": {
           "title": "Citi Developers",
-          "description": "For over A Decade, Citi Developers Reshapes Global Skylines and Empowers Communities"
+          "description": "على مدار أكثر من عقد، Citi Developers تعيد تشكيل أفق المدن العالمية وتمكن المجتمعات"
         },
         "buttons": [
           {
-            "title": "take a tour",
+            "title": "خذ جولة",
             "href": "/projects/aveline"
           },
           {
-            "title": "enquire now",
+            "title": "استفسر الآن",
             "href": "/contact-us"
           }
         ],
@@ -1908,17 +1898,17 @@
       },
       "visitExperienceCenter": {
         "header": {
-          "subtitle": "Visit our Experience center",
-          "title": "Welcome to the Future:",
-          "description": "Experience tomorrow’s real estate today with Citi Developers. Our new center is more than just a space—it’s a glimpse into the future of living. Join us as we embark on this extraordinary journey forward."
+          "subtitle": "قم بزيارة مركز التجربة",
+          "title": "مرحباً بكم في المستقبل:",
+          "description": "اكتشف اليوم عقارات الغد مع Citi Developers. مركزنا الجديد ليس مجرد مساحة، بل هو لمحة عن مستقبل الحياة. انضموا إلينا ونحن ننطلق في هذه الرحلة الاستثنائية نحو الأمام."
         },
         "videoSrc": "https://www.youtube.com/embed/Lg8Tevx9u8o?si=_qAP8JMbLQJ-J6we&showinfo=0"
       },
       "features": {
         "cards": [
           {
-            "title": "Virtual Reality Experience",
-            "description": "Immerse yourself in a virtual journey through our upcoming projects. Experience the future of real estate in a dynamic and interactive virtual environment.",
+            "title": "تجربة الواقع الافتراضي",
+            "description": "انغمس في رحلة افتراضية عبر مشاريعنا القادمة. استمتع بمستقبل العقارات في بيئة افتراضية تفاعلية وديناميكية.",
             "image": {
               "src": "/images/shared/VR.jpeg",
               "alt": "vr",
@@ -1927,8 +1917,8 @@
             }
           },
           {
-            "title": "One-on-One Sessions",
-            "description": "Engage in personalized discussions with our expert team. Gain insights into our projects, investment opportunities, and the unique value proposition that Citi Developers brings to the market.",
+            "title": "جلسات فردية",
+            "description": "شارك في نقاشات مخصصة مع فريق الخبراء لدينا. احصل على رؤى حول مشاريعنا وفرص الاستثمار والقيمة الفريدة التي تقدمها Citi Developers في السوق.",
             "image": {
               "src": "/images/about/experienceCenter/OneonOneSessions.png",
               "alt": "OneonOneSessions",
@@ -1937,8 +1927,8 @@
             }
           },
           {
-            "title": "Mockup Apartment Showcase",
-            "description": "Step into our meticulously designed mockup apartment, where every detail is a testament to the quality and sophistication that defines Citi Developers.",
+            "title": "عرض الشقة النموذجية",
+            "description": "ادخل إلى شقتنا النموذجية المصممة بدقة، حيث يعكس كل تفصيل الجودة والتميز الذي يميز Citi Developers.",
             "image": {
               "src": "/images/about/experienceCenter/MockupApartmentShowcase.png",
               "alt": "MockupApartmentShowcase",
@@ -1953,25 +1943,25 @@
   "projects": {
     "aveline": {
       "metadata": {
-        "title": "Aveline | Projects - Explore Citi Developers innovative and urban living.",
-        "description": "Discover Citi Developers' urban excellence—blending innovation, design, and sustainability. Explore the future of city living today.",
+        "title": "Aveline | مشاريع - اكتشف حياة Citi Developers المبتكرة والحضرية.",
+        "description": "اكتشف التميز الحضري لـ Citi Developers - مزج الابتكار والتصميم والاستدامة. استكشف مستقبل الحياة الحضرية اليوم.",
         "keywords": [
-          "Real Estate",
-          "Developer",
+          "عقارات",
+          "مطور",
           "Aveline",
           "Allura",
-          "Dubai",
+          "دبي",
           "Citi Developer",
           "Citi",
-          "Apartment",
-          "Studio",
+          "شقة",
+          "استوديو",
           "BHK",
-          "Building",
+          "مبنى",
           "Allura"
         ],
         "openGraph": {
-          "title": "Aveline | Projects - Explore Citi Developers innovative and urban living.",
-          "description": "Discover Citi Developers' urban excellence—blending innovation, design, and sustainability. Explore the future of city living today.",
+          "title": "Aveline | مشاريع - اكتشف حياة Citi Developers المبتكرة والحضرية.",
+          "description": "اكتشف التميز الحضري لـ Citi Developers - مزج الابتكار والتصميم والاستدامة. استكشف مستقبل الحياة الحضرية اليوم.",
           "images": [
             "/images/aveline/Lobby/image_2.webp"
           ]
@@ -1985,23 +1975,23 @@
       "banner": {
         "backgroundImage": {
           "src": "/images/aveline/Lobby/image_2.webp",
-          "alt": "banner",
+          "alt": "لافتة",
           "width": 4000,
           "height": 3479
         },
         "image": {
           "src": "/images/shared/logo-with-slogan.png",
-          "alt": "logo",
+          "alt": "شعار",
           "width": 1862,
           "height": 554
         },
         "buttons": [
           {
-            "title": "take a tour",
+            "title": "خذ جولة",
             "href": "/projects/aveline"
           },
           {
-            "title": "enquire now",
+            "title": "استفسر الآن",
             "href": "/contact-us"
           }
         ]
@@ -2015,37 +2005,37 @@
         },
         "title": "Aveline, {{JVC}}",
         "button": {
-          "title": "Contact Us",
+          "title": "تواصل معنا",
           "as": "button",
           "elemSelector": "#formSection"
         },
         "article": {
-          "title": "Aveline Residences, <<By {{Citi Developers}}>>",
-          "description": "Intentionally designed to foster connections, celebrate community, and embrace convenience, as you step into Aveline, you step into a narrative where every detail forms the foundation for an exceptional residential experience. Nestled in the heart of Dubai, this exquisite development promises a lifestyle where residents can immerse themselves in a world of possibilities"
+          "title": "Aveline Residences, <<بواسطة {{Citi Developers}}>>",
+          "description": "مصمم بشكل مقصود لتعزيز الروابط والاحتفال بالمجتمع واحتضان الراحة، عندما تخطو إلى Aveline، فإنك تخطو إلى رواية حيث يشكل كل تفصيل الأساس لتجربة سكنية استثنائية. يقع هذا التطوير الرائع في قلب دبي، ويعد بنمط حياة يمكن للمقيمين من خلاله الانغماس في عالم من الإمكانيات."
         }
       },
       "projectInfo": {
         "data": [
           {
-            "title": "Unit Mix",
-            "description": " Studio, 1, 2 & 3 Bedroom"
+            "title": "توزيع الوحدات",
+            "description": " استوديو، 1، 2 & 3 غرفة نوم"
           },
           {
-            "title": "Location",
-            "description": "Jumeirah Village Circle"
+            "title": "الموقع",
+            "description": "قرية جميرا الدائرية"
           },
           {
-            "title": "Handover",
-            "description": "Q2 2027"
+            "title": "التسليم",
+            "description": "الربع الثاني 2027"
           },
           {
-            "title": "Payment Plan",
+            "title": "خطة الدفع",
             "description": "50/50"
           }
         ],
-        "bookText": "Book With Just {{10%}} Down Payment!",
+        "bookText": "احجز مع {{10%}} دفعة أولى فقط!",
         "button": {
-          "title": "Contact Us",
+          "title": "تواصل معنا",
           "as": "button",
           "elemSelector": "#formSection"
         }
@@ -2053,60 +2043,60 @@
       "discoverCommunity": {
         "image": {
           "src": "/images/aveline/Exterior Renders/10.jpeg",
-          "alt": "discover community",
+          "alt": "اكتشف المجتمع",
           "width": 955,
           "height": 1024
         },
-        "title": "Discover A Cozy Community For A Peaceful Way Of Life, Stylish Homes In JVC",
-        "description": "Intentionally designed to foster connections, celebrate community, and embrace convenience, as you step into Aveline, you step into a narrative where every detail forms the foundation for an exceptional residential experience. Nestled in the heart of Dubai, this exquisite development promises a lifestyle where residents can immerse themselves in a world of possibilities",
+        "title": "اكتشف مجتمعاً دافئاً لنمط حياة هادئ، منازل أنيقة في قرية جميرا الدائرية",
+        "description": "مصمم بشكل مقصود لتعزيز الروابط والاحتفال بالمجتمع واحتضان الراحة، عندما تخطو إلى Aveline، فإنك تخطو إلى رواية حيث يشكل كل تفصيل الأساس لتجربة سكنية استثنائية. يقع هذا التطوير الرائع في قلب دبي، ويعد بنمط حياة يمكن للمقيمين من خلاله الانغماس في عالم من الإمكانيات.",
         "button": {
-          "title": "view 360 tour",
+          "title": "عرض الجولة 360",
           "href": "/tour-360"
         }
       },
       "amenities": {
-        "title": "Aveline {{Amenities}}",
+        "title": "مرافق {{Aveline}}",
         "button": {
-          "title": "View 360 tour",
+          "title": "عرض الجولة 360",
           "href": "/tour-360"
         }
       },
       "exterior": {
-        "title": "Aveline {{Exterior}}",
+        "title": "الخارجية {{Aveline}}",
         "button": {
-          "title": "View 360 tour",
+          "title": "عرض الجولة 360",
           "href": "/tour-360"
         }
       },
       "lobby": {
-        "title": "Aveline {{Lobby}}",
+        "title": "اللوبي {{Aveline}}",
         "button": {
-          "title": "View 360 tour",
+          "title": "عرض الجولة 360",
           "href": "/tour-360"
         }
       }
     },
     "studioApartmentAv": {
       "metadata": {
-        "title": "Studio Apartment | Aveline - Explore Citi Developers innovative and urban living.",
-        "description": "Discover Citi Developers' urban excellence—blending innovation, design, and sustainability. Explore the future of city living today.",
+        "title": "استوديو شقة | Aveline - اكتشف حياة Citi Developers المبتكرة والحضرية.",
+        "description": "اكتشف التميز الحضري لـ Citi Developers - مزج الابتكار والتصميم والاستدامة. استكشف مستقبل الحياة الحضرية اليوم.",
         "keywords": [
-          "Real Estate",
-          "Developer",
+          "عقارات",
+          "مطور",
           "Aveline",
           "Allura",
-          "Dubai",
+          "دبي",
           "Citi Developer",
           "Citi",
-          "Apartment",
-          "Studio",
+          "شقة",
+          "استوديو",
           "BHK",
-          "Building",
+          "مبنى",
           "Allura"
         ],
         "openGraph": {
-          "title": "Studio Apartment | Aveline - Explore Citi Developers innovative and urban living.",
-          "description": "Discover Citi Developers' urban excellence—blending innovation, design, and sustainability. Explore the future of city living today.",
+          "title": "استوديو شقة | Aveline - اكتشف حياة Citi Developers المبتكرة والحضرية.",
+          "description": "اكتشف التميز الحضري لـ Citi Developers - مزج الابتكار والتصميم والاستدامة. استكشف مستقبل الحياة الحضرية اليوم.",
           "images": [
             "/images/aveline/Lobby/image_2.webp"
           ]
@@ -2120,53 +2110,53 @@
       "banner": {
         "backgroundImage": {
           "src": "/images/aveline/Apartment/STUDIO APARTMENT/01.jpg",
-          "alt": "STUDIO APARTMENT",
+          "alt": "استوديو شقة",
           "width": 2800,
           "height": 2333
         },
         "image": {
           "src": "/images/shared/logo-with-slogan.png",
-          "alt": "logo",
+          "alt": "شعار",
           "width": 1862,
           "height": 554
         },
         "buttons": [
           {
-            "title": "take a tour",
+            "title": "خذ جولة",
             "href": "/tour-360"
           },
           {
-            "title": "enquire now",
+            "title": "استفسر الآن",
             "href": "/contact-us"
           }
         ]
       },
       "header": {
-        "title": "Studio {{Apartment}}",
-        "description": "Discover modern living within Aveline Residences’ studio apartments. These meticulously designed living spaces cater to varying preferences, providing ample choice for comfortable and spacious living. Whether you’re an investor or seeking your own cozy abode, these studios offer a harmonious blend of functionality and aesthetics."
+        "title": "استوديو {{شقة}}",
+        "description": "اكتشف الحياة العصرية ضمن استوديوهات Aveline Residences. توفر هذه المساحات المعيشية المصممة بدقة مجموعة واسعة من الخيارات لتلبية تفضيلات متنوعة، مما يتيح لك اختيارًا مريحًا وواسعًا للعيش. سواء كنت مستثمرًا أو تبحث عن منزلك الخاص، توفر هذه الاستوديوهات مزيجًا متناغمًا من الوظائف والجماليات."
       }
     },
     "oneBedroomApartmentAv": {
       "metadata": {
-        "title": "1BHK Apartment | Aveline - Explore Citi Developers innovative and urban living.",
-        "description": "Discover Citi Developers' urban excellence—blending innovation, design, and sustainability. Explore the future of city living today.",
+        "title": "شقة 1 غرفة نوم | Aveline - اكتشف حياة Citi Developers المبتكرة والحضرية.",
+        "description": "اكتشف التميز الحضري لـ Citi Developers - مزج الابتكار والتصميم والاستدامة. استكشف مستقبل الحياة الحضرية اليوم.",
         "keywords": [
-          "Real Estate",
-          "Developer",
+          "عقارات",
+          "مطور",
           "Aveline",
           "Allura",
-          "Dubai",
+          "دبي",
           "Citi Developer",
           "Citi",
-          "Apartment",
-          "Studio",
+          "شقة",
+          "استوديو",
           "BHK",
-          "Building",
+          "مبنى",
           "Allura"
         ],
         "openGraph": {
-          "title": "1BHK Apartment | Aveline - Explore Citi Developers innovative and urban living.",
-          "description": "Discover Citi Developers' urban excellence—blending innovation, design, and sustainability. Explore the future of city living today.",
+          "title": "شقة 1 غرفة نوم | Aveline - اكتشف حياة Citi Developers المبتكرة والحضرية.",
+          "description": "اكتشف التميز الحضري لـ Citi Developers - مزج الابتكار والتصميم والاستدامة. استكشف مستقبل الحياة الحضرية اليوم.",
           "images": [
             "/images/aveline/Lobby/image_2.webp"
           ]
@@ -2180,63 +2170,63 @@
       "banner": {
         "backgroundImage": {
           "src": "/images/aveline/Apartment/1 BEDROOM APARTMENT/LIVING ROOM/3.jpg",
-          "alt": "1 BEDROOM APARTMENT",
+          "alt": "شقة 1 غرفة نوم",
           "width": 2639,
           "height": 2200
         },
         "image": {
           "src": "/images/shared/logo-with-slogan.png",
-          "alt": "logo",
+          "alt": "شعار",
           "width": 1862,
           "height": 554
         },
         "buttons": [
           {
-            "title": "take a tour",
+            "title": "خذ جولة",
             "href": "/tour-360"
           },
           {
-            "title": "enquire now",
+            "title": "استفسر الآن",
             "href": "/contact-us"
           }
         ]
       },
       "header": {
-        "title": "1 Bedroom {{Apartment}}",
-        "description": "At Aveline Residences, we take pride in crafting 1-bedroom apartments that seamlessly blend luxury with practicality. Our thoughtfully designed spaces offer the perfect balance of comfort and style."
+        "title": "شقة 1 غرفة {{نوم}}",
+        "description": "في Aveline Residences، نفخر بتصميم شقق ذات غرفة نوم واحدة تمزج بسلاسة بين الفخامة والعملية. تقدم مساحاتنا المصممة بعناية التوازن المثالي بين الراحة والأناقة."
       },
       "swipers": [
         {
-          "title": "Master {{Bedroom}}",
+          "title": "غرفة النوم الرئيسية",
           "arrayMapName": "AV_1BHK_MASTER_BEDROOM"
         },
         {
-          "title": "Living {{Room}}",
+          "title": "غرفة المعيشة",
           "arrayMapName": "AV_1BHK_LIVING_ROOM"
         }
       ]
     },
     "twoBedroomApartmentAv": {
       "metadata": {
-        "title": "2BHK Apartment | Aveline - Explore Citi Developers innovative and urban living.",
-        "description": "Discover Citi Developers' urban excellence—blending innovation, design, and sustainability. Explore the future of city living today.",
+        "title": "شقة 2 غرفة نوم | Aveline - اكتشف حياة Citi Developers المبتكرة والحضرية.",
+        "description": "اكتشف التميز الحضري لـ Citi Developers - مزج الابتكار والتصميم والاستدامة. استكشف مستقبل الحياة الحضرية اليوم.",
         "keywords": [
-          "Real Estate",
-          "Developer",
+          "عقارات",
+          "مطور",
           "Aveline",
           "Allura",
-          "Dubai",
+          "دبي",
           "Citi Developer",
           "Citi",
-          "Apartment",
-          "Studio",
+          "شقة",
+          "استوديو",
           "BHK",
-          "Building",
+          "مبنى",
           "Allura"
         ],
         "openGraph": {
-          "title": "2BHK Apartment | Aveline - Explore Citi Developers innovative and urban living.",
-          "description": "Discover Citi Developers' urban excellence—blending innovation, design, and sustainability. Explore the future of city living today.",
+          "title": "شقة 2 غرفة نوم | Aveline - اكتشف حياة Citi Developers المبتكرة والحضرية.",
+          "description": "اكتشف التميز الحضري لـ Citi Developers - مزج الابتكار والتصميم والاستدامة. استكشف مستقبل الحياة الحضرية اليوم.",
           "images": [
             "/images/aveline/Lobby/image_2.webp"
           ]
@@ -2250,67 +2240,67 @@
       "banner": {
         "backgroundImage": {
           "src": "/images/aveline/Apartment/2 BEDROOM APARTMENT/LIVING ROOM/3.jpg",
-          "alt": "2 BEDROOM APARTMENT",
+          "alt": "شقة 2 غرفة نوم",
           "width": 2602,
           "height": 2546
         },
         "image": {
           "src": "/images/shared/logo-with-slogan.png",
-          "alt": "logo",
+          "alt": "شعار",
           "width": 1862,
           "height": 554
         },
         "buttons": [
           {
-            "title": "take a tour",
+            "title": "خذ جولة",
             "href": "/tour-360"
           },
           {
-            "title": "enquire now",
+            "title": "استفسر الآن",
             "href": "/contact-us"
           }
         ]
       },
       "header": {
-        "title": "2 Bedroom {{Apartment}}",
-        "description": "Discover the allure of our 2-bedroom apartments at Aveline Residences, where luxury meets practicality.  Our meticulously crafted spaces offer the perfect blend of comfort and style. With modern amenities and a convenient location in JVC, you’ll find a harmonious balance that feels like home."
+        "title": "شقة 2 غرفة {{نوم}}",
+        "description": "اكتشف جاذبية شققنا ذات الغرفتين في Aveline Residences، حيث يلتقي الفخامة بالعملية. توفر مساحاتنا المصممة بدقة المزيج المثالي من الراحة والأناقة. مع وسائل الراحة الحديثة وموقعها المريح في JVC، ستجد توازنًا متناغمًا يجعلك تشعر وكأنك في منزلك."
       },
       "swipers": [
         {
-          "title": "Bedroom",
+          "title": "غرفة النوم",
           "arrayMapName": "AV_2BHK_BEDROOM"
         },
         {
-          "title": "Master {{Bedroom}}",
+          "title": "غرفة النوم الرئيسية",
           "arrayMapName": "AV_2BHK_MASTER_BEDROOM"
         },
         {
-          "title": "Living {{Room}}",
+          "title": "غرفة المعيشة",
           "arrayMapName": "AV_2BHK_LIVING_ROOM"
         }
       ]
     },
     "threeBedroomApartmentAv": {
       "metadata": {
-        "title": "3BHK Apartment | Aveline - Explore Citi Developers innovative and urban living.",
-        "description": "Discover Citi Developers' urban excellence—blending innovation, design, and sustainability. Explore the future of city living today.",
+        "title": "شقة 3 غرف نوم | Aveline - اكتشف حياة Citi Developers المبتكرة والحضرية.",
+        "description": "اكتشف التميز الحضري لـ Citi Developers - مزج الابتكار والتصميم والاستدامة. استكشف مستقبل الحياة الحضرية اليوم.",
         "keywords": [
-          "Real Estate",
-          "Developer",
+          "عقارات",
+          "مطور",
           "Aveline",
           "Allura",
-          "Dubai",
+          "دبي",
           "Citi Developer",
           "Citi",
-          "Apartment",
-          "Studio",
+          "شقة",
+          "استوديو",
           "BHK",
-          "Building",
+          "مبنى",
           "Allura"
         ],
         "openGraph": {
-          "title": "3BHK Apartment | Aveline - Explore Citi Developers innovative and urban living.",
-          "description": "Discover Citi Developers' urban excellence—blending innovation, design, and sustainability. Explore the future of city living today.",
+          "title": "شقة 3 غرف نوم | Aveline - اكتشف حياة Citi Developers المبتكرة والحضرية.",
+          "description": "اكتشف التميز الحضري لـ Citi Developers - مزج الابتكار والتصميم والاستدامة. استكشف مستقبل الحياة الحضرية اليوم.",
           "images": [
             "/images/aveline/Lobby/image_2.webp"
           ]
@@ -2324,46 +2314,46 @@
       "banner": {
         "backgroundImage": {
           "src": "/images/aveline/Apartment/3 BEDROOM APARTMENT/Living Room/1_View02_Post.jpg",
-          "alt": "3 BEDROOM APARTMENT",
+          "alt": "شقة 3 غرف نوم",
           "width": 2667,
           "height": 2000
         },
         "image": {
           "src": "/images/shared/logo-with-slogan.png",
-          "alt": "logo",
+          "alt": "شعار",
           "width": 1862,
           "height": 554
         },
         "buttons": [
           {
-            "title": "take a tour",
+            "title": "خذ جولة",
             "href": "/tour-360"
           },
           {
-            "title": "enquire now",
+            "title": "استفسر الآن",
             "href": "/contact-us"
           }
         ]
       },
       "header": {
-        "title": "3 Bedroom {{Apartment}}",
-        "description": "Discover spacious 3-bedroom apartments at Aveline Residences, where luxury meets practicality. Our meticulously designed spaces offer comfort and style, with premium materials. Step outside to enjoy a harmonious blend of indoor and outdoor areas."
+        "title": "شقة 3 غرف {{نوم}}",
+        "description": "اكتشف شققنا الواسعة ذات الثلاث غرف نوم في Aveline Residences، حيث يلتقي الفخامة بالعملية. تقدم مساحاتنا المصممة بدقة الراحة والأناقة، مع مواد ممتازة. اخرج للاستمتاع بمزيج متناغم من المساحات الداخلية والخارجية."
       },
       "swipers": [
         {
-          "title": "Bedroom 1",
+          "title": "غرفة نوم 1",
           "arrayMapName": "AV_3BHK_1_BEDROOM"
         },
         {
-          "title": "Bedroom 2",
+          "title": "غرفة نوم 2",
           "arrayMapName": "AV_3BHK_2_BEDROOM"
         },
         {
-          "title": "Bedroom 3",
+          "title": "غرفة نوم 3",
           "arrayMapName": "AV_3BHK_3_BEDROOM"
         },
         {
-          "title": "Living {{Room}}",
+          "title": "غرفة المعيشة",
           "arrayMapName": "AV_3BHK_LIVING_ROOM"
         }
       ]
@@ -2372,47 +2362,47 @@
       "banner": {
         "backgroundImage": {
           "src": "/images/allura/lobby.jpg",
-          "alt": "Allura Lobby",
+          "alt": "ردهة Allura",
           "width": 5000,
           "height": 2813
         },
-        "slugan": "crafting elegance in living",
+        "slugan": "صناعة الأناقة في المعيشة",
         "logo": {
           "src": "/images/allura/allura-logo-no-bg.png",
           "width": 456,
           "height": 237,
-          "alt": "logo"
+          "alt": "شعار"
         },
         "button": {
-          "title": "Book Now",
+          "title": "احجز الآن",
           "as": "button",
           "elemSelector": "#formSection"
         },
         "locationAndCompletion": [
           {
-            "title": "Location",
-            "description": "Jumeirah Village Circle"
+            "title": "الموقع",
+            "description": "قرية الجميرا الدائرية"
           },
           {
-            "title": "Completion",
+            "title": "الإنتهاء",
             "description": "2027"
           }
         ],
         "appartments": [
           {
-            "title": "Studio",
+            "title": "استوديو",
             "description": "62"
           },
           {
-            "title": "1BHK",
+            "title": "شقة 1 غرفة نوم",
             "description": "103"
           },
           {
-            "title": "2BHK",
+            "title": "شقة 2 غرفة نوم",
             "description": "51"
           },
           {
-            "title": "3BHK",
+            "title": "شقة 3 غرفة نوم",
             "description": "21"
           }
         ]
@@ -2420,43 +2410,43 @@
       "overView": {
         "header": {
           "title": "ALLURA",
-          "subtitle": "OVERVIEW",
-          "description": "Elevate your everyday and experience refined sophistication. With impeccable style, Allura allows you to indulge in the finer things that surround you. Discover a life that is truly extraordinary at its core."
+          "subtitle": "نظرة عامة",
+          "description": "ارفع مستوى حياتك اليومية واختبر sophistication المصقولة. مع الأناقة التي لا مثيل لها، يتيح لك Allura الاستمتاع بأجمل الأشياء من حولك. اكتشف حياة استثنائية في جوهرها."
         },
         "buildingDetailsCards": [
           {
             "image": {
               "src": "/images/allura/banner/allura-1.png",
-              "alt": "image",
+              "alt": "صورة",
               "width": 1021,
               "height": 450,
               "className": "firstImage"
             },
             "content": {
-              "title": "Apartment",
-              "description": "Imagine stepping out in to the balmy Dubai evening and being transported to an enchanting outdoor cinema experience that oozes cozy sophistication. <br /> Imagine stepping out in to the balmy Dubai evening and being transported to an enchanting outdoor cinema experience that oozes cozy sophistication. <br /> {{Bar, Cinema, Screen, Artificial Grass, Flower Box, Sun Bed, Bean Bags, Pots, CINEMA TERRACE, 26th & 27th Floor, 29th Floor ,Cigar Lounge offers a sophis ticated retreat with secure cigar storage, fine spirits, and a comfortable seating area, perfect for relaxing and savoring the moment.}}",
+              "title": "شقة",
+              "description": "تخيل الخروج إلى أمسية دبي الدافئة والنقل إلى تجربة سينما خارجية ساحرة تنضح بالأناقة المريحة. <br /> تخيل الخروج إلى أمسية دبي الدافئة والنقل إلى تجربة سينما خارجية ساحرة تنضح بالأناقة المريحة. <br /> {{بار، سينما، شاشة، عشب صناعي، صندوق زهور، سرير شمس، أكياس حبوب، أصص، شرفة سينما، الطابق 26 و 27، الطابق 29، صالة سيجار توفر ملاذًا أنيقًا مع تخزين آمن للسيجار، ومشروبات فاخرة، ومنطقة جلوس مريحة، مثالية للاسترخاء واستمتع باللحظة.}}",
               "images": [
                 {
                   "src": "/images/allura/apartments/CIT_Allura_1BED_LIVING_CAM 01_FINAL_v05.jpg",
-                  "alt": "apartment",
+                  "alt": "شقة",
                   "width": 5000,
                   "height": 2812
                 },
                 {
                   "src": "/images/allura/apartments/CIT_Allura_1BED_LIVING_CAM-01_FINAL_v04.jpg",
-                  "alt": "apartment",
+                  "alt": "شقة",
                   "width": 5000,
                   "height": 2812
                 },
                 {
                   "src": "/images/allura/apartments/CIT_Allura_STUDIO_CAM-01_FINAL_v03.jpg",
-                  "alt": "apartment",
+                  "alt": "شقة",
                   "width": 5000,
                   "height": 2812
                 }
               ],
               "button": {
-                "title": "Book Now",
+                "title": "احجز الآن",
                 "as": "button",
                 "elemSelector": "#formSection"
               }
@@ -2465,36 +2455,36 @@
           {
             "image": {
               "src": "/images/allura/banner/allura-2.png",
-              "alt": "image",
+              "alt": "صورة",
               "width": 1021,
               "height": 325,
               "className": "secondImage"
             },
             "content": {
-              "title": "YOGA TERRACE:",
-              "description": "The glass house yoga area, cantilevered over the serene water feature and nestled beneath the majestic olive tree, exemplifies a masterful blend of modern architecture and organic elegance.<br /> {{Pots, Step, Yoga Mats, Olive Trees, Folding Glass}}",
+              "title": "تراس اليوغا:",
+              "description": "منطقة اليوغا الزجاجية، التي تمتد فوق ميزة المياه الهادئة وتحت شجرة الزيتون الرائعة، تجسد مزيجًا بارعًا من العمارة الحديثة والأناقة العضوية.<br /> {{أصص، درج، حصائر يوغا، أشجار زيتون، زجاج قابل للطي}}",
               "images": [
                 {
                   "src": "/images/allura/amenities/yoga-1.jpg",
-                  "alt": "amenities",
+                  "alt": "مرافق",
                   "width": 5000,
                   "height": 2812
                 },
                 {
                   "src": "/images/allura/amenities/yoga-2.jpg",
-                  "alt": "amenities",
+                  "alt": "مرافق",
                   "width": 5000,
                   "height": 2812
                 },
                 {
                   "src": "/images/allura/amenities/yoga-3.jpg",
-                  "alt": "amenities",
+                  "alt": "مرافق",
                   "width": 5000,
                   "height": 2818
                 }
               ],
               "button": {
-                "title": "Book Now",
+                "title": "احجز الآن",
                 "as": "button",
                 "elemSelector": "#formSection"
               }
@@ -2503,36 +2493,36 @@
           {
             "image": {
               "src": "/images/allura/banner/allura-3.png",
-              "alt": "image",
+              "alt": "صورة",
               "width": 1021,
               "height": 300,
               "className": "thirdImage"
             },
             "content": {
-              "title": "Suspended Lap Pool",
-              "description": "Architectural innovation meets leisurely luxury at the suspended lap pool, wher e a cantilevered designs are curated carefully.<br /> {{Swimming Pool, Chaise Longue, Sunbed, Bean Bag Pots, Wooden Deck, Flower Box, Pot, Bar, Flower Box, Seating Area Artificial lawn, Artificial Grass, POOL BAR }} ",
+              "title": "مسبح السباحة المعلق",
+              "description": "تلتقي الابتكارات المعمارية بالفخامة المريحة في المسبح المعلق، حيث تم تصميم الهياكل المتدلية بعناية.<br /> {{مسبح، كراسي طويلة، سرير شمس، أكياس حبوب، أصص، سطح خشبي، صندوق زهور، أصص، بار المسبح}}",
               "images": [
                 {
                   "src": "/images/allura/amenities/lap-1.jpg",
-                  "alt": "amenities",
+                  "alt": "مرافق",
                   "width": 4872,
                   "height": 2810
                 },
                 {
                   "src": "/images/allura/amenities/lap-2.jpg",
-                  "alt": "amenities",
+                  "alt": "مرافق",
                   "width": 5000,
                   "height": 2810
                 },
                 {
                   "src": "/images/allura/amenities/lap-3.png",
-                  "alt": "amenities",
+                  "alt": "مرافق",
                   "width": 5000,
                   "height": 2810
                 }
               ],
               "button": {
-                "title": "Book Now",
+                "title": "احجز الآن",
                 "as": "button",
                 "elemSelector": "#formSection"
               }
@@ -2541,30 +2531,30 @@
           {
             "image": {
               "src": "/images/allura/banner/allura-4.png",
-              "alt": "image",
+              "alt": "صورة",
               "width": 1021,
               "height": 430,
               "className": "fourthImage"
             },
             "content": {
-              "title": "GAME TERRACE:",
-              "description": "From the captivating marble ball display s to the carefully curated gaming amenities, e very aspect of this spac e exudes a sense o f refined luxury and unbridled fun.<br />{{Sitting Area, Pool Table, Refined luxury meets, unbridled fun, Air Hockey Table, Basket Ball Hoop, Bar, Pots, Bean Bags }}",
+              "title": "تراس الألعاب:",
+              "description": "من العروض الرخامية الساحرة إلى المرافق المخصصة للألعاب، كل جانب من هذا الفضاء ينضح بإحساس بالفخامة المصقولة والمرح غير المقيد.<br />{{منطقة جلوس، طاولة بلياردو، الفخامة المصقولة تلتقي، المرح غير المقيد، طاولة هوكي الهواء، حلقة سلة، بار، أصص، أكياس حبوب}}",
               "images": [
                 {
                   "src": "/images/allura/amenities/game-1.jpg",
-                  "alt": "amenities",
+                  "alt": "مرافق",
                   "width": 5000,
                   "height": 2813
                 },
                 {
                   "src": "/images/allura/amenities/game-2.jpg",
-                  "alt": "amenities",
+                  "alt": "مرافق",
                   "width": 5000,
                   "height": 2813
                 }
               ],
               "button": {
-                "title": "Book Now",
+                "title": "احجز الآن",
                 "as": "button",
                 "elemSelector": "#formSection"
               }
@@ -2573,30 +2563,30 @@
           {
             "image": {
               "src": "/images/allura/banner/allura-5.png",
-              "alt": "image",
+              "alt": "صورة",
               "width": 1021,
               "height": 300,
               "className": "fifthImage"
             },
             "content": {
-              "title": "FAMILY BBQ TERRACE",
-              "description": "The focal point of the ar ea is a long, sleek dining t able, its clean lines and minimalis t aesthetic lending an undeniable sense of sophistication to the spac e.<br />The combination of the table's polished wood surface and the so ft, diffused lighting creates an effortlessly elegant setting, perfectly suited for family gatherings and alfr esco dining.<br/> {{ Comfortable seating zones with plush, furnishings and ambien t lighting, Service Bar, Dining Area, Seating Area, Pot, Flower Box, BBQ, Bar}}",
+              "title": "تراس الشواء العائلي",
+              "description": "النقطة المحورية في المنطقة هي طاولة تناول الطعام الطويلة والأنيقة، التي تضيف خطوطها النظيفة والجمالية البسيطة إحساسًا لا يمكن إنكاره بالأناقة إلى المساحة.<br />تجمع مزيج السطح الخشبي اللامع والإضاءة الناعمة، مما يخلق إعدادًا أنيقًا بسهولة، مثالي للتجمعات العائلية والطعام في الهواء الطلق.<br/> {{مناطق الجلوس المريحة بمفروشات ناعمة وإضاءة محيطية، بار الخدمة، منطقة تناول الطعام، منطقة جلوس، أصص، صندوق زهور، شواء، بار}}",
               "images": [
                 {
                   "src": "/images/allura/amenities/family-1.jpg",
-                  "alt": "amenities",
+                  "alt": "مرافق",
                   "width": 5000,
                   "height": 2810
                 },
                 {
                   "src": "/images/allura/amenities/family-2.jpg",
-                  "alt": "amenities",
+                  "alt": "مرافق",
                   "width": 5000,
                   "height": 2826
                 }
               ],
               "button": {
-                "title": "Book Now",
+                "title": "احجز الآن",
                 "as": "button",
                 "elemSelector": "#formSection"
               }
@@ -2605,30 +2595,30 @@
           {
             "image": {
               "src": "/images/allura/banner/allura-6.png",
-              "alt": "image",
+              "alt": "صورة",
               "width": 1021,
               "height": 350,
               "className": "sixthImage"
             },
             "content": {
-              "title": "INFINITY POOL",
-              "description": "Unwind by the water's edge at our P ool Bar, featuring a comfortable sitting area, refreshing pool, s tylish back counter, and lush artificial lawn, cr eating the perfect spot to relax and enjoy a c ool drink on a w arm day. <br /> {{Shaded Lounge, Counter chairs, Floor Plan, Bar, Pot }}",
+              "title": "المسبح اللامتناهي",
+              "description": "استرخِ بجانب حافة الماء في بار المسبح لدينا، والذي يتميز بمنطقة جلوس مريحة، مسبح منعش، سطح خلفي أنيق، وعشب صناعي خصب، مما يخلق المكان المثالي للاسترخاء والاستمتاع بمشروب بارد في يوم دافئ. <br /> {{منطقة جلوس مظللة، كراسي بار، خطة الأرضية، بار، أصص}}",
               "images": [
                 {
                   "src": "/images/allura/amenities/pool-1.jpg",
-                  "alt": "amenities",
+                  "alt": "مرافق",
                   "width": 5000,
                   "height": 2940
                 },
                 {
                   "src": "/images/allura/amenities/pool-2.jpg",
-                  "alt": "amenities",
+                  "alt": "مرافق",
                   "width": 5000,
                   "height": 2940
                 }
               ],
               "button": {
-                "title": "Book Now",
+                "title": "احجز الآن",
                 "as": "button",
                 "elemSelector": "#formSection"
               }
@@ -2637,36 +2627,36 @@
           {
             "image": {
               "src": "/images/allura/banner/allura-7.png",
-              "alt": "image",
+              "alt": "صورة",
               "width": 1021,
               "height": 389,
               "className": "seventhImage"
             },
             "content": {
-              "title": "Lobby",
-              "description": "Step into the grandeur of Allura Residences’ lobby, a space that transcends mere entryways. Our lobby, the largest in JVC, welcomes you with opulence and sophistication. From the moment you arrive, you’ll be enveloped in an ambiance that reflects the pinnacle of luxury living. With high ceilings, elegant furnishings, and a seamless blend of contemporary design, this is more than just a reception area—it’s a statement of prestige.",
+              "title": "اللوبي",
+              "description": "ادخل إلى روعة ردهة Allura Residences، وهو فضاء يتجاوز مجرد مدخل. ترحب بك ردهتنا، الأكبر في JVC، بالترف والأناقة. منذ اللحظة التي تصل فيها، ستشعر بجو يعكس ذروة الرفاهية في الحياة. مع الأسقف العالية، الأثاث الأنيق، والمزيج السلس من التصميم المعاصر، هذه ليست مجرد منطقة استقبال - إنها بيان من الهيبة.",
               "images": [
                 {
                   "src": "/images/allura/amenities/lobby-1.jpg",
-                  "alt": "amenities",
+                  "alt": "مرافق",
                   "width": 5000,
                   "height": 2824
                 },
                 {
                   "src": "/images/allura/amenities/lobby-2.jpg",
-                  "alt": "amenities",
+                  "alt": "مرافق",
                   "width": 5000,
                   "height": 2813
                 },
                 {
                   "src": "/images/allura/amenities/lobby-3.jpg",
-                  "alt": "amenities",
+                  "alt": "مرافق",
                   "width": 5000,
                   "height": 2824
                 }
               ],
               "button": {
-                "title": "Book Now",
+                "title": "احجز الآن",
                 "as": "button",
                 "elemSelector": "#formSection"
               }
@@ -2681,40 +2671,40 @@
           "width": 2802,
           "height": 2813
         },
-        "title": "Allura, {{JVC}}",
+        "title": "Allura، {{JVC}}",
         "button": {
-          "title": "Contact Us",
+          "title": "تواصل معنا",
           "as": "button",
           "elemSelector": "#formSection"
         },
         "article": {
-          "title": "Allura Residences, <<By {{Citi Developers}}>>",
-          "description": "Intentionally designed to foster connections, celebrate community, and embrace convenience, as you step into Allura, you step into a narrative where every detail forms the foundation for an exceptional residential experience. Nestled in the heart of Dubai, this exquisite development promises a lifestyle where residents can immerse themselves in a world of possibilities"
+          "title": "Allura Residences، <<من {{Citi Developers}}>>",
+          "description": "مصممة عمدًا لتعزيز الروابط، والاحتفال بالمجتمع، واحتضان الراحة، عندما تدخل إلى Allura، فإنك تدخل إلى سرد حيث يشكل كل تفصيل الأساس لتجربة سكنية استثنائية. تقع في قلب دبي، يعد هذا التطور الرائع بنمط حياة يمكن للمقيمين أن يغمروا أنفسهم في عالم من الإمكانيات."
         }
       }
     }
   },
   "tour360": {
     "metadata": {
-      "title": "tour360 - Explore Citi Developers innovative and urban living.",
-      "description": "Discover Citi Developers' urban excellence—blending innovation, design, and sustainability. Explore the future of city living today.",
+      "title": "tour360 - استكشف الإبداع والعيش الحضري لمطوري Citi.",
+      "description": "اكتشف التميز الحضري لمطوري Citi - مزيج من الابتكار، التصميم، والاستدامة. استكشف مستقبل الحياة المدنية اليوم.",
       "keywords": [
-        "Real Estate",
-        "Developer",
-        "Aveline",
-        "Allura",
-        "Dubai",
-        "Citi Developer",
+        "عقارات",
+        "مطور",
+        "أفيلين",
+        "ألوارا",
+        "دبي",
+        "مطور Citi",
         "Citi",
-        "Apartment",
-        "Studio",
+        "شقة",
+        "استوديو",
         "BHK",
-        "Building",
-        "Allura"
+        "بناية",
+        "ألوارا"
       ],
       "openGraph": {
-        "title": "tour360 - Explore Citi Developers innovative and urban living.",
-        "description": "Discover Citi Developers' urban excellence—blending innovation, design, and sustainability. Explore the future of city living today.",
+        "title": "tour360 - استكشف الإبداع والعيش الحضري لمطوري Citi.",
+        "description": "اكتشف التميز الحضري لمطوري Citi - مزيج من الابتكار، التصميم، والاستدامة. استكشف مستقبل الحياة المدنية اليوم.",
         "images": [
           "/images/about/citideveloper/citideveloper-banner.png"
         ]
@@ -2728,23 +2718,23 @@
     "banner": {
       "backgroundImage": {
         "src": "/images/about/citideveloper/citideveloper-banner.png",
-        "alt": "banner",
+        "alt": "بانر",
         "width": 3840,
         "height": 1983
       },
       "image": {
         "src": "/images/shared/logo-with-slogan.png",
-        "alt": "logo",
+        "alt": "شعار",
         "width": 1862,
         "height": 554
       },
       "buttons": [
         {
-          "title": "take a tour",
+          "title": "ابدأ الجولة",
           "href": "/projects/aveline"
         },
         {
-          "title": "enquire now",
+          "title": "استفسر الآن",
           "href": "/contact-us"
         }
       ]
@@ -2757,60 +2747,60 @@
           {
             "image": {
               "src": "/images/aveline/Lobby/image_2.webp",
-              "alt": "banner",
+              "alt": "ردهة",
               "width": 4000,
               "height": 3479
             },
             "button": {
-              "title": "Lobby",
+              "title": "ردهة",
               "href": "https://dukerenders.viewin360.co/share/collection/7X3Q9?logo=bWVkaWEvMjAxMDQzLzY1YWUtYzAyMS03ZDRhLTAxMzgucG5n&info=0&fs=1&vr=1&initload=0&autorotate=0&thumbs=1"
             }
           },
           {
             "image": {
               "src": "/images/aveline/13th Floor/image_1.webp",
-              "alt": "13Th floor",
+              "alt": "الطابق 13",
               "width": 4000,
               "height": 2250
             },
             "button": {
-              "title": "13Th Floor",
+              "title": "الطابق 13",
               "href": "https://dukerenders.viewin360.co/share/collection/7XRPf?logo=bWVkaWEvMjAxMDQzLzY1YWUtYzAyMS03ZDRhLTAxMzgucG5n&info=0&fs=1&vr=1&initload=0&autorotate=0&thumbs=1"
             }
           },
           {
             "image": {
               "src": "/images/aveline/Game Room/image_1.webp",
-              "alt": "Gaming Room",
+              "alt": "غرفة الألعاب",
               "width": 4000,
               "height": 2250
             },
             "button": {
-              "title": "Gaming Room",
+              "title": "غرفة الألعاب",
               "href": "https://dukerenders.viewin360.co/share/collection/7X3QP?logo=bWVkaWEvMjAxMDQzLzY1YWUtYzAyMS03ZDRhLTAxMzgucG5n&info=0&fs=1&vr=1&initload=0&autorotate=0&thumbs=1"
             }
           },
           {
             "image": {
               "src": "/images/aveline/Apartment/1 BEDROOM APARTMENT/LIVING ROOM/3.jpg",
-              "alt": "1 BEDROOM APARTMENT",
+              "alt": "شقة غرفة نوم واحدة",
               "width": 2639,
               "height": 2200
             },
             "button": {
-              "title": "1 Bedroom",
+              "title": "شقة غرفة نوم واحدة",
               "href": "https://dukerenders.viewin360.co/share/collection/7XRZ7?logo=bWVkaWEvMjAxMDQzLzY1YWUtYzAyMS03ZDRhLTAxMzgucG5n&info=1&fs=1&vr=1&sd=1&thumbs=1"
             }
           },
           {
             "image": {
               "src": "/images/aveline/11th Floor/image_4.webp",
-              "alt": "11Th Floor",
+              "alt": "الطابق 11",
               "width": 4000,
               "height": 2250
             },
             "button": {
-              "title": "11Th Floor",
+              "title": "الطابق 11",
               "href": "https://dukerenders.viewin360.co/share/collection/7X3Qf?logo=bWVkaWEvMjAxMDQzLzY1YWUtYzAyMS03ZDRhLTAxMzgucG5n&info=0&fs=1&vr=1&initload=0&autorotate=0&thumbs=1"
             }
           }
@@ -2893,11 +2883,11 @@
   "shared": {
     "latestNews": {
       "header": {
-        "title": "Latest {{News & Resources}}",
-        "description": "See the developments that have occurred to LearnEasers in the world"
+        "title": "آخر {{الأخبار والموارد}}",
+        "description": "اطلع على التطورات التي حدثت لـ LearnEasers في العالم"
       },
       "button": {
-        "title": "News",
+        "title": "الأخبار",
         "href": "/about/news"
       },
       "mainArticle": {
@@ -2908,10 +2898,10 @@
           "height": 656
         },
         "title": "Al Watan - Real Estate",
-        "description": "زوريز مالك المدير التنفيذي لشركة سيتي ديفيلوبرز يكشف عن توسعات جديدة للشركة في الإمارات بمفاهيم عقارية مبتكرة",
+        "description": "زوريز مالك المدير التنفيذي لشركة Citi Developer يكشف عن توسعات جديدة للشركة في الإمارات بمفاهيم عقارية مبتكرة",
         "date": "04 Mar 2024",
         "button": {
-          "title": "Read More",
+          "title": "اقرأ المزيد",
           "href": "https://alwatan.ae/posts/1317005"
         }
       },
@@ -2927,7 +2917,7 @@
           "description": "We Want To Deliver High-Quality Projects Tailored To The UAE Market: Citi Developers CEO",
           "date": "01 Mar 2024",
           "button": {
-            "title": "Read More",
+            "title": "اقرأ المزيد",
             "href": "https://gulftime.ae/we-want-to-deliver-high-quality-projects-tailored-to-the-uae-market-citi-developers-ceo"
           }
         },
@@ -2942,7 +2932,7 @@
           "description": "Citi Developers Unveils Innovative Experience Centre Showcasing Aveline Residences",
           "date": "13 Feb 2024",
           "button": {
-            "title": "Read More",
+            "title": "اقرأ المزيد",
             "href": "https://www.cbnme.com/news/ampg-announces-60-per-cent-sales-closure-for-plazzo-residence"
           }
         },
@@ -2957,19 +2947,19 @@
           "description": "Citi Developers Unveils Innovative Experience Centre Showcasing Aveline Residences",
           "date": "6 Feb 2024",
           "button": {
-            "title": "Read More",
+            "title": "اقرأ المزيد",
             "href": "https://dubainewsweek.com/citi-developers-experience-centre-aveline-residences"
           }
         }
       ]
     },
     "apartmentsCards": {
-      "title": "Discover More About Our {{Aveline}}",
+      "title": "اكتشف المزيد عن {{Aveline}}",
       "cards": [
         {
           "image": {
             "src": "/images/aveline/Lobby/image_2.webp",
-            "alt": "banner",
+            "alt": "صورة اللوبي",
             "width": 4000,
             "height": 3479
           },
@@ -2981,49 +2971,49 @@
         {
           "image": {
             "src": "/images/aveline/Apartment/STUDIO APARTMENT/01.jpg",
-            "alt": "STUDIO APARTMENT",
+            "alt": "شقة استوديو",
             "width": 2800,
             "height": 2333
           },
           "button": {
             "href": "/projects/aveline/studio-apartment",
-            "title": "Studio"
+            "title": "استوديو"
           }
         },
         {
           "image": {
             "src": "/images/aveline/Apartment/1 BEDROOM APARTMENT/LIVING ROOM/3.jpg",
-            "alt": "1 BEDROOM APARTMENT",
+            "alt": "شقة بغرفة نوم واحدة",
             "width": 2639,
             "height": 2200
           },
           "button": {
             "href": "/projects/aveline/one-bedroom-apartment",
-            "title": "1 Bedroom"
+            "title": "غرفة نوم واحدة"
           }
         },
         {
           "image": {
             "src": "/images/aveline/Apartment/2 BEDROOM APARTMENT/LIVING ROOM/3.jpg",
-            "alt": "2 BEDROOM APARTMENT",
+            "alt": "شقة بغرفتين نوم",
             "width": 2602,
             "height": 2546
           },
           "button": {
             "href": "/projects/aveline/two-bedroom-apartment",
-            "title": "2 Bedroom"
+            "title": "غرفتين نوم"
           }
         },
         {
           "image": {
             "src": "/images/aveline/Apartment/3 BEDROOM APARTMENT/Living Room/1_View02_Post.jpg",
-            "alt": "3 BEDROOM APARTMENT",
+            "alt": "شقة بثلاث غرف نوم",
             "width": 2667,
             "height": 2000
           },
           "button": {
             "href": "/projects/aveline/three-bedroom-apartment",
-            "title": "3 Bedroom"
+            "title": "ثلاث غرف نوم"
           }
         }
       ]
@@ -3031,467 +3021,467 @@
     "countrieslist": [
       {
         "value": "AF",
-        "label": "Afghanistan"
+        "label": "أفغانستان"
       },
       {
         "value": "AX",
-        "label": "Åland Islands"
+        "label": "جزر أولاند"
       },
       {
         "value": "AL",
-        "label": "Albania"
+        "label": "ألبانيا"
       },
       {
         "value": "DZ",
-        "label": "Algeria"
+        "label": "الجزائر"
       },
       {
         "value": "AS",
-        "label": "American Samoa"
+        "label": "ساموا الأمريكية"
       },
       {
         "value": "AD",
-        "label": "Andorra"
+        "label": "أندورا"
       },
       {
         "value": "AO",
-        "label": "Angola"
+        "label": "أنغولا"
       },
       {
         "value": "AI",
-        "label": "Anguilla"
+        "label": "أنغيلا"
       },
       {
         "value": "AQ",
-        "label": "Antarctica"
+        "label": "أنتاركتيكا "
       },
       {
         "value": "AG",
-        "label": "Antigua and Barbuda"
+        "label": "أنتيغوا وبربودا"
       },
       {
         "value": "AR",
-        "label": "Argentina"
+        "label": "الأرجنتين"
       },
       {
         "value": "AM",
-        "label": "Armenia"
+        "label": "أرمينيا"
       },
       {
         "value": "AW",
-        "label": "Aruba"
+        "label": "أروبا"
       },
       {
         "value": "AU",
-        "label": "Australia"
+        "label": "أستراليا"
       },
       {
         "value": "AT",
-        "label": "Austria"
+        "label": "النمسا"
       },
       {
         "value": "AZ",
-        "label": "Azerbaijan"
+        "label": "أذربيجان"
       },
       {
         "value": "BS",
-        "label": "Bahamas"
+        "label": "جزر البهاما"
       },
       {
         "value": "BH",
-        "label": "Bahrain"
+        "label": "البحرين"
       },
       {
         "value": "BD",
-        "label": "Bangladesh"
+        "label": "بنغلادش"
       },
       {
         "value": "BB",
-        "label": "Barbados"
+        "label": "بربادوس"
       },
       {
         "value": "BY",
-        "label": "Belarus"
+        "label": "بيلاروسيا"
       },
       {
         "value": "BE",
-        "label": "Belgium"
+        "label": "بلجيكا"
       },
       {
         "value": "BZ",
-        "label": "Belize"
+        "label": "بليز"
       },
       {
         "value": "BJ",
-        "label": "Benin"
+        "label": "بنين"
       },
       {
         "value": "BM",
-        "label": "Bermuda"
+        "label": "برمودا"
       },
       {
         "value": "BT",
-        "label": "Bhutan"
+        "label": "بوتان"
       },
       {
         "value": "BO",
-        "label": "Bolivia, Plurinational State of"
+        "label": "بوليفيا ، دولة متعددة القوميات"
       },
       {
         "value": "BQ",
-        "label": "Bonaire, Sint Eustatius and Saba"
+        "label": "بونير وسانت يوستاتيوس وسابا"
       },
       {
         "value": "BA",
-        "label": "Bosnia and Herzegovina"
+        "label": "البوسنة والهرسك"
       },
       {
         "value": "BW",
-        "label": "Botswana"
+        "label": "بوتسوانا"
       },
       {
         "value": "BV",
-        "label": "Bouvet Island"
+        "label": "جزيرة بوفيت"
       },
       {
         "value": "BR",
-        "label": "Brazil"
+        "label": "البرازيل"
       },
       {
         "value": "IO",
-        "label": "British Indian Ocean Territory"
+        "label": "إقليم المحيط البريطاني الهندي"
       },
       {
         "value": "BN",
-        "label": "Brunei Darussalam"
+        "label": "بروناي دار السلام"
       },
       {
         "value": "BG",
-        "label": "Bulgaria"
+        "label": "بلغاريا"
       },
       {
         "value": "BF",
-        "label": "Burkina Faso"
+        "label": "بوركينا فاسو"
       },
       {
         "value": "BI",
-        "label": "Burundi"
+        "label": "بوروندي"
       },
       {
         "value": "KH",
-        "label": "Cambodia"
+        "label": "كمبوديا"
       },
       {
         "value": "CM",
-        "label": "Cameroon"
+        "label": "الكاميرون"
       },
       {
         "value": "CA",
-        "label": "Canada"
+        "label": "كندا"
       },
       {
         "value": "CV",
-        "label": "Cape Verde"
+        "label": "الرأس الأخضر "
       },
       {
         "value": "KY",
-        "label": "Cayman Islands"
+        "label": "جزر كايمان"
       },
       {
         "value": "CF",
-        "label": "Central African Republic"
+        "label": "جمهورية أفريقيا الوسطى"
       },
       {
         "value": "TD",
-        "label": "Chad"
+        "label": "تشاد"
       },
       {
         "value": "CL",
-        "label": "Chile"
+        "label": "تشيلي"
       },
       {
         "value": "CN",
-        "label": "China"
+        "label": "الصين"
       },
       {
         "value": "CX",
-        "label": "Christmas Island"
+        "label": "جزيرة الكريسماس"
       },
       {
         "value": "CC",
-        "label": "Cocos (Keeling) Islands"
+        "label": "جزر كوكوس (كيلينغ)"
       },
       {
         "value": "CO",
-        "label": "Colombia"
+        "label": "كولومبيا"
       },
       {
         "value": "KM",
-        "label": "Comoros"
+        "label": "جزر القمر"
       },
       {
         "value": "CG",
-        "label": "Congo"
+        "label": "الكونغو"
       },
       {
         "value": "CD",
-        "label": "Congo, the Democratic Republic of the"
+        "label": "جمهورية الكونغو الديمقراطية"
       },
       {
         "value": "CK",
-        "label": "Cook Islands"
+        "label": "جزر كوك"
       },
       {
         "value": "CR",
-        "label": "Costa Rica"
+        "label": "كوستا ريكا"
       },
       {
         "value": "CI",
-        "label": "Côte d'Ivoire"
+        "label": "كوت ديفوار"
       },
       {
         "value": "HR",
-        "label": "Croatia"
+        "label": "كرواتيا"
       },
       {
         "value": "CU",
-        "label": "Cuba"
+        "label": "كوبا"
       },
       {
         "value": "CW",
-        "label": "Curaçao"
+        "label": "كوراساو"
       },
       {
         "value": "CY",
-        "label": "Cyprus"
+        "label": "قبرص"
       },
       {
         "value": "CZ",
-        "label": "Czech Republic"
+        "label": "جمهورية التشيك"
       },
       {
         "value": "DK",
-        "label": "Denmark"
+        "label": "الدنمارك"
       },
       {
         "value": "DJ",
-        "label": "Djibouti"
+        "label": "جيبوتي"
       },
       {
         "value": "DM",
-        "label": "Dominica"
+        "label": "دومينيكا"
       },
       {
         "value": "DO",
-        "label": "Dominican Republic"
+        "label": "جمهورية الدومينيكان"
       },
       {
         "value": "EC",
-        "label": "Ecuador"
+        "label": "الاكوادور"
       },
       {
         "value": "EG",
-        "label": "Egypt"
+        "label": "مصر"
       },
       {
         "value": "SV",
-        "label": "El Salvador"
+        "label": "السلفادور"
       },
       {
         "value": "GQ",
-        "label": "Equatorial Guinea"
+        "label": "غينيا الإستوائية"
       },
       {
         "value": "ER",
-        "label": "Eritrea"
+        "label": "إريتريا"
       },
       {
         "value": "EE",
-        "label": "Estonia"
+        "label": "إستونيا"
       },
       {
         "value": "ET",
-        "label": "Ethiopia"
+        "label": "إثيوبيا"
       },
       {
         "value": "FK",
-        "label": "Falkland Islands (Malvinas)"
+        "label": "جزر فوكلاند (مالفيناس)"
       },
       {
         "value": "FO",
-        "label": "Faroe Islands"
+        "label": "جزر فاروس"
       },
       {
         "value": "FJ",
-        "label": "Fiji"
+        "label": "فيجي"
       },
       {
         "value": "FI",
-        "label": "Finland"
+        "label": "فنلندا"
       },
       {
         "value": "FR",
-        "label": "France"
+        "label": "فرنسا"
       },
       {
         "value": "GF",
-        "label": "French Guiana"
+        "label": "غيانا الفرنسية"
       },
       {
         "value": "PF",
-        "label": "French Polynesia"
+        "label": "غيانا الفرنسية"
       },
       {
         "value": "TF",
-        "label": "French Southern Territories"
+        "label": "المناطق الجنوبية لفرنسا"
       },
       {
         "value": "GA",
-        "label": "Gabon"
+        "label": "الجابون"
       },
       {
         "value": "GM",
-        "label": "Gambia"
+        "label": "غامبيا"
       },
       {
         "value": "GE",
-        "label": "Georgia"
+        "label": "جورجيا"
       },
       {
         "value": "DE",
-        "label": "Germany"
+        "label": "ألمانيا"
       },
       {
         "value": "GH",
-        "label": "Ghana"
+        "label": "غانا"
       },
       {
         "value": "GI",
-        "label": "Gibraltar"
+        "label": "جبل طارق"
       },
       {
         "value": "GR",
-        "label": "Greece"
+        "label": "اليونان"
       },
       {
         "value": "GL",
-        "label": "Greenland"
+        "label": "جرينلاند"
       },
       {
         "value": "GD",
-        "label": "Grenada"
+        "label": "غرينادا"
       },
       {
         "value": "GP",
-        "label": "Guadeloupe"
+        "label": "جوادلوب"
       },
       {
         "value": "GU",
-        "label": "Guam"
+        "label": "غوام"
       },
       {
         "value": "GT",
-        "label": "Guatemala"
+        "label": "غواتيمالا"
       },
       {
         "value": "GG",
-        "label": "Guernsey"
+        "label": "غيرنسي"
       },
       {
         "value": "GN",
-        "label": "Guinea"
+        "label": "غينيا"
       },
       {
         "value": "GW",
-        "label": "Guinea-Bissau"
+        "label": "غينيا بيساو"
       },
       {
         "value": "GY",
-        "label": "Guyana"
+        "label": "غيانا"
       },
       {
         "value": "HT",
-        "label": "Haiti"
+        "label": "هايتي"
       },
       {
         "value": "HM",
-        "label": "Heard Island and McDonald Mcdonald Islands"
+        "label": "جزيرة هيرد وجزر ماكدونالد ماكدونالد"
       },
       {
         "value": "VA",
-        "label": "Holy See (Vatican City State)"
+        "label": "الكرسي الرسولي (دولة مدينة الفاتيكان)"
       },
       {
         "value": "HN",
-        "label": "Honduras"
+        "label": "هندوراس"
       },
       {
         "value": "HK",
-        "label": "Hong Kong"
+        "label": "هونج كونج"
       },
       {
         "value": "HU",
-        "label": "Hungary"
+        "label": "هنغاريا"
       },
       {
         "value": "IS",
-        "label": "Iceland"
+        "label": "أيسلندا"
       },
       {
         "value": "IN",
-        "label": "India"
+        "label": "الهند"
       },
       {
         "value": "ID",
-        "label": "Indonesia"
+        "label": "إندونيسيا"
       },
       {
         "value": "IR",
-        "label": "Iran, Islamic Republic of"
+        "label": "جمهورية إيران الإسلامية"
       },
       {
         "value": "IQ",
-        "label": "Iraq"
+        "label": "العراق"
       },
       {
         "value": "IE",
-        "label": "Ireland"
+        "label": "أيرلندا"
       },
       {
         "value": "IM",
-        "label": "Isle of Man"
+        "label": "جزيرة آيل أوف مان"
       },
       {
         "value": "IL",
-        "label": "Israel"
+        "label": "إسرائيل"
       },
       {
         "value": "IT",
-        "label": "Italy"
+        "label": "إيطاليا"
       },
       {
         "value": "JM",
-        "label": "Jamaica"
+        "label": "جمايكا"
       },
       {
         "value": "JP",
-        "label": "Japan"
+        "label": "اليابان"
       },
       {
         "value": "JE",
-        "label": "Jersey"
+        "label": "جيرسي"
       },
       {
         "value": "JO",
-        "label": "Jordan"
+        "label": "الأردن"
       },
       {
         "value": "KZ",
-        "label": "Kazakhstan"
+        "label": "كازاخستان"
       },
       {
         "value": "KE",
-        "label": "Kenya"
+        "label": "كينيا"
       },
       {
         "value": "KI",
@@ -4027,119 +4017,119 @@
       }
     ],
     "errorMessages": {
-      "email": "Email is invalid",
-      "minLength": "Min. 2 char."
+      "email": "البريد الإلكتروني غير صالح",
+      "minLength": "الحد الأدنى: حرفان"
     },
     "alluraPopUp": {
-      "slogan": "crafting elegance in living",
-      "soon": "Launching {{Soon}}",
+      "slogan": "صناعة الأناقة في المعيشة",
+      "soon": "قريباً {{إطلاق}}",
       "button": {
-        "title": "register now",
+        "title": "سجل الآن",
         "href": "/"
       },
       "detailsCards": [
         {
-          "title": "Starting From:",
+          "title": "ابتداءً من:",
           "description": "AED 619,000"
         },
         {
           "title": "{{50/50}}",
-          "description": "{{Payment Plan}}"
+          "description": "{{خطة الدفع}}"
         },
         {
-          "title": "Register Your EOI With:",
+          "title": "سجل اهتمامك بـ:",
           "description": "AED 25,000"
         }
       ]
     },
     "mapHeader": {
-      "subtitle": "Location",
-      "title": "More than just a place"
+      "subtitle": "الموقع",
+      "title": "أكثر من مجرد مكان"
     },
     "projectsPagesContactUsForm": {
-      "title": "Contact Us",
-      "description": "Book With Just {{10%}} Down Payment!",
-      "disclaimer": "By submitting this form, you confirm that you have read and accepted the <a href='/privacy-policy' target='_blank'>Privacy Policy </a>and <a href='/terms-and-conditions' target='_blank'>Terms and Conditions.</a>",
-      "submit": "Submit",
+      "title": "تواصل معنا",
+      "description": "احجز الآن بدفعة أولى {{10%}}!",
+      "disclaimer": "بتقديم هذا النموذج، أنت تؤكد أنك قرأت وقبلت <a href='/privacy-policy' target='_blank'>سياسة الخصوصية</a> و <a href='/terms-and-conditions' target='_blank'>الشروط والأحكام.</a>",
+      "submit": "إرسال",
       "fields": [
         {
           "key": "fullName",
-          "label": "Full Name*",
-          "placeholder": "Full Name*",
+          "label": "الاسم الكامل*",
+          "placeholder": "الاسم الكامل*",
           "fieldSetWidthClassProp": "half",
           "type": "text",
           "validation": {
-            "required": "Full Name is required"
+            "required": "الاسم الكامل مطلوب"
           }
         },
         {
           "key": "country",
-          "placeholder": "Select Country*",
+          "placeholder": "اختر البلد*",
           "type": "select",
           "searchable": true,
-          "label": "Country*",
+          "label": "البلد*",
           "fieldSetWidthClassProp": "half",
           "validation": {
-            "required": "Country is required"
+            "required": "البلد مطلوب"
           }
         },
         {
           "key": "email",
-          "label": "Email*",
-          "placeholder": "Email*",
+          "label": "البريد الإلكتروني*",
+          "placeholder": "البريد الإلكتروني*",
           "type": "email",
           "fieldSetWidthClassProp": "half",
           "validation": {
-            "required": "Email is required",
+            "required": "البريد الإلكتروني مطلوب",
             "validate": {
-              "email": "Email is invalid"
+              "email": "البريد الإلكتروني غير صالح"
             }
           },
           "required": true
         },
         {
           "key": "phone",
-          "label": "Phone Number*",
+          "label": "رقم الهاتف*",
           "placeholder": "123 4567",
           "fieldSetWidthClassProp": "half",
           "validation": {
-            "required": "Phone number is required"
+            "required": "رقم الهاتف مطلوب"
           }
         },
         {
           "key": "bedrooms",
           "type": "number",
-          "label": "How many bedrooms you are interested in*",
+          "label": "كم عدد غرف النوم التي تهتم بها*",
           "placeholder": "5",
           "fieldSetWidthClassProp": "half",
           "validation": {
-            "required": "This field is required"
+            "required": "هذا الحقل مطلوب"
           }
         },
         {
           "key": "budget",
           "type": "number",
           "min": 25000,
-          "label": "How much is your budget (AED)*",
+          "label": "ما هو ميزانيتك (AED)*",
           "placeholder": "50,000",
           "fieldSetWidthClassProp": "half",
           "validation": {
-            "required": "This field is required"
+            "required": "هذا الحقل مطلوب"
           }
         },
         {
           "key": "contactMode",
           "type": "radio",
-          "label": "Which mode of contact do you prefer?",
+          "label": "ما هي وسيلة الاتصال المفضلة لديك؟",
           "fieldSetWidthClassProp": "full",
           "options": [
             {
-              "label": "Phone",
+              "label": "الهاتف",
               "value": "phone",
               "icon": "phone"
             },
             {
-              "label": "Email",
+              "label": "البريد الإلكتروني",
               "value": "email",
               "icon": "mail"
             }

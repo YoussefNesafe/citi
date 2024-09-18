@@ -117,7 +117,7 @@ const AlluraBanner = ({ backgroundImage, slugan, locationAndCompletion, appartme
           {appartments.map((card, index) => (
             <div
               key={index + '-card'}
-              className={cn('flex flex-col gap-[1.398vw] tablet:gap-[1.25vw] desktop:gap-[0.52vw] text-white px-[6.99vw] tablet:px-[6.25vw] desktop:px-[4.16vw] items-center justify-center border-r border-white last-of-type:border-none')}
+              className={cn('flex flex-col gap-[1.398vw] tablet:gap-[1.25vw] desktop:gap-[0.52vw] text-white px-[6.99vw] tablet:px-[6.25vw] desktop:px-[4.16vw] items-center justify-center border-r rtl:border-r-0 rtl:border-l border-white last-of-type:border-none')}
             >
               <div className='text-[3.728vw] tablet:text-[2.25vw] desktop:text-[1.04vw]'>{card.title}</div>
               <div className='text-[4.66vw] tablet:text-[3vw] desktop:text-[2.08vw]'>{card.description}</div>
@@ -130,7 +130,7 @@ const AlluraBanner = ({ backgroundImage, slugan, locationAndCompletion, appartme
       <div ref={secondLayerRef} className='w-full h-screen absolute top-0 left-0  flex flex-col items-center justify-center secondLayer'>
         <div className='flex mt-[9.32vw] tablet:mt-[5vw] desktop:mt-[2.08vw]'>
           {locationAndCompletion.map((card: any, index: number) => (
-            <div key={index + '-card'} className={cn('flex flex-col gap-[1.398vw] tablet:gap-[1.25vw] desktop:gap-[0.52vw] text-white px-[6.99vw] tablet:px-[6.25vw] desktop:px-[4.16vw]', index === 0 && 'border-r border-white')}>
+            <div key={index + '-card'} className={cn('flex flex-col gap-[1.398vw] tablet:gap-[1.25vw] desktop:gap-[0.52vw] text-white px-[6.99vw] tablet:px-[6.25vw] desktop:px-[4.16vw]', index === 0 && 'border-r rtl:border-r-0 rtl:border-l border-white')}>
               <div className='text-[4.66vw] tablet:text-[3vw] desktop:text-[2.08vw]'>{card.description}</div>
               <div className='text-[3.728vw] tablet:text-[2.25vw] desktop:text-[1.04vw] text-gray-300'>{card.title}</div>
             </div>

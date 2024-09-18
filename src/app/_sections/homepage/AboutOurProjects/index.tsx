@@ -5,13 +5,16 @@ import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import ImageWrapper from '@/app/_components/ImageWrapper'
 import React, { useRef } from 'react'
+import { isRtlLang } from '@/app/utils/isRtlLang'
+import { Locale } from '../../../../../i18n-config'
 
-const AboutOurProjects = ({ cards, className }: AboutOurProjectsProps) => {
+const AboutOurProjects = ({ cards, className, lang }: AboutOurProjectsProps & { lang: Locale }) => {
   const wrapperRef = useRef(null);
+  const isRtl = isRtlLang(lang);
   useGSAP(() => {
     let slides = gsap.utils.toArray(".slide") as HTMLElement[];
     gsap.to(slides, {
-      xPercent: -100 * (slides.length - 1),
+      xPercent: isRtl ? 100 * (slides.length - 1) : -100 * (slides.length - 1),
       ease: "none",
       scrollTrigger: {
         trigger: ".horizontal-sliders",

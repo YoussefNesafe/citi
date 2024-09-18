@@ -5,10 +5,16 @@ import usePathNameDetails from '@/hooks/usePathNameDetails'
 import Link from 'next/link'
 import GlobIcon from '../../icons/GlobIcon'
 import ImageWrapper from '@/app/_components/ImageWrapper'
+import { usePathname, useSearchParams } from 'next/navigation'
 
 const LanguagesMenu = ({ languages }: Pick<NavbarProps, 'languages'>) => {
   const { lang } = usePathNameDetails();
   const fillteredLanguages = languages.filter(l => l.value !== lang);
+  const pathname = usePathname();
+  const searchParams = useSearchParams();
+  const currentPath = pathname.split('/').slice(2).join('/');
+  const URLparams = searchParams.toString() && `?${searchParams.toString()}`;
+  const hrefLink = (lang: string) => `${lang}/${currentPath}${URLparams}`;
   return (
     <div className='flex group  cursor-pointer gap-[0.932vw] tablet:gap-[0.5vw] desktop:gap-[0.208vw]  py-[4.194vw] tablet:py-[2.875vw] desktop:py-[1.716vw]'>
       <input type='checkbox' className='absolute top-0 left-0 h-full w-full  peer/checkbox z-[2] opacity-0' />
@@ -22,7 +28,7 @@ const LanguagesMenu = ({ languages }: Pick<NavbarProps, 'languages'>) => {
           fillteredLanguages?.map(({ href, label, value }) => (
             <Link
               key={value}
-              href={href}
+              href={hrefLink(href)}
               className='text-[3.262vw] tablet:text-[2vw] desktop:text-[0.936vw] font-medium py-[3.262vw] tablet:py-[1.75vw] desktop:py-[0.728vw] last-of-type:border-none border-b border-gray-450 transition-all duration-500 leading-[1.25] flex items-center gap-[1.631vw] tablet:gap-[0.875vw] desktop:gap-[0.364vw] navlink w-full ltr:justify-between'
             >
               <ImageWrapper src={`/images/flags/${value}.png`} alt={value} width={24} height={24} className='w-[5.592vw] tablet:w-[3vw] desktop:w-[1.248vw] h-[5.592vw] tablet:h-[3vw] desktop:h-[1.248vw]' />

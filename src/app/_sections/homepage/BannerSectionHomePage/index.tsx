@@ -7,12 +7,13 @@ import LastLayer from './components/LastLayer';
 import MidLayer from './components/MidLayer';
 import FirstLayer from './components/FirstLayer';
 import { animateHomePageBanner } from './animations';
+import { Locale } from '../../../../../i18n-config';
 
 
-const BannerSectionHomePage = ({ firstLayerData, secondLayerData, sloganBox, thirdLayerData }: HomePageBannerProps) => {
+const BannerSectionHomePage = ({ firstLayerData, secondLayerData, sloganBox, thirdLayerData, lang }: HomePageBannerProps & { lang: Locale }) => {
   const wrapperRef = useRef(null);
   useGSAP(
-    () => animateHomePageBanner(wrapperRef),
+    () => animateHomePageBanner({ wrapperRef, lang }),
     {
       scope: wrapperRef,
     }

@@ -10,7 +10,7 @@ type Props = AdditionalProps & FloatingCardWithImageType
 
 const FloatingCardWithImage = ({ image, cardComponent, className, ...props }: Props) => {
   const Card = () => (
-    <div className='desktop:absolute flex bg-dark-linear desktop:bg-linear-reverse-feature-card  desktop:max-w-[40.144vw] shrink-0 w-full desktop:right-0 rounded-[2.796vw] tablet:rounded-[1.5vw] desktop:rounded-[0.624vw] '>
+    <div className='desktop:absolute flex bg-dark-linear desktop:bg-linear-reverse-feature-card  desktop:max-w-[40.144vw] shrink-0 w-full desktop:right-0 rtl:desktop:right-auto rtl:desktop:left-0 rounded-[2.796vw] tablet:rounded-[1.5vw] desktop:rounded-[0.624vw] '>
       {cardComponent}
     </div>
   )

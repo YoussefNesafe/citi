@@ -15,11 +15,6 @@
           "label": "عربي",
           "value": "ar",
           "href": "/ar"
-        },
-        {
-          "label": "اُردُو",
-          "value": "ur",
-          "href": "/ur"
         }
       ],
       "contactUsButton": {
@@ -66,11 +61,6 @@
             "title": "Experience Center",
             "href": "/about/experience-center",
             "pageKey": "experience-center"
-          },
-          {
-            "title": "Careers",
-            "href": "/about/careers",
-            "pageKey": "careers"
           }
         ]
       },

@@ -28,10 +28,10 @@ export default async function Page({ params: { lang } }: { params: { lang: Local
 
   return (
     <>
-      <BannerSectionHomePage {...banner} />
+      <BannerSectionHomePage {...banner} lang={lang} />
       <CountUpSection cards={counterCards} className="section-py" />
       <WhatMakesUsDifferent {...whatMakesUsDifferent} className="section-py" />
-      <AboutOurProjects {...aboutOurProjects} className="section-py" />
+      <AboutOurProjects {...aboutOurProjects} lang={lang} className="section-py" />
       <VisitExperienceCenterSection {...visitExperienceCenter} className="section-py" />
       <OurJourney {...ourJourney} className="section-py" />
       <Suspense>

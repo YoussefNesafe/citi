@@ -103,6 +103,14 @@
       @apply bg-linear-border
     }
   }
+  .linear-border-ar {
+    @extend %linearBorder;
+
+    &::before {
+      content: '';
+      @apply bg-linear-border-ar
+    }
+  }
 
   .linear-border-circular {
     @extend %linearBorder;
@@ -184,7 +192,7 @@
   }
 
   .embla__container {
-    @apply flex touch-pan-y touch-pinch-zoom;
+    @apply flex touch-pan-y touch-pinch-zoom rtl:flex-row-reverse;
     margin-left: calc(var(--slide-spacing) * -1);
   }
 
