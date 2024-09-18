@@ -50,10 +50,14 @@ export const animateHomePageBanner = (wrapperRef:RefObject<HTMLElement>) => {
         x: 0,
         duration: 0.6,
       }, 0)
-  
+      
+      .to(".midLayer .overlay", {
+        opacity: 0,
+      }, 0) // Start at the same time
       .to(".midLayer img", {
         scale: 1,
         bottom: 0,
+        duration: 0.1
       }, 0) // Start at the same time
   
       .to(".lastLayer img", {

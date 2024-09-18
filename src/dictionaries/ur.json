@@ -108,23 +108,19 @@
       },
       "socialMediaLinks": [
         {
-          "href": "#",
+          "href": "https://www.facebook.com/people/Citi-Developers/61550814868318/",
           "icon": "facebook"
         },
         {
-          "href": "#",
+          "href": "https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2F97888769%2Fadmin%2Fdashboard%2F",
           "icon": "linkedin"
         },
         {
-          "href": "#",
-          "icon": "x"
-        },
-        {
-          "href": "#",
+          "href": "https://www.youtube.com/@CitiDeveloper",
           "icon": "youtube"
         },
         {
-          "href": "#",
+          "href": "https://www.instagram.com/citidevelopers/",
           "icon": "instagram"
         }
       ],
@@ -321,49 +317,63 @@
       ],
       "images": [
         {
-          "src": "/images/homepage/pool.webp",
-          "alt": "pool",
-          "width": 885,
-          "height": 1456
+          "src": "/images/homepage/citi-building-inside.jpg",
+          "alt": "citi-building-inside",
+          "width": 1066,
+          "height": 1600
         },
         {
-          "src": "/images/homepage/bedroom.png",
+          "src": "/images/homepage/bedroom.jpg",
           "alt": "bedroom",
-          "width": 439,
-          "height": 443
+          "width": 2600,
+          "height": 2364
         },
         {
-          "src": "/images/homepage/livingroom.png",
-          "alt": "livingroom",
-          "width": 878,
-          "height": 627
+          "src": "/images/homepage/citi-building-front.jpg",
+          "alt": "citi-building-front",
+          "width": 1600,
+          "height": 1066
         }
       ],
       "animatedText": "We Published since 2023 - We Published since 2023 - "
     },
-    "avelineSection": {
-      "header": {
-        "title": "Aveline",
-        "description": "Beginning with Jumeirah Village Circle in Dubai followed very closely with Majan, and Dubai Maritime City, every project will be a level up from the previous one. Just like Aveline the recent project by CD."
-      },
-      "images": [
+    "aboutOurProjects": {
+      "cards": [
         {
-          "src": "/images/homepage/aveline_Landscape.webp",
-          "alt": "aveline_Landscape",
-          "width": 5500,
-          "height": 3099
+          "header": {
+            "title": "CITI DEVELOPERS",
+            "description": "Beginning with Jumeirah Village Circle in Dubai followed very closely with Dubai Island, every project will be a level up from the previous one. Just like Aveline  and Allura the recent projects by CD."
+          },
+          "image": {
+            "src": "/images/homepage/aveline_Landscape.webp",
+            "alt": "aveline_Landscape",
+            "width": 5500,
+            "height": 3099
+          }
         },
         {
-          "src": "/images/aveline/Lobby/image_1.webp",
-          "alt": "lobby",
-          "width": 4000,
-          "height": 2250
+          "header": {
+            "title": "Allura",
+            "description": "welcome to Allura, where sophistication meets comforts in every corner.    Designed with meticulous attention to details, Allura offers a range of luxurious living options tailored to suit your lifestyle."
+          },
+          "image": {
+            "src": "/images/homepage/third.jpg",
+            "alt": "lobby",
+            "width": 5000,
+            "height": 2500
+          }
         },
         {
-          "src": "/images/aveline/13th Floor/image_2.webp",
-          "alt": "pool",
-          "width": 4000,
-          "height": 2250
+          "header": {
+            "title": "Aveline",
+            "description": "Aveline is designed to foster connections, celebrate community, and embrace convenience. Located in the heart of Dubai, it offers an exceptional residential experience where every detail matters, promising a lifestyle full of possibilities."
+          },
+          "image": {
+            "src": "/images/aveline/13th Floor/image_2.webp",
+            "alt": "pool",
+            "width": 4000,
+            "height": 2250
+          }
         }
       ]
     },
@@ -395,7 +405,7 @@
           "description": "Our roots lie in Pakistan, where we have been instrumental in building entire townships and changing the face of cities... ",
           "readMore": "Read more",
           "button": {
-            "title": "Read More",
+            "title": "Find Out More",
             "href": "/about/portfolio"
           }
         },
@@ -411,7 +421,7 @@
           "description": "Citi Developers has an active presence in the UK, featuring exquisite properties in some of its most beautiful towns... ",
           "readMore": "Read more",
           "button": {
-            "title": "Read More",
+            "title": "Find Out More",
             "href": "/about/portfolio"
           }
         },
@@ -427,7 +437,7 @@
           "description": "Beginning with Jumeirah Village Circle in Dubai followed very closely with Majan, and then in Al Marjan island... ",
           "readMore": "Read more",
           "button": {
-            "title": "Read More",
+            "title": "Find Out More",
             "href": "/about/portfolio"
           }
         }
@@ -1784,6 +1794,15 @@
               "height": 1151
             },
             "name": "Luna Barre"
+          },
+          {
+            "image": {
+              "src": "/images/about/ourTeam/Ahtasham Malik.jpg",
+              "alt": "Ahtasham Malik",
+              "width": 1067,
+              "height": 1600
+            },
+            "name": "Ahtasham Malik"
           },
           {
             "image": {

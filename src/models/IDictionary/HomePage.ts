@@ -9,7 +9,7 @@ export type HomePageProps = {
   banner: HomePageBannerProps;
   counterCards: CountUpSectionProps;
   whatMakesUsDifferent: WhatMakesUsDifferentSectionProps;
-  avelineSection: AvelineSectionProps;
+  aboutOurProjects: AboutOurProjectsProps;
   visitExperienceCenter :VisitExperienceCenterSectionProps;
   ourJourney: OurJourneySectionProps;
   ourTeam : OurTeamSectionType;
@@ -64,9 +64,11 @@ export type OurJourneySectionProps = AdditionalProps & {
 
 // Aveline Section Props
 
-export type AvelineSectionProps = AdditionalProps & {
-  header: SectionHeaderProps;
-  images: ImageProps[];
+export type AboutOurProjectsProps = AdditionalProps & {
+  cards: {
+    header: SectionHeaderProps;
+    image: ImageProps;
+  }[]
 }
 
 

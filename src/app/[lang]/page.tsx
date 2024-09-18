@@ -8,12 +8,12 @@ import VisitExperienceCenterSection from "../_sections/homepage/VisitExperienceC
 import OurJourney from "../_sections/homepage/OurJourney";
 import LatestNews from "../_sections/shared/LatestNews";
 import { SharedSectionsProps } from "@/models/IDictionary";
-import AvelineSection from "../_sections/homepage/AvelineSection";
 import OurTeamSection from "../_sections/homepage/OurTeamSection";
 import { Suspense } from "react";
 import AlluraPopUpSection from "../_sections/shared/AlluraPopUpSection";
 import { Metadata } from 'next';
 import { MetaDataType } from "@/models/IDictionary/SharedProps";
+import AboutOurProjects from "../_sections/homepage/AboutOurProjects";
 
 export async function generateMetadata({ params: { lang } }: { params: { lang: Locale } }): Promise<Metadata> {
   // fetch data
@@ -23,7 +23,7 @@ export async function generateMetadata({ params: { lang } }: { params: { lang: L
   };
 }
 export default async function Page({ params: { lang } }: { params: { lang: Locale } }) {
-  const { banner, counterCards, whatMakesUsDifferent, avelineSection, visitExperienceCenter, ourJourney, ourTeam } = await getLocalizedData<HomePageProps>(lang, 'homePage');
+  const { banner, counterCards, whatMakesUsDifferent, aboutOurProjects, visitExperienceCenter, ourJourney, ourTeam } = await getLocalizedData<HomePageProps>(lang, 'homePage');
   const { latestNews, alluraPopUp } = await getLocalizedData<SharedSectionsProps>(lang, 'shared');
 
   return (
@@ -31,7 +31,7 @@ export default async function Page({ params: { lang } }: { params: { lang: Local
       <BannerSectionHomePage {...banner} />
       <CountUpSection cards={counterCards} className="section-py" />
       <WhatMakesUsDifferent {...whatMakesUsDifferent} className="section-py" />
-      <AvelineSection {...avelineSection} className="section-py" />
+      <AboutOurProjects {...aboutOurProjects} className="section-py" />
       <VisitExperienceCenterSection {...visitExperienceCenter} className="section-py" />
       <OurJourney {...ourJourney} className="section-py" />
       <Suspense>
