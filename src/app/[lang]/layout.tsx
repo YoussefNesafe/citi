@@ -15,6 +15,7 @@ import { isRtlLang } from "../utils/isRtlLang";
 import { getLangDir } from "../utils/getLangDir";
 import Footer from "../_components/Footer";
 import { GoogleTagManager } from '@next/third-parties/google';
+import Scroll from "../_components/Scroll";
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother, useGSAP)
 
 const PlayfairDisplay = Playfair_Display({
@@ -51,6 +52,9 @@ export default async function RootLayout({
     <html lang={lang} dir={getLangDir(lang)} className={fontFamilyVariable}>
       <body>
         <GoogleTagManager gtmId="GTM-WDZ2M6ZR" />
+        <Suspense>
+          <Scroll />
+        </Suspense>
         <Suspense>
           <InternetConnection {...internetConnection} />
         </Suspense>
