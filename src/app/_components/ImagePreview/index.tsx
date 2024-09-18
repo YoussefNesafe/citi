@@ -42,7 +42,7 @@ const ImagePreview: React.FC<ImagePreviewProps> = ({
       {/* Dialog Content for full-size image preview */}
       <DialogContent className={cn('desktop:max-h-[96vh] w-[82vw] tablet:w-[80vw] desktop:w-auto desktop:max-w-[80vw]', popupClassName)}>
         <div className="desktop:max-h-[93vh] h-auto w-auto overflow-hidden">
-          <ImageWrapper src={src} alt={alt} width={width} height={height} className="object-cover w-auto h-full" />
+          <ImageWrapper src={src} alt={alt} width={width} height={height} className="object-cover w-auto h-full" skeletonClassName={skeletonClassName} />
         </div>
       </DialogContent>
     </Dialog>

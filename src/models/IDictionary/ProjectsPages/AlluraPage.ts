@@ -31,6 +31,7 @@ export type OverViewType = AdditionalProps & {
       title: string;
       description: string;
       button: ButtonProps;
+      images: ImageProps[];
     }
   }[]
 }

@@ -11,19 +11,29 @@ import SectionDescription from '@/app/_components/SectionHeader/SectionDescripti
 import SectionSubtitle from '@/app/_components/SectionHeader/SectionSubtitle';
 import SectionTitle from '@/app/_components/SectionHeader/SectionTitle';
 import Button from '@/app/_components/Button';
-import { Sheet, SheetContent, SheetTrigger } from '@/app/_components/ui/sheet';
+import { Sheet, SheetClose, SheetContent, SheetTrigger } from '@/app/_components/ui/sheet';
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '@/app/_components/ui/tooltip';
 import { isRtlLang } from '@/app/utils/isRtlLang';
 import { cn } from '@/lib/utils';
 import { Locale } from '../../../../../../i18n-config';
 import { OverViewType } from '@/models/IDictionary/ProjectsPages/AlluraPage';
+import { sanitize } from 'isomorphic-dompurify';
+import { getHighlightedText } from '@/hooks/getHighlightedText';
+import ImagePreview from '@/app/_components/ImagePreview';
+import { scrollToElement } from '@/app/utils/ScrollToSection';
 
+const formattedText = (text: string) => getHighlightedText(text, {
+  replaceWith: { start: '<div class="font-bold">', end: '</div>' },
+})
 // Define point positions for tooltips on images
 const pointPosition = {
-  firstImage: 'top-[50%] left-[60%]',
-  secondImage: 'top-[50%] left-[40%]',
-  thirdImage: 'top-[40%] left-[60%]',
-  fourthImage: 'top-[15%] left-[70%]',
+  firstImage: 'bottom-[40%] left-[40%]',
+  secondImage: 'top-[30%] left-[75%]',
+  thirdImage: 'top-[25%] left-[65%]',
+  fourthImage: 'top-[40%] left-[75%]',
+  fifthImage: 'top-[40%] left-[50%]',
+  sixthImage: 'top-[25%] left-[20%]',
+  seventhImage: 'top-[50%] right-[45%]',
 };
 
 gsap.registerPlugin(ScrollTrigger);
@@ -31,31 +41,6 @@ gsap.registerPlugin(ScrollTrigger);
 const AlluraOverview: React.FC<OverViewType> = ({ buildingDetailsCards, header, className, ...props }) => {
   const sectionsRef = useRef<Array<HTMLDivElement | null>>([]);
   const containerRef = useRef<HTMLDivElement | null>(null);
-
-  // IntersectionObserver to handle overlay visibility
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          const overlay = entry.target.querySelector('.overlay') as HTMLDivElement | null;
-          if (overlay) {
-            overlay.style.display = entry.isIntersecting ? 'none' : 'block';  // Show/hide overlay based on visibility
-          }
-        });
-      },
-      { threshold: 0.5 }  // Adjust threshold for overlay behavior
-    );
-
-    sectionsRef.current.forEach((section) => {
-      if (section) observer.observe(section);
-    });
-
-    return () => {
-      sectionsRef.current.forEach((section) => {
-        if (section) observer.unobserve(section);
-      });
-    };
-  }, []);
 
   // GSAP animation setup with ScrollTrigger
   useGSAP(() => {
@@ -104,10 +89,10 @@ const AlluraOverview: React.FC<OverViewType> = ({ buildingDetailsCards, header, 
                     pointPosition[image.className as keyof typeof pointPosition]
                   )}>
                     <SheetTrigger className={cn(
-                      'bg-white w-[5.825vw] tablet:w-[4.375vw] desktop:w-[2.6vw] h-[5.825vw] tablet:h-[4.375vw] desktop:h-[2.6vw] flex items-center justify-center transition-all font-sans hover:cursor-pointer hover:rotate-45 duration-300 rounded-full'
+                      'bg-dark animate-pulse w-[5.825vw] tablet:w-[4.375vw] desktop:w-[2.6vw] h-[5.825vw] tablet:h-[4.375vw] desktop:h-[2.6vw] flex items-center justify-center transition-all font-sans hover:cursor-pointer group  rounded-full'
                     )}>
-                      <span className="bg-dark w-[4.427vw] tablet:w-[2.75vw] desktop:w-[1.664vw] h-[0.466vw] tablet:h-[0.25vw] desktop:h-[0.104vw] absolute" />
-                      <span className="bg-dark w-[0.466vw] tablet:w-[0.25vw] desktop:w-[0.104vw] h-[4.427vw] tablet:h-[2.75vw] desktop:h-[1.664vw] absolute" />
+                      <span className="bg-white group-hover:rotate-45 duration-300 w-[4.427vw] tablet:w-[2.75vw] desktop:w-[1.664vw] h-[0.466vw] tablet:h-[0.25vw] desktop:h-[0.104vw] absolute" />
+                      <span className="bg-white group-hover:rotate-45 duration-300 w-[0.466vw] tablet:w-[0.25vw] desktop:w-[0.104vw] h-[4.427vw] tablet:h-[2.75vw] desktop:h-[1.664vw] absolute" />
                     </SheetTrigger>
                   </TooltipTrigger>
                   <TooltipContent side="left">
@@ -117,17 +102,20 @@ const AlluraOverview: React.FC<OverViewType> = ({ buildingDetailsCards, header, 
               </TooltipProvider>
 
               {/* Sheet Content */}
-              <SheetContent side={isRtlLang(Locale.en) ? 'left' : 'right'} className="overflow-y-auto w-3/4 desktop:w-1/2 flex flex-col gap-[3.262vw] tablet:gap-[2.5vw] desktop:gap-[1.04vw]">
-                <h3 className="pt-[9.32vw] tablet:pt-[5vw] desktop:pt-[2.08vw] text-[4.194vw] tablet:text-[3vw] desktop:text-[1.664vw] capitalize font-semibold">
+              <SheetContent side={isRtlLang(Locale.en) ? 'left' : 'right'} className="overflow-y-auto overflow-x-hidden w-full tablet:w-3/4 desktop:w-[46.8vw] flex flex-col gap-[3.262vw] tablet:gap-[2.5vw] desktop:gap-[1.04vw]">
+                <h3 className="pt-[9.32vw] tablet:pt-[5vw] desktop:pt-[2.08vw] text-[4.194vw] tablet:text-[3vw] desktop:text-[1.664vw] uppercase font-semibold">
                   {content.title}
                 </h3>
-                <p className="text-[3.728vw] tablet:text-[2.25vw] desktop:text-[1.04vw] text-gray-450">{content.description}</p>
-                <Button {...content.button} size="md" />
+                <p className="font-medium text-[3.728vw] tablet:text-[2.25vw] desktop:text-[1.04vw] text-gray-450 " dangerouslySetInnerHTML={{ __html: sanitize(formattedText(content.description)) }} />
+                {
+                  content.images.map((image, index) => <ImagePreview skeletonClassName='h-[53.124vw] tablet:h-[40.5vw] desktop:h-[24.596vw] w-[94.598vw] tablet:w-[72vw] desktop:w-[43.784vw]' {...image} key={index + '-img'} />)
+                }
+                <SheetTrigger>
+                  <Button {...content.button} size="md" className='w-full' onClick={() => scrollToElement({ elemSelector: content.button.elemSelector || '' })} />
+                </SheetTrigger>
               </SheetContent>
             </Sheet>
 
-            {/* Overlay */}
-            <div className="w-screen h-full absolute top-0 left-0 bg-dark/60 overlay" />
           </div>
         ))}
       </div>

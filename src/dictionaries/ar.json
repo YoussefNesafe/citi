@@ -2401,19 +2401,19 @@
         "appartments": [
           {
             "title": "Studio",
-            "description": "100"
+            "description": "62"
           },
           {
             "title": "1BHK",
-            "description": "100"
+            "description": "103"
           },
           {
             "title": "2BHK",
-            "description": "100"
+            "description": "51"
           },
           {
             "title": "3BHK",
-            "description": "100"
+            "description": "21"
           }
         ]
       },
@@ -2428,16 +2428,37 @@
             "image": {
               "src": "/images/allura/banner/allura-1.png",
               "alt": "image",
-              "width": 1920,
-              "height": 720,
+              "width": 1021,
+              "height": 450,
               "className": "firstImage"
             },
             "content": {
-              "title": "First Image Title",
-              "description": "First Image description",
+              "title": "Apartment",
+              "description": "Imagine stepping out in to the balmy Dubai evening and being transported to an enchanting outdoor cinema experience that oozes cozy sophistication. <br /> Imagine stepping out in to the balmy Dubai evening and being transported to an enchanting outdoor cinema experience that oozes cozy sophistication. <br /> {{Bar, Cinema, Screen, Artificial Grass, Flower Box, Sun Bed, Bean Bags, Pots, CINEMA TERRACE, 26th & 27th Floor, 29th Floor ,Cigar Lounge offers a sophis ticated retreat with secure cigar storage, fine spirits, and a comfortable seating area, perfect for relaxing and savoring the moment.}}",
+              "images": [
+                {
+                  "src": "/images/allura/apartments/CIT_Allura_1BED_LIVING_CAM 01_FINAL_v05.jpg",
+                  "alt": "apartment",
+                  "width": 5000,
+                  "height": 2812
+                },
+                {
+                  "src": "/images/allura/apartments/CIT_Allura_1BED_LIVING_CAM-01_FINAL_v04.jpg",
+                  "alt": "apartment",
+                  "width": 5000,
+                  "height": 2812
+                },
+                {
+                  "src": "/images/allura/apartments/CIT_Allura_STUDIO_CAM-01_FINAL_v03.jpg",
+                  "alt": "apartment",
+                  "width": 5000,
+                  "height": 2812
+                }
+              ],
               "button": {
-                "title": "Explore Gallery",
-                "href": "/"
+                "title": "Book Now",
+                "as": "button",
+                "elemSelector": "#formSection"
               }
             }
           },
@@ -2445,16 +2466,37 @@
             "image": {
               "src": "/images/allura/banner/allura-2.png",
               "alt": "image",
-              "width": 1920,
-              "height": 510,
+              "width": 1021,
+              "height": 325,
               "className": "secondImage"
             },
             "content": {
-              "title": "Second Image Title",
-              "description": "Second Image description",
+              "title": "YOGA TERRACE:",
+              "description": "The glass house yoga area, cantilevered over the serene water feature and nestled beneath the majestic olive tree, exemplifies a masterful blend of modern architecture and organic elegance.<br /> {{Pots, Step, Yoga Mats, Olive Trees, Folding Glass}}",
+              "images": [
+                {
+                  "src": "/images/allura/amenities/yoga-1.jpg",
+                  "alt": "amenities",
+                  "width": 5000,
+                  "height": 2812
+                },
+                {
+                  "src": "/images/allura/amenities/yoga-2.jpg",
+                  "alt": "amenities",
+                  "width": 5000,
+                  "height": 2812
+                },
+                {
+                  "src": "/images/allura/amenities/yoga-3.jpg",
+                  "alt": "amenities",
+                  "width": 5000,
+                  "height": 2818
+                }
+              ],
               "button": {
-                "title": "Explore Gallery",
-                "href": "/"
+                "title": "Book Now",
+                "as": "button",
+                "elemSelector": "#formSection"
               }
             }
           },
@@ -2462,16 +2504,37 @@
             "image": {
               "src": "/images/allura/banner/allura-3.png",
               "alt": "image",
-              "width": 1920,
-              "height": 742,
+              "width": 1021,
+              "height": 300,
               "className": "thirdImage"
             },
             "content": {
-              "title": "Third Image Title",
-              "description": "Third Image description",
+              "title": "Suspended Lap Pool",
+              "description": "Architectural innovation meets leisurely luxury at the suspended lap pool, wher e a cantilevered designs are curated carefully.<br /> {{Swimming Pool, Chaise Longue, Sunbed, Bean Bag Pots, Wooden Deck, Flower Box, Pot, Bar, Flower Box, Seating Area Artificial lawn, Artificial Grass, POOL BAR }} ",
+              "images": [
+                {
+                  "src": "/images/allura/amenities/lap-1.jpg",
+                  "alt": "amenities",
+                  "width": 4872,
+                  "height": 2810
+                },
+                {
+                  "src": "/images/allura/amenities/lap-2.jpg",
+                  "alt": "amenities",
+                  "width": 5000,
+                  "height": 2810
+                },
+                {
+                  "src": "/images/allura/amenities/lap-3.png",
+                  "alt": "amenities",
+                  "width": 5000,
+                  "height": 2810
+                }
+              ],
               "button": {
-                "title": "Explore Gallery",
-                "href": "/"
+                "title": "Book Now",
+                "as": "button",
+                "elemSelector": "#formSection"
               }
             }
           },
@@ -2479,16 +2542,133 @@
             "image": {
               "src": "/images/allura/banner/allura-4.png",
               "alt": "image",
-              "width": 1920,
-              "height": 831,
+              "width": 1021,
+              "height": 430,
               "className": "fourthImage"
             },
             "content": {
-              "title": "Fourth Image Title",
-              "description": "Fourth Image description",
+              "title": "GAME TERRACE:",
+              "description": "From the captivating marble ball display s to the carefully curated gaming amenities, e very aspect of this spac e exudes a sense o f refined luxury and unbridled fun.<br />{{Sitting Area, Pool Table, Refined luxury meets, unbridled fun, Air Hockey Table, Basket Ball Hoop, Bar, Pots, Bean Bags }}",
+              "images": [
+                {
+                  "src": "/images/allura/amenities/game-1.jpg",
+                  "alt": "amenities",
+                  "width": 5000,
+                  "height": 2813
+                },
+                {
+                  "src": "/images/allura/amenities/game-2.jpg",
+                  "alt": "amenities",
+                  "width": 5000,
+                  "height": 2813
+                }
+              ],
               "button": {
-                "title": "Explore Gallery",
-                "href": "/"
+                "title": "Book Now",
+                "as": "button",
+                "elemSelector": "#formSection"
+              }
+            }
+          },
+          {
+            "image": {
+              "src": "/images/allura/banner/allura-5.png",
+              "alt": "image",
+              "width": 1021,
+              "height": 300,
+              "className": "fifthImage"
+            },
+            "content": {
+              "title": "FAMILY BBQ TERRACE",
+              "description": "The focal point of the ar ea is a long, sleek dining t able, its clean lines and minimalis t aesthetic lending an undeniable sense of sophistication to the spac e.<br />The combination of the table's polished wood surface and the so ft, diffused lighting creates an effortlessly elegant setting, perfectly suited for family gatherings and alfr esco dining.<br/> {{ Comfortable seating zones with plush, furnishings and ambien t lighting, Service Bar, Dining Area, Seating Area, Pot, Flower Box, BBQ, Bar}}",
+              "images": [
+                {
+                  "src": "/images/allura/amenities/family-1.jpg",
+                  "alt": "amenities",
+                  "width": 5000,
+                  "height": 2810
+                },
+                {
+                  "src": "/images/allura/amenities/family-2.jpg",
+                  "alt": "amenities",
+                  "width": 5000,
+                  "height": 2826
+                }
+              ],
+              "button": {
+                "title": "Book Now",
+                "as": "button",
+                "elemSelector": "#formSection"
+              }
+            }
+          },
+          {
+            "image": {
+              "src": "/images/allura/banner/allura-6.png",
+              "alt": "image",
+              "width": 1021,
+              "height": 350,
+              "className": "sixthImage"
+            },
+            "content": {
+              "title": "INFINITY POOL",
+              "description": "Unwind by the water's edge at our P ool Bar, featuring a comfortable sitting area, refreshing pool, s tylish back counter, and lush artificial lawn, cr eating the perfect spot to relax and enjoy a c ool drink on a w arm day. <br /> {{Shaded Lounge, Counter chairs, Floor Plan, Bar, Pot }}",
+              "images": [
+                {
+                  "src": "/images/allura/amenities/pool-1.jpg",
+                  "alt": "amenities",
+                  "width": 5000,
+                  "height": 2940
+                },
+                {
+                  "src": "/images/allura/amenities/pool-2.jpg",
+                  "alt": "amenities",
+                  "width": 5000,
+                  "height": 2940
+                }
+              ],
+              "button": {
+                "title": "Book Now",
+                "as": "button",
+                "elemSelector": "#formSection"
+              }
+            }
+          },
+          {
+            "image": {
+              "src": "/images/allura/banner/allura-7.png",
+              "alt": "image",
+              "width": 1021,
+              "height": 389,
+              "className": "seventhImage"
+            },
+            "content": {
+              "title": "Lobby",
+              "description": "Step into the grandeur of Allura Residences’ lobby, a space that transcends mere entryways. Our lobby, the largest in JVC, welcomes you with opulence and sophistication. From the moment you arrive, you’ll be enveloped in an ambiance that reflects the pinnacle of luxury living. With high ceilings, elegant furnishings, and a seamless blend of contemporary design, this is more than just a reception area—it’s a statement of prestige.",
+              "images": [
+                {
+                  "src": "/images/allura/amenities/lobby-1.jpg",
+                  "alt": "amenities",
+                  "width": 5000,
+                  "height": 2824
+                },
+                {
+                  "src": "/images/allura/amenities/lobby-2.jpg",
+                  "alt": "amenities",
+                  "width": 5000,
+                  "height": 2813
+                },
+                {
+                  "src": "/images/allura/amenities/lobby-3.jpg",
+                  "alt": "amenities",
+                  "width": 5000,
+                  "height": 2824
+                }
+              ],
+              "button": {
+                "title": "Book Now",
+                "as": "button",
+                "elemSelector": "#formSection"
               }
             }
           }
