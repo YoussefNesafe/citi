@@ -38,7 +38,7 @@ export default async function Page({ params: { lang } }: { params: { lang: Local
         <OurTeamSection {...ourTeam} className="section-py" />
       </Suspense>
       <LatestNews {...latestNews} className="section-py" />
-      <AlluraPopUpSection {...alluraPopUp} />
+      {/* <AlluraPopUpSection {...alluraPopUp} /> */}
     </>
   );
 }

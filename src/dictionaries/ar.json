@@ -345,10 +345,10 @@
             "description": "Beginning with Jumeirah Village Circle in Dubai followed very closely with Dubai Island, every project will be a level up from the previous one. Just like Aveline  and Allura the recent projects by CD."
           },
           "image": {
-            "src": "/images/homepage/aveline_Landscape.webp",
-            "alt": "aveline_Landscape",
-            "width": 5500,
-            "height": 3099
+            "src": "/images/homepage/Infinity Pool.jpg",
+            "alt": "Infinity Pool",
+            "width": 5000,
+            "height": 2940
           }
         },
         {
@@ -730,17 +730,17 @@
             "height": 1056
           },
           {
-            "src": "/images/shared/citi-building-front.png",
+            "src": "/images/homepage/citi-building-front.jpg",
             "alt": "citi developer",
-            "width": 600,
-            "height": 337,
+            "width": 1600,
+            "height": 1066,
             "className": "object-left"
           },
           {
-            "src": "/images/homepage/livingroom.png",
+            "src": "/images/homepage/bedroom.jpg",
             "alt": "livingroom",
-            "width": 878,
-            "height": 627
+            "width": 2600,
+            "height": 2364
           }
         ],
         "animatedText": "We Published since 2023 - We Published since 2023 - "
