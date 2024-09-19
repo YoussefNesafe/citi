@@ -16,6 +16,8 @@ import { getLangDir } from "../utils/getLangDir";
 import Footer from "../_components/Footer";
 import { GoogleTagManager } from '@next/third-parties/google';
 import Scroll from "../_components/Scroll";
+import Providers from "./providers";
+import FacebookTracker from "../_sections/shared/MetaTracker";
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother, useGSAP)
 
 const PlayfairDisplay = Playfair_Display({
@@ -56,14 +58,19 @@ export default async function RootLayout({
           <Scroll />
         </Suspense>
         <Suspense>
+          <FacebookTracker />
+        </Suspense>
+        <Suspense>
           <InternetConnection {...internetConnection} />
         </Suspense>
         <Suspense>
           <Navbar {...navbar} links={pagesLinks} />
         </Suspense>
-        <main>
-          {children}
-        </main>
+        <Providers>
+          <main>
+            {children}
+          </main>
+        </Providers>
         <Footer {...footer} links={pagesLinks} />
       </body>
     </html>

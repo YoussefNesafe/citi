@@ -9,8 +9,11 @@ import { sanitize } from "isomorphic-dompurify";
 import { cn } from "@/lib/utils";
 import Spinner from "../Spinner";
 import { getValidationFunctions } from "@/app/utils/getValidationFunctions";
-import { useRouter } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 import ProjectsContactUsFormAPI from "@/services/projectsContactUsForm";
+import { triggerFacebookTracker } from "@/app/_sections/shared/MetaTracker";
+import { facebookEventName } from "@/app/_sections/shared/MetaTracker/types";
+import useUserDataContext from "@/hooks/useUserDataContext";
 interface Inputs {
   [key: string]: object | any;
 }
@@ -22,8 +25,10 @@ const formServiceMap: { [type in FormType]: any } = {
 
 type Props = FormProps & Pick<SharedSectionsProps, 'errorMessages' | 'countrieslist'>
 const Form = ({ leadSource, formType, disclaimer, errorMessages, fields, submit, countrieslist, className, ...props }: Props) => {
+  const router = useRouter();
+  const params = useSearchParams();
+  const userData = useUserDataContext();
   const methods = useForm<Inputs>({ criteriaMode: 'all', mode: 'onChange' });
-  const router = useRouter()
   const {
     handleSubmit,
     setError,
@@ -33,8 +38,24 @@ const Form = ({ leadSource, formType, disclaimer, errorMessages, fields, submit,
   const onSubmit: SubmitHandler<Inputs> = async (data) => {
     if (formType && data) {
       const requestData = { ...data, leadSource }
-      const formAPIRes = await formServiceMap[formType](requestData, setError)
+      const formAPIRes = await formServiceMap[formType](requestData, setError);
       if (!formAPIRes || !formAPIRes.ok) return;
+      const timestamp = Math.floor(Date.now() / 1000).toString();
+      const [firstName, lastName] = data?.fullName.split(' ');
+      try {
+        triggerFacebookTracker({
+          email: data.email,
+          first_name: firstName,
+          last_name: lastName,
+          phone: data.phone,
+          ip_address: userData?.ip_address ?? '',
+          event_name: facebookEventName.signUp,
+          timestamp: timestamp,
+          clickID: params?.get('fbclid') || timestamp,
+        });
+      } catch (e) {
+        console.error(e);
+      }
       router.push('/thank-you')
     }
   };

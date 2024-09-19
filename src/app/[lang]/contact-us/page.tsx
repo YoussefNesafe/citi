@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Suspense } from 'react'
 import { Locale } from '../../../../i18n-config'
 import getLocalizedData from '@/services/getLocalizedData';
 import { ContactUsPageProps } from '@/models/IDictionary/ContactUsPage';
@@ -23,13 +23,15 @@ const ContactUsPage = async ({ params: { lang } }: { params: { lang: Locale } })
 
   return (
     <>
-      <ContactUsFormSection
-        {...form}
-        errorMessages={errorMessages}
-        countrieslist={countrieslist}
-        socialMediaLinks={footer.socialMediaLinks}
-        className='section-py'
-      />
+      <Suspense>
+        <ContactUsFormSection
+          {...form}
+          errorMessages={errorMessages}
+          countrieslist={countrieslist}
+          socialMediaLinks={footer.socialMediaLinks}
+          className='section-py'
+        />
+      </Suspense>
     </>
   )
 }

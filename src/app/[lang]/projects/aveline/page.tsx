@@ -43,13 +43,15 @@ const AvelinePage = async ({ params: { lang } }: { params: { lang: Locale } }) =
         <DiscoverCommunity {...discoverCommunity} className='section-py' />
       </Suspense>
       <MapWrapper {...mapProps} header={mapHeader} />
-      <ProjectsPagesForm
-        className='section-py'
-        {...projectsPagesContactUsForm}
-        leadSource='AVELINE - CONTACT US'
-        countrieslist={countrieslist}
-        errorMessages={errorMessages}
-      />
+      <Suspense>
+        <ProjectsPagesForm
+          className='section-py'
+          {...projectsPagesContactUsForm}
+          leadSource='AVELINE - CONTACT US'
+          countrieslist={countrieslist}
+          errorMessages={errorMessages}
+        />
+      </Suspense>
       <Suspense>
         <SwiperSection className="section-py" {...amenities} imagesArray={'AV_AMENITIES'} animateFrom='left' />
       </Suspense>

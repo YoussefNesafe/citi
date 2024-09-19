@@ -31,13 +31,15 @@ const AlluraPage = async ({ params: { lang } }: { params: { lang: Locale } }) =>
       </Suspense>
       <ProjectBriefSection {...projectBrief} className='section-py' />
       <MapWrapper {...mapProps} header={mapHeader} />
-      <ProjectsPagesForm
-        className='section-py'
-        {...projectsPagesContactUsForm}
-        leadSource='ALLURA - CONTACT US'
-        countrieslist={countrieslist}
-        errorMessages={errorMessages}
-      />
+      <Suspense>
+        <ProjectsPagesForm
+          className='section-py'
+          {...projectsPagesContactUsForm}
+          leadSource='ALLURA - CONTACT US'
+          countrieslist={countrieslist}
+          errorMessages={errorMessages}
+        />
+      </Suspense>
       {/* <AlluraPopUpSection {...alluraPopUp} /> */}
     </>
   )
