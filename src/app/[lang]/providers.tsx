@@ -20,7 +20,9 @@ const Providers = ({ children }: { children: React.ReactNode }) => {
   return (
     <>
 
-      <UserDataContext.Provider value={{ userData, setUserData }}>{children}</UserDataContext.Provider>
+      <UserDataContext.Provider value={{ userData, setUserData }}>
+        <ReCaptchaProvider>{children}</ReCaptchaProvider>
+      </UserDataContext.Provider>
     </>
   );
 };

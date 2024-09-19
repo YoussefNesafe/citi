@@ -26,10 +26,10 @@ const AlluraPage = async ({ params: { lang } }: { params: { lang: Locale } }) =>
       <Suspense>
         <AlluraBanner {...banner} />
       </Suspense>
+      <ProjectBriefSection {...projectBrief} className='section-py' />
       <Suspense>
         <AlluraOverview {...overView} className="section-py" />
       </Suspense>
-      <ProjectBriefSection {...projectBrief} className='section-py' />
       <MapWrapper {...mapProps} header={mapHeader} />
       <Suspense>
         <ProjectsPagesForm

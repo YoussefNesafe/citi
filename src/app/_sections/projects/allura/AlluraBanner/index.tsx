@@ -119,8 +119,8 @@ const AlluraBanner = ({ backgroundImage, slugan, locationAndCompletion, appartme
               key={index + '-card'}
               className={cn('flex flex-col gap-[1.398vw] tablet:gap-[1.25vw] desktop:gap-[0.52vw] text-white px-[6.99vw] tablet:px-[6.25vw] desktop:px-[4.16vw] items-center justify-center border-r rtl:border-r-0 rtl:border-l border-white last-of-type:border-none')}
             >
-              <div className='text-[3.728vw] tablet:text-[2.25vw] desktop:text-[1.04vw]'>{card.title}</div>
-              <div className='text-[4.66vw] tablet:text-[3vw] desktop:text-[2.08vw]'>{card.description}</div>
+              <div className='text-[4vw] tablet:text-[3vw] desktop:text-[2.04vw]'>{card.title}</div>
+              {/* <div className='text-[4.66vw] tablet:text-[3vw] desktop:text-[2.08vw]'>{card.description}</div> */}
             </div>
           ))}
         </div>

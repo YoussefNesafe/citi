@@ -29,7 +29,9 @@ const mapProps = {
 
 const AvelinePage = async ({ params: { lang } }: { params: { lang: Locale } }) => {
   const { banner, projectBrief, projectInfo, discoverCommunity, amenities, exterior, lobby } = await getLocalizedData<AvelinePageType>(lang, 'projects.aveline');
+
   const { mapHeader, projectsPagesContactUsForm, errorMessages, countrieslist } = await getLocalizedData<SharedSectionsProps>(lang, 'shared');
+
   return (
     <>
       <BannerSection {...banner} className='section-py' overlay />

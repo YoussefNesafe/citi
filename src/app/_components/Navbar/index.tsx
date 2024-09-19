@@ -44,7 +44,7 @@ const Navbar = ({ languages, links, contactUsButton }: NavbarProps) => {
   return (
     <header
       className={cn(
-        "fixed flex items-center z-50 -top-[17.475vw] tablet:-top-[10vw] desktop:-top-[6.25vw] w-full desktop:min-h-[4.948vw] shadow-lg rounded-b-[3.262vw] tablet:rounded-b-[1.75vw] desktop:rounded-b-[1.042vw] px-[6.99vw] tablet:px-[3.75vw] desktop:px-[4.16vw] justify-between bg-white/50 backdrop-blur-sm transition duration-500",
+        "fixed flex items-center z-50 -top-[17.475vw] tablet:-top-[10vw] desktop:-top-[6.25vw] w-full desktop:min-h-[4.948vw] shadow-lg rounded-b-[3.262vw] tablet:rounded-b-[1.75vw] desktop:rounded-b-[1.042vw] px-[6.99vw] tablet:px-[3.75vw] desktop:px-[4.16vw] justify-between bg-white/80 backdrop-blur-sm transition duration-500",
         scrolled && "bg-white"
       )}
       ref={containerRef}
